@@ -1,0 +1,436 @@
+# This file contains all strings used by Galaxy.Bot. This forms a hierarchical structure for easy lookup by the bot.
+# To localize in another language, simply ensure that the same "hierarchy" exists in the other language file and fill
+#    the strings. If a string does not exist for a specific language, the English one is used
+# In some strings you will see a "{}". This is used by the bot to insert generated text into the line.
+
+
+general:
+  artifact_types:
+    flower: Flower
+    plume: Plume
+    sands: Sands
+    goblet: Goblet
+    circlet: Circlet
+
+  elements:
+    anemo: Anemo
+    cryo: Cryo
+    dendro: Dendro
+    electro: Electro
+    geo: Geo
+    hydro: Hydro
+    pyro: Pyro
+
+  overall: Overall
+  main_stat: Main Stat
+  sub_stats: Substats
+  level: Level
+  cooldown: Cooldown
+
+  locations:
+    chests: Chests
+    midsummer: Midsummer Courtyard
+    elite_enemies: Elite Enemies
+    vindagnyr_1to4: Peak of Vindagnyr (Levels I-IV)
+    vindagnyr_3to4: Peak of Vindagnyr (Levels III-IV)
+    clear_pool: Clear Pool and Mountain Cavern
+    guyun: Domain of Guyun
+    slumbering: Slumbering Court
+    zhou: Hidden Palace of Zhou Formula
+    normal_bosses: Normal Bosses
+    lost_valley: The Lost Valley
+    momiji: Momiji-Dyed Court
+    weekly_drop_wl2: Dropped by Weekly Bosses at World Level 2+
+    weekly_drop_wl3: Dropped by Weekly Bosses at World Level 3+
+    world_drop_wl3: Dropped by World Bosses at World Level 3+
+    world_drop_wl5: Dropped by World Bosses at World Level 5+
+    domain_reliquary_1: "Domain Reliquary: Tier I"
+    domain_reliquary_2: "Domain Reliquary: Tier II"
+    remembrance: Valley of Remembrance
+    ridge_watch: Ridge Watch
+    spire: Spire of Solitary Enlightenment
+    desert: Desert Citadel
+    molten_iron_fortress: Molten Iron Fortress
+    denouement: Denouement Of Sin
+    crumbling_assembly: Crumbling Assembly
+    faded_theater: Faded Theater
+
+  combat:
+    auto: Auto
+    skill: Skill
+    burst: Burst
+
+  weapons:
+    sword: Sword
+    bow: Bow
+    catalyst: Catalyst
+    polearm: Polearm
+    claymore: Claymore
+
+
+artifact_rater:
+  lookup_strings:
+    #These are shortened versions of the full stat names, to easy in searching for strings. These must all be unique and also not match any elements
+    hp: HP
+    atk: ATK
+    er_percent: Recharge
+    em: Mastery
+    phys_percent: Physical
+    crit: CRIT
+    defense: DEF
+    heal_percent: Healing
+
+  full_strings:
+    er_percent: Energy Recharge
+    em: Elemental Mastery
+    phys_percent: Physical DMG Bonus
+    heal_percent: Healing Bonus
+
+  crit_types:
+    cd_percent: DMG
+    cr_percent: Rate
+
+  stat_names:
+    hp: HP
+    hp_percent: HP%
+    atk: ATK
+    atk_percent: ATK%
+    er_percent: Energy Recharge%
+    em: Elemental Mastery
+    phys_percent: Physical DMG Bonus%
+    cd_percent: CRIT DMG
+    cr_percent: CRIT Rate
+    defense: DEF
+    defense_percent: DEF%
+    heal_percent: Healing Bonus%
+    anemo: Anemo DMG Bonus%
+    cryo: Cryo DMG Bonus%
+    dendro: Dendro DMG Bonus%
+    electro: Electro DMG Bonus%
+    geo: Geo DMG Bonus%
+    hydro: Hydro DMG Bonus%
+    pyro: Pyro DMG Bonus%
+
+database:
+  general:
+    navigating: Navigating This Guide
+    db_initializing: Genshin Database is initializing, please try again in a few minutes.
+    available_characters: "Available Characters"
+    available_weapons: "Available Weapons"
+    available_artifacts: "Available Artifacts"
+
+  times:
+    domain: "Domain: {}"
+    available: "Available <t:{}:R> for {}."
+    available_now: "Available Now! Domain changes <t:{}:R> for {}."
+
+  lookup:
+    title: Multiple Matches
+    message: "We found multiple matches for your request. Please select an item below:"
+
+  info:
+    how_to_rate: "How to rate artifacts for this build:"
+    rate_format: |
+      Use the `/rate` command and complete the required options. You can upload an image or link to another attachment.
+
+    embed_fields:
+      character_overview: "{} Character Overview"
+      character_constellations: "{} Character Constellations"
+      character_talents: "{} Character Talents"
+      rarity: Rarity
+      element: Element
+      weapon: Weapon
+      bio: Bio
+      materials_farm: "Materials to Farm"
+      constellation_name: "Constellation: *{}*"
+      table_of_contents:
+        title: Table of Contents
+        character_overview: Character Overview
+        constellations: Constellations
+        talents: Talents
+        build: "{} Character Build" # first is page number, second is build type.
+        switch_pages: Use the dropdown at the bottom to see available content and switch pages.
+      infusion_duration: "Infusion Duration"
+      talent_duration: "Talent Duration"
+      energy_cost: "Energy Cost"
+      additional_info: "Additional Info"
+
+  builds:
+    available_builds: "Available Builds:"
+    no_builds_available: "No Builds Available:"
+    how_to_rate: "How to rate artifacts for a build:"
+    rate_format: |
+      Use the `/rate` command and complete the required options. You can upload an image or link to another attachment. 
+
+    field_continued: (Continued)
+
+    select:
+      title: "Select a build for {}"
+      message_not_found: "The requested build was not found. Please select one of the following builds for {}:"
+      message_select: "Please select one of the following builds for {}:"
+      traveler_title: "Select Element for Traveler"
+      traveler_message: "Please select one of the following elements for Traveler:"
+      error:
+        not_found: "Sorry, I could not find that character."
+
+    embed_fields:
+      artifacts: Artifacts
+      main_stats: Artifact Main Stats
+      sub_stats: Artifact Substats
+      talent_priority: Talent Priority
+      weapons: Weapons
+      playstyle: Playstyle
+      teammates: Teammates with good synergy
+
+  error:
+    initializing: "Genshin Database is initializing, please try again in a few minutes."
+    no_items_found: "Could not find any items in the database that matched your request."
+    too_many_items_found: "We found too many matches for your request in our database. Please try again with a more specific query"
+
+  ascension_materials:
+    adaptive: "Brilliant Diamond"
+    anemo: "Vayuda Turquoise"
+    cryo: "Shivada Jade"
+    dendro: "Nagadus Emerald"
+    electro: "Vajrada Amethyst"
+    geo: "Prithiva Topaz"
+    hydro: "Varunada Lazurite"
+    pyro: "Agnidus Agate"
+
+  materials:
+    # Common Materials
+    slime: "Slime"
+    mask: "Hilichurl Masks"
+    arrowhead: "Hilichurl Arrowheads"
+    scroll: "Samachurl Scrolls"
+    treasure: "Treasure Hoarder Insignias"
+    fatui: "Fatui Insignia"
+    nectar: "Whopperflower Nectar"
+    horn: "Hilichurl Horns"
+    ley_line: "Ley Lines"
+    bone: "Bone Shards"
+    mist: "Mist Grass"
+    knife: "Sacrificial Knives"
+    chaos_guard: "Chaos Parts"
+    xuanwen_fin: "Xuanwen Beast's Fins"
+    chaos_sentinel: "Chaos Gears"
+    maiden_prism: "Mirror Maiden Prisms"
+    handguard: "Nobushi Handguards"
+    rifthound_claws: "Rifthound Claws"
+    spectral: "Spectral Husks"
+    statuette: "Abyss Statuettes"
+    luminescent: "Luminescent Pollen"
+    fungal_nucleus: "Fungal Nucleus"
+    chaos_drake: "Chaos Modules"
+    eremite: "Eremite Bandanas"
+    primal_prism: "Primal Construct Prisms"
+    shell: "Consecrated Beast Shells"
+    rogue_flower: "Hilichurl Rogue's Flowers"
+    tainted_water: "Tainted Water"
+    breacher_primus: "Breacher Primus Cores"
+    clockwork_gear: "Clockwork Meka Gears"
+    transoceanic: "Transoceanic Crystals"
+    operative: "Fatui Operative Watches"
+    hilt: "Praetorian Golem Hilts"
+
+    # Boss Talent Materials
+    tail: "Tail of Boreas"
+    ring: "Ring of Boreas"
+    locket: "Spirit Locket of Boreas"
+    plume: "Dvalin's Plume"
+    claw: "Dvalin's Claw"
+    sigh: "Dvalin's Sigh"
+    tusk: "Tusk of Monoceros Caeli"
+    shard: "Shard of a Foul Legacy"
+    shadow: "Shadow of the Warrior"
+    crown: "Dragon Lord's Crown"
+    bloodjade: "Bloodjade Branch"
+    scale: "Gilded Scale"
+    molten: "Molten Moment"
+    butterfly: "Hellfire Butterfly"
+    heart: "Ashen Heart"
+    meaning_of_aeons: "The Meaning of Aeons"
+    malefic_general: "Mudra of the Malefic General"
+    calamitous_god: "Tears of the Calamitous God"
+    puppet_strings: "Puppet Strings"
+    mirror_of_mushin: "Mirror of Mushin"
+    worldspan_fern: "Worldspan Fern"
+    primordial_greenbloom: "Primordial Greenbloom"
+    everamber: "Everamber"
+    mass: "Lightless Mass"
+    silk_string: "Lightless Silk String"
+    eye_of_the_maelstrom: "Lightless Eye of the Maelstrom"
+    fading_candle: "Fading Candle"
+    silken_feather: "Silken Feather"
+    denial_and_judgement: "Denial And Judgement"
+
+    # Boss Ascension materials
+    hurricane_seed: "Hurricane Seed"
+    hoarfrost_core: "Hoarfrost Core"
+    crystalline_bloom: "Crystalline Bloom"
+    lightning_prism: "Lightning Prism"
+    basalt_pillar: "Basalt Pillar"
+    cleansing_heart: "Cleansing Heart"
+    everflame_seed: "Everflame Seed"
+    juvenile_jade: "Juvenile Jade"
+    cloudseam_scale: "Cloudseam Scale"
+    marionette_core: "Marionette Core"
+    perpetual_heart: "Perpetual Heart"
+    smoldering_pearl: "Smoldering Pearl"
+    storm_bead: "Storm Bead"
+    dew_of_repudiation: "Dew of Repudiation"
+    riftborn_regalia: "Riftborn Regalia"
+    dragonheirs_false_fin: "Dragonheir's False Fin"
+    runic_fang: "Runic Fang"
+    hooked_beak: "Hooked Beak"
+    thunderclap_fruitcore: "Thunderclap Fruitcore"
+    tetrahedron: "Tetrahedron"
+    perpetual_caliber: "Perpetual Caliber"
+    quelled_creeper: "Quelled Creeper"
+    pseudo_stamens: "Pseudo-Stamens"
+    evergloom_ring: "Evergloom Ring"
+    coppelia: "Coppelia Clockwork Component"
+    coppelius: "Coppelius Clockwork Component"
+    emperors_resolution: "Emperor's Resolution"
+    fontemer_unihorn: "Fontemer Unihorn"
+    tourbillon_device: "Tourbillon Device"
+    hydro_tulpas: "Water That Failed To Transcend"
+    golden_melody: "Fragment of a Golden Melody"
+   
+    # Weapon Ascension
+    boreal_wolf: Boreal Wolf's
+    decarabian: Decarabian
+    dandelion: Dandelion
+    guyun: Guyun
+    mist_veiled: Mist Veiled
+    aerosiderite: Aerosiderite
+    distant_sea: Distant Sea
+    narukami: Narukami's
+    mask: Mask
+    forest_dew: Talisman of the Forest Dew
+    oasis_garden: Oasis Garden's
+    scorching_might: Scorching Might
+    ancient_chord: Ancient Chord
+    sacred_dewdrop: Sacred Dewdrop
+    pristine_sea: Pristine Sea
+
+    # Talents
+    freedom: Freedom
+    resistance: Resistance
+    ballad: Ballad
+    prosperity: Prosperity
+    diligence: Diligence
+    gold: Gold
+    elegance: Elegance
+    light: Light
+    transience: Transience
+    admonition: Admonition
+    ingenuity: Ingenuity
+    praxis: Praxis
+    equity: Equity
+    justice: Justice
+    order: Order
+
+  build_types:
+    anemo: Anemo Elemental DPS
+    cryo: Cryo Elemental DPS
+    dendro: Dendro Elemental DPS
+    electro: Electro Elemental DPS
+    geo: Geo Elemental DPS
+    hydro: Hydro Elemental DPS
+    pyro: Pyro Elemental DPS
+
+    physical: Physical DPS
+    reversemelt: Reverse Melt DPS
+    freeze: Freeze DPS
+    overload: Overload DPS
+    melt: Melt DPS
+    vaporize: Vaporize DPS
+    hyperbloom: Hyperbloom DPS
+    burgeon: Burgeon DPS
+    subdps: Sub DPS
+    dps: DPS
+    support: Support
+
+
+  weapon_embed:
+    banners:
+      standard: Standard Banner
+      weapon: All Weapon Banners
+      limited_weapon: Limited Weapon Banner
+    obtained:
+      title: Obtained Via
+      battle_pass: Battle Pass
+      chests: Chests
+      events: Events
+      forging: Forging
+      starglitter: Paimon's Bargains
+      playstation: Playstation Exclusive
+      quests: Quests
+    series: Series
+    type: Type
+    wishes: Wishes
+    additionally: Additionally
+    details: Weapon Details
+    stat_table: Stat Table
+    characters: Characters that use this weapon
+
+  artifact_embed:
+    where_to_find: Where to Find
+    characters_that_use:
+      guide:
+        title: Characters that use this Artifact
+        text: "Use the dropdown at the bottom to flip through the list of characters that use this artifact. The list is separated into three groups: **Best**, **Good**, and **Early Game**"
+        no_characters: "There are no characters in the database that use this artifact."
+      heading_combined: Characters that use {}
+      heading: Characters that use {} ({})
+    categories:
+      best: Best Builds
+      best_description: The list below contains the best set pairings.
+      good: Good Builds
+      good_description: The list below contains the good set pairings.
+      early_game: Early Game Builds
+      early_game_description: The list below contains the early game set pairings.
+
+  talent_types:
+    normal_attack: "Normal ATK"
+    elemental_skill: "Elem. Skill"
+    elemental_burst: "Elem. Burst"
+    first_ascension_passive: "1st Asc. Passive"
+    fourth_ascension_passive: "4th Asc. Passive"
+    utility_passive: "Utility"
+    alternate_sprint: "Alternate Sprint"
+
+  stat_names:
+    hp: HP
+    hp_percent: HP%
+    atk: ATK
+    atk_percent: ATK%
+    er_percent: Recharge%
+    em: Elem. Mastery
+    phys_percent: Physical%
+    cd_percent: CRIT DMG
+    cr_percent: CRIT Rate
+    defense: DEF
+    defense_percent: DEF%
+    heal_percent: Healing%
+    anemo: Anemo DMG%
+    cryo: Cryo DMG%
+    dendro: Dendro DMG%
+    electro: Electro DMG%
+    geo: Geo DMG%
+    hydro: Hydro DMG%
+    pyro: Pyro DMG%
+
+  domains:
+    # Talent / Mastery
+    forsaken: Forsaken Rift
+    taishan: Taishan Mansion
+    violet: Violet Court
+    steeple: Steeple of Ignorance
+
+    # Weapon / Forgery
+    cecilia: Cecilia Garden
+    flowing: Court of Flowing Sand
+    lianshan: Hidden Palace of Lianshan Formula
+    pride: Tower of Abject Pride

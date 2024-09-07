@@ -1,0 +1,99 @@
+key: burgeon
+main_stat:
+  sands: em / er_percent
+  goblet: em
+  circlet: em
+sub_stat:
+- em
+- er_percent
+- cr_percent
+- hp_percent
+talent_priority: burst = skill = auto
+weapons:
+- favonius-lance
+- kitain-cross-spear
+- dragons-bane
+- moonpiercer
+rater:
+  flower:
+    sub_stat:
+      cr_percent: 0.5
+      em: 1.0
+      er_percent: 0.75
+      hp_percent: 0.25
+  plume:
+    sub_stat:
+      cr_percent: 0.5
+      em: 1.0
+      er_percent: 0.75
+      hp_percent: 0.25
+  sands:
+    main_stat:
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 1.0
+      hp_percent: 0.25
+  goblet:
+    main_stat:
+      em: 1.0
+    sub_stat:
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp_percent: 0.25
+  circlet:
+    main_stat:
+      em: 1.0
+    sub_stat:
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp_percent: 0.25
+set_rating:
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - boost_em_atk_party_config
+    - resin_efficient_farm
+  weight: 1.0
+- type: simple
+  sets:
+  - paradise
+  notes:
+    - max_hyperbloom_burgeon
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - gilded
+  - set_group:
+    - paradise
+  - set_group:
+    - wanderers
+  notes: 
+    - interim_set
+    - boost_em
+  weight: 0.75
+- type: simple
+  sets:
+  - crimson
+  notes:
+    - boost_burgeon_dmg
+  weight: 0.75
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+    - early_game
+    - max_er
+  weight: 0.25
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

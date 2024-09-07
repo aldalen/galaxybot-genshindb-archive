@@ -1,0 +1,74 @@
+key: support
+main_stat:
+  sands: defense_percent > er_percent
+  goblet: defense_percent
+  circlet: heal_percent > defense_percent
+sub_stat:
+- defense_percent
+- defense
+- er_percent
+talent_priority: skill > burst = auto
+weapons:
+- whiteblind
+- sacrificial-greatsword
+- skyward-pride
+- favonius-greatsword
+rater:
+  flower:
+    sub_stat:
+      defense: 0.5
+      defense_percent: 1.0
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      defense: 0.5
+      defense_percent: 1.0
+      er_percent: 0.75
+  sands:
+    main_stat:
+      defense_percent: 1.0
+      er_percent: 1.0
+    sub_stat:
+      defense: 0.5
+      defense_percent: 1.0
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      defense_percent: 1.0
+    sub_stat:
+      defense: 0.5
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      defense_percent: 1.0
+      heal_percent: 1.0
+    sub_stat:
+      defense: 0.5
+      defense_percent: 1.0
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - clam
+  notes: boost_heal_phys
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - husk
+  - set_group:
+    - maiden
+    - clam
+  notes: boost_heal_shield
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - exile
+    - scholar
+  - set_group:
+    - lucky
+  notes:
+    - early_game
+    - boost_shield_er
+  weight: 0.25

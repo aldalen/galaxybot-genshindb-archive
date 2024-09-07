@@ -1,0 +1,114 @@
+key: subdps
+main_stat:
+  sands: er_percent / atk_percent / em / hp_percent
+  goblet: pyro / hp_percent
+  circlet: cr_percent / cd_percent / hp_percent
+sub_stat:
+- cr_percent / cd_percent
+- er_percent
+- em
+- atk_percent
+- hp_percent
+- atk
+talent_priority: skill = burst > auto
+weapons:
+- beacon-of-the-reed-sea
+- akuoumaru
+- luxurious-sea-lord
+- mailed-flower
+- favonius-greatsword
+- katsuragikiri-nagamasa
+- sacrificial-greatsword
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+      hp_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+      hp_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+      hp_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+      hp_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+      hp_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+      hp_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - vourukashas
+  notes:
+    - bis
+    - boost_hp_skill_burst_taking_damage
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  notes:
+    - boost_er_burst_by_er
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - for_reaction
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes: boost_hp_shield_party_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25
+

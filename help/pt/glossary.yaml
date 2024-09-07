@@ -1,0 +1,22 @@
+fields:
+- name: Acrónimos
+  inline: Falso
+  value: "**CA** - Charged Attack - Ataque Carregado\n**CD** - Cooldown - Nunca usamos\
+    \ para definir Dano Crítico (Critical Damage)\n**DEF** - Defense - Defesa\n**DMG**\
+    \ - Damage - Dano\n**Elem** - Elemental\n**EM** - Elemental Mastery - Proeficiência\
+    \ Elemental\n**ER** - Energy Recharge - Recarga de Energia\n**F2P** - Free-to-play\
+    \ - Gratuito (sem necessidade de efetuar pagamentos)\n**HP** - Hit Points; - Pontos\
+    \ de Vida\n**N3CJ/D** - Acrônimo de Combate: **3** **N**ormal Ataque, a **C**arregado\
+    \ ataque a **J**(pulo) ou **D**(esquiva cancela)\n**ICD** - Internal Cooldown\
+    \ - Cooldown interno\n**NA** - Normal Attack - Ataque Normal\n**Phys** - Physical\
+    \ - Físico\n**VV** - Viridescent Venerer - Sombra Verde (set de artefato)\n"
+- value: "**A6** - Ascensão 6 - Alguns personagens poderão mudar seu estilo de jogo\
+    \ baseado no número de constelações.\n**Battery** - Bateria - Um personagem que\
+    \ recarrega o Supremo de outro personagem.\n**BiS** - *Best-in-stat* - Melhor-em-Status\
+    \ - Se refere à melhor arma ou artefato (set)\n**Comp** - **Comp**osição de equipe.\
+    \ Basicamente, o tipo de equipe (congelamento, derreter, etc...)\n**R5** - Refinamento\
+    \ 5, algumas armas apenas ganham seu valor dependendo do seu alto refinamento.\n"
+  name: Jargon
+  inline: Falso
+title: Glossário de Termos
+description: "Aqui estão os termos e acrónimos usados pelo bot\n"

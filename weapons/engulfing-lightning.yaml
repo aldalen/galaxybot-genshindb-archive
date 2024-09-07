@@ -1,0 +1,41 @@
+type: Polearm
+rarity: 5
+atk_start: 46.0
+substat: er_percent
+substat_start: 12.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 28%
+    - 80%
+    - 30%
+  - values:
+    - 35%
+    - 90%
+    - 35%
+  - values:
+    - 42%
+    - 100%
+    - 40%
+  - values:
+    - 49%
+    - 110%
+    - 45%
+  - values:
+    - 56%
+    - 120%
+    - 50%
+ascension_materials:
+  weapon: mask
+  common:
+  - chaos_sentinel
+  - handguard

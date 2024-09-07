@@ -1,0 +1,34 @@
+type: Bow
+rarity: 3
+series: ''
+atk_start: 38.0
+substat: cr_percent
+substat_start: 6.8
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 36%
+  - values:
+    - 42%
+  - values:
+    - 48%
+  - values:
+    - 54%
+  - values:
+    - 60%
+ascension_materials:
+  weapon: guyun
+  common:
+  - knife
+  - mask

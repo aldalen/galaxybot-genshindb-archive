@@ -1,0 +1,47 @@
+type: Catalyst
+rarity: 5
+series: ''
+atk_start: 48.0
+substat: cr_percent
+substat_start: 4.8
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 16%
+    - 14%
+    - 8%
+  - values:
+    - 20%
+    - 20%
+    - 17.5%
+    - 10%
+  - values:
+    - 24%
+    - 24%
+    - 21%
+    - 12%
+  - values:
+    - 28%
+    - 28%
+    - 24.5%
+    - 14%
+  - values:
+    - 32%
+    - 32%
+    - 28%
+    - 16%
+ascension_materials:
+  weapon: pristine_sea
+  common:
+  - transoceanic
+  - operative

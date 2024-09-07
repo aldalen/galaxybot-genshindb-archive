@@ -1,0 +1,30 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: atk_percent
+substat_start: 9.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: true
+passive:
+  levels:
+  - values:
+    - 8%
+  - values:
+    - 10%
+  - values:
+    - 12%
+  - values:
+    - 14%
+  - values:
+    - 16%
+ascension_materials:
+  weapon: decarabian
+  common:
+  - horn
+  - arrowhead

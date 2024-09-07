@@ -1,0 +1,36 @@
+type: Claymore
+rarity: 4
+atk_start: 44.0
+substat: er_percent
+substat_start: 6.7
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+  quests: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - 12%
+  - values:
+    - 15%
+    - 15%
+  - values:
+    - 18%
+    - 18%
+  - values:
+    - 21%
+    - 21%
+  - values:
+    - 24%
+    - 24%
+ascension_materials:
+  weapon: pristine_sea
+  common:
+  - clockwork_gear
+  - operative

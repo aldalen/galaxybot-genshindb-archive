@@ -1,0 +1,126 @@
+key: dps
+main_stat:
+  sands: atk_percent / em
+  goblet: electro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- em
+- er_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- staff-of-the-scarlet-sands
+- primordial-jade-winged-spear
+- staff-of-homa
+- deathmatch
+- ballad-of-the-fjords
+- white-tassel
+- skyward-spine
+- missive-windspear
+- prospectors-drill
+- kitain-cross-spear
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Electro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - thundering
+  notes: 
+    - bis
+    - boost_electro_dmg_cooldown
+    - cyno-dps-1-appended
+  weight: 1.0
+- type: simple
+  sets:
+  - gladiator
+  notes: boost_atk_normal
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes: 
+  - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - thundersoother
+  notes:
+    - max_electro
+    - electro_reactionless_required
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - gilded
+    - wanderers
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  - set_group:
+    - thundering
+  notes: 
+    - pick_2_best_sub
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25
+

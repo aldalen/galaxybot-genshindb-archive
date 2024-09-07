@@ -1,0 +1,81 @@
+key: dps
+main_stat:
+  sands: atk_percent / er_percent
+  goblet: atk_percent / electro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- engulfing-lightning
+- staff-of-homa
+- primordial-jade-winged-spear
+- calamity-queller
+- the-catch
+- skyward-spine
+- wavebreakers-fin
+- favonius-lance
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      atk_percent: 1.0
+      elem_damage_percent: 1.0
+      element: Electro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - emblem
+  notes:
+    - bis
+    - boost_er_burst_by_er
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25

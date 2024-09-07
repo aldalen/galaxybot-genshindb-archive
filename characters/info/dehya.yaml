@@ -1,0 +1,22 @@
+element: pyro
+weapon: claymore
+rarity: 5
+availability: standard
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: tetrahedron
+  local_specialty: sand_grease_pupa
+  common_material: eremite
+  talent: praxis
+  boss_talent: puppet_strings
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 20.0
+  elemental_burst:
+    duration_seconds: 4.0
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: April
+  day: 7

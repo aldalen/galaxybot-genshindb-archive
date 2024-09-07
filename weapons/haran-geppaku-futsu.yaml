@@ -1,0 +1,36 @@
+type: Sword
+rarity: 5
+atk_start: 46.0
+substat: cr_percent
+substat_start: 7.2
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - 20%
+  - values:
+    - 15%
+    - 25%
+  - values:
+    - 18%
+    - 30%
+  - values:
+    - 21%
+    - 35%
+  - values:
+    - 24%
+    - 40%
+ascension_materials:
+  weapon: narukami
+  common:
+  - handguard
+  - statuette

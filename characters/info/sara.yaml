@@ -1,0 +1,22 @@
+element: electro
+weapon: bow
+rarity: 4
+availability: standard
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: storm_bead
+  local_specialty: dendrobium
+  common_material: mask
+  talent: elegance
+  boss_talent: heart
+talents:
+  elemental_skill:
+    duration_seconds: 6.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: July
+  day: 14
+key: sara

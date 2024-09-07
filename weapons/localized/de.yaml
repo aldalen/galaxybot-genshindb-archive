@@ -1,0 +1,495 @@
+akuoumaru:
+  name: Akuoumaru
+  passive_name: "Wellenb\xE4ndiger von Watatsumi"
+  passive_text: "Erh\xF6ht den mit Spezialf\xE4higkeiten der mit dieser Waffe ausger\xFCsteten Figur verursachten Schaden f\xFCr jeden Punkt aus der Summe der max. Elementarenergie aller Truppenmitglieder zusammengerechnet um {0}. Erh\xF6ht den mit Spezialf\xE4higkeit verursachten Schaden auf diese Weise um bis zu {1}."
+alley-hunter:
+  name: "Gassenj\xE4ger"
+  passive_name: Angriff aus der Gasse
+  passive_text: "Erh\xF6ht den von der mit dieser Waffe ausger\xFCsteten Figur verursachten Schaden, wenn diese Figur in der Truppe, aber nicht eingewechselt ist, pro s um {0} und insgesamt um bis zu {1}. Verringert diesen Schadensbonus 4 s nach Einwechseln dieser Figur pro s um {2}, bis der Bonus auf 0 % gefallen ist."
+amenoma-kageuchi:
+  name: Amenoma Kageuchi
+  passive_name: Iwakura-Nachkomme
+  passive_text: "Gew\xE4hrt beim Ausl\xF6sen einer Elementarf\xE4higkeit 1 Samen der Nachkommenschaft, 5 s Abklingzeit. Samen der Nachkommenschaft halten 30 s, zu einem Zeitpunkt k\xF6nnen bis zu 3 existieren. Verbraucht beim Ausl\xF6sen einer Spezialf\xE4higkeit alle vorhandenen Samen der Nachkommenschaft und stellt der Figur 2 s sp\xE4ter {0} Punkte Elementarenergie pro verbrauchten Samen der Nachkommenschaft wieder her."
+amos-bow:
+  name: "Amos\u2019 Bogen"
+  passive_name: Willensstarker Pfeil
+  passive_text: "Erh\xF6ht den mit Standardangriffen und heftigen Schl\xE4gen verursachten Schaden um {0} und den Gesamtschaden von Pfeilen von Standardangriffen und heftigen Schl\xE4gen alle 0,1 s nach dem Abschie\xDFen um {1}, 5-fach stapelbar."
+aquila-favonia:
+  name: Windfalke
+  passive_name: Widerstand des Falken des Westens
+  passive_text: "Erh\xF6ht den ANG um {0}. Effekt beim Erleiden von Schaden: Die Seele des Falken des Westens erwacht und erhebt die Fahne des Widerstands. Stellt LP in H\xF6he von {1} ANG wieder her und f\xFCgt Gegnern in der Umgebung Schaden in H\xF6he von {2} ANG zu. 15 s Abklingzeit."
+blackcliff-agate:
+  name: Schwarzstein-Achat
+  passive_name: "Triumphaler \xDCbermut"
+  passive_text: "Erh\xF6ht den ANG beim Besiegen von Gegnern 30 s lang um {0}. 3-fach stapelbar, Wirkungsdauer jeder Stapelung ist unabh\xE4ngig."
+blackcliff-longsword:
+  name: Schwarzstein-Langschwert
+  passive_name: "Triumphaler \xDCbermut"
+  passive_text: "Erh\xF6ht den ANG beim Besiegen von Gegnern 30 s lang um {0}. 3-fach stapelbar, Wirkungsdauer jeder Stapelung ist unabh\xE4ngig."
+blackcliff-pole:
+  name: Schwarzsteinlanze
+  passive_name: "Triumphaler \xDCbermut"
+  passive_text: "Erh\xF6ht den ANG beim Besiegen von Gegnern 30 s lang um {0}. 3-fach stapelbar, Wirkungsdauer jeder Stapelung ist unabh\xE4ngig."
+blackcliff-slasher:
+  name: Schwarzstein-Schneide
+  passive_name: "Triumphaler \xDCbermut"
+  passive_text: "Erh\xF6ht den ANG beim Besiegen von Gegnern 30 s lang um {0}. 3-fach stapelbar, Wirkungsdauer jeder Stapelung ist unabh\xE4ngig."
+blackcliff-warbow:
+  name: Schwarzstein-Kriegsbogen
+  passive_name: "Triumphaler \xDCbermut"
+  passive_text: "Erh\xF6ht den ANG beim Besiegen von Gegnern 30 s lang um {0}. 3-fach stapelbar, Wirkungsdauer jeder Stapelung ist unabh\xE4ngig."
+black-tassel:
+  name: Schwarze Quaste
+  passive_name: Weicher Schlag
+  passive_text: "Erh\xF6ht den Schleimen zugef\xFCgten Schaden um {0}."
+bloodtainted-greatsword:
+  name: Drachenblutschwert
+  passive_name: "Bew\xE4hrtheit von Feuer und Blitz"
+  passive_text: "Erh\xF6ht den von Pyro- oder Elektro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um {0}."
+calamity-queller:
+  name: Ende des Unheils
+  passive_name: "L\xF6schgebot"
+  passive_text: "Erh\xF6ht den Schaden aller Elemente um {0}. Verleiht beim Ausl\xF6sen einer Elementarf\xE4higkeit den Effekt \u201EVollkommenheit\u201C, der 20 s h\xE4lt, den ANG pro Sekunde um {1} erh\xF6ht und 6-fach stapelbar ist. Wenn die mit dieser Waffe ausger\xFCstete Figur inaktiv ist, wird der ANG-Bonus verdoppelt."
+cinnabar-spindle:
+  name: Zinnoberspindel
+  passive_name: Makelloses Herz
+  passive_text: "Erh\xF6ht den mit Elementarf\xE4higkeiten verursachten Schaden um {0} VTD. Dieser Effekt erlischt 0,1 s nach dem Verursachen von Schaden mit der Elementarf\xE4higkeit. 1,5 s Abklingzeit."
+compound-bow:
+  name: Compoundbogen
+  passive_name: Energieschubpfeil
+  passive_text: "Erh\xF6ht den ANG bei Treffern mit Standardangriffen und heftigen Schl\xE4gen 6 s lang um {0} und die Standardangriffs-GSW um {1}. 4-fach stapelbar, 0,3 s Abklingzeit."
+cool-steel:
+  name: "K\xFChle Klinge"
+  passive_name: "Bew\xE4hrtheit von Wasser und Eis"
+  passive_text: "Erh\xF6ht den von Hydro- oder Kryo-Effekten betroffenen Gegnern zugef\xFCgten Schaden um {0}."
+crescent-pike:
+  name: Mondpike
+  passive_name: Energieschubnadel
+  passive_text: "Verursacht nach dem Erhalten von Elementarteilchen oder Elementarkristallen 5 s lang zus\xE4tzlichen Schaden in H\xF6he von {0} % ANG mit Standardangriffen und heftigen Schl\xE4gen."
+dark-iron-sword:
+  name: Dunkles Eisenschwert
+  passive_name: Hochspannung
+  passive_text: "Erh\xF6ht den ANG nach Ausl\xF6sen der Reaktionen \u201E\xDCberladen\u201C, \u201ESupraleiter\u201C, \u201EUnter Strom\u201C und \u201EElektro-Verwirbelung\u201C 12 s lang um {0}."
+deathmatch:
+  name: Duelllanze
+  passive_name: Gladiator
+  passive_text: "Erh\xF6ht den ANG bei Anwesenheit von mindestens 2 Gegnern um {0} und die VTD um {1}, erh\xF6ht den ANG bei weniger als 2 Gegnern stattdessen um {2}."
+debate-club:
+  name: Schlagfestes Argument
+  passive_name: Direktheit
+  passive_text: "Verursacht bei Treffern mit Standardangriffen und heftigen Schl\xE4gen nach Anwendung einer Elementarf\xE4higkeit 15 s lang zus\xE4tzlichen Schaden in H\xF6he von {0} ANG mit geringer Reichweite. 3 s Abklingzeit f\xFCr Schaden."
+dodoco-tales:
+  name: Dodoco-Geschichten
+  passive_name: Dodo-Abenteuer!
+  passive_text: "Erh\xF6ht den mit heftigen Schl\xE4gen verursachten Schaden nach dem Treffen von Gegnern mit Standardangriffen 6 s lang um {0}. Erh\xF6ht den ANG nach dem Treffen von Gegnern mit heftigen Schl\xE4gen 6 s lang um {1}."
+dragons-bane:
+  name: Drachenschreck
+  passive_name: "Bew\xE4hrtheit von Feuer und Wasser"
+  passive_text: "Erh\xF6ht den von Hydro- oder Pyro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um {0}."
+dragonspine-spear:
+  name: Drachengratspeer
+  passive_name: Frostgrab
+  passive_text: "Erstellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von {0} \xFCber den Gegnern einen Kristallkern ewigen Eises, der herunterf\xE4llt und Fl\xE4chenschaden in H\xF6he von {1} ANG verursacht. Verursacht Schaden in H\xF6he von {2} ANG, wenn die Gegner von Kryo-Effekten betroffen sind. 10 s Abklingzeit."
+elegy-for-the-end:
+  name: Letzter Seufzer
+  passive_name: Lied vom Abschied
+  passive_text: "Ein Teil der \u201EBewegung des Jahrtausends\u201C, die mit dem Wind zieht. Erh\xF6ht die Elementarkunde um {0} Punkte. Gibt der damit ausger\xFCsteten Figur beim Treffen von Gegnern mit Elementarf\xE4higkeiten und Spezialf\xE4higkeiten ein Zeichen des Gedenkens, 0,2 s Abklingzeit. Der Effekt bleibt auch bestehen, wenn die Figur ausgewechselt wird. Verbraucht alle Zeichen des Gedenkens, sobald 4 davon vorhanden sind, und verleiht allen Truppenmitgliedern in der N\xE4he den 12 s anhaltenden Effekt von \u201EBewegung des Jahrtausends \u2013 Lied vom Abschied\u201C: Erh\xF6ht die Elementarkunde um {1} Punkte und den ANG um {2}. Nach Ausl\xF6sen dieses Effekts kann 20 s lang kein weiteres Zeichen des Gedenkens erhalten werden. Die verschiedenen durch \u201EBewegung des Jahrtausends\u201C ausgel\xF6sten Boni k\xF6nnen bei gleicher Art nicht gestapelt werden."
+emerald-orb:
+  name: Jadekugel
+  passive_name: Stromschnelle
+  passive_text: "Erh\xF6ht den ANG nach Ausl\xF6sen der Reaktionen \u201EVerdampfen\u201C, \u201EUnter Strom\u201C, \u201EGefroren\u201C und \u201EHydro-Verwirbelung\u201C 12 s lang um {0}."
+engulfing-lightning:
+  name: Grasschnittstrahl
+  passive_name: "Zeitloser Traum \u2013 Ewiger Herd"
+  passive_text: "Erh\xF6ht den Angriff um {0} der Prozentpunkte \xFCber 100 % der Aufladerate. Bis zu {1} Bonus auf diese Weise m\xF6glich. Erh\xF6ht die Aufladerate nach Anwendung von Spezialf\xE4higkeiten 12 s lang um {2}."
+everlasting-moonglow:
+  name: Ewiger Mondschein
+  passive_name: Byakuya Kougetsu
+  passive_text: "Erh\xF6ht den Heilungseffekt um {0}. Erh\xF6ht den mit Standardangriffen verursachten Schaden um {1} der max. LP der mit dieser Waffe ausger\xFCsteten Figur. Stellt nach Anwendung von Spezialf\xE4higkeiten 12 s lang beim Treffen von Gegnern mit Standardangriffen 0,6 Punkte Elementarenergie wieder her. Stellt auf diese Weise alle 0,1 s h\xF6chstens einmal Elementarenergie wieder her."
+eye-of-perception:
+  name: Herzensblick
+  passive_name: Widerhall
+  passive_text: "Schie\xDFt bei Treffern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von 50 % eine Kugel des Herzensblicks ab und verursacht Schaden in H\xF6he von {0} ANG. Geht bis zu 4-mal auf Gegner in der N\xE4he \xFCber. {1} s Abklingzeit."
+favonius-codex:
+  name: Favonius-Kodex
+  passive_name: Folge dem Wind
+  passive_text: Erschafft bei einem KT mit einer Wahrscheinlichkeit von {0} einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {1} s Abklingzeit.
+favonius-greatsword:
+  name: "Favonius-Gro\xDFschwert"
+  passive_name: Folge dem Wind
+  passive_text: Erschafft bei einem KT mit einer Wahrscheinlichkeit von {0} einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {1} s Abklingzeit.
+favonius-lance:
+  name: Favonius-Lanze
+  passive_name: Folge dem Wind
+  passive_text: Erschafft bei einem KT mit einer Wahrscheinlichkeit von {0} einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {1} s Abklingzeit.
+favonius-sword:
+  name: Favonius-Schwert
+  passive_name: Folge dem Wind
+  passive_text: Erschafft bei einem KT mit einer Wahrscheinlichkeit von {0} einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {1} s Abklingzeit.
+favonius-warbow:
+  name: Favonius-Jagdbogen
+  passive_name: Folge dem Wind
+  passive_text: Erschafft bei einem KT mit einer Wahrscheinlichkeit von {0} einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {1} s Abklingzeit.
+ferrous-shadow:
+  name: Eiserner Schatten
+  passive_name: Unbeugsamkeit
+  passive_text: "Ein heftiger Schlag wird bei weniger als {0} LP nicht so leicht abgewehrt. Erh\xF6ht den Schaden heftiger Schl\xE4ge dabei um {1}."
+festering-desire:
+  name: Schwert der Verderbnis
+  passive_name: Endlose Bewunderung
+  passive_text: "Erh\xF6ht den mit Elementarf\xE4higkeiten verursachten Schaden um {0} und die KT von Elementarf\xE4higkeiten um {1}."
+fillet-blade:
+  name: Filetiermesser
+  passive_name: Entschlossenheit
+  passive_text: "F\xFCgt einem einzelnen Gegner bei einem Treffer mit einer Wahrscheinlichkeit von 50 % Schaden in H\xF6he von {0} ANG zu. {1} s Abklingzeit."
+freedom-sworn:
+  name: Blasser Schwur der Freiheit
+  passive_name: Gesang der Revolution
+  passive_text: "Ein Teil der \u201EBewegung des Jahrtausends\u201C, die mit dem Wind zieht. Erh\xF6ht den verursachten Schaden um {0}. Gibt der damit ausger\xFCsteten Figur beim Ausl\xF6sen von Elementarreaktionen ein Zeichen der Revolte, 0,5 s Abklingzeit. Der Effekt bleibt auch bestehen, wenn die Figur ausgewechselt wird. Verbraucht alle Zeichen der Revolte, sobald 2 davon vorhanden sind, und verleiht allen Truppenmitgliedern in der N\xE4he den 12 s anhaltenden Effekt von \u201EBewegung des Jahrtausends \u2013 Lied der Revolution\u201C: Erh\xF6ht den mit Standardangriffen, heftigen Schl\xE4gen und Angriffen aus dem Fall verursachten Schaden um {1} und den ANG um {2}. Nach Ausl\xF6sen dieses Effekts kann 20 s lang kein weiteres Zeichen der Revolte erhalten werden. Die verschiedenen durch \u201EBewegung des Jahrtausends\u201C ausgel\xF6sten Boni k\xF6nnen bei gleicher Art nicht gestapelt werden."
+frostbearer:
+  name: Permafrostfrucht
+  passive_name: Frostgrab
+  passive_text: "Erstellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von {0} \xFCber den Gegnern einen Kristallkern ewigen Eises, der herunterf\xE4llt und Fl\xE4chenschaden in H\xF6he von {1} ANG verursacht. Verursacht Schaden in H\xF6he von {2} ANG, wenn die Gegner von Kryo-Effekten betroffen sind. 10 s Abklingzeit."
+hakushin-ring:
+  name: Hakushin-Ring
+  passive_name: Sakura-Palast
+  passive_text: "Erh\xF6ht beim Ausl\xF6sen von Elektro-Reaktionen durch die mit dieser Waffe ausger\xFCsteten Figur den Elementar-SCH von Truppenmitgliedern mit dem an der Elementarreaktion beteiligten Element in der N\xE4he 6 s lang um {0}. Der auf diese Weise durch die Figur erhaltene Elementar-SCH-Bonus ist nicht stapelbar."
+halberd:
+  name: Hellebarde
+  passive_name: Schwergewicht
+  passive_text: "F\xFCgt mit Standardangriffen getroffenen Gegnern zus\xE4tzlichen Schaden in H\xF6he von {0} ANG zu. 10 s Abklingzeit."
+hamayumi:
+  name: Hamayumi
+  passive_name: Totaler Stillstand
+  passive_text: "Erh\xF6ht den mit Standardangriffen verursachten Schaden um {0} und den mit heftigen Schl\xE4gen verursachten Schaden um {1}. Verst\xE4rkt diesen Effekt bei 100 % Elementarenergie der mit dieser Waffe ausger\xFCsteten Figur um 100 %."
+haran-geppaku-futsu:
+  name: Haran Geppaku Futsu
+  passive_name: "Flie\xDFendes Schwert"
+  passive_text: "Erh\xF6ht den Schaden aller Elemente um {0}. Verleiht der mit dieser Waffe ausger\xFCsteten Figur bei Anwendung von Elementarf\xE4higkeiten anderer Truppenmitglieder in der N\xE4he 1 Stapelung des Effekts \u201EWellen\xE4hre\u201C, 2-fach stapelbar, 0,3 s Abklingzeit. Verbraucht bei der Anwendung der Elementarf\xE4higkeit der mit dieser Waffe ausger\xFCsteten Figur den gesamten Effekt \u201EWellen\xE4hre\u201C, sofern dieser Effekt vorhanden ist, und erh\xE4lt den Effekt \u201EWogenprall\u201C: Erh\xF6ht den mit Standardangriffen verursachten Schaden pro verbrauchte Stapelung 8 s lang um {1}."
+harbinger-of-dawn:
+  name: "Schwert der D\xE4mmerung"
+  passive_name: Ansporn
+  passive_text: "Erh\xF6ht die KT bei mehr als 90 % LP um {0}."
+iron-sting:
+  name: Eisenstich
+  passive_name: Energieschubstachel
+  passive_text: "Erh\xF6ht den von dieser Figur verursachten Schaden nach Verursachen von Elementar-SCH 6 s lang um {0}, 2-fach stapelbar. 1 s Abklingzeit."
+kaguras-verity:
+  name: Kaguras Wahrheit
+  passive_name: Kagura-Tanz der heiligen Sakura
+  passive_text: "Verleiht bei Anwendung von Elementarf\xE4higkeiten den Effekt \u201EKagura-Tanz\u201C, der den mit Elementarf\xE4higkeiten der mit dieser Waffe ausger\xFCsteten Figur verursachten Schaden 16 s lang um {0} erh\xF6ht, 3-fach stapelbar. Erh\xF6ht bei 3 Stapelungen den Schaden aller Elemente dieser Figur um {1}."
+katsuragikiri-nagamasa:
+  name: Katsuragikiri Nagamasa
+  passive_name: Verhalten eines Samurais
+  passive_text: "Erh\xF6ht den mit Elementarf\xE4higkeiten verursachten Schaden um {0}. Zieht der Figur bei Treffern mit einer Elementarf\xE4higkeit 3 Punkte Elementarenergie ab und stellt im Gegenzug 6 s lang alle 2 s {1} Punkte Elementarenergie wieder her. Dieser Effekt kann nur einmal alle 10 s ausgel\xF6st werden, auch von Figuren, die sich in deiner Truppe, aber nicht im Kampf befinden."
+kitain-cross-spear:
+  name: Kitain-Kreuzlanze
+  passive_name: Verhalten eines Samurais
+  passive_text: "Erh\xF6ht den mit Elementarf\xE4higkeiten verursachten Schaden um {0}. Zieht der Figur bei Treffern mit einer Elementarf\xE4higkeit 3 Punkte Elementarenergie ab und stellt im Gegenzug 6 s lang alle 2 s {1} Punkte Elementarenergie wieder her. Dieser Effekt kann nur einmal alle 10 s ausgel\xF6st werden, auch von Figuren, die sich in deiner Truppe, aber nicht im Kampf befinden."
+lions-roar:
+  name: Drachenschrei
+  passive_name: "Bew\xE4hrtheit von Feuer und Blitz"
+  passive_text: "Erh\xF6ht den von Pyro- oder Elektro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um {0}."
+lithic-blade:
+  name: Antikes Millelithenschwert
+  passive_name: "Axiom der Millelithen \u2013 Einigkeit"
+  passive_text: "Erh\xF6ht den Angriff der mit dieser Waffe ausger\xFCsteten Figur f\xFCr jede Figur aus Liyue in der Truppe um {0} und die KT um je {1}. 4-fach stapelbar."
+lithic-spear:
+  name: Millelithenlanze
+  passive_name: "Axiom der Millelithen \u2013 Einigkeit"
+  passive_text: "Erh\xF6ht den Angriff der mit dieser Waffe ausger\xFCsteten Figur f\xFCr jede Figur aus Liyue in der Truppe um {0} und die KT um je {1}. 4-fach stapelbar."
+lost-prayer-to-the-sacred-winds:
+  name: Gebete der Vier Winde
+  passive_name: Grenzenlose Gunst
+  passive_text: "Erh\xF6ht die Bewegungs-GSW um 10 % und den Elementar-SCH nach dem Einwechseln alle 4 s um {0}. 4-fach stapelbar, h\xE4lt bis zum Auswechseln oder, bis die Figur ohnm\xE4chtig wird."
+luxurious-sea-lord:
+  name: "Luxuri\xF6ser Seek\xF6nig"
+  passive_name: Meeressieg
+  passive_text: "Erh\xF6ht den mit Spezialf\xE4higkeiten verursachten Schaden um {0}. Beschw\xF6rt beim Treffen von Gegnern mit Spezialf\xE4higkeiten mit einer Wahrscheinlichkeit von 100 % gro\xDFe Thunfische, die Fl\xE4chenschaden in H\xF6he von {1} ANG verursachen. 15 s Abklingzeit."
+magic-guide:
+  name: "Magief\xFChrer"
+  passive_name: "Bew\xE4hrtheit von Wasser und Blitz"
+  passive_text: "Erh\xF6ht den von Hydro- oder Elektro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um {0}."
+mappa-mare:
+  name: Illustrationen von Landen und Wassern
+  passive_name: Energieschubspule
+  passive_text: "Erh\xF6ht den Elementar-SCH beim Ausl\xF6sen von Elementarreaktionen 10 s lang um {0}. 2-fach stapelbar."
+memory-of-dust:
+  name: Ketten des Diesseits
+  passive_name: "Majest\xE4tische Gr\xF6\xDFe"
+  passive_text: "Erh\xF6ht die Schildeffizienz um {0}. Erh\xF6ht den ANG nach Treffern 8 s lang um {1}. 5-fach stapelbar, 0,3 s Abklingzeit. Erh\xF6ht die Wirksamkeit der Erh\xF6hung des ANG au\xDFerdem im Schutz von Schilden um 100 %."
+messenger:
+  name: "\xDCberbringer"
+  passive_name: Flugpost
+  passive_text: "Verursacht beim Treffen  von Schwachstellen mit heftigen Schl\xE4gen zus\xE4tzlichen Schaden in H\xF6he von {0} ANG sowie auf jeden Fall einen KT. 10 s Abklingzeit."
+mistsplitter-reforged:
+  name: Widerschein des Nebelsplitters
+  passive_name: Nebelspaltertuch
+  passive_text: "Erh\xF6ht den Elementar-SCH aller Elemente um {0} und verleiht die Kraft des \u201ENebelspaltersiegels\u201C: Erh\xF6ht den Elementar-SCH des eigenen Elements bei 1/2/3 Stapelungen um jeweils {1}. Verleiht der Figur in folgenden Situationen je 1 Nebelspaltersiegel: Verursachen von Elementar-SCH mit Standardangriffen, h\xE4lt 5 s; Anwendung von Spezialf\xE4higkeiten, h\xE4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Nebelspaltersiegel ist unabh\xE4ngig."
+mitternachts-waltz:
+  name: Mitternachtswalzer
+  passive_name: Duo der ewigen Nacht
+  passive_text: "Erh\xF6ht den mit Elementarf\xE4higkeiten verursachten Schaden nach dem Treffen von Gegnern mit Standardangriffen 5 s lang um {0}. Erh\xF6ht den mit Standardangriffen verursachten Schaden nach dem Treffen von Gegnern mit Elementarf\xE4higkeiten 5 s lang um {1}."
+mouuns-moon:
+  name: Mouun-Mond
+  passive_name: "Wellenb\xE4ndiger von Watatsumi"
+  passive_text: "Erh\xF6ht den mit Spezialf\xE4higkeiten der mit dieser Waffe ausger\xFCsteten Figur verursachten Schaden f\xFCr jeden Punkt aus der Summe der max. Elementarenergie aller Truppenmitglieder zusammengerechnet um {0}. Erh\xF6ht den mit Spezialf\xE4higkeit verursachten Schaden auf diese Weise um bis zu {1}."
+oathsworn-eye:
+  name: "Auge des Gel\xF6bnisses"
+  passive_name: Bewohner der dunklen Tiefe
+  passive_text: "Erh\xF6ht bei Anwendung von Elementarf\xE4higkeiten die Aufladerate 10 s lang um {0}."
+otherworldly-story:
+  name: Geschichten einer anderen Welt
+  passive_name: Energiebad
+  passive_text: Stellt beim Erhalten von Elementarteilchen oder Elementarkristallen {0} LP wieder her.
+polar-star:
+  name: Polarstern
+  passive_name: Taghelle Vorzeichen
+  passive_text: "Erh\xF6ht den mit Elementarf\xE4higkeiten und Spezialf\xE4higkeiten verursachten Schaden um {0}. Erschafft beim Treffen von Gegnern mit Standardangriffen, heftigen Schl\xE4gen, Elementarf\xE4higkeiten oder Spezialf\xE4higkeiten 1 12 s anhaltende Stapelung des Effekts \u201EStern der wei\xDFen Nacht\u201C. Erh\xF6ht den ANG bei 1/2/3/4 Stapelungen von \u201EStern der wei\xDFen Nacht\u201C um {1}. Die durch Standardangriffe, heftige Schl\xE4ge, Elementarf\xE4higkeiten oder Spezialf\xE4higkeiten entstandenen Effekte von \u201EStern der wei\xDFen Nacht\u201C existieren unabh\xE4ngig voneinander."
+predator:
+  name: Raubtier
+  passive_name: Wuchtangriff
+primordial-jade-cutter:
+  name: "Moosgr\xFCner Fels"
+  passive_name: "Reines Besch\xFCtzerherz"
+  passive_text: "Erh\xF6ht die LP um {0}. Erh\xF6ht den ANG um {1} der max. LP der mit dieser Waffe ausger\xFCsteten Figur."
+primordial-jade-winged-spear:
+  name: Urzeitlicher Jadespeer
+  passive_name: Habichtlanze
+  passive_text: "Erh\xF6ht den eigenen ANG bei einem Treffer 6 s lang um {0}, 7-fach stapelbar. 0,3 s Abklingzeit. Erh\xF6ht den Schaden nach Erreichen des Stapellimits um {1}."
+prototype-amber:
+  name: Bernstein-Prototyp
+  passive_name: "Gold\xFCberzug"
+  passive_text: "Stellt nach Anwendung von Spezialf\xE4higkeiten 6 s lang alle 2 s {0} Punkte Elementarenergie und allen Truppenmitgliedern alle 2 s {1} LP wieder her."
+prototype-archaic:
+  name: Guhua-Prototyp
+  passive_name: Zermalmen
+  passive_text: "F\xFCgt Gegnern bei Treffern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von 50 % zus\xE4tzlichen Schaden in H\xF6he von {0} ANG mit geringer Reichweite zu. 15 s Abklingzeit."
+prototype-crescent:
+  name: Mondschein-Prototyp
+  passive_name: Ohne Wiederkehr
+  passive_text: "Erh\xF6ht die Bewegungs-GSW beim Treffen von Schwachstellen mit heftigen Schl\xE4gen 10 s lang um 10 % und den ANG um {0}."
+prototype-rancour:
+  name: Steinschneider-Prototyp
+  passive_name: "Tr\xFCmmer"
+  passive_text: "Erh\xF6ht den ANG und die VTD bei Treffern mit Standardangriffen und heftigen Schl\xE4gen 6 s lang um {0}, 4-fach stapelbar. 0,3 s Abklingzeit."
+prototype-starglitter:
+  name: Sternsichel-Prototyp
+  passive_name: Magiesauger
+  passive_text: "Erh\xF6ht den mit Standardangriffen und heftigen Schl\xE4gen verursachten Schaden nach Anwendung von Elementarf\xE4higkeiten 12 s lang um {0}, 2-fach stapelbar."
+rainslasher:
+  name: Regenschnitter
+  passive_name: "Bew\xE4hrtheit von Wasser und Blitz"
+  passive_text: "Erh\xF6ht den von Hydro- oder Elektro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um {0}."
+raven-bow:
+  name: Rabenbogen
+  passive_name: "Bew\xE4hrtheit von Feuer und Wasser"
+  passive_text: "Erh\xF6ht den von Hydro- oder Pyro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um {0}."
+recurve-bow:
+  name: Reflexbogen
+  passive_name: Lebensentzug
+  passive_text: Stellt beim Besiegen eines Gegners {0} LP wieder her.
+redhorn-stonethresher:
+  name: Rothorn-Steinbrecher
+  passive_name: Gokadaiou Otogibanashi
+  passive_text: "Erh\xF6ht die VTD um {0}. Erh\xF6ht den mit Standardangriffen und heftigen Schl\xE4gen verursachten Schaden um {1} VTD."
+royal-bow:
+  name: "K\xF6niglicher Langbogen"
+  passive_name: Konzentration
+  passive_text: "Erh\xF6ht die KT beim Verursachen von Schaden um {0}, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT."
+royal-greatsword:
+  name: "K\xF6nigliches Gro\xDFschwert"
+  passive_name: Konzentration
+  passive_text: "Erh\xF6ht die KT beim Verursachen von Schaden um {0}, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT."
+royal-grimoire:
+  name: "K\xF6nigliches Zauberbuch"
+  passive_name: Konzentration
+  passive_text: "Erh\xF6ht die KT beim Verursachen von Schaden um {0}, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT."
+royal-longsword:
+  name: "K\xF6nigliches Langschwert"
+  passive_name: Konzentration
+  passive_text: "Erh\xF6ht die KT beim Verursachen von Schaden um {0}, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT."
+royal-spear:
+  name: "K\xF6niglicher Jagdspeer"
+  passive_name: Konzentration
+  passive_text: "Erh\xF6ht die KT beim Verursachen von Schaden um {0}, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT."
+rust:
+  name: Rostiger Bogen
+  passive_name: Schnellschuss
+  passive_text: "Erh\xF6ht den mit Standardangriffen verursachten Schaden um {0} und verringert den mit heftigen Schl\xE4gen verursachten Schaden um 10 %."
+sacrificial-bow:
+  name: Opferbogen
+  passive_name: "G\xF6ttliche F\xFCgung"
+  passive_text: "\xDCberspringt die Abklingzeit einer Elementarf\xE4higkeit beim Verursachen von Schaden mit dieser F\xE4higkeit mit einer Wahrscheinlichkeit von {0}, {1} s Abklingzeit."
+sacrificial-fragments:
+  name: Opferrituale
+  passive_name: "G\xF6ttliche F\xFCgung"
+  passive_text: "\xDCberspringt die Abklingzeit einer Elementarf\xE4higkeit beim Verursachen von Schaden mit dieser F\xE4higkeit mit einer Wahrscheinlichkeit von {0}, {1} s Abklingzeit."
+sacrificial-greatsword:
+  name: "Opfergro\xDFschwert"
+  passive_name: "G\xF6ttliche F\xFCgung"
+  passive_text: "\xDCberspringt die Abklingzeit einer Elementarf\xE4higkeit beim Verursachen von Schaden mit dieser F\xE4higkeit mit einer Wahrscheinlichkeit von {0}, {1} s Abklingzeit."
+sacrificial-sword:
+  name: Opferschwert
+  passive_name: "G\xF6ttliche F\xFCgung"
+  passive_text: "\xDCberspringt die Abklingzeit einer Elementarf\xE4higkeit beim Verursachen von Schaden mit dieser F\xE4higkeit mit einer Wahrscheinlichkeit von {0}, {1} s Abklingzeit."
+serpent-spine:
+  name: Knochenschwert
+  passive_name: Wellenspalter
+  passive_text: "Erh\xF6ht den verursachten Schaden bei Anwesenheit der Figur alle 4 s um {0} und den erlittenen Schaden um {1}, 5-fach stapelbar. Effekt wird nicht bei Auswechseln der Figur zur\xFCckgesetzt, 1 Stapelung des Effekts wird bei Erleiden von Schaden aber entfernt."
+sharpshooters-oath:
+  name: "Eid des Scharfsch\xFCtzen"
+  passive_name: "Pr\xE4zision"
+  passive_text: "Erh\xF6ht den Schwachstellen zugef\xFCgten Schaden um {0}."
+skyrider-greatsword:
+  name: "Himmelsflug-Gro\xDFschwert"
+  passive_name: Mut
+  passive_text: "Erh\xF6ht den ANG bei Treffern mit Standardangriffen und heftigen Schl\xE4gen 6 s lang um {0}, 4-fach stapelbar. 0,5 s Abklingzeit."
+skyrider-sword:
+  name: Himmelsflug-Schwert
+  passive_name: Zielstrebigkeit
+  passive_text: "Erh\xF6ht den ANG und die Bewegungs-GSW nach Anwendung einer Spezialf\xE4higkeit 15 s lang um {0}."
+skyward-atlas:
+  name: Himmelsatlas
+  passive_name: Wandernde Wolken
+  passive_text: "Erh\xF6ht den Elementarschaden um {0} und erh\xE4lt bei Treffern mit Standardangriffen mit einer Wahrscheinlichkeit von 50 % die Gunst der Wolken, die Gegner in der Umgebung aktiv angreifen und Schaden in H\xF6he von {1} ANG verursachen. 30 s Abklingzeit."
+skyward-blade:
+  name: Himmelsklinge
+  passive_name: "Himmel durchbohrender Rei\xDFzahn"
+  passive_text: "Erh\xF6ht die KT um {0}. Aktiviert bei Anwendung von Spezialf\xE4higkeiten Himmelsbohrer: Erh\xF6ht die Bewegungs-GSW um {1} und die Angriffs-GSW um {2}, verursacht bei Treffern mit Standardangriffen und heftigen Schl\xE4gen zus\xE4tzlichen Schaden in H\xF6he von {3} ANG, h\xE4lt 12 s."
+skyward-harp:
+  name: "Himmelsfl\xFCgel"
+  passive_name: Widerhallende Ballade
+  passive_text: "Erh\xF6ht den KSCH um {0} und verursacht bei einem Treffer mit einer Wahrscheinlichkeit von {1} physischen Schaden mit geringer Reichweite in H\xF6he von 125 % ANG. {2} s Abklingzeit."
+skyward-pride:
+  name: Stolz des Himmels
+  passive_name: Himmel spaltende Drachenwirbel
+  passive_text: "Erh\xF6ht den verursachten Schaden um {0}. Nach Anwendung der Spezialf\xE4higkeit: Erschafft nach Treffern mit Standardangriffen und heftigen Schl\xE4gen eine Vakuumklinge, die Gegnern in der Bahn Schaden in H\xF6he von {1} ANG zuf\xFCgt. H\xE4lt 20 s oder 8 Vakuumklingen lang."
+skyward-spine:
+  name: Himmelsgrat
+  passive_name: "Fl\xFCgelbrecher"
+  passive_text: "Erh\xF6ht die KT um {0} und die Standardangriffs-GSW um {1}. Wendet beim Treffen von Gegnern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von {2} eine Vakuumklinge an und verursacht zus\xE4tzlichen Schaden in H\xF6he von {3} ANG mit geringer Reichweite. 2 s Abklingzeit."
+slingshot:
+  name: Steinschleuder
+  passive_name: Steinschleuder
+  passive_text: "Erh\xF6ht den Schaden beim Treffen von Gegnern mit Pfeilen von Standardangriffen und heftigen Schl\xE4gen innerhalb von 0,3 s nach dem Abschie\xDFen eines Pfeils um {0}, verringert den verursachten Schaden ansonsten jedoch um 10 %."
+snow-tombed-starsilver:
+  name: Unter Schnee begrabenes Sternsilber
+  passive_name: Frostgrab
+  passive_text: "Erstellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von {0} \xFCber den Gegnern einen Kristallkern ewigen Eises, der herunterf\xE4llt und Fl\xE4chenschaden in H\xF6he von {1} ANG verursacht. Verursacht Schaden in H\xF6he von {2} ANG, wenn die Gegner von Kryo-Effekten betroffen sind. 10 s Abklingzeit."
+solar-pearl:
+  name: Sonne und Mond
+  passive_name: Himmlisches Leuchten
+  passive_text: "Erh\xF6ht den Schaden von Elementarf\xE4higkeiten und Spezialf\xE4higkeiten bei Treffern mit Standardangriffen 6 s lang um {0}. Erh\xF6ht den Schaden von Standardangriffen bei Treffern mit Elementarf\xE4higkeiten und Spezialf\xE4higkeiten 6 s lang um {1}."
+song-of-broken-pines:
+  name: Kiefernklang
+  passive_name: Lied vom Aufstand
+  passive_text: "Ein Teil der \u201EBewegung des Jahrtausends\u201C, die mit dem Wind zieht. Erh\xF6ht den ANG um {0}. Gibt der Figur beim Treffen von Gegnern mit Standardangriffen oder heftigen Schl\xE4gen ein Zeichen des Fl\xFCsterns, 0,3 s Abklingzeit. Verbraucht alle Zeichen des Fl\xFCsterns, sobald 4 davon vorhanden sind, und verleiht allen Truppenmitgliedern in der N\xE4he den 12 s anhaltenden Effekt von \u201EBewegung des Jahrtausends \u2013 Lied vom Aufstand\u201C: Erh\xF6ht die Standardangriffs-GSW um {1} und den ANG um {2}. Nach Ausl\xF6sen dieses Effekts kann 20 s lang kein weiteres Zeichen des Fl\xFCsterns erhalten werden. Die verschiedenen durch \u201EBewegung des Jahrtausends\u201C ausgel\xF6sten Boni k\xF6nnen bei gleicher Art nicht gestapelt werden."
+staff-of-homa:
+  name: Homa-Stab
+  passive_name: "Ungez\xFCgelter Schmetterling"
+  passive_text: "Erh\xF6ht die LP um {0}. Erh\xF6ht den ANG um {1} der max. LP der mit dieser Waffe ausger\xFCsteten Figur. Erh\xF6ht den ANG bei weniger als 50 % LP der mit dieser Waffe ausger\xFCsteten Figur um weitere {2} der max. LP."
+summit-shaper:
+  name: Gipfelbrecher
+  passive_name: "Majest\xE4tische Gr\xF6\xDFe"
+  passive_text: "Erh\xF6ht die Schildeffizienz um {0}. Erh\xF6ht den ANG nach Treffern 8 s lang um {1}. 5-fach stapelbar, 0,3 s Abklingzeit. Erh\xF6ht die Wirksamkeit der Erh\xF6hung des ANG au\xDFerdem im Schutz von Schilden um 100 %."
+sword-of-descension:
+  name: Schwert der Niederkunft
+  passive_name: Niederkunft
+  passive_text: "Nur f\xFCr Spieler auf folgender Plattform wirksam:\n\u201EPlayStation Network\u201C\nVerursacht beim Treffen von Gegnern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von {0} Schaden in H\xF6he von {1} ANG mit geringer Reichweite. 10 s Abklingzeit. Erh\xF6ht den ANG zus\xE4tzlich um {2} Punkte, wenn {F#die}{M#der} Reisende mit dem Schwert der Niederkunft ausger\xFCstet ist."
+the-alley-flash:
+  name: Gassenleuchte
+  passive_name: Held der Gassen
+  passive_text: "Erh\xF6ht den von Figuren verursachten Schaden um {0}. Dieser Schadensbonus erlischt beim Erleiden von Schaden 5 s lang."
+the-bell:
+  name: Glocke
+  passive_name: "Besch\xFCtzer der Rebellen"
+  passive_text: "Erstellt beim Erleiden von Schaden einen Schutzschild mit einer St\xE4rke von {0} der max. LP. H\xE4lt solange, bis die Schadensmenge erreicht ist, aber max. 10 s. {1} s Abklingzeit. Erh\xF6ht den verursachten Schaden der Figur w\xE4hrend der Wirkungsdauer um {2}."
+the-black-sword:
+  name: Schwarzes Schwert
+  passive_name: "\u201EGerechtigkeit\u201C"
+  passive_text: "Erh\xF6ht den mit Standardangriffen und heftigen Schl\xE4gen verursachten Schaden um {0}. Stellt bei KT von Standardangriffen und heftigen Schl\xE4gen LP in H\xF6he von {1} ANG wieder her. 5 s Abklingzeit."
+the-catch:
+  name: "\u201EDer Fang\u201C"
+  passive_name: Seemannslied
+  passive_text: "Erh\xF6ht den mit Spezialf\xE4higkeiten verursachten Schaden um {0} und die KT von Spezialf\xE4higkeiten um {1}."
+the-flute:
+  name: "Fl\xF6te"
+  passive_name: Akkord
+  passive_text: "Erzeugt bei Treffern mit Standardangriffen und heftigen Schl\xE4gen einen harmonischen Ton. Hast du insgesamt 5 harmonische T\xF6ne gesammelt, wird die Kraft der Kl\xE4nge freigegeben und f\xFCgt den Gegnern in der Umgebung Schaden in H\xF6he von {0} ANG zu. Harmonische T\xF6ne bestehen f\xFCr 30 s. Erzeugt h\xF6chstens alle 0,5 s 1 harmonischen Ton."
+the-stringless:
+  name: Der Sehnenlose
+  passive_name: Pfeilloser Gesang
+  passive_text: "Erh\xF6ht den Schaden von Elementarf\xE4higkeiten und Spezialf\xE4higkeiten um {0}."
+the-unforged:
+  name: Grobes Schwert
+  passive_name: "Majest\xE4tische Gr\xF6\xDFe"
+  passive_text: "Erh\xF6ht die Schildeffizienz um {0}. Erh\xF6ht den ANG nach Treffern 8 s lang um {1}. 5-fach stapelbar, 0,3 s Abklingzeit. Erh\xF6ht die Wirksamkeit der Erh\xF6hung des ANG au\xDFerdem im Schutz von Schilden um 100 %."
+the-viridescent-hunt:
+  name: "Grasgr\xFCner Jagdbogen"
+  passive_name: Wind auf den Weiden
+  passive_text: "Erschafft bei Treffern mit Standardangriffen und heftigen Schl\xE4gen mit einer Wahrscheinlichkeit von 50 % ein Windauge, das Gegner in der Umgebung fortlaufend ansaugt und ihnen 4 s lang alle 0,5 s Schaden in H\xF6he von {0} ANG zuf\xFCgt. {1} s Abklingzeit."
+the-widsith:
+  name: Landstreichernoten
+  passive_name: "Ouvert\xFCre"
+  passive_text: "Spielt beim Wechseln zu dieser Figur 10 s lang ein zuf\xE4lliges Lied. 30 s Abklingzeit. Rezitativ: Erh\xF6ht ANG um {0}; Arie: Erh\xF6ht gesamten Elementar-SCH um {1}; Intermezzo: Erh\xF6ht Elementarkunde um {2} Punkte."
+thrilling-tales-of-dragon-slayers:
+  name: Von den Heldentaten der Drachenbezwinger
+  passive_name: "\xDCberlieferung"
+  passive_text: "Erh\xF6ht den ANG aktiv eingewechselter Figuren 10 s lang um {0}. 20 s Abklingzeit."
+thundering-pulse:
+  name: Donnerpuls
+  passive_name: Blitzherrschaft
+  passive_text: "Erh\xF6ht den ANG um {0} und verleiht die Kraft des \u201EBlitzflugsiegels\u201C: Erh\xF6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils {1}. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\xE4lt 5 s; Anwendung von Elementarf\xE4higkeiten, h\xE4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\xE4ngig."
+travelers-handy-sword:
+  name: Reiseschwert
+  passive_name: Reise
+  passive_text: Stellt beim Erhalten von Elementarkristallen oder Elementarteilchen {0} LP wieder her.
+twin-nephrite:
+  name: Zwillingsnephrit
+  passive_name: "\xDCberfalltaktik"
+  passive_text: "Erh\xF6ht die Bewegungs-GSW und den ANG beim Besiegen von Gegnern 15 s lang um {0}."
+vortex-vanquisher:
+  name: Regenbogenstecher
+  passive_name: "Majest\xE4tische Gr\xF6\xDFe"
+  passive_text: "Erh\xF6ht die Schildeffizienz um {0}. Erh\xF6ht den ANG nach Treffern 8 s lang um {1}. 5-fach stapelbar, 0,3 s Abklingzeit. Erh\xF6ht die Wirksamkeit der Erh\xF6hung des ANG au\xDFerdem im Schutz von Schilden um 100 %."
+wavebreakers-fin:
+  name: Wellenbrecherflosse
+  passive_name: "Wellenb\xE4ndiger von Watatsumi"
+  passive_text: "Erh\xF6ht den mit Spezialf\xE4higkeiten der mit dieser Waffe ausger\xFCsteten Figur verursachten Schaden f\xFCr jeden Punkt aus der Summe der max. Elementarenergie aller Truppenmitglieder zusammengerechnet um {0}. Erh\xF6ht den mit Spezialf\xE4higkeit verursachten Schaden auf diese Weise um bis zu {1}."
+whiteblind:
+  name: "Wei\xDFer Schatten"
+  passive_name: Energieschubspitze
+  passive_text: "Erh\xF6ht den ANG und die VTD bei Treffern mit Standardangriffen und heftigen Schl\xE4gen 6 s lang um {0}, 4-fach stapelbar. 0,5 s Abklingzeit."
+white-iron-greatsword:
+  name: "Wei\xDFes Eisengro\xDFschwert"
+  passive_name: Lebensentzug
+  passive_text: Stellt beim Besiegen eines Gegners {0} LP wieder her.
+white-tassel:
+  name: "Wei\xDFe Quaste"
+  passive_name: "Sch\xE4rfe"
+  passive_text: "Erh\xF6ht den mit Standardangriffen verursachten Schaden um {0}."
+windblume-ode:
+  name: Windblumenode
+  passive_name: Windblumenwunsch
+  passive_text: "Verleiht beim Ausl\xF6sen von Elementarf\xE4higkeiten den alten Wunsch der Windblumen und erh\xF6ht den ANG 6 s lang um {0}."
+wine-and-song:
+  name: Wein und Gesang in den Gassen
+  passive_name: "Unaufh\xF6rlicher Wandel"
+  passive_text: "Verringert den Ausdauerverbrauch beim Rennen oder von F\xE4higkeiten, die Rennen ersetzen, beim Treffen von Gegnern mit Standardangriffen 5 s lang um {0}. Erh\xF6ht au\xDFerdem den ANG beim Rennen oder bei Anwendung von F\xE4higkeiten, die Rennen ersetzen, 5 s lang um {1}."
+wolfs-gravestone:
+  name: Wolfsgrab
+  passive_name: "J\xE4ger wie ein Wolf"
+  passive_text: "Erh\xF6ht den ANG um {0}. Erh\xF6ht den ANG aller Truppenmitglieder beim Treffen eines Gegners mit weniger als 30 % LP 12 s lang um {1}. 30 s Abklingzeit."
+aqua-simulacra:
+  name: Aqua Simulacra
+  passive_name: Form der Reinigung
+  passive_text: "Erh\xF6ht die LP um {0}. Erh\xF6ht, wenn es in der Umgebung Gegner gibt, den durch die mit dieser Waffe ausger\xFCstete Figur verursachten Schaden um {1}, ganz gleich, ob sie aktiv oder inaktiv ist."
+fading-twilight:
+  name: "Ausklingende D\xE4mmerung"
+  passive_name: Glanz der Tiefe
+  passive_text: "Diese Waffe hat drei Zust\xE4nde: Zwielicht, Abendr\xF6te und Morgengrauen. Diese drei Zust\xE4nde erh\xF6hen den verursachten Schaden jeweils um {0}. Nachdem die Figur einen Gegner trifft, wird der aktuelle Zustand deaktiviert und der n\xE4chste Zustand wird aktiviert. 7 s Abklingzeit f\xFCr den Zustandswechsel, der auch ausgel\xF6st werden kann, wenn die mit dieser Waffe ausger\xFCstete Figur inaktiv ist."
+kagotsurubeisshin:
+  name: Kagotsurube Isshin
+  passive_name: Klarheit der Isshin-Schule
+  passive_text: "Wirbelt beim Treffen von Gegnern mit Standardangriffen, heftigen Schl\xE4gen oder Angriffen aus dem Fall einen dreschenden Wind auf, der Fl\xE4chenschaden in H\xF6he von {} % ANG verursacht und den ANG 8 s lang um {} % erh\xF6ht. 8 s Abklingzeit."

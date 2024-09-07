@@ -1,0 +1,36 @@
+type: Bow
+rarity: 4
+series: ''
+atk_start: 44.0
+substat: cr_percent
+substat_start: 4.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: true
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 60%
+    - 28%
+  - values:
+    - 75%
+    - 35%
+  - values:
+    - 90%
+    - 42%
+  - values:
+    - 105%
+    - 49%
+  - values:
+    - 120%
+    - 56%
+ascension_materials:
+  weapon: scorching_might
+  common:
+  - rogue_flower
+  - luminescent

@@ -1,0 +1,41 @@
+type: Sword
+rarity: 5
+atk_start: 44.0b
+substat: cd_percent
+substat_start: 19.2b
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 24%
+    - 20%
+  - values:
+    - 20%
+    - 30%
+    - 25%
+  - values:
+    - 24%
+    - 36%
+    - 30%
+  - values:
+    - 28%
+    - 42%
+    - 35%
+  - values:
+    - 32%
+    - 48%
+    - 40%
+ascension_materials:
+  weapon: distant_sea
+  common:
+  - handguard
+  - chaos_sentinel

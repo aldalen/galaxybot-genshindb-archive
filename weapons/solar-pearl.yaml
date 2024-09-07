@@ -1,0 +1,35 @@
+type: Catalyst
+rarity: 4
+atk_start: 42.0
+substat: cr_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: true
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 20%
+  - values:
+    - 25%
+    - 25%
+  - values:
+    - 30%
+    - 30%
+  - values:
+    - 35%
+    - 35%
+  - values:
+    - 40%
+    - 40%
+ascension_materials:
+  weapon: guyun
+  common:
+  - knife
+  - nectar

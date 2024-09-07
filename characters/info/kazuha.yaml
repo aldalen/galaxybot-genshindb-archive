@@ -1,0 +1,22 @@
+element: anemo
+weapon: sword
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vayuda_turquoise
+  boss_ascension: marionette_core
+  local_specialty: sea_ganoderma
+  common_material: treasure
+  talent: diligence
+  boss_talent: scale
+talents:
+  elemental_skill:
+    cooldown_seconds: 6.0/9.0
+  elemental_burst:
+    duration_seconds: 8.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: October
+  day: 29
+key: kazuha

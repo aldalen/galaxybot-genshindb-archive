@@ -1,0 +1,768 @@
+adventurer:
+  artifact_details:
+    circlet:
+      description: "Ein Tuch, das man sich um die Stirn wickelt. Es ist voller Schwei\xDF und mit Dreck bedeckt, ist aber der ganze Stolz eines Abenteurers."
+      name: Kopftuch eines Abenteurers
+    flower:
+      description: "Ein Bl\xFCmchen, das die harten Bedingungen inmitten einer alten Stadt \xFCberlebt hat und nun voller Stolz vor der Brust getragen wird."
+      name: Blume eines Abenteurers
+    goblet:
+      description: Die Beute eines Abenteurers von einer seiner Reisen, auf die man trotz der Einkerbungen stolz sein kann.
+      name: Goldkelch eines Abenteurers
+    plume:
+      description: Die Feder eines exotischen Vogels, den man hierzulande selten sieht.
+      name: Abenteurerschwanzfeder
+    sands:
+      description: "Abenteurer vergessen in tiefen Abgr\xFCnden und alten Ruinen oft die Zeit."
+      name: Taschenuhr eines Abenteurers
+  bonus:
+    2pc: "Erh\xF6ht die max. LP um 1000."
+    4pc: "Stellt nach dem \xD6ffnen jeglicher Truhen 5 s lang 30 % LP wieder her."
+  name: Abenteurer
+berserker:
+  artifact_details:
+    circlet:
+      description: "Eine Maske, aufgrund von K\xE4mpfen bis auf den Tod zur H\xE4lfe zerbrochen."
+      name: "Furchteinfl\xF6\xDFende Berserkermaske"
+    flower:
+      description: "Eine sch\xF6ne rote Rose, die das Wesen eines Berserkers widerspiegelt."
+      name: Berserkerrose
+    goblet:
+      description: "Aus den \xDCberresten eines unbekannten gro\xDFen Tiers gefertigt, die Beute einer gro\xDFen Jagd."
+      name: Berserkertrinkhorn
+    plume:
+      description: "Die dunkelblaue Schwanzfeder eines Vogels, der in alten Geschichten den Tod ank\xFCndigt. Ein Teil davon ist mittlerweile rot gef\xE4rbt."
+      name: Berserkerfeder
+    sands:
+      description: "Ein Ger\xE4t, dessen Innern gnadenlos und immer in Bewegung ist. Es erinnert den Berserker an seine auf dem Schlachtfeld wie auch auf der Welt verbleibende Zeit."
+      name: Berserkersanduhr
+  bonus:
+    2pc: "Erh\xF6ht die KT um 12 %."
+    4pc: "Erh\xF6ht die KT bei weniger als 70 % LP zus\xE4tzlich um 24 %."
+  name: Berserker
+blizzard:
+  artifact_details:
+    circlet:
+      description: "Ein Siegeskranz des Altertums f\xFCr den Bezwinger des Eises. Er steht f\xFCr die Tapferkeit dessen, der sich der unerbittlichen K\xE4lte gestellt hat."
+      name: Echo des Eisbrechers
+    flower:
+      description: "Eine l\xE4ngst ausgestorbene Blumenart aus den Gletschern mit gefrorenen Tautropfen. Der Recke, der diese Blume gepfl\xFCckt hat, musste sich daf\xFCr richtig ins Zeug legen."
+      name: Gedenken des Schneetreibens
+    goblet:
+      description: "Ein aus Eis gemei\xDFelter Becher, so hart wie der Winter. Fr\xFCher wurde aus ihm Wein getrunken, der nicht gefriert."
+      name: Erhabenheit des Frostwebers
+    plume:
+      description: "Eine Eisesk\xE4lte ausstrahlende Feder. Man sp\xFCrt f\xF6rmlich den kalten Wind unter den Fl\xFCgeln des Vogels, der zuvor \xFCber die schneebedeckten Ebenen und Gipfel schwebte."
+      name: Resolution des Schneestapfers
+    sands:
+      description: "Eine Uhr des Volkes eines alten Landes, das auf die R\xFCckkehr ihres Recken wartete. Im Innern befindet sich nicht etwa Sand. Nein, es handelt sich hier um K\xF6rnchen ewigen Eises."
+      name: Niedergang der eisigen Heimat
+  bonus:
+    2pc: "Erh\xF6ht den Kryo-Schaden um 15 %."
+    4pc: "Erh\xF6ht die KT beim Angreifen von Kryo-Effekten betroffener Gegner um 20 %. Erh\xF6ht die KT bei von Gefroren betroffenen Gegnern zus\xE4tzlich um 20 %."
+  name: Im Schnee irrender Recke
+bloodstained:
+  artifact_details:
+    circlet:
+      description: "Eine eiserne Maske, mit der ein Ritter sein Gesicht sch\xFCtzte. Was sich unter der Maske verbarg, war damals Gegenstand von Spekulationen."
+      name: Eisenmaske des Blutbefleckten
+    flower:
+      description: "Eine getrocknete Blume, die aufgrund des vielen Blutes eisenhart geworden ist. F\xFCr ihren vorigen Besitzer war sie wohl so etwas wie ein Erinnerungsst\xFCck."
+      name: Herz des Blutbefleckten
+    goblet:
+      description: "Der tr\xFCbe Kelch des Blutbefleckten. Das am Rand haftende Blut war lange Ru\xDF und Rauch ausgesetzt und ist nun so schwarz wie Pech."
+      name: Kelch des Blutbefleckten
+    plume:
+      description: "Die schwarze Feder vom Mantel eines Ritters. Da sie so oft in dunkles Blut getr\xE4nkt wurde, hat sie eine Farbe wie schwarze Tinte angenommen."
+      name: Feder des Blutbefleckten
+    sands:
+      description: "Das Ger\xE4t zur Zeitmessung eines Ritters. Die Fl\xFCssigkeit darin ist l\xE4ngst geronnen, sodass man keine Zeit mehr messen kann."
+      name: Uhr des Blutbefleckten
+  bonus:
+    2pc: "Erh\xF6ht den verursachten physischen Schaden um 25 %."
+    4pc: "Verbraucht beim Besiegen von Gegnern 10 s lang f\xFCr die Anwendung von heftigen Schl\xE4gen keine Ausdauer und erh\xF6ht den mit heftigen Schl\xE4gen verursachten Schaden um 50 %."
+  name: Blutiger Weg eines Ritters
+bolide:
+  artifact_details:
+    circlet:
+      description: "Eine Nachbildung der Gestalt einer sagenhaften Gottheit und \xE4u\xDFerst beliebt."
+      name: Sommerfestmaske
+    flower:
+      description: "Eine k\xFCnstliche Bl\xFCte, die nie verbl\xFCht. Ob darin doch ein wenig Leben steckt?"
+      name: Sommerfestbrosche
+    goblet:
+      description: "W\xE4hrend des Sommerfestes sind mit Wasser gef\xFCllte Ballons nicht selten. Dieser hier ist ein prachtvolles Exemplar."
+      name: Sommerfest-Wasserballon
+    plume:
+      description: Ein filigraner Wurfpfeil, der erst ruht, wenn er sein Ziel erreicht hat.
+      name: Ende des Sommerfestes
+    sands:
+      description: "Eine h\xFCbsche Taschenuhr mit feiner Technik, die allerdings stehengeblieben ist."
+      name: Sommerfestuhr
+  bonus:
+    2pc: "Erh\xF6ht die Schildeffizienz um 35 %."
+    4pc: "Erh\xF6ht den Schaden von Standardangriffen und heftigen Schl\xE4gen bei aktivem Schild zus\xE4tzlich um 40 %."
+  name: Umgekehrter Meteor
+brave:
+  artifact_details:
+    circlet:
+      description: "Ein grob geflochtener Kranz, der f\xFCr einige Menschen so wertvoll ist wie eine Krone aus Gold."
+      name: Reckenhaarreif
+    flower:
+      description: Eine schlichte Brosche, die als Andenken an ein vergangenes Abenteuer fungiert.
+      name: Reckenmedaille
+    goblet:
+      description: "Ein grob geschnitzter h\xF6lzerner Becher, dessen Leere von vielen Erinnerungen zeugt."
+      name: Schritte des Recken
+    plume:
+      description: "Eine gl\xE4nzende Vogelfeder, die ein gewisses Ma\xDF an Mut verleiht."
+      name: Erwartungen des Recken
+    sands:
+      description: Eine uralte und winzige Sanduhr, die keinen wirklichen Nutzen hat, so unbegreiflich wie die Zeit selbst.
+      name: Entschlossenheit des Recken
+  bonus:
+    2pc: "Erh\xF6ht den ANG um 18 %."
+    4pc: "Erh\xF6ht den Gegnern mit mehr als 50 % LP zugef\xFCgten Schaden um 30 %."
+  name: Wagemut
+clam:
+  artifact_details:
+    circlet:
+      description: "Eine uralte, kunstvolle Krone, die einst von einem vergessenen Mitglied der Gottesdiener getragen wurde. Heute wird dieses Artefakt von den Menschen in Watatsumi mit gro\xDFer Sorgfalt aufbewahrt."
+      name: Krone von Watatsumi
+    flower:
+      description: "Eine zarte Blume, die die vielen Farben des kaprizi\xF6sen Meeres angenommen hat. Unter dem silbernen Licht des Mondes leuchtet sie in wundersamen Farben."
+      name: "Meerfarbene Bl\xFCte"
+    goblet:
+      description: "Die gl\xE4nzenden Perlen, die die Schreinjungfern von Watatsumi anbieten, leuchten ewig und werden nie matt."
+      name: "Perlenk\xE4fig"
+    plume:
+      description: Eine flaumige Feder mit demselben Farbton wie Korallen, die von der zeremoniellen Kleidung einer Schreinjungfer stammen sollen.
+      name: Feder des Tiefenpalasts
+    sands:
+      description: Eine saubere, makellose Muschel, die aus dem bodenlosen Meer kommt.
+      name: Muschel des Abschieds
+  bonus:
+    2pc: "Erh\xF6ht den Heilungsbonus um 15 %."
+    4pc: "Wenn die mit diesem Artefaktset ausger\xFCsteten Figuren die Figuren in der Truppe heilen, entsteht eine Meeresblase, die 3 s h\xE4lt und die wiederhergestellten Lebenspunkte beim Heilen (einschlie\xDFlich des \xFCbersch\xFCssigen Heilungswerts) aufzeichnet. Wenn ihre Dauer endet, explodiert die Meeresblase, was Gegnern in der Umgebung Schaden, der 90 % der insgesamt wiederhergestellten LP entspricht, zuf\xFCgt (Diese SCH-Berechnungsweise gleicht der der Elementarreaktionen Unter Strom und Supraleiter, ist jedoch von der Elementarkunde, der Stufe oder dem Reaktion-SCH-Bonus unabh\xE4ngig). Alle 3,5 s kann h\xF6chstens eine Meeresblase entstehen. Jede Meeresblase kann bis zu 30.000 wiederhergestellte Lebenspunkte (einschlie\xDFlich des \xFCbersch\xFCssigen Heilungswerts) aufzeichnen. In der eigenen Truppe kann gleichzeitig h\xF6chstens eine Meeresblase bestehen. Wenn die mit diesem Artefaktset ausger\xFCsteten Figuren inaktiv in der Truppe sind, kann dieser Effekt auch ausgel\xF6\
+      st werden."
+  name: Meeresmuschel
+crimson:
+  artifact_details:
+    circlet:
+      description: "Ein Hexenhut, den die Pyro-Hexe, die eigentlich die Welt zerst\xF6ren wollte, getragen hat. Die breite Krempe muss ihr Sichtfeld deutlich eingeschr\xE4nkt haben."
+      name: Brennender Hexenhut
+    flower:
+      description: "Eine Blume, die die Pyro-Hexe, die eigentlich die Welt zerst\xF6ren wollte, einmal ber\xFChrt hat. Die kleinen Stichflammen z\xFCngeln wild und empfangen jeden, der die Blume ber\xFChrt."
+      name: Blume der Pyro-Hexe
+    goblet:
+      description: "Ein brennender Tonkrug, den die Pyro-Hexe hinterlassen hat. Eigentlich wollte sie damit die Welt zerst\xF6ren. Der Krug steht immer noch in Flammen, ganz wie die Hexe."
+      name: Herz der Pyro-Hexe
+    plume:
+      description: "Eine Feder, die die Pyro-Hexe, die eigentlich die Welt zerst\xF6ren wollte, einmal ber\xFChrt hat. Sie brennt unaufh\xF6rlich und verstr\xF6mt daher gro\xDFe Hitze."
+      name: Feder der Pyro-Hexe
+    sands:
+      description: "Ein Zeitmesser, den die Pyro-Hexe, die eigentlich die Welt zerst\xF6ren wollte, fr\xFCher bei sich trug. In ihm befindet sich die Lebenszeit der Hexe, die diese dem Feuer \xFCbergeben hat."
+      name: Stunde der Vernichtung
+  bonus:
+    2pc: "Erh\xF6ht den Pyro-Schaden um 15 %."
+    4pc: "Erh\xF6ht den mit den Reaktionen \u201E\xDCberladen\u201C und \u201EIn Flammen\u201C verursachten Schaden um 40 % und den von den Reaktionen \u201EVerdampfen\u201C und \u201ESchmelzen\u201C betroffenen Gegnern zugef\xFCgten Schaden um 15 %. Erh\xF6ht den Effekt eines 2er-Sets bei Anwendung von Elementarf\xE4higkeiten 10 s lang um 50 %, 3-fach stapelbar."
+  name: Brennende Pyro-Hexe
+defenders:
+  artifact_details:
+    circlet:
+      description: "Ein aus Stoff gefertigtes Band, das die Farbe der Nacht angenommen hat. In Notf\xE4llen eignet es sich auch als Verband."
+      name: "W\xE4chterband"
+    flower:
+      description: "Eine Schwertlilie, die einst einem W\xE4chter geh\xF6rte, der sie sehr sch\xE4tzte. Leider hatte er keine Gelegenheit, sie seiner Geliebten zu \xFCberreichen."
+      name: "W\xE4chterblume"
+    goblet:
+      description: "Ein metallenes Gef\xE4\xDF, das f\xFCr Fl\xFCssigkeiten gedacht ist, die die Einsamkeit beim Wachehalten vertreiben sollen."
+      name: "W\xE4chterflachmann"
+    plume:
+      description: "Eine Brosche in der Form einer Feder, die an den Wunsch erinnern soll, andere zu besch\xFCtzen."
+      name: "W\xE4chterabzeichen"
+    sands:
+      description: "Ein kleines Ger\xE4t, das die aktuelle Uhrzeit anzeigt. In mondlosen N\xE4chten dient es als einziger Bezugsrahmen f\xFCr die Zeit."
+      name: "W\xE4chtertischuhr"
+  bonus:
+    2pc: "Erh\xF6ht die VTD um 30 %."
+    4pc: "Erh\xF6ht f\xFCr jedes unterschiedliche Element der eigenen Figuren in der Truppe den eigenen WDS des jeweiligen Elements um 30 %."
+  name: "Besch\xFCtzerinstinkt"
+destiny:
+  artifact_details:
+    circlet:
+      description: "Ein ritueller Kopfschmuck, den Priester in alter Zeit w\xE4hrend ihrer Zeremonien trugen. Da er lange Jahre im Wasser versunken lag, hat er eine erstaunliche Widerstandskraft entwickelt."
+      name: Wasseropferdiadem
+  bonus:
+    1pc: "Verringert die Dauer der Beeintr\xE4chtigung durch zus\xE4tzliches Hydro-Attribut um 40 %."
+  name: Wasseropfer
+echoes:
+  artifact_details:
+    circlet:
+      description: "Ein Paar Ohrringe, hergestellt aus einem einzigen St\xFCck Jade. Sie haben eine sehr zarte Textur."
+      name: "Ring der Str\xF6mung"
+    flower:
+      description: "Eine Jade, geschnitzt in Form einer Bl\xFCte. Ein geisterhafter Duft, der in einem Moment da ist und im n\xE4chsten verschwindet, umgibt sie."
+      name: "Bl\xFCte des Seelendufts"
+    goblet:
+      description: "Aus dieser Teetasse flie\xDFt immer frisches Wasser. Vielleicht war es ein Geschenk von Adepten, eines ihrer Relikte oder einfach etwas, das sie zur\xFCckgelassen haben."
+      name: Kelch der Quelle
+    plume:
+      description: Ein Ornament aus Jade in Form eines Blatts. Es scheint einst eine tiefe Bedeutung zwischen bestimmten Freunden gehabt zu haben.
+      name: Blatt der Jade
+    sands:
+      description: "Ein kreisf\xF6rmiges Ornament aus Jade. Die Legende besagt, dass es einst irgendwo als Zeichen f\xFCr den Beginn von Ritualen verwendet wurde."
+      name: Zeichen des Rituals
+  bonus:
+    2pc: "Erh\xF6ht den ANG um 18 %."
+    4pc: "L\xF6st beim Treffen von Gegnern mit Standardangriffen mit einer Wahrscheinlichkeit von 36 % \u201ETalritual\u201C aus: Erh\xF6ht den mit Standardangriffen verursachten Schaden um 70 % ANG. Erlischt 0,05 s nach dem Verursachen von Schaden mit Standardangriffen. Erh\xF6ht, wenn der Effekt bei einem Standardangriff nicht ausgel\xF6st wird, die Chance, dass er beim n\xE4chsten Mal ausgel\xF6st wird, um 20 %, 0,2 s Abklingzeit."
+  name: Echo des Opferfests
+emblem:
+  artifact_details:
+    circlet:
+      description: "Ein robuster und harter Helm, der von einem edlen Samurai als Teil seiner R\xFCstung getragen wurde."
+      name: Verzierter Helm
+    flower:
+      description: "In Legenden hei\xDFt es, dass dieses reich verzierte Stichblatt einst an einem Schwert angebracht war, das dem D\xE4mon \xFCberreicht wurde, der den Shougun verraten hatte."
+      name: Prunkvolles Stichblatt
+    goblet:
+      description: "Ein aufwendig gestalteter Weinkrug, aus dem einst ein weltber\xFChmter Kampfk\xFCnstler trank."
+      name: Krug mit dunkelroten Blumen
+    plume:
+      description: "Dies war einst die schwarze Feder eines gewissen Tengu-Kriegers sowie ein von einem alten Schwertk\xE4mpfer gesch\xE4tztes Andenken."
+      name: Abgetrennte Feder
+    sands:
+      description: "Ein fein gearbeiteter K\xE4fig mit einem Blumenmuster auf schwarzem Hintergrund, verziert mit gl\xE4nzenden, eingelegten Muscheln und aufwendigen Goldarbeiten."
+      name: "Blitzwolkenk\xE4fig"
+  bonus:
+    2pc: "Erh\xF6ht die Aufladerate um 20 %."
+    4pc: "Erh\xF6ht den mit Spezialf\xE4higkeiten verursachten Schaden basierend auf 25 % der Aufladerate. Bis zu 75 % Bonus auf diese Weise m\xF6glich."
+  name: Wappen des getrennten Schicksals
+exile:
+  artifact_details:
+    circlet:
+      description: "Ein wertvoller Haarreif mit einem zerkratzten Wappen, das vormals dessen Zugeh\xF6rigkeit zeigte. Somit wird klar, dass der Besitzer seinen einstigen Titel verloren hat."
+      name: Haarreif des Verbannten
+    flower:
+      description: "Eine verblasste Blume, die man sich anstecken kann. Wenn selbst ein Verbannter sie immer bei sich tr\xE4gt, muss sie wohl eine tiefere Bedeutung haben."
+      name: Blume des Verbannten
+    goblet:
+      description: "Ein tr\xFCber Kelch aus schwerem Metall, in das fr\xFCher Edelsteine eingesetzt waren. Sie wurden aber nachtr\xE4glich entfernt."
+      name: Kelch des Verbannten
+    plume:
+      description: "Diese Feder war urspr\xFCnglich nicht als Schmuck gedacht. Sie blieb einfach an der Kleidung ihres neuen Besitzers h\xE4ngen."
+      name: Feder des Verbannten
+    sands:
+      description: Die Abdeckung aus Kristallglas ist zersprungen und auch die Zeiger sind verschwunden. Doch selbst in diesem Zustand wollte sie ihr Besitzer nicht missen.
+      name: Taschenuhr des Verbannten
+  bonus:
+    2pc: "Erh\xF6ht die Aufladerate um 20 %."
+    4pc: "Stellt allen Truppenmitgliedern (au\xDFer sich selbst) bei Anwendung von Spezialf\xE4higkeiten 6 s lang alle 2 s 2 Punkte Elementarenergie wieder her, nicht stapelbar."
+  name: Verbannter
+gambler:
+  artifact_details:
+    circlet:
+      description: "Blaue Ohrringe, die einem dabei helfen, die Ruhe zu bewahren und die Situation richtig einzusch\xE4tzen, um so der Gefahr fernzubleiben."
+      name: "Gl\xFCcksspiel-Ohrringe"
+    flower:
+      description: "Eine h\xFCbsche, gro\xDFe Blume, hinter der man manipulierte W\xFCrfel verstecken kann."
+      name: "Gl\xFCcksspielbrosche"
+    goblet:
+      description: "Dies ist ein speziell f\xFCr eine einzige Anwendung entworfenes Gef\xE4\xDF, garantiert ohne jegliche M\xF6glichkeit zu schummeln."
+      name: "Gl\xFCcksspiel-W\xFCrfelbecher"
+    plume:
+      description: "Die Schwanzfeder eines gro\xDFen Vogels, dank derer das Ass nicht mehr im \xC4rmel versteckt werden muss."
+      name: "Gl\xFCcksspiel-Federschmuck"
+    sands:
+      description: "Eine kaputte Taschenuhr, die ihren ehemaligen Besitzer vor einem t\xF6dlichen Treffer bewahrte."
+      name: "Gl\xFCcksspiel-Taschenuhr"
+  bonus:
+    2pc: "Erh\xF6ht den mit Elementarf\xE4higkeiten verursachten Schaden um 20 %."
+    4pc: "\xDCberspringt die Abklingzeit der Elementarf\xE4higkeit beim Besiegen von Gegnern mit einer Wahrscheinlichkeit von 100 %. 15 s Abklingzeit."
+  name: "Gl\xFCcksspieler"
+gladiator:
+  artifact_details:
+    circlet:
+      description: "Der Helm eines fr\xFChzeitlichen Gladiators, befleckt von dem Blut unz\xE4hliger Gegner und bewundert von unz\xE4hligen Zuschauern."
+      name: Triumph des Gladiators
+    flower:
+      description: "Keiner wei\xDF, warum die legend\xE4ren Gladiatoren stets diese Blume trugen. Sie scheint der einzige Schwachpunkt der grausamen K\xE4mpfer zu sein."
+      name: Nostalgie des Gladiators
+    goblet:
+      description: "Der metallene Becher eines Gladiators vergangener Zeiten. Bis man ihn mit Getr\xE4nken f\xFCllt, ist er zum \xDCberlaufen gef\xFCllt mit der Zeit, die er schon existiert."
+      name: Rausch des Gladiators
+    plume:
+      description: "Eine Feder wie aus einem Traum von der Freiheit eines Falken. Der ungeb\xE4ndigte Vogel trug diese Feder vor seiner Brust."
+      name: Zuflucht des Gladiators
+    sands:
+      description: "Ein Zeugnis der blutigen Tage eines Gladiators. Es steht f\xFCr seinen schwierigen Weg bis zur Freiheit."
+      name: Zuversicht des Gladiators
+  bonus:
+    2pc: "Erh\xF6ht den ANG um 18 %."
+    4pc: "Erh\xF6ht den mit Standardangriffen verursachten Schaden, wenn die mit diesem Artefaktset ausgestattete Figur einen Einh\xE4nder, einen Zweih\xE4nder oder eine Stangenwaffe tr\xE4gt, um 35 %."
+  name: Verbeugung des Gladiators
+heart:
+  artifact_details:
+    circlet:
+      description: "Der alte Hut eines Kapit\xE4ns, der noch immer nach dem Alkohol riecht, in dem er vor langer Zeit gelegen haben muss."
+      name: "Weinverschmierte Kapit\xE4nsm\xFCtze"
+    flower:
+      description: "Eine sehr mitgenommene Brosche, deren Vergoldung l\xE4ngst von der rauen See abgeschmirgelt worden ist."
+      name: Vergoldete Brosche
+    goblet:
+      description: "Ein aus den tiefen Gew\xE4ssern gefischter Weinkelch mit verblichenen Farben, die davon zeugen, wie lange der Kelch schon in der Tiefe herumgetrieben sein muss."
+      name: Kelch der hohen Wellen
+    plume:
+      description: "Eine Feder, die mit dem sausenden Wind des Meeres und den tobenden Wellen gereist ist. Sie ist so alt, dass sich ihre Form und ihre Farbe ver\xE4ndert haben."
+      name: Nostalgische Brise
+    sands:
+      description: Ein alter kupferner Kompass, dessen Nadel in Richtung eines unerreichbaren Ufers, eines nicht vorhandenen Hafens zeigt.
+      name: Kupferkompass
+  bonus:
+    2pc: "Erh\xF6ht den Hydro-Schaden um 15 %."
+    4pc: "Erh\xF6ht den mit Standardangriffen und heftigen Schl\xE4gen verursachten Schaden nach Anwendung von Elementarf\xE4higkeiten 15 s lang um 30 %."
+  name: Tief im Herzen
+husk:
+  artifact_details:
+    circlet:
+      description: "Ein Hut, den Vagabunden gern tragen, um sich vor dem grellen Sonnenlicht oder dem eisigen Regen zu sch\xFCtzen. Sp\xE4ter jedoch wurde dieser Hut zu einem bequemen Objekt, womit man sein Gesicht bedecken kann, um seine wahre Miene zu verschleiern."
+      name: Hut des Vagabunden
+    flower:
+      description: "Ein kleines St\xFCck Goldschmuck in Form einer sechsbl\xE4ttrigen Bl\xFCte, die nie verwelken wird und den fl\xFCchtig, verg\xE4nglichen Glanz und die Glorie der Welt der Sterblichen bezeugt."
+      name: "Bl\xFCte der Glorie"
+    goblet:
+      description: "Eine schwarz gestrichene und mit Pudergold dekorierte Kalebasse, deren urspr\xFCngliche Farben jedoch nicht mehr erkennbar sind. Sie sollte eigentlich zu den Requisiten eines gewissen Theaterst\xFCcks geh\xF6ren."
+      name: Kalebasse des Erwachens
+    plume:
+      description: "Ein pfeilfederf\xF6rmiger Beweis, der aus dem Haus der Eremiten mitgenommen wurde. Aus Mitleid seines Sch\xF6pfers wurde er fr\xFCher in dem Haus neben den K\xF6rper einer gewissen Person, die in einen langen und tiefen Schlaf versunken ist, gelegt."
+      name: Feder der Opulenz
+    sands:
+      description: "F\xFCr Leute von Inazuma ist dies nichts mehr als ein kleines Objekt von hinter den Meeren. Sein mechanischer Kern wurde demontiert, weshalb der Zeiger darauf schon l\xE4ngst aufgeh\xF6rt hat, sich zu drehen."
+      name: "Lied der Verg\xE4nglichkeit"
+  bonus:
+    2pc: "Erh\xF6ht die VTD um 30 %."
+    4pc: "Die mit diesem Artefaktset ausger\xFCsteten Figuren erhalten unter den folgenden Umst\xE4nden den Effekt \u201ENeugier\u201C: Aktuelle Figuren erhalten mit 0,3 s Abklingzeit eine Stapelung beim Treffen von Gegnern mit Geo-Angriffen, w\xE4hrend die inaktiven Figuren in der Truppe alle 3 s eine Stapelung erhalten. 4-fach stapelbar. Jede Stapelung verleiht einen VTD-Bonus von 6 % und einen Geo-Schadens-Bonus von 6 %. Wenn kein neuer Effekt der \u201ENeugier\u201C hinzukommt, erlischt alle 6 s eine Stapelung dieses Effekts."
+  name: "Schale der \xFCppigen Tr\xE4ume"
+illumination:
+  artifact_details:
+    circlet:
+      description: "Ein ritueller Kopfschmuck, den Priester in alter Zeit w\xE4hrend ihrer Zeremonien trugen. Da er lange Jahre dem Feuer ausgesetzt war, hat er eine erstaunliche Widerstandskraft entwickelt."
+      name: Feueropferdiadem
+  bonus:
+    1pc: "Verringert die Dauer der Beeintr\xE4chtigung durch zus\xE4tzliches Pyro-Attribut um 40 %."
+  name: Feueropfer
+instructor:
+  artifact_details:
+    circlet:
+      description: "Ein Standardhut f\xFCr Ausbilder, den nur diejenigen als besondere Ehre erhalten, die eine Bef\xF6rderung abgelehnt haben."
+      name: Ausbilderhut
+    flower:
+      description: "Tr\xE4gt der Ausbilder diese Brosche, gibt es an dem Tag keine \xDCbungsstunden."
+      name: Ausbilderbrosche
+    goblet:
+      description: "Sieht auf den ersten Blick aus wie eine normale Teetasse. F\xFCr Auszubildende jedoch ist sie das Symbol f\xFCr die Macht eines Ausbilders."
+      name: Ausbilderteetasse
+    plume:
+      description: "Ausbilder, die dank jahrelanger Erfahrung wissen, wie man starke Angriffe unwirksam macht, w\xFCrden sich diese Feder von keinem Wind entrei\xDFen lassen."
+      name: Ausbilderfederschmuck
+    sands:
+      description: "Diese Uhr zeigt nicht die aktuelle Zeit an. Sie dient ganz allein dazu, die Zeit von \xDCbungsstunden zu messen."
+      name: Ausbilderstoppuhr
+  bonus:
+    2pc: "Erh\xF6ht Elementarkunde um 80 Punkte."
+    4pc: "Erh\xF6ht die Elementarkunde aller Truppenmitglieder nach Ausl\xF6sen von Elementarreaktionen 8 s lang um 120 Punkte."
+  name: Ausbilder
+lavawalker:
+  artifact_details:
+    circlet:
+      description: "Die Krone des Laval\xE4ufers. Sie leuchtete einst auf dem Haupt der uralten Gestalt, die \xFCber das Lavameer wanderte."
+      name: "Vernunft des Laval\xE4ufers"
+    flower:
+      description: "Eine in lodernden Flammen erbl\xFChende Blume. Damit sollen die Weisen der alten Zeit \xFCber das Lavameer gewandert sein."
+      name: "Entschlossenheit des Laval\xE4ufers"
+    goblet:
+      description: "Dieser Becher soll selbst Lava ausgehalten haben. Heute ist nichts mehr darin zu finden. Allein etwas W\xE4rme strahlt er noch aus."
+      name: "Erleuchtung des Laval\xE4ufers"
+    plume:
+      description: "Die Feder eines in Lava badenden Vogels. Es ist, als k\xF6nnte man den Fl\xFCgelschlag zwischen den Flammen h\xF6ren."
+      name: "Entsagung des Laval\xE4ufers"
+    sands:
+      description: "Eine Sanduhr mit glei\xDFenden Sandk\xF6rnern, die nur so dahingleiten, aber keine Brandzeichen hinterlassen."
+      name: "M\xFChsal des Laval\xE4ufers"
+  bonus:
+    2pc: "Erh\xF6ht den Pyro-WDS um 40 %."
+    4pc: "Erh\xF6ht den von Pyro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um 35 %."
+  name: Feuer durchwandernder Heiliger
+lucky:
+  artifact_details:
+    circlet:
+      description: "Der ehemalige Besitzer fiel in eine Grube und entdeckte per Zufall den Schatz einer uralten Familie. Dieses St\xFCck erinnert an diese Begebenheit."
+      name: "Silberner Gl\xFCckshaarreif"
+    flower:
+      description: "Ein eigentlich sorglos in der Gegend herumstehendes vierbl\xE4ttriges Kleeblatt. Gepfl\xFCckt wurde es nur, weil man ihm nachsagt, Gl\xFCck zu bringen."
+      name: "Gl\xFCcksklee"
+    goblet:
+      description: Ein gut gearbeiteter Kelch aus Metall, mit dem man seinerzeit Diebe niedergestreckt hat.
+      name: "Gl\xFCckskelch"
+    plume:
+      description: "Diese Feder verschafft einem hin und wieder das Gl\xFCck, das man braucht, damit beispielsweise das Monster, das es auf einen abgesehen hat, von einem vorbeiziehenden Falken abgelenkt wird."
+      name: "Gl\xFCcksfeder"
+    sands:
+      description: "Diese Sanduhr ist kaputt und enth\xE4lt keinen Sand mehr. Die Verg\xE4nglichkeit der Zeit spielt f\xFCr sorgenfreie Gem\xFCter aber sowieso keine Rolle."
+      name: "Gl\xFCckssanduhr"
+  bonus:
+    2pc: "Erh\xF6ht die VTD um 100 Punkte."
+    4pc: Stellt beim Sammeln von Mora 300 LP wieder her.
+  name: "Gl\xFCckspilz"
+maiden:
+  artifact_details:
+    circlet:
+      description: "Ein sehr gepflegter Damenhut. Richtig getragen kann man damit sogar die Kr\xE4henf\xFC\xDFe an den Augen verdecken."
+      name: "Verg\xE4nglichkeit der Maid"
+    flower:
+      description: Eine filigrane Blume, die all der Zeit zum Trotz nicht verwelkt und weiter einen unwiderstehlichen Duft abgibt.
+      name: Kindlichkeit der Maid
+    goblet:
+      description: "Ein Becher f\xFCr Tee, nicht f\xFCr Wein, f\xFCr s\xFC\xDFen Duft, nicht f\xFCr Bitterkeit."
+      name: "Mu\xDFe der Maid"
+    plume:
+      description: Worte an einen ganz bestimmten Menschen, die wie ein Vogel mit dem Wind zu weit entfernten Orten fliegen.
+      name: Sehnsucht der Maid
+    sands:
+      description: Die Bewegung der Zeiger nimmt kein Ende, ganz anders die Art und Weise, wie man mit einer jungen Dame umgeht, wenn sie nicht mehr ganz so jung ist.
+      name: Morgen der Maid
+  bonus:
+    2pc: "Erh\xF6ht den aktiven Heileffekt der Figur um 15 %."
+    4pc: "Erh\xF6ht den passiven Heilungseffekt aller Truppenmitglieder nach Anwendung von Elementarf\xE4higkeiten oder Spezialf\xE4higkeiten 10 s lang um 20 %."
+  name: "Ins Herz geschlossenes M\xE4dchen"
+martial:
+  artifact_details:
+    circlet:
+      description: "Gleich in der ersten Stunde lernt man als Kampfk\xFCnstler, dass Konzentration, St\xE4rke und Geschick am wichtigsten sind. Damit man diese Worte nicht vergisst, stehen sie auf diesem Kopftuch."
+      name: "Kampfk\xFCnstler-Kopftuch"
+    flower:
+      description: "Allein mit dieser roten Blume ist es dem Kampfk\xFCnstler m\xF6glich, seine Schmerzen vor\xFCbergehend zu unterdr\xFCcken."
+      name: "Rote Kampfk\xFCnstlerblume"
+    goblet:
+      description: "Ein recht aufwendig verzierter Kelch f\xFCr Rituale von Kampfk\xFCnstlern vor dem Kampf."
+      name: "Kampfk\xFCnstler-Weinkelch"
+    plume:
+      description: "Eine Feder von V\xF6geln, wie man sie \xFCberall findet. Fachleute \xFCben damit, ihre Kraft richtig einzusetzen. Anf\xE4nger machen daraus F\xE4cher."
+      name: "Kampfk\xFCnstler-Federschmuck"
+    sands:
+      description: "Ein Ger\xE4t, um die Zeit f\xFCr verschiedene \xDCbungen zu messen. Geht genauer als normale Sanduhren."
+      name: "Kampfk\xFCnstler-Wasseruhr"
+  bonus:
+    2pc: "Erh\xF6ht den mit Standardangriffen und heftigen Schl\xE4gen verursachten Schaden um 15 %."
+    4pc: "Erh\xF6ht den mit Standardangriffen und heftigen Schl\xE4gen verursachten Schaden nach Anwendung von Elementarf\xE4higkeiten 8 s lang um 25 %."
+  name: "Kampfk\xFCnstler"
+miracle:
+  artifact_details:
+    circlet:
+      description: Preiswerter Schmuck, der aber aus Meteoritenerz vergangener Zeiten hergestellt wurde.
+      name: "Wunderohrh\xE4nger"
+    flower:
+      description: Eine aus einem Stein herauswachsende Blume, die es auf der Suche nach Licht geschafft hat, den Stein zu durchbrechen.
+      name: Wunderblume
+    goblet:
+      description: "Ein Kelch, mit dem das gemeine Volk Rituale ausf\xFChrt, um in die Zukunft zu blicken. Kann auch einfach mit Wasser gef\xFCllt werden."
+      name: Wunderkelch
+    plume:
+      description: "Die Feder eines erstaunlich schnellen Vogels, schier unsichtbar f\xFCr das blo\xDFe Auge."
+      name: Wunderfeder
+    sands:
+      description: "Sieht aus wie eine gew\xF6hnliche Sanduhr. Der trockene Sand flie\xDFt wie Wasser, sobald die Uhr auf den Kopf gestellt wird."
+      name: Wundersanduhr
+  bonus:
+    2pc: "Erh\xF6ht den WDS gegen alle Elemente um 20 %."
+    4pc: "Erh\xF6ht den jeweiligen WDS nach Erleiden von Elementar-SCH 10 s lang um 30 %. 10 s Abklingzeit."
+  name: Wunder
+noblesse:
+  artifact_details:
+    circlet:
+      description: "Eine von den Aristokraten des alten Mondstadts auf Tanzveranstaltungen getragene Maske. Schaut man durch die Augenl\xF6cher, k\xF6nnte man meinen, die Festlichkeiten selbst sehen zu k\xF6nnen."
+      name: "K\xF6nigliche Maske"
+    flower:
+      description: "Eine aus blauer Seide gefertigte Blume, die oft bei offiziellen Anl\xE4ssen getragen wurde. Noch heute sieht sie so aus wie an dem Tage, an dem sie abgelegt wurde."
+      name: "K\xF6nigliche Blume"
+    goblet:
+      description: "Dieser Zierkrug geh\xF6rte urspr\xFCnglich in ein Adelshaus des alten Mondstadts. Aus seinem Innern hallt noch immer der schwerm\xFCtige Wind jener Zeit."
+      name: "K\xF6niglicher Silberkrug"
+    plume:
+      description: "Eine Feder, wie sie die Aristokraten des alten Mondstadts f\xFCr die Jagd an ihrem Hut befestigten. Man sieht ihr ihr Alter nicht an, so aufrecht steht sie."
+      name: "K\xF6nigliche Feder"
+    sands:
+      description: "Eine Taschenuhr der Aristokraten des alten Mondstadts, die bis heute weitergegeben wurde und ganze \xC4ren \xFCberstanden hat."
+      name: "K\xF6nigliche Uhr"
+  bonus:
+    2pc: "Erh\xF6ht den mit Spezialf\xE4higkeiten verursachten Schaden um 20 %."
+    4pc: "Erh\xF6ht den ANG aller Truppenmitglieder nach Anwendung von Spezialf\xE4higkeiten 12 s lang um 20 %, nicht stapelbar."
+  name: Altes Hofritual
+pale:
+  artifact_details:
+    circlet:
+      description: "Eine Maske, die das Gesicht verdeckt, sodass andere den Ausdruck darin nicht sehen k\xF6nnen."
+      name: Maske der Heiterkeit
+    flower:
+      description: "Eine k\xFCnstlich hergestellte blaue Blume mit harten Bl\xFCtenbl\xE4ttern, die nie welken und nie ihre Farbe verlieren."
+      name: Blume der Reinheit
+    goblet:
+      description: Ein so fein gefertigter Kelch, dass man nicht vermag, sein Alter zu erraten.
+      name: "Kelch der \xDCberbietung"
+    plume:
+      description: "Eine unheilvoll aussehende Feder mit unheimlich scharfen Kanten. Sie scheint eine merkw\xFCrdige Unb\xE4ndigkeit auszustrahlen."
+      name: Feder der Genesung
+    sands:
+      description: "Eine Taschenuhr, deren Abdeckung nicht ge\xF6ffnet werden kann und die dennoch unerm\xFCdlich vor sich hintickt."
+      name: Uhr des Stillstands
+  bonus:
+    2pc: "Erh\xF6ht den verursachten physischen Schaden um 25 %."
+    4pc: "Erh\xF6ht den ANG beim Treffen von Gegnern mit Elementarf\xE4higkeiten 7 s lang um 9 %, 2-fach stapelbar. 0,3 s Abklingzeit. Erh\xF6ht den Effekt des Sets mit 2 Teilen beim Erreichen des Limits von 2 Stapelungen um 100 %."
+  name: Fahle Flammen
+petra:
+  artifact_details:
+    circlet:
+      description: "Eine Maske, die direkt aus schwarzem Gestein gemei\xDFelt wurde. Die beiden Augenl\xF6cher starren stets kalt nach vorn."
+      name: Maske des starren Gesteins
+    flower:
+      description: "Die goldgelbe Bl\xFCte einer Pflanze, die sich durch hartes Gestein bohrt. Die Bl\xFCtenbl\xE4tter wiegen mit dem Wind, als w\xE4ren sie lebendig."
+      name: "Bl\xFCte der splitternden Felsen"
+    goblet:
+      description: "Ein prunkvoller und nicht zuletzt w\xFCrdevoller Weinkelch, der vor Jahrtausenden mit edelsten Getr\xE4nken gef\xFCllt war."
+      name: Krug aus Felsgestein
+    plume:
+      description: "Die steinharte Feder eines gro\xDFen Wellenbrechers, an deren schwarzen Ende sich hin und wieder kalte Tautropfen bilden."
+      name: "Fl\xFCgel der luftigen Gipfel"
+    sands:
+      description: "Eine Sonnenuhr gefertigt aus einem einzelnen St\xFCck feinster Jade, deren Maserung einer Sternenkarte gleicht. Schweigend zeigt sie die f\xFCr immer verlorene Zeit an."
+      name: "Sonnenuhr der d\xFCsteren Jade"
+  bonus:
+    2pc: "Erh\xF6ht den Geo-Schaden um 15 %."
+    4pc: "Erh\xF6ht beim Erschaffen von Splittern durch eine Kristallisationsreaktion den mit dem jeweiligen Element verursachen Schaden aller Truppenmitglieder 10 s lang um 35 %. Zu einem Zeitpunkt kann nur ein SCH-Bonus aufgrund dieses Effekts bestehen."
+  name: Archaischer Fels
+scholar:
+  artifact_details:
+    circlet:
+      description: "Die Sehkraft wird durch vieles Lesen eventuell beeintr\xE4chtigt. Dieses Objekt hilft dabei, den Effekt auszugleichen."
+      name: Gelehrtenmonokel
+    flower:
+      description: "Eine getrocknete Bl\xFCte, die nun als Lesezeichen dient. Sie hat den Duft der Seiten angenommen."
+      name: Gelehrtenlesezeichen
+    goblet:
+      description: "Anf\xE4nglich ein Gef\xE4\xDF zur Aufnahme von Getr\xE4nken, nun dunkel gef\xE4rbt durch h\xE4ufiges Waschen von Pinseln."
+      name: Gelehrten-Tintenfass
+    plume:
+      description: Die Feder vom Schwanz eines Vogels, verwendet als Schreibutensil, an dessen Ende die Tinte nicht mehr abgewaschen werden kann.
+      name: Gelehrtenfeder
+    sands:
+      description: "Eine Uhr, die sich gut auf einem Tisch macht. Sie bietet Gelehrten, die kaum an die Sonne gehen, eine M\xF6glichkeit, Tag und Nacht voneinander zu unterscheiden."
+      name: Gelehrtentischuhr
+  bonus:
+    2pc: "Erh\xF6ht die Aufladerate um 20 %."
+    4pc: "Stellt allen Truppenmitgliedern mit B\xF6gen und Katalysatoren beim Erhalten von Elementarteilchen und Elementarkristallen zus\xE4tzlich 3 Punkte Elementarenergie wieder her. 3 s Abklingzeit."
+  name: Gelehrter
+shimenawa:
+  artifact_details:
+    circlet:
+      description: "Eine sehr gut erhaltene Fuchsmaske f\xFCr Rituale, die ein r\xE4tselhaftes L\xE4cheln schm\xFCckt."
+      name: Wechselhafte Maske
+    flower:
+      description: "Ein h\xFCbscher Talisman aus einer Papierschnur. Angeblich beinhaltet er die Macht, W\xFCnsche zu erf\xFCllen."
+      name: Umschlingende Blume
+    goblet:
+      description: "Ein besonderes Gef\xE4\xDF zur Wahrsagerei. Mithilfe der Vorrichtung an der Unterseite kann man leicht alle unerw\xFCnschten Orakelst\xE4bchen entfernen."
+      name: Herz voller Hoffnung
+    plume:
+      description: "Ein Pfeil zum T\xF6ten von D\xE4monen in einem sehr alten Stil. Er scheint von jemandem bis heute mit gro\xDFer Sorgfalt aufbewahrt worden zu sein."
+      name: Pfeil des Andenkens
+    sands:
+      description: "Eine bronzene Taschenuhr, verziert mit einer Papierschnur und einem Gl\xF6ckchen. Die Zeiger sind bei der D\xE4mmerung irgendeines Herbsttages stehen geblieben."
+      name: Augenblick des Morgentaus
+  bonus:
+    2pc: "Erh\xF6ht den ANG um 18 %."
+    4pc: "Verringert bei Anwendung einer Elementarf\xE4higkeit die Elementarenergie um 15 Punkte, wenn die Figur mindestens 15 Punkte Elementarenergie besitzt. Erh\xF6ht daraufhin den mit Standardangriffen, heftigen Schl\xE4gen und Angriffen aus dem Fall verursachten Schaden 10 s lang um 50 %. Dieser Effekt wird w\xE4hrend der Wirkungsdauer nicht erneut ausgel\xF6st."
+  name: Gedenken an Shimenawa
+sojourner:
+  artifact_details:
+    circlet:
+      description: "Ein Blumenkranz, der nach einer frischen Fr\xFChlingsbrise duftet."
+      name: Kranz des Abschieds
+    flower:
+      description: "Ein hellblaues Bl\xFCmchen mit einem kleinen Band an ihrem St\xE4ngel."
+      name: Sinn der Kameradschaft
+    goblet:
+      description: "Ein Becher aus wei\xDFem Porzellan, der fr\xFCher eine gro\xDFe Zahl an alkoholischen Getr\xE4nken fasste."
+      name: Kelch der Fremde
+    plume:
+      description: Eine blaue Pfeilfeder, der man die Sehnsucht nach der Ferne ablesen kann.
+      name: Feder der Heimkehr
+    sands:
+      description: "Eine Sonnenuhr, die die Wandlungen der Zeit miterlebt hat und deren Fortgang still und zuverl\xE4ssig aufzeichnet."
+      name: Stein der Lichtjagd
+  bonus:
+    2pc: "Erh\xF6ht den ANG um 18 %."
+    4pc: "Erh\xF6ht die KT heftiger Schl\xE4ge um 30 %."
+  name: Fernweh
+springtime:
+  artifact_details:
+    circlet:
+      description: "Ein ritueller Kopfschmuck, den Priester in alter Zeit w\xE4hrend ihrer Zeremonien trugen. Da er lange Jahre in eisiger K\xE4lte ruhte, hat er eine erstaunliche Widerstandskraft entwickelt."
+      name: Eisopferdiadem
+  bonus:
+    1pc: "Verringert die Dauer der Beeintr\xE4chtigung durch zus\xE4tzliches Kryo-Attribut um 40 %."
+  name: Eisopfer
+tenacity:
+  artifact_details:
+    circlet:
+      description: "Ein pr\xE4chtiger Helm aus alter Zeit. Einmal dar\xFCber gewischt gl\xE4nzt er gleich wie neu."
+      name: Generalshelm
+    flower:
+      description: "Eine aus Blattgold gefertigte Blume, die die Verdienste und die Ehre ihres Tr\xE4gers f\xFCr alle sichtbar macht."
+      name: Belobigungsblume
+    goblet:
+      description: "Ein metallener Krug, den die Millelithen bei Schw\xFCren verwenden. Selbst jetzt riecht man den s\xFC\xDFen Duft des Weins, der sich einst darin befand."
+      name: Edler Schwurkrug
+    plume:
+      description: "Die Feder eines Falken, die zu zeremoniellen Anl\xE4ssen getragen wurde. Sie pr\xE4sentiert die W\xFCrde und Entschlossenheit von Liyue gegen\xFCber Fremden."
+      name: Bekundungsfeder
+    sands:
+      description: "Ein pragmatisches Ger\xE4t zum Ablesen der Zeit, Standard f\xFCr alle Millelithen in Zeiten des Krieges."
+      name: Kupferne Sonnenuhr
+  bonus:
+    2pc: "Erh\xF6ht die LP um 20 %."
+    4pc: "Erh\xF6ht beim Treffen von Gegnern mit Elementarf\xE4higkeiten den ANG aller Truppenmitglieder in der N\xE4he um 20 % sowie die Schildeffizienz um 30 %, h\xE4lt 3 s, 0,5 s Abklingzeit. Die Figur mit diesem Artefaktset kann diesen Effekt auch ausl\xF6sen, wenn sie inaktiv in der Truppe ist."
+  name: "Z\xE4higkeit der Millelithen"
+thundering:
+  artifact_details:
+    circlet:
+      description: "Fr\xFCher von Schamanen getragen, die den Donnervogel verehrten. An der launischen Natur dieses Monsters konnten diese ehrf\xFCrchtigen Gesch\xF6pfe allerdings nichts \xE4ndern."
+      name: Donnerkrone
+    flower:
+      description: "Nicht betroffen von dem w\xFCtenden Getrampel und den glei\xDFenden Flammen der zerst\xF6rerischen Katastrophe. Diese Blume ist ein \xDCberbleibsel aus vergangenen Tagen."
+      name: Erbarmen des Donnervogels
+    goblet:
+      description: "Ein Becher, in den bei der Durchf\xFChrung von Ritualen das Blut von Unschuldigen gef\xFCllt wird, um daf\xFCr zu beten, dass die Blitze verschwinden. Einzig zur\xFCckgeblieben ist elektrisierter Zorn."
+      name: Omen des Blitzes
+    plume:
+      description: Eine elektrisch geladene Feder, vom Donnervogel als Rache herabgesandt. Auch jetzt noch knistert die Feder voller Zorn.
+      name: "\xDCberlebende des Unwetters"
+    sands:
+      description: Eine Sanduhr des Volkes, das den Donnervogel verehrt. Sie sagte die Ankunft des Donnergottes voraus. Als Folge endete die Existenz dieses Volkes abrupt.
+      name: Donneruhr
+  bonus:
+    2pc: "Erh\xF6ht den Elektro-Schaden um 15 %."
+    4pc: "Erh\xF6ht den mit den Effekten \u201E\xDCberladen\u201C, \u201EUnter Strom\u201C und \u201ESupraleiter\u201C verursachten Schaden um 40 %. Verringert die Abklingzeit der Elementarf\xE4higkeit beim Ausl\xF6sen dieser Elementareffekte um 1 s. 0,8 s Abklingzeit."
+  name: Donnernder Zorn
+thundersoother:
+  artifact_details:
+    circlet:
+      description: "Die Krone des Recken, der den Donner b\xE4ndigte. Er erhielt sie, nachdem er das Monster des Donners besiegt hatte, das das Land zu verw\xFCsten drohte."
+      name: "Krone des Donnerb\xE4ndigers"
+    flower:
+      description: "Eine Blume, die nur in Gegenden mit vielen Unwettern und Blitzen gedeiht. Sie gibt Reisenden in st\xFCrmischen Zeiten Mut."
+      name: "Herz des Donnerb\xE4ndigers"
+    goblet:
+      description: "Der Weinkelch des Donnerb\xE4ndigers. Angeblich hat der Bezwinger des Monsters des Donners violette Blitze aus diesem Kelch getrunken."
+      name: "Kelch des Donnerb\xE4ndigers"
+    plume:
+      description: "Das Abzeichen des tapferen Helden, der den Donner b\xE4ndigte, und die Feder des Vogels, der durch die Blitze schwebte."
+      name: "Feder des Donnerb\xE4ndigers"
+    sands:
+      description: "Der Zeitmesser des Recken, der den Donner b\xE4ndigte. Darin flie\xDFen die Bruchst\xFCcke der Blitze unaufh\xF6rlich wie die Zeit."
+      name: "Stunde des Donnerb\xE4ndigers"
+  bonus:
+    2pc: "Erh\xF6ht den Elektro-WDS um 40 %."
+    4pc: "Erh\xF6ht den von Elektro-Effekten betroffenen Gegnern zugef\xFCgten Schaden um 35 %."
+  name: Donner beruhigender Weiser
+traveling:
+  artifact_details:
+    circlet:
+      description: "Normalerweise wird es bei der Behandlung von Patienten benutzt, um die Haare des Arztes festzuhalten. In Notf\xE4llen jedoch kann man es auch bei Verstauchungen und Br\xFCchen einsetzen, um den Arm stabil zu halten."
+      name: Wanderarzttuch
+    flower:
+      description: Wertvolle Arznei, die nach all der Zeit aber keinerlei medizinische Wirkung mehr hat.
+      name: Wanderarztanemone
+    goblet:
+      description: "Urspr\xFCnglich gef\xFCllt mit dickfl\xFCssiger Medizin, von der heute nur noch der Geruch \xFCbrig ist."
+      name: Wanderarztkrug
+    plume:
+      description: "Die harte Feder einer Eule. Der sp\xE4te Besuch von Patienten ist mit der Feder eines nachtaktiven Vogels gleich halb so unheimlich."
+      name: Wanderarzt-Eulenfeder
+    sands:
+      description: "Eine h\xF6chst pr\xE4zise gehende Uhr. F\xFCr \xC4rzte z\xE4hlt jede einzelne Sekunde."
+      name: Wanderarzt-Taschenuhr
+  bonus:
+    2pc: "Erh\xF6ht den passiven Heileffekt der Figur um 20 %."
+    4pc: "Stellt bei Anwendung von Spezialf\xE4higkeiten 20 % LP wieder her."
+  name: Wanderarzt
+vermillion:
+  artifact_details:
+    circlet:
+      description: "Diese Maske soll von den Bergbewohnern f\xFCr einen Yaksha angefertigt worden sein. Sie ist von einfacher Machart, aber ihre Oberfl\xE4che gl\xE4nzt dennoch hell."
+      name: Gelassenheit des Donners
+    flower:
+      description: "Ein uraltes Erinnerungsst\xFCck. Es sieht immer noch so lebendig aus wie das Lebewesen, das es vor mehreren Jahrhunderten bewahrt hat."
+      name: Essenz des Lebens
+    goblet:
+      description: "Eine alte Tasse aus Kristallsand. Ihr Glanz scheint ungetr\xFCbt von ihrem Alter zu sein."
+      name: Augenblick des Pakts
+    plume:
+      description: Eine schwach schimmernde, von starken Erinnerungen durchdrungene Feder.
+      name: Feder des Schleichlichts
+    sands:
+      description: Ein antiker Zeitmesser mit einem sehr robusten Aussehen. Sein Glanz wird durch Kristallsand erzeugt.
+      name: Relikt der Sonne
+  bonus:
+    2pc: "Erh\xF6ht den ANG um 18 %."
+    4pc: "Verleiht Figuren nach Anwendung von Spezialf\xE4higkeiten den 16 s anhaltenden Effekt \u201ESchleichlicht\u201C: Erh\xF6ht den ANG der jeweiligen Figur anf\xE4nglich um 8 %. Erh\xF6ht den ANG der Figur bei jedem LP-Verlust zus\xE4tzlich um 10 %, 0,8 s Abklingzeit. 4 ANG-Boni auf diese Weise m\xF6glich. Beendet den Effekt \u201ESchleichlicht\u201C beim Auswechseln der Figur. Entfernt bei erneuter Anwendung der Spezialf\xE4higkeit w\xE4hrend der Wirkungsdauer von \u201ESchleichlicht\u201C den bisherigen Effekt \u201ESchleichlicht\u201C vollst\xE4ndig."
+  name: Vergangenheit des Zinnobers
+viridescent:
+  artifact_details:
+    circlet:
+      description: "Die einstige Kopfbedeckung des stolzen Feldj\xE4gers, so gr\xFCn wie die Felder, durch die er streifte."
+      name: "Feldj\xE4gerhut"
+    flower:
+      description: "Diese Blumenart bedeckte fr\xFCher weite Landstriche. Als der J\xE4ger das Land verlie\xDF, trug er diese Blume als Brosche."
+      name: "Feldj\xE4gerblume"
+    goblet:
+      description: "Ein Beh\xE4ltnis zur Aufbewahrung von Wasser mit mehr Speicherverm\xF6gen, als man vermuten w\xFCrde."
+      name: "Feldj\xE4ger-Flachmann"
+    plume:
+      description: "Urspr\xFCnglich eine Feder am Ende eines Pfeiles, der die Beute des J\xE4gers durchbohrte. Sie ist nach wie vor glatt und gl\xE4nzt."
+      name: "Feldj\xE4ger-Pfeilfeder"
+    sands:
+      description: "Ein wundersames Ger\xE4t, das der J\xE4ger stets mit sich f\xFChrte und das ihm zeigte, wo sich seine Beute versteckte."
+      name: "Gelassenheit des Feldj\xE4gers"
+  bonus:
+    2pc: "Erh\xF6ht den Anemo-Schaden um 15 %."
+    4pc: "Erh\xF6ht den mit Verwirbelungen verursachten Schaden um 60 %. Verringert den dem jeweiligen Element in der Verwirbelung entsprechenden WDS des betroffenen Gegners 10 s lang um 40 %."
+  name: "Gr\xFCnlicher Schatten"
+wanderers:
+  artifact_details:
+    circlet:
+      description: "Ein trotz Wind und Wetter noch immer leuchtend farbiger Hut. Setzt man ihn auf, meint man, altert\xFCmliche, melodische Kl\xE4nge zu h\xF6ren."
+      name: Trachtenhut des Dirigenten
+    flower:
+      description: "Ein kleines Abzeichen in Form einer Blume. H\xE4lt man es sich gegen das Ohr, ist es, als h\xF6re man den melodischen Klang von Fl\xF6ten und Gesang."
+      name: Morgenlicht des Ensembles
+    goblet:
+      description: "Eine sonderbare, altert\xFCmliche Flasche mit Saiten im Innern, die schwingen, sobald das Wasser hinausflie\xDFt, und eine unharmonische Melodie erzeugen."
+      name: Bardenflasche
+    plume:
+      description: "Eine bl\xE4uliche Pfeilfeder, die auch nach all der Zeit weder ihre Farbe verloren hat noch zerbrochen ist. Bewegt klingt sie wie flie\xDFendes Wasser."
+      name: Pfeilfeder des Leierspielers
+    sands:
+      description: "Eine Sanduhr, die dem Ensemble anzeigt, wie lange die Vorstellung geht. Leider ist f\xFCr sie der Vorhang l\xE4ngst gefallen."
+      name: Fall des Vorhangs
+  bonus:
+    2pc: "Erh\xF6ht Elementarkunde um 80 Punkte."
+    4pc: "Erh\xF6ht den mit heftigen Schl\xE4gen verursachten Schaden, wenn die Figur einen Katalysator oder einen Bogen tr\xE4gt, um 35 %."
+  name: Wanderorchester
+wisdom:
+  artifact_details:
+    circlet:
+      description: "Ein ritueller Kopfschmuck, den Priester in alter Zeit w\xE4hrend ihrer Zeremonien trugen. Da er lange Jahre donnernden Gewittern lauschte, hat er eine erstaunliche Widerstandskraft entwickelt."
+      name: Blitzopferdiadem
+  bonus:
+    1pc: "Verringert die Dauer der Beeintr\xE4chtigung durch zus\xE4tzliches Elektro-Attribut um 40 %."
+  name: Blitzopfer

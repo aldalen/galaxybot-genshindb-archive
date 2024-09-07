@@ -1,0 +1,41 @@
+type: Sword
+rarity: 5
+atk_start: 46.0
+substat: em
+substat_start: 43.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 10%
+    - 16%
+    - 20%
+  - values:
+    - 12.5%
+    - 20%
+    - 25%
+  - values:
+    - 15%
+    - 24%
+    - 30%
+  - values:
+    - 17.5%
+    - 28%
+    - 35%
+  - values:
+    - 20%
+    - 32%
+    - 40%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - scroll

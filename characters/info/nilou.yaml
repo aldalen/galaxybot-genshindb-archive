@@ -1,0 +1,22 @@
+element: hydro
+weapon: sword
+rarity: 5
+availability: limited
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: perpetual_caliber
+  local_specialty: padisarah
+  common_material: luminescent
+  talent: praxis
+  boss_talent: calamitous_god
+talents:
+  elemental_skill:
+    duration_seconds: 10.0/8.0/12.0
+    cooldown_seconds: 18.0
+  elemental_burst:
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: December
+  day: 3
+

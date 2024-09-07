@@ -1,0 +1,30 @@
+type: Catalyst
+rarity: 4
+atk_start: 44.0
+substat: er_percent
+substat_start: 6.7
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 10%
+  - values:
+    - 12.5%
+  - values:
+    - 15%
+  - values:
+    - 17.5%
+  - values:
+    - 20%
+ascension_materials:
+  weapon: distant_sea
+  common:
+  - maiden_prism
+  - scroll

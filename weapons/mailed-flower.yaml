@@ -1,0 +1,36 @@
+type: Claymore
+rarity: 4
+atk_start: 44.0
+substat: em
+substat_start: 24.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - '48'
+  - values:
+    - 15%
+    - '60'
+  - values:
+    - 18%
+    - '72'
+  - values:
+    - 21%
+    - '72'
+  - values:
+    - 24%
+    - '96'
+ascension_materials:
+  weapon: dandelion
+  common:
+  - shell
+  - spectral
+

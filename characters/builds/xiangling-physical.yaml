@@ -1,0 +1,91 @@
+key: physical
+main_stat:
+  sands: atk_percent
+  goblet: phys_percent
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- atk
+talent_priority: auto > burst > skill
+weapons:
+- staff-of-homa
+- primordial-jade-winged-spear
+- crescent-pike
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      phys_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - pale
+  notes:
+    - bis
+    - maintain_full_stacks
+  weight: 1.0
+- type: simple
+  sets:
+  - bloodstained
+  - pale
+  notes: max_phys
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - bloodstained
+    - pale
+  - set_group:
+    - gladiator
+    - shimenawa
+  notes: boost_phys_atk
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.75

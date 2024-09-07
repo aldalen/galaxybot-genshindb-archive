@@ -1,0 +1,112 @@
+key: dps
+main_stat:
+  sands: hp_percent / er_percent > atk_percent
+  goblet: hydro
+  circlet: heal_percent > hp_percent
+sub_stat:
+- hp_percent
+- atk_percent
+- er_percent
+- em
+- hp
+- atk
+talent_priority: burst = auto > skill
+weapons:
+- everlasting-moonglow
+- jadefalls-splendor
+- prototype-amber
+- hakushin-ring
+- skyward-atlas
+- thrilling-tales-of-dragon-slayers
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      em: 0.5
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      er_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  circlet:
+    main_stat:
+      heal_percent: 1.0
+      hp_percent: 0.75
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - clam
+  notes: boost_heal_phys
+  weight: 1.0
+- type: simple
+  sets:
+  - nymphs
+  notes:
+    - boost_hydro_atk_after_normal_skill_burst
+  weight: 1.0
+- type: simple
+  sets:
+  - heart
+  notes: boost_hydro_normal_charged_atk_after_skill
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - heart
+    - nymphs
+  - set_group:
+    - maiden
+    - clam
+    - tenacity
+    - vourukashas
+  notes:
+    - generalist_set
+    - kokomi-dps-3-appended
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - adventurer
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - kokomi-dps-4-appended
+  weight: 0.25

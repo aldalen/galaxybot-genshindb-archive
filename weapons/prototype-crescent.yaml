@@ -1,0 +1,30 @@
+type: Bow
+rarity: 4
+atk_start: 42.0
+substat: atk_percent
+substat_start: 9.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 36%
+  - values:
+    - 45%
+  - values:
+    - 54%
+  - values:
+    - 63%
+  - values:
+    - 72%
+ascension_materials:
+  weapon: mist_veiled
+  common:
+  - mist
+  - treasure

@@ -1,0 +1,289 @@
+general:
+  artifact_types:
+    flower: وردة
+    plume: ريشة
+    sands: ساعة
+    goblet: كوب
+    circlet: تاج
+  elements:
+    anemo: أنيمو
+    cryo: كرايو
+    dendro: ديندرو
+    electro: إلكترو
+    geo: جيو
+    hydro: هايدرو
+    pyro: بايرو
+  main_stat: الميزات الرئيسية
+  sub_stats: الميزات الفرعية
+  level: مستوى
+  cooldown: وقت الإنتظار
+  locations:
+    chests: الكنوز
+    midsummer: دومين Midsummer Courtyard
+    vindagnyr_1to4: دومين Peak of Vindagnyr (مستوى I-IV)
+    vindagnyr_3to4: دومين Peak of Vindagnyr (مستوى III-IV)
+    clear_pool: دومين Clear Pool and Mountain Cavern
+    guyun: دومين Domain of Guyun
+    slumbering: دومين Slumbering Court
+    zhou: دومين Hidden Palace of Zhou Formula
+    lost_valley: دومين The Lost Valley
+    momiji: دومين Momiji-Dyed Court
+    weekly_drop_wl2: جوائز البوسات الأسبوعية (عالم مستوى 2+)
+    weekly_drop_wl3: جوائز البوسات الأسبوعية (عالم مستوى 3+)
+    world_drop_wl3: جوائز البوسات العادية (عالم مستوى 3+)
+    world_drop_wl5: جوائز البوسات العادية (عالم مستوى 5+)
+    domain_reliquary_1: Domain Reliquary (الدرجة الأولى)
+    domain_reliquary_2: Domain Reliquary (الدرجة الثانية)
+    remembrance: دومين Valley of Remembrance
+    ridge_watch: دومين Ridge Watch
+    elite_enemies: الأعداء
+    normal_bosses: بوسات العالم
+    spire: دومين Spire of Solitary Enlightenment
+  overall: إجمالي
+  combat:
+    auto: نورمل
+    skill: سكِل
+    burst: ألتمت
+  weapons:
+    bow: قوس
+    catalyst: كتاب
+    polearm: رمح
+    claymore: سيف ثقيل
+    sword: سيف
+artifact_rater:
+  lookup_strings:
+    hp: 'نقاط الصحة'
+    atk: 'أتاك'
+    er_percent: 'ريتشارج'
+    em: 'ماستري'
+    phys_percent: 'فيزيكال'
+    crit: 'كريت'
+    defense: 'ديفنس'
+    heal_percent: 'هيلنق'
+  full_strings:
+    er_percent: 'إنيرجي ريتشارج'
+    em: 'إلمنتل ماستري'
+    phys_percent: 'فيزيكال دمج بونص'
+    heal_percent: 'هيلنق بونص'
+  crit_types:
+    cd_percent: 'دمج'
+    cr_percent: 'ريت'
+  stat_names:
+    hp: 'نقاط صحة'
+    hp_percent: 'نقاط الصحة%'
+    atk: 'أتاك'
+    atk_percent: 'أتاك%'
+    er_percent: 'إنيرجي ريتشارج%'
+    em: 'إلمنتل ماستري'
+    phys_percent: 'فيزيكال دمج بونص%'
+    cd_percent: 'كريت دمج%'
+    cr_percent: 'كريت ريت%'
+    defense: 'ديفنس'
+    defense_percent: 'ديفنس%'
+    heal_percent: 'هيلنق بونص%'
+    anemo: 'أنيمو دمج بونص%'
+    cryo: 'كرايو دمج بونص%'
+    dendro: 'ديندرو دمج بونص%'
+    electro: 'إلكترو دمج بونص%'
+    geo: 'جيو دمج بونص%'
+    hydro: 'هايدرو دمج بونص%'
+    pyro: 'بايرو دمج بونص%'
+database:
+  general:
+    db_initializing: جاري تهيئة قاعدة بيانات قنشن، من فضلك حاول مرة أخرى بعد عدة دقائق.
+    navigating: تصفح هذا الدليل
+    available_weapons: الأسلحة المتوفرة
+    available_artifacts: الأرتفاكتات المتوفرة
+    available_characters: الشخصيات المتوفرة
+  lookup:
+    message: 'تم العثور على نتائج متعددة لطلبك، من فضلك اختر من القائمة:'
+    title: نتائج متعددة
+  info:
+    how_to_rate: 'كيفية تقييم الأرتيفاكت لهذا البناء:'
+    rate_format: "استخدم أمر `/rate` واختر الخيارات المطلوبة، ثم إرفع صورة أو الصق\
+      \ رابط الصورة.\n"
+    embed_fields:
+      character_overview: نظرة عامة على شخصية {}
+      character_constellations: كونسليشن شخصية {}
+      character_talents: تالنت شخصية {}
+      rarity: الندرة
+      element: العنصر
+      weapon: السلاح
+      bio: السيرة الذاتية
+      materials_farm: الموارد المطلوب تفريمها
+      constellation_name: 'كونسليشن: *{}*'
+      table_of_contents:
+        title: ‏جدول المحتويات
+        character_overview: نظرة عامة على الشخصية
+        constellations: الكونسليشن
+        talents: التالنت
+        build: بناء الشخصية {}
+        switch_pages: استخدم قائمة الخيارات في الأسفل لعرض المحتوى وتغيير الصفحات.
+      infusion_duration: مدة التحول للعنصر
+      talent_duration: مدة المهارة
+      energy_cost: تكلفة الإنيرجي
+      additional_info: معلومات إضافية
+  builds:
+    available_builds: 'البناءات المتوفرة:'
+    no_builds_available: 'لا يوجد بناء متوفر:'
+    how_to_rate: 'كيف تقيم الأرتيفاكت لهذا البناء:'
+    rate_format: "استخدم أمر `/rate`واختر الخيارات المطلوبة، ثم إرفع صورة أو الصق\
+      \ رابط الصورة. \n"
+    select:
+      title: اختر بناء لـ {}
+      message_not_found: 'البناء المطلوب غير متوفر، من فضلك اختر إحدى البناءات التالية
+        لشخصية {}:'
+      message_select: 'من فضلك اختر إحدى البناءات التالية لشخصية {}:'
+      traveler_title: اختر العنصر للترافلر
+      traveler_message: 'من فضلك اختر احدى العناصر التالية للترافلر:'
+      error:
+        not_found: عذراً، لم يتم العثور على الشخصية المطلوبة.
+    embed_fields:
+      artifacts: الأرتفاكتات
+      main_stats: الميزات الرئيسية للأرتفاكت
+      sub_stats: الميزات الفرعية للأرتفاكت
+      talent_priority: أولوية المهارات
+      weapons: الأسلحة
+      teammates: الشخصيات المقترحة
+      playstyle: طريقة اللعب
+    field_continued: (مستمر)
+  error:
+    initializing: جاري تهيئة قاعدة بيانات قينشن، من فضلك حاول مرة أخرى بعد عدةدقائق.
+    no_items_found: لم يتم العثور على الذي طلبته في قاعدة البيانات.
+    too_many_items_found: تم العثور على نتائج كثيرة جداً للذي طلبته، نرجو منك المحاولة
+      مرة أخرى مع تحديد أدق
+  ascension_materials:
+    dendro: Nagadus Emerald
+    adaptive: Brilliant Diamond
+    cryo: Shivada Jade
+    anemo: Vayuda Turquoise
+    electro: Vajrada Amethyst
+    geo: Prithiva Topaz
+    hydro: Varunada Lazurite
+    pyro: Agnidus Agate
+  materials:
+    slime: 'Slime'
+    treasure: Treasure Hoarder Insignias
+    rifthound_claws: Rifthound Claws
+    ring: Ring of Boreas
+    calamitous_god: Tears of the Calamitous God
+    knife: Sacrificial Knives
+    shard: Shard of a Foul Legacy
+    heart: Ashen Heart
+    shadow: Shadow of the Warrior
+    crown: Dragon Lord's Crown
+    bloodjade: Bloodjade Branch
+    scale: Gilded Scale
+    molten: Molten Moment
+    butterfly: Hellfire Butterfly
+    meaning_of_aeons: The Meaning of Aeons
+    locket: Spirit Locket of Boreas
+    plume: Dvalin's Plume
+    claw: Dvalin's Claw
+    sigh: Dvalin's Sigh
+    tusk: Tusk of Monoceros Caeli
+    malefic_general: Mudra of the Malefic General
+    mask: Hilichurl Masks
+    arrowhead: Hilichurl Arrowheads
+    scroll: Samachurl Scrolls
+    fatui: Fatui Insignia
+    nectar: Whopperflower Nectar
+    horn: Hilichurl Horns
+    ley_line: Ley Lines
+    bone: Bone Shards
+    mist: Mist Grass
+    chaos_guard: Chaos Parts
+    chaos_sentinel: Chaos Gears
+    prism: Mirror Maiden Prisms
+    handguard: Nobushi Handguards
+    spectral: Spectral Husks
+    statuette: Abyss Statuettes
+    tail: Tail of Boreas
+    luminescent: Luminescent Pollen
+    fungal_nucleus: Fungal Nucleus
+    chaos_drake: Chaos Modules
+    eremite: Eremite Bandanas
+  build_types:
+    anemo: أنيمو دبس
+    cryo: كرايو دبس
+    dendro: ديندرو دبس
+    electro: إلكترو دبس
+    geo: جيو دبس
+    hydro: هايدرو دبس
+    pyro: بايرو دبس
+    physical: فيزيكال دبس
+    reversemelt: ميلت دبس
+    freeze: فريز دبس
+    overload: اوفرلود دبس
+    melt: ميلت دبس
+    vaporize: فابورايز دبس
+    subdps: سب دبس
+    dps: دبس
+    support: سبورت
+  weapon_embed:
+    banners:
+      standard: البنر العادي
+      weapon: جميع بنرات الأسلحة
+      limited_weapon: بنر الأسلحة المؤقت
+    obtained:
+      title: طريقة الحصول عليه
+      battle_pass: باتل باس
+      chests: الكنوز
+      events: الأحداث
+      forging: الحداد
+      starglitter: متجر بايمون
+      playstation: حصري للبلايستيشن
+      quests: المهمات
+    series: السلسلة
+    type: النوع
+    wishes: الوشات
+    additionally: بالإضافة
+    details: تفاصيل السلاح
+    stat_table: جدول الميزات
+    characters: الشخصيات المقترحة لهذا السلاح
+  artifact_embed:
+    where_to_find: طريقة الحصول عليه
+    characters_that_use:
+      guide:
+        title: الشخصيات المقترحة لهذا الأرتفاكت
+        text: 'استخدم قائمة الخيارات في الأسفل لرؤية الشخصيات التي تستخدم هذا الأرتفاكت،
+          القائمة مصنفة لثلاث مجموعات: **الأفضل**، **جيد**، **بداية اللعبة**'
+        no_characters: لا توجد شخصيات في قاعدة البيانات تستخدم هذا الأرتفاكت.
+      heading_combined: الشخصيات التي تستخدم {}
+      heading: الشخصيات التي تستخدم {} ({})
+    categories:
+      best: أفضل بناءات
+      best_description: القائمة في الأسفل تحتوي على أفضل إستخدامات للست.
+      good: بناءات جيدة
+      good_description: القائمة في الأسفل تحتوي على إستخدامات جيدة للست.
+      early_game: بناءات في بداية اللعبة
+      early_game_description: القائمة في الأسفل تحتوي على إستخدامات للست في مرحلة
+        بداية اللعبة.
+  talent_types:
+    normal_attack: نورمل أتاك
+    elemental_burst: الألتمت
+    elemental_skill: السكل
+    first_ascension_passive: الباسف الأول
+    fourth_ascension_passive: الباسف الثاني
+    utility_passive: الباسف الأخير
+    alternate_sprint: الباسف المميز
+  stat_names:
+    hp: نقاط الصحة
+    hp_percent: نقاط الصحة%
+    atk: أتاك
+    atk_percent: أتاك%
+    em: إلمنتل ماستري
+    phys_percent: فيزيكال%
+    cd_percent: كريت دمج
+    cr_percent: كريت ريت
+    er_percent: إنيرجي ريتشارج%
+    defense: ديفنس
+    defense_percent: ديفنس%
+    heal_percent: هيلنق%
+    anemo: أنيمو دمج%
+    cryo: كريو دمج%
+    dendro: ديندرو دمج%
+    electro: إلكترو دمج%
+    geo: جيو دمج%
+    hydro: هايدرو دمج%
+    pyro: بايرو دمج%

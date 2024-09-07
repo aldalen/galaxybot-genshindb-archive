@@ -1,0 +1,23 @@
+element: electro
+weapon: polearm
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: storm_bead
+  local_specialty: amakumo_fruit
+  common_material: handguard
+  talent: light
+  boss_talent: molten
+talents:
+  elemental_skill:
+    duration_seconds: 25.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    duration_seconds: 7.0
+    cooldown_seconds: 18.0
+    energy_cost: 90
+birthday:
+  month: June
+  day: 26
+key: raiden

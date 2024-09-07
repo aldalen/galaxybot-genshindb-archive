@@ -1,0 +1,31 @@
+type: Polearm
+rarity: 4
+atk_start: 42.0
+substat: er_percent
+substat_start: 10.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 24
+  - values:
+    - 27
+  - values:
+    - 30
+  - values:
+    - 33
+  - values:
+    - 36
+ascension_materials:
+  weapon: oasis_garden
+  common:
+  - statuette
+  - luminescent
+

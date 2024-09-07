@@ -1,0 +1,38 @@
+type: Bow
+rarity: 4
+atk_start: 41.0
+substat: er_percent
+substat_start: 13.3
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 60%
+    - 12s
+  - values:
+    - 70%
+    - 10.5s
+  - values:
+    - 80%
+    - 9s
+  - values:
+    - 90%
+    - 7.5s
+  - values:
+    - 100%
+    - 6s
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - nectar

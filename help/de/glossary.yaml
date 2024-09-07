@@ -1,0 +1,5 @@
+description: "Hier sind die Wörter und Akronyme, welche im Bot genutzt werden.\n"
+fields:
+- name: Akronyme
+  inline: Falsch
+title: Glossar von Wörtern

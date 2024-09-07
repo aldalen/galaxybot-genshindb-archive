@@ -1,0 +1,40 @@
+type: Catalyst
+rarity: 4
+atk_start: 42.0
+substat: atk_percent
+substat_start: 9.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 60%
+    - 80%
+    - 200%
+  - values:
+    - 70%
+    - 95%
+    - 240%
+  - values:
+    - 80%
+    - 110%
+    - 280%
+  - values:
+    - 90%
+    - 125%
+    - 320%
+  - values:
+    - 100%
+    - 140%
+    - 360%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - nectar

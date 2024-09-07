@@ -1,0 +1,23 @@
+element: cryo
+weapon: sword
+rarity: 4
+availability: standard
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: perpetual_caliber
+  local_specialty: nilotpala_lotus
+  common_material: scroll
+  talent: ingenuity
+  boss_talent: mirror_of_mushin
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 12.0
+  elemental_burst:
+    duration_seconds: 12.0
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: December
+  day: 19
+

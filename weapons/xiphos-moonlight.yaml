@@ -1,0 +1,32 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: em
+substat_start: 36.0
+obtained:
+  wishes: true
+  banners: 
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 0.036%
+  - values:
+    - 0.045%
+  - values:
+    - 0.054%
+  - values:
+    - 0.063%
+  - values:
+    - 0.072%
+ascension_materials:
+  weapon: forest_dew
+  common:
+  - primal_prism
+  - eremite
+

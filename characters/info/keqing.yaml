@@ -1,0 +1,21 @@
+element: electro
+weapon: sword
+rarity: 5
+availability: standard
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: lightning_prism
+  local_specialty: cor_lapis
+  common_material: nectar
+  talent: prosperity
+  boss_talent: ring
+talents:
+  elemental_skill:
+    infusion_seconds: 5.0
+    cooldown_seconds: 7.5
+  elemental_burst:
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: November
+  day: 20

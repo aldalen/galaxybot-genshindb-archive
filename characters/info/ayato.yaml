@@ -1,0 +1,23 @@
+element: hydro
+weapon: sword
+rarity: 5
+availability: limited
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: dew_of_repudiation
+  local_specialty: sakura_bloom
+  common_material: handguard
+  talent: elegance
+  boss_talent: malefic_general
+talents:
+  elemental_skill:
+    duration_seconds: 6.0
+    cooldown_seconds: 12.0
+  elemental_burst:
+    duration_seconds: 18.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: March
+  day: 26
+key: ayato

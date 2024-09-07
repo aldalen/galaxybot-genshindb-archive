@@ -1,0 +1,25 @@
+type: Sword
+rarity: 4
+atk_start: 39.0b
+substat: atk_percent
+substat_start: 7.7
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+  playstation: true
+passive:
+  levels:
+  - values:
+    - 50%
+    - 200%
+    - '66'
+ascension_materials:
+  weapon: boreal_wolf
+  common:
+  - ley_line
+  - treasure

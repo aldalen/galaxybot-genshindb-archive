@@ -1,0 +1,28 @@
+title: Glossary of Terms
+description: |
+  Here are the terms and acronyms used in the bot
+
+fields:
+  - name: Acronyms
+    value: |
+      **CA** - Charged Attack
+      **CD** - Cooldown. We never use CD to denote Crit DMG, rest easy.
+      **DEF** - Defense 
+      **DMG** - Damage
+      **Elem** - Elemental
+      **EM** - Elemental Mastery
+      **ER** - Energy Recharge
+      **F2P** - Free-to-play
+      **HP** - Hit Points; character health
+      **N3CJ/D** - Combo acronym: **3** **N**ormal Attacks, a **C**harged attack and a **J**ump or **D**ash cancel
+      **ICD** - Internal Cooldown
+      **NA** - Normal Attack
+      **Phys** - Physical
+      **VV** - Viridescent Venerer (Anemo artifact set)
+  - name: Jargon
+    value: |
+      **A6** - Ascension 6, some characters' roles may change based on this number
+      **Battery** - A noun or verb; a character that recharges another character's Burst. An act of recharging someone else's Burst.
+      **BiS** - *Best-in-slot* usually refers to best given piece of weapon or artifact (set)
+      **Comp** - Team **comp**osition, the type of team (Permafreeze, Melt, etc)
+      **R5** - Refinement 5, some weapons are valued only if they have high refinements

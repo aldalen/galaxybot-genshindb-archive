@@ -1,0 +1,41 @@
+type: Polearm
+rarity: 4
+series: ''
+atk_start: 41.0
+substat: cr_percent
+substat_start: 8.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: true
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 16%
+    - 24%
+  - values:
+    - 20%
+    - 20%
+    - 30%
+  - values:
+    - 24%
+    - 24%
+    - 36%
+  - values:
+    - 28%
+    - 28%
+    - 42%
+  - values:
+    - 32%
+    - 32%
+    - 48%
+ascension_materials:
+  weapon: boreal_wolf
+  common:
+  - ley_line
+  - nectar

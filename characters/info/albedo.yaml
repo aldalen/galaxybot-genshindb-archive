@@ -1,0 +1,21 @@
+element: geo
+weapon: sword
+rarity: 5
+availability: limited
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: basalt_pillar
+  local_specialty: cecilia
+  common_material: scroll
+  talent: ballad
+  boss_talent: tusk
+talents:
+  elemental_skill:
+    duration_seconds: 30.0
+    cooldown_seconds: 4.0
+  elemental_burst:
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: September
+  day: 13

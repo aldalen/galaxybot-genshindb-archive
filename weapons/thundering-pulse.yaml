@@ -1,0 +1,36 @@
+type: Bow
+rarity: 5
+atk_start: 46.0
+substat: cd_percent
+substat_start: 14.4
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 12%,24%,40%
+  - values:
+    - 25%
+    - 15%,30%,50%
+  - values:
+    - 30%
+    - 18%,36%,60%
+  - values:
+    - 35%
+    - 21%,42%,70%
+  - values:
+    - 40%
+    - 24%,48%,80%
+ascension_materials:
+  weapon: narukami
+  common:
+  - maiden_prism
+  - arrowhead

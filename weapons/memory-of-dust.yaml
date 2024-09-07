@@ -1,0 +1,36 @@
+type: Catalyst
+rarity: 5
+atk_start: 46.0
+substat: atk_percent
+substat_start: 10.8
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 4%
+  - values:
+    - 25%
+    - 5%
+  - values:
+    - 30%
+    - 6%
+  - values:
+    - 35%
+    - 7%
+  - values:
+    - 40%
+    - 8%
+ascension_materials:
+  weapon: aerosiderite
+  common:
+  - bone
+  - mask

@@ -1,0 +1,22 @@
+element: hydro
+weapon: bow
+rarity: 5
+availability: limited
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: runic_fang
+  local_specialty: starconch
+  common_material: fatui
+  talent: prosperity
+  boss_talent: scale
+talents:
+  elemental_skill:
+    duration_seconds: 3.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: April
+  day: 20

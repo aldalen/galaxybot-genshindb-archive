@@ -1,0 +1,21 @@
+element: hydro
+weapon: catalyst
+rarity: 5
+availability: standard
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: cleansing_heart
+  local_specialty: philanemo_mushroom
+  common_material: nectar
+  talent: resistance
+  boss_talent: ring
+talents:
+  elemental_skill:
+    duration_seconds: 5.0
+    cooldown_seconds: 12.0
+  elemental_burst:
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: August
+  day: 31

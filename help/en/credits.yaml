@@ -1,0 +1,26 @@
+title: Galaxy.Bot Credits
+description: |
+  Here are the full credits for Galaxy.Bot
+
+fields:
+  - name: Developers
+    value: |
+      *Aldalen* - Lead Developer
+      *Max* - API Server Developer
+  - name: Bot Support
+    value: |
+      *Sawk* - Bot Deployment and Recruitment
+  - name: Genshin Character Builds
+    value: |
+      *Genshin Impact Advisor Team:*
+      Antoras, Spedemix
+  - name: Localization
+    value: |
+      English, Portuguese, Spanish, German, Arabic
+  - name: External Sources
+    value: |
+      Genshin Impact Fandom Wiki: https://genshin-impact.fandom.com/
+      genshin-db: https://github.com/theBowja/genshin-db
+  - name: Previous Contributors
+    value: |
+      Aardnim, Aramis, Cooler, Coffee, Em, Falcon, Fivetail, Hargy, Harold, June, KiyokoNee, Lynn, Rat

@@ -1,0 +1,22 @@
+element: cryo
+weapon: catalyst
+rarity: 4
+availability: charlotte
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: tourbillon_device
+  local_specialty: beryl_conch
+  common_material: clockwork_gear
+  talent: justice
+  boss_talent: silk_string
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 18.0
+  elemental_burst:
+    duration_seconds: 4.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: April
+  day: 10

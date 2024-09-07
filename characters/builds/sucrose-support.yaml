@@ -1,0 +1,74 @@
+key: support
+main_stat:
+  sands: em / er_percent
+  goblet: em
+  circlet: em
+sub_stat:
+- em
+- er_percent
+- cr_percent / cd_percent
+- atk_percent
+talent_priority: burst > skill > auto
+weapons:
+- sacrificial-fragments
+- thrilling-tales-of-dragon-slayers
+- fruit-of-fulfillment
+- favonius-codex
+- wandering-evenstar
+- magic-guide
+- mappa-mare
+- prototype-amber
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 0.5
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 0.5
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.75
+  sands:
+    main_stat:
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 0.5
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - viridescent
+  notes: boost_anemo_shred_swirled
+  weight: 1.0
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

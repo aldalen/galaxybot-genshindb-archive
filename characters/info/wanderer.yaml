@@ -1,0 +1,20 @@
+element: anemo
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vayuda_turquoise
+  boss_ascension: perpetual_caliber
+  local_specialty: rukkhashava_mushroom
+  common_material: handguard
+  talent: praxis
+  boss_talent: dakas_bell
+talents:
+  elemental_skill:
+    cooldown_seconds: 6.0
+  elemental_burst:
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: January
+  day: 3

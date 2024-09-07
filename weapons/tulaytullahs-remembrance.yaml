@@ -1,0 +1,41 @@
+type: Catalyst
+rarity: 5
+atk_start: 48.0
+substat: cd_percent
+substat_start: 9.6
+obtained:
+  wishes: true
+  banners:
+    - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 4.8%
+    - 9.6%
+    - 48%
+  - values:
+    - 6%
+    - 12%
+    - 60%
+  - values:
+    - 7.2%
+    - 14.4%
+    - 72%
+  - values:
+    - 8.4%
+    - 16.8%
+    - 84%
+  - values:
+    - 9.6%
+    - 19.2%
+    - 96%
+ascension_materials:
+  weapon: scorching_might
+  common:
+  - luminescent
+  - fungal_nucleus

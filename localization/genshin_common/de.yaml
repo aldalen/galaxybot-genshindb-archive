@@ -1,0 +1,16 @@
+artifact_rater:
+  lookup_strings:
+    hp: LP
+    atk: ANG
+    defense: VTD
+    heal_percent: Heilung
+  full_strings:
+    er_percent: Aufladerate
+general:
+  artifact_types:
+    flower: Blume
+    sands: Sanduhr
+    goblet: Kelch
+    circlet: Krone
+  elements:
+    anemo: Anemo

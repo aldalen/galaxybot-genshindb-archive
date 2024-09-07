@@ -1,0 +1,87 @@
+key: support
+main_stat:
+  sands: atk_percent / er_percent
+  goblet: atk_percent
+  circlet: heal_percent > atk_percent
+sub_stat:
+- atk_percent
+- er_percent
+- cr_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- favonius-codex
+- prototype-amber
+- thrilling-tales-of-dragon-slayers
+rater:
+  flower:
+    sub_stat:
+      atk: 0.5
+      atk_percent: 1.0
+      cr_percent: 0.75
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 1.0
+      cr_percent: 0.75
+      er_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.5
+      atk_percent: 1.0
+      cr_percent: 0.75
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      atk_percent: 1.0
+    sub_stat:
+      atk: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      atk_percent: 1.0
+      heal_percent: 1.0
+    sub_stat:
+      atk: 0.5
+      atk_percent: 1.0
+      cr_percent: 0.75
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - clam
+  notes: boost_heal_phys
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes: boost_hp_shield_party_atk
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  - set_group:
+    - maiden
+  - set_group:
+    - clam
+  notes:
+    - pick_2
+    - max_heal
+    - interim_set
+  weight: 0.75
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+    - early_game
+    - max_er
+  weight: 0.25

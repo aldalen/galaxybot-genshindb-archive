@@ -1,0 +1,37 @@
+type: Bow
+rarity: 5
+series: ''
+atk_start: 46.0
+substat: cr_percent
+substat_start: 7.2
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - 10%,20%,30%,48%
+  - values:
+    - 15%
+    - 12.5%,25%,37.5%,60%
+  - values:
+    - 18%
+    - 15%,30%,45%,72%
+  - values:
+    - 21%
+    - 17.5%,35%,52.5%,84%
+  - values:
+    - 24%
+    - 20%,40%,60%,96%
+ascension_materials:
+  weapon: mask
+  common:
+  - rifthound_claws
+  - spectral

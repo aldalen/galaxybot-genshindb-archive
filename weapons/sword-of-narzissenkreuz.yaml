@@ -1,0 +1,31 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: atk_percent
+substat_start: 9.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+  quests: true
+passive:
+  levels:
+  - values:
+    - 160%
+  - values:
+    - 200%
+  - values:
+    - 240%
+  - values:
+    - 280%
+  - values:
+    - 320%
+ascension_materials:
+  weapon: ancient_chord
+  common:
+  - transoceanic
+  - operative

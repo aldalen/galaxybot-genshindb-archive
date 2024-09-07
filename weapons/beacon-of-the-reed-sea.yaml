@@ -1,0 +1,43 @@
+type: Claymore
+rarity: 5
+series: ''
+atk_start: 46.0
+substat: cr_percent
+substat_start: 7.2
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 20%
+    - 32%
+  - values:
+    - 25%
+    - 25%
+    - 40%
+  - values:
+    - 30%
+    - 30%
+    - 48%
+  - values:
+    - 35%
+    - 35%
+    - 56%
+  - values:
+    - 40%
+    - 40%
+    - 64%
+ascension_materials:
+  weapon: scorching_might
+  common:
+  - eremite
+  - shell
+

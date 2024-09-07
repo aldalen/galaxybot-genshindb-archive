@@ -1,0 +1,33 @@
+type: Claymore
+rarity: 4
+atk_start: 42.0
+substat: em
+substat_start: 36.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 24%
+  - values:
+    - 30%
+  - values:
+    - 36%
+  - values:
+    - 42%
+  - values:
+    - 48%
+ascension_materials:
+  weapon: scorching
+  common:
+  - chaos_drake
+  - treasure
+
+

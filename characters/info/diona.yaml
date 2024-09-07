@@ -1,0 +1,22 @@
+element: cryo
+weapon: bow
+rarity: 4
+availability: standard
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: hoarfrost_core
+  local_specialty: calla_lily
+  common_material: arrowhead
+  talent: freedom
+  boss_talent: shard
+talents:
+  elemental_skill:
+    duration_seconds: 2.4 per paw
+    cooldown_seconds: 6.0/15.0
+  elemental_burst:
+    duration_seconds: 12.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: January
+  day: 18

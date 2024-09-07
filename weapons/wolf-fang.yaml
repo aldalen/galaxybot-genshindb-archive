@@ -1,0 +1,41 @@
+type: Sword
+rarity: 4
+series: ''
+atk_start: 42.0
+substat: cr_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: true
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 2%
+    - 2%
+  - values:
+    - 20%
+    - 2.5%
+    - 2.5%
+  - values:
+    - 24%
+    - 3%
+    - 3%
+  - values:
+    - 28%
+    - 3.5%
+    - 3.5%
+  - values:
+    - 32%
+    - 4%
+    - 4%
+ascension_materials:
+  weapon: decarabian
+  common:
+  - chaos_guards
+  - mask

@@ -1,0 +1,949 @@
+akuoumaru:
+  passive_text: لكل نقطة إينرجي من سعة إستخدام الألتمت للفريق بأكمله، سوف يزداد دمج
+    مهارة الالتمت للشخصية الحاملة لهذا السلاح بنسبة {0} يمكن الحصول على {1} زيادة
+    لدمج مهارة الالتمت كحد أقصى.
+  name: Akuoumaru
+  passive_name: Watatsumi Wavewalker
+  series: Watatsumi
+bloodtainted-greatsword:
+  passive_text: زيادة في الدمج على الأعداء المتأثرين بعناصر البايرو أو الإلكترو {0}.
+  name: Bloodtainted Greatsword
+  passive_name: Bane of Fire and Thunder
+  series: Bane
+calamity-queller:
+  passive_text: تحصل على زيادة دمج جميع العناصر بنسبة {0}. عند استخدامك لمهارة السكل
+    ستحصل على تأثير Consummation لمدة 20 ثانية مما يتسبب في زيادة الاتاك بنسبة {1}
+    وتتضاعف بحد أقصى 6 مرات. عندما يكون مستخدم السلاح غير متواجد بالساحة ولكن متواجد
+    بالفريق فسوف تحصل على ضعف زيادة الأتاك لذلك التأثير.
+  name: Calamity Queller
+  passive_name: Extinguishing Precept
+crescent-pike:
+  passive_text: بعد التقاط كرات/نقاط الالمنت، تحدث ضربات النورمل والتشارج ضرر إضافي
+    بنسبة {0} من الاتاك كدمج لمدة 5 ثواني.
+  name: Crescent Pike
+  passive_name: Infusion Needle
+  series: Infusion
+compound-bow:
+  passive_text: عند ضرب العدو بالنورمل أتاك أو التشارج أتاك، يزيد الاتاك بنسبة {0}
+    وسرعة الاتاك بنسبة {1} لمدة 6 ثواني. والحد هو 4 ستاكات. تفعل هذه الميزة مرة كل
+    0.3 ثانية.
+  name: Compound Bow
+  passive_name: Infusion Arrow
+  series: Infusion
+amenoma-kageuchi:
+  passive_text: عند استخدام مهارة السكل تحصل على نقطة من Succession Seed، يمكن تفعيل
+    الميزة مرة كل ٥ ثواني، وتتراكم لثلاث مرات، تبقى نقطة الـ Succession Seed مفعلة
+    لمدة ٣٠ ثانية.عند استخدام مهارة الالتمت للشخصية يتم استخدام النقاط المجمعة لديك
+    وستحصل على {0} حبات طاقة بعد ثانيتين من استخدام مهارة الالتمت لكل نقطة.
+  name: Amenoma Kageuchi
+  passive_name: Iwakura Succession
+  series: Amethyst
+dragons-bane:
+  passive_text: زيادة في الدمج على الاعداء المتأثرين بعنصر الهايدرو أو البايرو بنسبة
+    20%.
+  name: Dragon's Bane
+  passive_name: Bane of Flame and Water
+  series: Kunwu
+dragonspine-spear:
+  passive_text: عند ضرب العدو بضربات نورمل أو تشارج، هناك فرصة بنسبة {0} لتشكل Everfrost
+    Icicle فوق الأعداء، يحدث دمج AoE بنسبة {1} من الأتاك. إذا كان الخصم عليه تأثير
+    كرايو، يكون الـ AoE دمج {2}. يمكن ان تفعل الميزة مرة كل 10 ثواني.
+  name: Dragonspine Spear
+  passive_name: Frost Burial
+  series: Dragonspine
+black-tassel:
+  passive_text: زيادة في الدمج بمقدار {0} على كائنات السلايم.
+  name: Black Tassel
+  series: Bane
+  passive_name: Bane of the Soft
+amos-bow:
+  passive_text: زيادة في دمج النورمل والتشارج بنسبة {0}. بعد إطلاق ضربة نورمل أو تشارج،
+    الدمج سيزيد بمقدار {1} في كل مرة يكون السهم في الهواء لمدة 0.1 ثانية، وتتراكم
+    الزيادة إلى 5 مرات.
+  name: Amos' Bow
+  passive_name: Strong-Willed
+cool-steel:
+  passive_text: زيادة في الدمج على الأعداء المتأثرين بعناصر الهايدرو و الكرايو {0}.
+  name: Cool Steel
+  passive_name: Bane of Water and Ice
+  series: Bane
+cinnabar-spindle:
+  passive_text: زيادة في دمج السكل بمقدار {0} من الديفنس. هذا التأثير لا يتفعل إلا
+    عند مرور 1.5 ثواني ويختفي بعد 0.1 ثانية بعد أن يسبب السكل دمج.
+  name: Cinnabar Spindle
+  passive_name: Spotless Heart
+deathmatch:
+  passive_text: عندما يكون هناك عدوين أو أكثر بالقرب منك سيزداد الاتاك لدى حامل السلاح
+    بمقدار {0} والديفنس بمقدار {1} وعندما يكون عدو واحد فقط بالقرب منك سيزداد الاتاك
+    بمقدار {2}.
+  name: Deathmatch
+  passive_name: Gladiator
+hamayumi:
+  passive_text: زيادة في دمج النورمل أتاك بنسبة {0} والتشارج أتاك بنسبة {1}. عندما
+    يكون الإنيرجي ريتشارج 100%، يزيد التأثير بنسبة 100% (يتضاعف) .
+  name: Hamayumi
+  passive_name: Full Draw
+  series: Amethyst
+haran-geppaku-futsu:
+  passive_text: زيادة في الالمنتل دمج بونص لجميع العناصر بنسبة {0}. عندما يستخدم احد
+    أعضاء الفريق مهارة السكل، سيحصل حامل هذا السلاح على نقطة Wavespike واحدة و الحد
+    الأقصى نقطتان، ويمكن الحصول على نقطة واحدة كل 0.3 ثانية ، عندما يستخدم حامل السلاح
+    مهارة السكل فسوف يستهلك نقاط Wavespike كلها والتي ستزيد من دمج النورمل اتاك بنسبة
+    {1} لمدة 8 ثوانِ لكل نقطة.
+  name: Haran Geppaku Futsu
+  passive_name: Honed Flow
+kaguras-verity:
+  passive_text: عند استخدام مهارة السكل ستحصل على تأثير Kagura Dance والتي تمنح زيادة
+    في دمج مهارة السكل بنسبة {0} لمدة 16 ثانية، وتتضاعف النسبة إلى 3 أضعاف كحد أقصى.
+    عند الحصول على 3 مضاعفات، ستحصل على زيادة في الالمنتل دمج لجميع العناصر بنسبة
+    {1}.
+  name: Kagura's Verity
+  passive_name: Kagura Dance of the Sacred Sakura
+katsuragikiri-nagamasa:
+  passive_text: زيادة في الدمج لمهارة السكل بنسبة {0}. عند ضرب العدو بالمهارة تفقد
+    3 نقاط إينرجي لكن تسترجع {0} نقاط إينرجي كل ثانيتين ولمدة 6 ثواني. يحدث التأثير
+    مرة واحدة كل 10 ثواني ويمكن ان تتفعل الميزة حتى وان كانت الشخصية غير متواجدة في
+    الساحة.
+  name: Katsuragikiri Nagamasa
+  passive_name: Samurai Conduct
+  series: Amethyst
+lithic-spear:
+  passive_text: لأي شخصية في الفريق من مدينة ليوي، الشخصية التي تستخدم هذا السلاح
+    تكسب {0} أتاك و {1} كريت ريت، يتراكم هذا التأثير 4 مرات كحد أقصى.
+  name: Lithic Spear
+  passive_name: 'Lithic Axiom: Unity'
+  series: Lithic
+luxurious-sea-lord:
+  passive_text: زيادة في ضرر الألتمت بنسبة {0}، وعندما تسبب دمج للعدو بإستخدام الألتمت،
+    ستستدعي تونا عملاقة تسبب دمج AoE بمقدار {1} من الأتاك. يمكن إحداث هذا التأثير
+    مرة كل 15 ثانية.
+  name: Luxurious Sea-Lord
+  passive_name: Oceanic Victory
+magic-guide:
+  passive_text: زيادة في الدمج على الأعداء المتأثرين بعناصر الهايدرو أو الإلكترو بنسبة
+    {0}.
+  name: Magic Guide
+  passive_name: Bane of Storm and Tide
+  series: Bane
+mappa-mare:
+  passive_text: إحداث أي تفاعل يمنح {0} المنتل دمج بونص لمدة 10 ثواني. والحد هو ستاكين.
+  name: Mappa Mare
+  passive_name: Infusion Scroll
+  series: Infusion
+memory-of-dust:
+  passive_text: زيادة قوة الدرع بنسبة {0}. عند إحداث ضربات على الأعداء يزداد الأتاك
+    بنسبة {1} لمدة 8 ثواني. والحد هو 5 ستاكات. ويحدث ذلك كل 0.3 ثانية. إن كنت محميا
+    بدرع، تأثير الأتاك هذا سيزداد بنسبة 100% (يتضاعف).
+  name: Memory of Dust
+  passive_name: Golden Majesty
+  series: Liyue
+mistsplitter-reforged:
+  passive_text: "زيادة في الالمنتل دمج بونص لجميع العناصر بنسبة {0}. ستاكات Mistsplitter's\
+    \ Emblem لها 1/2/3 من المستويات، وتحصل الشخصية مع كل ستاك زيادة بنسبة {1} المنتل\
+    \ دمج بونص الخاص بحامل السلاح. يمكن الحصول على الستاكات في الحالات الآتية: عندما\
+    \ تحدث النورمل أتاك المنتل دمج (تبقى لمدة 5 ثوانٍ). عند إستخدام مهارة الألتمت\
+    \ ( تبقى لمدة 10 ثوانٍ). عندما تكون نقاط الإنيرجي اقل من 100% (ينتهي عندما تكون\
+    \ الطاقة ممتلئة) وكل حاله تُحسب بشكل مستقل."
+  name: Mistsplitter Reforged
+  series: Inazuma
+  passive_name: Mistsplitter's Edge
+polar-star:
+  passive_text: زيادة ضرر مهارة السكل ومهارة الالتمت بنسبة {0} عند ضرب الأعداء بواسطة
+    النورمل أتاك / التشارج أتاك / مهارة السكل / مهارة الألتمت، ستحصل على مضاعفة من
+    Ashen Nightstar لمدة 12 ثانية عند وجود مضاعفات 1/2/3/4 من قدرة Ashen Nightstar
+    سيزداد الأتاك لديك بنسبة {1} وكل مضاعفة مستقلة عن الاخرى.
+  name: Polar Star
+  passive_name: Daylight's Augury
+primordial-jade-cutter:
+  passive_text: تزداد نقاط الصحةبنسبة {0}، وأيضا، تحصل على أتاك بونص معتمدا على نسبة
+    {1} من نقاط الصحة الإجمالية للشخصية.
+  name: Primordial Jade Cutter
+  passive_name: Protector's Virtue
+  series: Primordial Jade
+primordial-jade-winged-spear:
+  passive_text: عند تحقيق ضربة يزداد الأتاك بنسبة {0} لمدة 6 ثواني. ويتراكم 7 مرات
+    فقط. وتحصل على ستاك كل 0.3 ثواني. وحينما تحصل على جميع الستاكات السبعة، سيزيد
+    الدمج بنسبة {1}.
+  name: Primordial Jade Winged-Spear
+  passive_name: Eagle Spear of Justice
+  series: Primordial Jade
+elegy-for-the-end:
+  passive_text: 'هذا السلاح يعتبر من أسلحة "Millennial Movement". يزيد الالمنتل ماستري
+    بمقدار {0}. عندما تقوم مهارة السكل أو الالتمت الخاصة بالشخصية الحاملة لهذا السلاح
+    بضرب أحد الأعداء فإنك ستحصل على تأثير Sigil Of Remembrance ويمكن تكرار هذا التأثير
+    مرة كل 0.2 ثانية حتى لو كانت الشخصية الحاملة للسلاح ليست متواجدة في الساحة، عندما
+    تتجمع لديك أربعة نقاط من Sigil Of Remembrance سيتم استهلاكهم ويحصل جميع شخصياتك
+    علي تأثير Millennial Movement: Farewell Song لمدة 12 ثانية وتعطيك :زيادة في الالمنتل
+    ماستري بمقدار {1} و زيادة في الاتاك بمقدار {2} ولكن عند تفعيل Millennial Movement
+    فلن تستطيع الحصول على نقاط Sigils Of Remembrance لمدة 20 ثانية، والبفات من نفس
+    نوع الـ Millennial Movement لا يمكنها أن تتراكم.'
+  name: Elegy for the End
+  passive_name: The Parting Refrain
+  series: Millennial Movement
+favonius-greatsword:
+  passive_text: تتمتع ضربات الكريت بفرصة {0} لتوليد كمية صغيرة من جزيئات الالمنتل
+    والتي ستجدد 6 إنيرجي للشخصية. يمكن أن يحدث مرة واحدة فقط كل {1} ثانية.
+  name: Favonius Greatsword
+  passive_name: Windfall
+  series: Favonius
+favonius-lance:
+  passive_text: تتمتع ضربات الكريت بفرصة {0} لتوليد كمية صغيرة من جزيئات الالمنتل
+    والتي ستجدد 6 إنيرجي للشخصية. يمكن أن يحدث مرة واحدة فقط كل {1} ثانية.
+  name: Favonius Lance
+  passive_name: Windfall
+  series: Favonius
+favonius-sword:
+  passive_text: تتمتع ضربات الكريت بفرصة {0} لتوليد كمية صغيرة من جزيئات الالمنتل
+    والتي ستجدد 6 إنيرجي للشخصية. يمكن أن يحدث مرة واحدة فقط كل {1} ثانية.
+  name: Favonius Sword
+  passive_name: Windfall
+  series: Favonius
+festering-desire:
+  passive_text: زيادة في دمج مهارة السكل بنسبة {0}. وزيادة في الكريت ريت الخاص بمهارة
+    السكل بنسبة {1}.
+  name: Festering Desire
+  passive_name: Undying Admiration
+blackcliff-agate:
+  passive_text: بعد هزيمة اي عدو يزداد الأتاك بمقدار {0} لمدة 30 ثانية يتراكم هذا
+    التأثير ثلاث مرات كحد اقصى وتكون مدة كل تأثير متراكم مستقلة عن غيرها.
+  name: Blackcliff Agate
+  passive_name: Press the Advantage
+  series: Blackcliff
+blackcliff-longsword:
+  passive_text: بعد هزيمة اي عدو يزداد الأتاك بمقدار {0} لمدة 30 ثانية يتراكم هذا
+    التأثير ثلاث مرات كحد اقصى وتكون مدة كل تأثير متراكم مستقلة عن غيرها.
+  name: Blackcliff Longsword
+  series: Blackcliff
+  passive_name: Press the Advantage
+blackcliff-pole:
+  passive_text: بعد هزيمة اي عدو يزداد الأتاك بمقدار {0} لمدة 30 ثانية يتراكم هذا
+    التأثير ثلاث مرات كحد اقصى وتكون مدة كل تأثير متراكم مستقلة عن غيرها.
+  name: Blackcliff Pole
+  passive_name: Press the Advantage
+  series: Blackcliff
+blackcliff-slasher:
+  passive_text: بعد هزيمة اي عدو يزداد الأتاك بمقدار {0} لمدة 30 ثانية يتراكم هذا
+    التأثير ثلاث مرات كحد اقصى وتكون مدة كل تأثير متراكم مستقلة عن غيرها.
+  name: Blackcliff Slasher
+  passive_name: Press the Advantage
+  series: Blackcliff
+blackcliff-warbow:
+  passive_text: بعد هزيمة اي عدو يزداد الأتاك بمقدار {0} لمدة 30 ثانية يتراكم هذا
+    التأثير ثلاث مرات كحد اقصى وتكون مدة كل تأثير متراكم مستقلة عن غيرها.
+  name: Blackcliff Warbow
+  passive_name: Press the Advantage
+  series: Blackcliff
+dark-iron-sword:
+  passive_text: عند حدوث تفاعل Overloaded أو Superconduct أو Electro-Charged أو تفاعل
+    Swirl مع عنصر الإلكترو، يزداد الأتاك بنسبة {0} لمدة 12 ثانية.
+  name: Dark Iron Sword
+  passive_name: Overloaded
+emerald-orb:
+  passive_text: عند حدوث تفاعل Vaporize أو Electro-Charged أو Frozen أو تفاعل Swirl
+    بعنصر الهايدرو، يزداد الأتاك بنسبة {0} لمدة 12 ثانية.
+  name: Emerald Orb
+  passive_name: Rapids
+engulfing-lightning:
+  passive_text: زيادة في الأتاك بنسبة {0} من نسبة الإنيرجي ريتشارج الخاص بالشخصية
+    الذي يكون فوق 100%.يمكنك الحصول على نسبة {1} من الأتاك كحد أقصى ،وبعد إستخدام
+    الالتمت يزداد الإنيرجي ريتشارج بمقدار {2} لمدة 12 ثانية.
+  name: Engulfing Lightning
+  passive_name: 'Timeless Dream: Eternal Stove'
+  series: Inazuma
+everlasting-moonglow:
+  passive_text: يتم زيادة الهيلنق بونص بمقدار {0} ، وزيادة دمج النورمل أتاك بنسبة
+    {1} من إجمالي نقاط الصحة للشخصية التي تقوم بإستعمال هذا السلاح. بعد استخدام الالتمت،
+    ستستعيد النورمل أتاك التي تصيب الخصوم بمقدار 0.6 من الإنيرجي لمدة 12 ثانية . يمكن
+    استعادة الإنيرجي بهذه الطريقة مرة واحدة كل 0.1 ثانية.
+  name: Everlasting Moonglow
+  passive_name: Byakuya Kougetsu
+favonius-codex:
+  passive_text: تتمتع ضربات الكريت بفرصة {0} لتوليد كمية صغيرة من جزيئات الالمنتل
+    والتي ستجدد 6 إنيرجي للشخصية. يمكن أن يحدث مرة واحدة فقط كل {1} ثانية.
+  name: Favonius Codex
+  passive_name: Windfall
+  series: Favonius
+favonius-warbow:
+  passive_text: تتمتع ضربات الكريت بفرصة {0} لتوليد كمية صغيرة من جزيئات الالمنتل
+    والتي ستجدد 6 إنيرجي للشخصية. يمكن أن يحدث مرة واحدة فقط كل {1} ثانية.
+  name: Favonius Warbow
+  passive_name: Windfall
+  series: Favonius
+ferrous-shadow:
+  passive_text: عندما تكون نقاط الصحة أقل من {0}، يزداد دمج التشارج أتاك بنسبة {1}
+    ويصبح من الصعب مقاطعته.
+  name: Ferrous Shadow
+  passive_name: Unbending
+fillet-blade:
+  passive_text: عند تحقيق دمج، يوجد فرصة بنسبة 50% للتسبب بدمج يعادل {0} من الأتاك
+    على عدو واحد. يحصل مرة كل {1}.
+  name: Fillet Blade
+  passive_name: Gash
+frostbearer:
+  passive_text: عند ضرب العدو بضربات نورمل أو تشارج، هناك فرصة بنسبة {0} لتشكل Everfrost
+    Icicle فوق الأعداء، يحدث دمج AoE يعادل {1} من الأتاك. إذا كان الخصم عليه تأثير
+    كرايو، يكون الدمج الـ AoE يعادل {2} من الأتاك. يمكن ان تفعل الميزة مرة كل 10 ثواني.
+  name: Frostbearer
+  passive_name: Frost Burial
+  series: Dragonspine
+hakushin-ring:
+  passive_text: بعد ان تنفذ الشخصية الحاملة للسلاح أي تفاعل لعنصر الإلكترو، أي شخصية
+    موجودة في الفريق ولها نفس العنصر المشترك في التفاعل تحصل على زيادة في المنتل دمج
+    بنسبة {0} لنفس العنصر ولمدة ٦ ثواني. لا يمكن أن تتراكم هذه الميزة.
+  name: Hakushin Ring
+  passive_name: Sakura Saiguu
+  series: Amethyst
+halberd:
+  passive_text: النورمل أتاك سوف يسبب دمج أكثر بنسبة {0} من الأتاك. هذا التأثير لا
+    يحدث إلا مرة كل 10 ثواني.
+  name: Halberd
+  passive_name: Heavy
+harbinger-of-dawn:
+  passive_text: حينما تكون نقاط الصحة أعلى من 90%، يزداد الكريت ريت بمقدار {0}.
+  name: Harbinger of Dawn
+  passive_name: Vigorous
+iron-sting:
+  passive_text: التسبب في أي دمج المنتل يزيد جميع الدمج بنسبة {0} لمدة 6 ثواني. والحد
+    هو ستاكين. ويحدث التأثير كل ثانية واحدة.
+  name: Iron Sting
+  passive_name: Infusion Stinger
+  series: Infusion
+kitain-cross-spear:
+  passive_text: زيادة في الدمج لمهارة السكل بنسبة {0}. عند ضرب العدو بالمهارة تفقد
+    3 نقاط إينرجي لكن تسترجع {0} نقاط إينرجي كل ثانيتين ولمدة 6 ثواني. يحدث التأثير
+    مرة واحدة كل 10 ثواني ويمكن ان تتفعل الميزة حتى وان كانت الشخصية غير متواجدة في
+    الساحة.
+  name: Kitain Cross Spear
+  series: Amethyst
+  passive_name: Samurai Conduct
+lions-roar:
+  passive_text: زيادة في الدمج على الأعداء المتأثرين بعناصر البايرو أو الإلكترو بنسبة
+    {0}.
+  name: Lion's Roar
+  passive_name: Bane of Fire and Thunder
+  series: Kunwu
+lithic-blade:
+  passive_text: لأي شخصية في الفريق من مدينة ليوي، الشخصية التي تستخدم هذا السلاح
+    تكسب {0} أتاك و {1} كريت ريت، يتراكم هذا التأثير 4 مرات كحد أقصى.
+  name: Lithic Blade
+  passive_name: 'Lithic Axiom: Unity'
+  series: Lithic
+lost-prayer-to-the-sacred-winds:
+  passive_text: زيادة في سرعة الحركة بنسبة 10%، حين تخوض معركة، تحصل على {0} المنتل
+    دمج بونص كل 4 ثواني. والحد هو 4 ستاكات. تبقى إلى أن تموت الشخصية أو تغادر المعركة
+    (تبديل الشخصية يعتبر مغادرة للمعركة)
+  name: Lost Prayer to the Sacred Winds
+  passive_name: Boundless Blessing
+messenger:
+  passive_text: التشارج الأتاك على نقاط ضعف الأعداء يمنح زيادة في الكريت دمج بنسبة
+    {0} من الأتاك دمج لهذه الضربة. يحدث ذلك كل 10 ثواني فقط.
+  name: Messenger
+  passive_name: Archer's Message
+mitternachts-waltz:
+  passive_text: ضربات النورمل أتاك على الأعداء تزيد دمج مهارة السكل بنسبة {0} لمدة
+    5 ثواني. ضربات مهارة السكل تزيد دمج النورمل أتاك بنسبة {1} لمدة 5 ثواني.
+  name: Mitternachts Waltz
+  passive_name: Evernight Duet
+mouuns-moon:
+  passive_text: لكل نقطة إينرجي من سعة إستخدام الألتمت للفريق بأكمله، سوف يزداد ضرر
+    مهارة الالتمت للشخصية الحاملة لهذا السلاح بنسبة {0} يمكن الحصول على {1} زيادة
+    لدمج مهارة الالتمت كحد أقصى.
+  name: Mouun's Moon
+  passive_name: Watatsumi Wavewalker
+  series: Watatsumi
+oathsworn-eye:
+  passive_text: زيادة الإنيرجي ريتشارج بنسبة {0} لمدة 10 ثواني بعد استخدام مهارة السكل.
+  name: Oathsworn Eye
+  passive_name: People of the Faltering Light
+otherworldly-story:
+  passive_text: كل كرة أو جزيء من الالمنت يسترجع {0} من نقاط الصحة.
+  name: Otherworldly Story
+  passive_name: Energy Shower
+predator:
+  passive_text: '*ملاحظة: هذا التأثير فعال في أجهزة البلايستيشن فقط* التسبب في دمج
+    كرايو يزيد من دمج النورمل والتشارج أتاك للشخصية بنسبة {}% لمدة 6 ثواني. هذا التأثير
+    يتراكم مرتين فقط. وأيضا، عندما تكون شخصية "ألوي" حاملة للسلاح، يزداد الأتاك بمقدار
+    {}.'
+  name: Predator
+  series: Outlander
+  passive_name: Strong Strike
+freedom-sworn:
+  passive_text: 'هذا السلاح يعتبر من أسلحة "Millennial Movement". يزيد الدمج بمقدار
+    {0}. عندما تقوم الشخصية الحاملة لهذا السلاح بإحداث تفاعل فإنك ستحصل على تأثير
+    Sigil Of Rebellion ويمكن تكرار هذا التأثير مرة كل 0.5 ثانية حتى لو كانت الشخصية
+    الحاملة للسلاح ليست متواجدة في الساحة، عندما تتجمع لديك نقطتين من Sigil Of Rebellion
+    سيتم استهلاكهم ويحصل جميع شخصياتك علي تأثير "Millennial Movement: Song of Resistance"
+    لمدة 12 ثانية وتعطيك :زيادة دمج النورمل والتشارج والبلنج بمقدار {1} و زيادة في
+    الاتاك بمقدار {2} ولكن عند تفعيل Millennial Movement فلن تستطيع الحصول على نقاط
+    Sigil Of Rebellion لمدة 20 ثانية، والبفات من نفس نوع الـ Millennial Movement لا
+    يمكنها أن تتراكم.'
+  name: Freedom-Sworn
+  passive_name: Revolutionary Chorale
+  series: Millennial Movement
+prototype-archaic:
+  passive_text: عند تحقيق ضربة، يوجد فرصة 50% لضربات النورمل والتشارج إلحاق دمج إضافي
+    نسبته {0} من الأتاك حول AoE صغير. يحدث ذلك مرة كل 15 ثانية.
+  name: Prototype Archaic
+  passive_name: Crush
+  series: Prototype
+prototype-amber:
+  passive_text: استخدام مهارة الألتمت يسترجع {0} نقاط إينرجي كل ثانيتين لمدة 6 ثواني.
+    جميع أعضاء الفريق سيسترجوا نسبة {1} من نقاط الصحة كل ثانيتين خلال تلك المدة.
+  name: Prototype Amber
+  passive_name: Gilding
+  series: Prototype
+prototype-crescent:
+  passive_text: ضربات التشارج الأتاك على نقاط الضعف ستزيد سرعة الحركة 10% والأتاك
+    بنسبة {0} لمدة 10 ثواني.
+  name: Prototype Crescent
+  passive_name: Unreturning
+  series: Prototype
+redhorn-stonethresher:
+  passive_text: يزداد الديفنس بنسبة {0}. ودمج النورمل والتشارج يزداد بنسبة {1} من
+    الديفنس.
+  name: Redhorn Stonethresher
+  passive_name: Gokadaiou Otogibanashi
+royal-greatsword:
+  passive_text: حين تدمج عدوا، يزداد الكريت ريت بنسبة {0}. تتراكم إلى 5 مرات فقط.
+    وضربة كريت تزيل جميع الستاكات.
+  name: Royal Greatsword
+  series: Royal
+  passive_name: Focus
+royal-grimoire:
+  passive_text: حين تدمج عدوا، يزداد الكريت ريت بنسبة {0}. تتراكم إلى 5 مرات فقط.
+    وضربة كريت تزيل جميع الستاكات.
+  name: Royal Grimoire
+  series: Royal
+  passive_name: Focus
+royal-spear:
+  passive_text: حين تدمج عدوا، يزداد الكريت ريت بنسبة {0}. تتراكم إلى 5 مرات فقط.
+    وضربة كريت تزيل جميع الستاكات.
+  name: Royal Spear
+  passive_name: Focus
+  series: Royal
+sacrificial-fragments:
+  passive_text: بعد إحداث دمج على العدو بمهارة السكل، هنالك فرصة بنسبة {0} لانتهاء
+    وقت إنتظار المهارة. تحدث مرة كل {1}.
+  name: Sacrificial Fragments
+  series: Sacrificial
+  passive_name: Composed
+sacrificial-sword:
+  passive_text: بعد إحداث دمج على العدو بمهارة السكل، هنالك فرصة بنسبة {0} لانتهاء
+    وقت إنتظار المهارة. تحدث مرة كل {1}.
+  name: Sacrificial Sword
+  passive_name: Composed
+  series: Sacrificial
+serpent-spine:
+  passive_text: كل أربعة ثواني والشخصية في الساحة، ستسبب {0} دمج أكثر وتستقبل {0}
+    دمج أكثر. هذا التأثير لديه 5 ستاكات كحد أقصى وهذا التأثير لا يختفي عندما تغادر
+    الشخصية ساحة القتال، ولكن ينقص ستاك عندما تتلقى دمج.
+  name: Serpent Spine
+  passive_name: Wavesplitter
+prototype-rancour:
+  passive_text: عند تحقيق ضربة نورمل أو تشارج أتاك يزداد الأتاك والديفنس بنسبة {0}
+    لمدة 6 ثواني. تتراكم إلى 4 مرات فقط. وهذا التأثير يحدث مرة كل 0.3 ثانية.
+  name: Prototype Rancour
+  series: Prototype
+  passive_name: Smashed Stone
+skyrider-sword:
+  passive_text: استخدام مهارة الألتمت يعطي زيادة بمقدار {0} للأتاك وسرعة الحركة لمدة
+    15 ثانية.
+  name: Skyrider Sword
+  passive_name: Determination
+  series: Skyrider
+skyward-atlas:
+  passive_text: يزيد الالمنتل دمج بونص بمقدار {0}. النورمل أتاك لديها احتمالية بنسبة
+    50% أن تعطيك سحابة تهجم على الأعداء القريبين لمدة 15 ثانية، وتحدث دمج قدره {}
+    من الاتاك، هذه الخاصية تتكرر مرة كل 30 ثانية.
+  name: Skyward Atlas
+  passive_name: Wandering Clouds
+  series: Mondstadt
+skyward-blade:
+  passive_text: 'زيادة في الكريت ريت بنسبة {0}. وتحصل على تأثير Skypiercing Might
+    حينما تستخدم الألتمت: يزيد التأثير سرعة الحركة بنسبة {1}، ويزيد الأتاك بنسبة {2}،
+    وضربات النورمل والتشارج تسبب دمج إضافي يعادل {3} من الأتاك. وتأثير Skypiercing
+    Might يظل لمدة 12 ثانية.'
+  name: Skyward Blade
+  passive_name: Sky-Piercing Fang
+  series: Mondstadt
+skyward-spine:
+  passive_text: زيادة في الكرت ريت بنسبة {0} وزيادة في سرعة النورمل أتاك بنسبة {1}.
+    وأيضا، ضربات النورمل والتشارج أتاك على الأعداء لديها احتمالية بنسبة {2} لصنع دوامة
+    تلحق دمج بنسبة {3} من الأتاك في AoE صغير. وهذا التأثير يحدث مرة كل ثانيتين.
+  name: Skyward Spine
+  passive_name: Black Wing
+  series: Mondstadt
+snow-tombed-starsilver:
+  passive_text: تحقيق ضربة بالنورمل أو التشارج أتاك لديه فرصة بنسبة {0} لتشكيل وإسقاط
+    Everfrost Icicle فوق الأعداء ، مما يتسبب في دمج AoE بنسبة {1} من الأتاك. الأعداء
+    المتأثرين بعنصر الثلج سيتعرضون لدمج أكثر من ذلك وبنسبة {2} من الأتاك. يمكن حدوث
+    هذا التأثير مرة كل عشر ثواني.
+  name: Snow-Tombed Starsilver
+  passive_name: Frost Burial
+  series: Dragonspine
+prototype-starglitter:
+  passive_text: بعد استخدام مهارة السكل، يزداد دمج النورمل والتشارج أتاك بنسبة {0}
+    لمدة 12 ثانية، وتتراكم مرتين كحد أقصى.
+  name: Prototype Starglitter
+  series: Prototype
+  passive_name: Magic Affinity
+rainslasher:
+  passive_text: زيادة في الدمج على الأعداء المتأثرين بعناصر الهايدرو أو الإلكترو بنسبة
+    {0}.
+  name: Rainslasher
+  passive_name: Bane of Storm and Tide
+  series: Bane
+raven-bow:
+  passive_text: زيادة في الدمج على الأعداء المتأثرين بعناصر الهايدرو أو الإلكترو بنسبة
+    {0}.
+  name: Raven Bow
+  passive_name: Bane of Flame and Water
+  series: Bane
+recurve-bow:
+  passive_text: هزيمة الأعداء تسترجع {0} من نقاط الصحة.
+  name: Recurve Bow
+  passive_name: Cull the Weak
+royal-bow:
+  passive_text: حين تدمج عدوا، يزداد الكريت ريت بنسبة {0}. تتراكم إلى 5 مرات فقط.
+    وضربة كريت تزيل جميع الستاكات.
+  name: Royal Bow
+  series: Royal
+  passive_name: Focus
+rust:
+  passive_text: يزداد دمج النورمل أتاك بنسبة {0}. ولكن ينقص دمج التشارج أتاك بنسبة
+    10%.
+  name: Rust
+  passive_name: Rapid Firing
+sacrificial-bow:
+  passive_text: بعد إحداث دمج على العدو بمهارة السكل، هنالك فرصة بنسبة {0} لانتهاء
+    وقت إنتظار المهارة. تحدث مرة كل {1}.
+  name: Sacrificial Bow
+  passive_name: Composed
+  series: Sacrificial
+sacrificial-greatsword:
+  passive_text: بعد إحداث دمج على العدو بمهارة السكل، هنالك فرصة بنسبة {0} لانتهاء
+    وقت إنتظار المهارة. تحدث مرة كل {1}.
+  name: Sacrificial Greatsword
+  series: Sacrificial
+  passive_name: Composed
+sharpshooters-oath:
+  passive_text: زيادة الدمج على نقاط الضعف بنسبة {0}.
+  name: Sharpshooter's Oath
+  passive_name: Precise
+royal-longsword:
+  passive_text: حين تدمج عدوا، يزداد الكريت ريت بنسبة {0}. تتراكم إلى 5 مرات فقط.
+    وضربة كريت تزيل جميع الستاكات.
+  name: Royal Longsword
+  passive_name: Focus
+  series: Royal
+skyrider-greatsword:
+  passive_text: عند تحقيق ضربة بالنورمل أو التشارج أتاك يزداد الأتاك بنسبة {0} لمدة
+    6 ثواني. الحد هو 4 ستاكات فقط. يحدث مرة كل 0.5 ثانية.
+  name: Skyrider Greatsword
+  passive_name: Courage
+  series: Skyrider
+skyward-harp:
+  passive_text: زيادة في الكريت دمج بنسبة {0}. تحقيق الضربات لديه احتمالية بنسبة {1}
+    أن يسبب AoE أتاك، يعادل 125% من الاتاك كفيزيكال دمج. يحدث مرة كل {2}.
+  name: Skyward Harp
+  series: Mondstadt
+  passive_name: Echoing Ballad
+skyward-pride:
+  passive_text: زيادة في الدمج بنسبة {0}. بعد استخدام مهارة الالتمت، تحقيق ضربات النورمل
+    أو التشارج ستصنع دوامة تسبب {1} من الاتاك على الأعداء في طريقها. تصمد لمدة 20
+    ثانية أو 8 ضربات من الدوامة.
+  name: Skyward Pride
+  series: Mondstadt
+  passive_name: Sky-ripping Dragon Spine
+slingshot:
+  passive_text: إذا ضربت النورمل أو التشارج أتاك العدو في غضون 0.3 ثانية من وقت إطلاقها،
+    يزداد الدمج بنسبة {0}، غير ذلك، ينقص الدمج بنسبة 10%.
+  name: Slingshot
+  passive_name: Slingshot
+solar-pearl:
+  passive_text: ضربات النورمل أتاك تزيد دمج مهارة السكل والألتمت بنسبة {0} لمدة 6
+    ثواني. وأيضا، ضربات من مهارة السكل أو الألتمت تزيد دمج النورمل أتاك بنسبة {1}
+    لمدة 6 ثواني.
+  name: Solar Pearl
+  passive_name: Solar Shine
+  series: Kunwu
+song-of-broken-pines:
+  passive_text: 'هذا السلاح يعتبر من أسلحة "Millennial Movement". يزيد الاتاك بمقدار
+    {0}. عندما تضرب نورمل أو تشارج أتاك الأعداء ستحصل الشخصية على نقطة Sigil of Whispers
+    ويمكن تكرار هذا التأثير مرة كل 0.3 ثانية حتى لو كانت الشخصية الحاملة للسلاح ليست
+    متواجدة في الساحة، عندما تتجمع لديك أربع نقاط من Sigil of Whispers سيتم استهلاكهم
+    ويحصل جميع شخصياتك علي تأثير "Millennial Movement: Banner-Hymn" لمدة 12 ثانية
+    وتعطيك :زيادة في سرعة النورمل أتاك بمقدار {1} و زيادة في الاتاك بمقدار {2} ولكن
+    عند تفعيل Millennial Movement فلن تستطيع الحصول على نقاط Sigil of Whispers لمدة
+    20 ثانية، والبفات من نفس نوع الـ Millennial Movement لا يمكنها أن تتراكم.'
+  name: Song of Broken Pines
+  passive_name: Rebel's Banner-Hymn
+  series: Millennial Movement
+staff-of-homa:
+  passive_text: زيادة في نقاط الصحة بنسبة {0}. ,وأيضا يمنح حامل السلاح أتاك بونص بنسبة
+    {1} من إجمالي نقاط الصحة. وحين تكون نقاط صحة الشخصية أقل من 50%، سيمنح أتاك بونص
+    إضافي بنسبة {2} من نقاط الصحة.
+  name: Staff of Homa
+  passive_name: Reckless Cinnabar
+sword-of-descension:
+  passive_text: "هذا السلاح فعال على:\n\"أجهزة البلايستيشن فقط\"\nتحقيق ضربات نورمل\
+    \ أو تشارج أتاك على الأعداء فيه احتمالية {0} ليسبب {1} من الاتاك كدمج حول AoE\
+    \ صغير، يحدث هذا التأثير مرة كل 10 ثواني. وأيضا، إذا كان الترافلر من يستخدم Sword\
+    \ of Descension يزيد الاتاك بمقدار {2}."
+  name: Sword of Descension
+  passive_name: Descension
+  series: Outlander
+the-black-sword:
+  passive_text: زيادة في دمج النورمل والتشارج أتاك بنسبة {0}. وأيضا، تسترجع الشخصية
+    {1} من الاتاك كنقاط صحة حين تحقيق ضربة كريت من النورمل أو التشارج أتاك. هذا التأثير
+    يحدث مرة كل 5 ثواني.
+  name: The Black Sword
+  passive_name: Justice
+the-flute:
+  passive_text: تمنح النورمل والتشارج أتاك حين تحقيق ضربة على العدو Harmonic (نغمة)،
+    حين تجمع 5 نغمات تتفعل قوة الموسيقى وتسبب {0} من الاتاك للأعداء المحيطين بك. النغمات
+    تصمد لمدة 30 ثانية. وتستطيع الحصول عليها مرة كل 0.5 ثانية.
+  name: The Flute
+  passive_name: Chord
+  series: Wanderer's Troupe
+the-unforged:
+  passive_text: زيادة في قوة الدرع بنسبة {0}. تحقيق الضربات على الأعداء يزيد الاتاك
+    بنسبة {1} لمدة 8 ثواني. الحد هو 5 ستاكات. وتحصل على ستاك واحد كل 0.3 ثانية. حين
+    تكون محميا بدرع، هذا التأثير يزيد بنسبة 100% (يتضاعف)
+  name: The Unforged
+  passive_name: Golden Majesty
+  series: Liyue
+the-viridescent-hunt:
+  passive_text: تحقيق ضربة نورمل أو تشارج أتاك فيه احتمالية بنسبة 50% لصنع إعصار،
+    مما يجعله يجذب الأعداء المحيطين به، ويسبب دمج لهم يعادل {0} من الاتاك مرة كل 0.5
+    ثانية لمدة 4 ثواني. هذا الإعصار يحدث مرة كل {1}.
+  name: The Viridescent Hunt
+  passive_name: Verdant Wind
+the-widsith:
+  passive_text: 'حين تدخل الشخصية ساحة القتال، ستحصل على أغنية عشوائية لمدة 10 ثواني،
+    ولا يحدث ذلك الا مرة كل 30 ثانية. Recitative : يزيد الاتاك بنسبة {0}، Aria : يزيد
+    الالمنتل دمج لجميع العناصر بنسبة {1}، Interlude : يزيد الالمنتل ماستري بمقدار
+    {2}.'
+  name: The Widsith
+  series: Wanderer's Troupe
+  passive_name: Debut
+thrilling-tales-of-dragon-slayers:
+  passive_text: حين تبدل الشخصية، الشخصية الجديدة التي تصبح فالساحة سوف تحصل على {0}
+    من الاتاك لمدة 10 ثواني. هذا التأثير لا يحدث إلا مرة كل 20 ثانية.
+  name: Thrilling Tales of Dragon Slayers
+  passive_name: Heritage
+thundering-pulse:
+  passive_text: 'زيادة في الأتاك بنسبة {0} ستاكات Thunder Emblem لها 1/2/3 من المستويات،
+    ستحصل الشخصية على زيادة في النورمل أتاك دمج بنسبة {1}. وتحصل على ستاكات في الحالات
+    التالية: إذا كان هناك دمج بالنورمل أتاك (يبقى لمدة 5 ثواني)، تفعيل الالمنتل سكل
+    (يبقى 10 ثواني)، تكون نقاط الإنيرجي أقل من 100% (يختفي عندما يكون الإينرجي مكتمل)،
+    كل ستاك له وقت مستقل.'
+  name: Thundering Pulse
+  series: Inazuma
+  passive_name: Rule by Thunder
+whiteblind:
+  passive_text: مع كل نورمل أو تشارج أتاك يزيد الأتاك والديفنس بنسبة {0} لمدة 6 ثواني.
+    والحد هو 4 ستاكات. ويحدث مرة كل 0.5 ثانية.
+  name: Whiteblind
+  passive_name: Infusion Blade
+  series: Infusion
+wine-and-song:
+  passive_text: ضرب العدو بالنورمل أتاك يقلل من استهلاك الستامينا من الركض أو الباسف
+    المميز بنسبة {0} لمدة 5 ثواني. وأيضا، الركض أو استخدام الباسف المميز يزيد الاتاك
+    بنسبة {1} لمدة 5 ثواني.
+  name: Wine and Song
+  series: Alley
+  passive_name: Ever-Changing
+wolfs-gravestone:
+  passive_text: زيادة في الاتاك بنسبة {0}، عند تحقيق ضربة، الأعداء الذين لديهم أقل
+    من 30% من نقاط الصحة يزيد عليهم الاتاك لجميع الفريق بنسبة {1} لمدة 12 ثانية. يحدث
+    ذلك مرة كل 30 ثانية.
+  name: Wolf's Gravestone
+  passive_name: Wolfish Tracker
+fading-twilight:
+  passive_text: 'السلاح لديه ثلاثة حالات: Evengleam و Afterglow و Dawnblaze، وكل حالة
+    تزيد الدمج بالنسب هذه: {0}. عندما يُضرب الأعداء، هذا السلاح سينتقل إلى الحالة
+    التي بعدها. وينتقل بين الحالات كل 7 ثواني. وتستطيع الشخصية التغيير بين الحالات
+    حتى لو لم تكن بالساحة.'
+  name: Fading Twilight
+  passive_name: Radiance of the Deeps
+aquila-favonia:
+  passive_text: 'زيادة في الدمج بنسبة {0}. التأثير الذي يتفعل حين تستقبل دمج the soul
+    of the Falcon of the West : يسترجع نقاط صحة تعادل {1} من الأتاك وتسبب {2} من الأتاك
+    كدمج لمن حولك من الأعداء. هذا التأثير يحدث مرة كل 15 ثانية.'
+  name: Aquila Favonia
+  passive_name: Falcon's Defiance
+alley-hunter:
+  passive_text: حين تكون الشخصية في الفريق ولكن ليست بالساحة، الدمج يزيد بنسبة {0}
+    كل ثانية وإلى {1} كحد أقصى. وحين تكون الشخصية داخل الساحة لمدة 4 ثواني، سيبدأ
+    ذلك البف دمج بالتناقص بنسبة {2} كل ثانية إلى أن يصل 0%.
+  name: Alley Hunter
+  passive_name: Oppidan Ambush
+  series: Alley
+debate-club:
+  passive_text: بعد استخدام مهارة السكل، عند تحقيق ضربة بالنورمل أو التشارج أتاك سوف
+    تحصل على دمج إضافي قدره {0} من الأتاك حول AoE صغير. هذه الضربة تكون في غضون 15
+    ثانية (من بعد استخدام مهارة السكل). وتحدث مرة واحدة فقط كل 3 ثواني.
+  name: Debate Club
+  passive_name: Blunt Conclusion
+dodoco-tales:
+  passive_text: ضربات النورمل على الأعداء تزيد دمج التشارج أتاك بنسبة {0} لمدة 6 ثواني.
+    وضربات التشارج تزيد الأتاك بنسبة {1} لمدة 6 ثواني.
+  name: Dodoco Tales
+  passive_name: Dodoventure!
+eye-of-perception:
+  passive_text: ضربات النورمل والتشارج أتاك لديها احتمالية بنسبة 50% لإطلاق Bolt of
+    Perception، دمج الطلقة سيعادل {0} من الأتاك. هذه الطلقة تستطيع ضرب 4 أعداء كحد
+    أقصى. وهذا التأثير يحدث مرة كل {1}.
+  name: Eye of Perception
+  passive_name: Echo
+summit-shaper:
+  passive_text: زيادة في قوة الدرع بنسبة {0}. تحقيق الضربات على الأعداء يزيد الاتاك
+    بنسبة {1} لمدة 8 ثواني. الحد هو 5 ستاكات. وتحصل على ستاك واحد كل 0.3 ثانية. حين
+    تكون محميا بدرع، هذا التأثير يزيد بنسبة 100% (يتضاعف).
+  name: Summit Shaper
+  series: Liyue
+  passive_name: Golden Majesty
+the-alley-flash:
+  passive_text: زيادة في دمج الشخصية الحاملة للسلاح بنسبة {0}. استقبال الدمج يلغي
+    هذا التأثير لمدة 5 ثواني.
+  name: The Alley Flash
+  passive_name: Itinerant Hero
+  series: Alley
+the-bell:
+  passive_text: استقبال الدمج ينشئ درع يعادل {0} من إجمالي نقاط الصحة. هذا الدرع يصمد
+    إلى أن ينكسر أو لمدة 10 ثواني. ويحدث ذلك مرة كل {1}. حين تكون محميا بالدرع، يزيد
+    دمج الشخصية بنسبة {2}.
+  name: The Bell
+  passive_name: Rebellious Guardian
+  series: Wanderer's Troupe
+the-catch:
+  passive_text: تمنح النورمل والتشارج أتاك حين تحقيق ضربة على العدو Harmonic (نغمة)،
+    حين تجمع 5 نغمات تتفعل قوة الموسيقى وتسبب {0} من الاتاك للأعداء المحيطين بك. النغمات
+    تصمد لمدة 30 ثانية. وتستطيع الحصول عليها مرة كل 0.5 ثانية.
+  name: '"The Catch"'
+  passive_name: Shanty
+the-stringless:
+  passive_text: زيادة في دمج مهارة السكل والألتمت بنسبة {0}.
+  name: The Stringless
+  passive_name: Arrowless Song
+  series: Wanderer's Troupe
+travelers-handy-sword:
+  passive_text: كل جزيء/نقاط إنيرجي تحصل عليها تسترجع الشخصية {0} نقاط صحة.
+  name: Traveler's Handy Sword
+  passive_name: Journey
+twin-nephrite:
+  passive_text: هزيمة الأعداء يزيد في سرعة الحركة والأتاك بنسبة {0} لمدة 15.
+  name: Twin Nephrite
+  passive_name: Guerilla Tactics
+vortex-vanquisher:
+  passive_text: زيادة في قوة الدرع بنسبة {0}. تحقيق الضربات على الأعداء يزيد الاتاك
+    بنسبة {1} لمدة 8 ثواني. الحد هو 5 ستاكات. وتحصل على ستاك واحد كل 0.3 ثانية. حين
+    تكون محميا بدرع، هذا التأثير يزيد بنسبة 100% (يتضاعف)
+  name: Vortex Vanquisher
+  passive_name: Golden Majesty
+  series: Liyue
+wavebreakers-fin:
+  passive_text: لكل نقطة إينرجي من سعة إستخدام الألتمت للفريق بأكمله، سوف يزداد ضرر
+    مهارة الالتمت للشخصية الحاملة لهذا السلاح بنسبة {0} يمكن الحصول على {1} زيادة
+    للدمج مهارة الالتمت كحد أقصى.
+  name: Wavebreaker's Fin
+  passive_name: Watatsumi Wavewalker
+  series: Watatsumi
+white-iron-greatsword:
+  passive_text: هزيمة عدو يمنح {0} من نقاط الصحة.
+  name: White Iron Greatsword
+  passive_name: Cull the Weak
+white-tassel:
+  passive_text: زيادة في دمج النورمل أتاك بنسبة {0}.
+  name: White Tassel
+  passive_name: Sharp
+windblume-ode:
+  passive_text: بعد استخدام الالمنتل سكل تحصل هذا تحصل على تأثير الـ Windblume. وتحصل
+    على زيادة في الأتاك بمقدار {0} لمدة 6 ثواني.
+  name: Windblume Ode
+  passive_name: Windblume Wish
+aqua-simulacra:
+  passive_text: زيادة في نقاط الصحة بنسبة {0}. عندما يكون هنالك أعداء حولك، دمج الشخصية
+    سيكون أكثر بنسبة {1}. هذا التأثير يحدث سواء كانت الشخصية في الساحة أم لا.
+  name: Aqua Simulacra
+  passive_name: The Cleansing Form
+wandering-evenstar:
+  name: Wandering Evenstar
+  passive_name: Wilding Nightstar
+  passive_text: 'هذا التأثير يحدث فقط كل 10 ثواني: الشخصية الحاملة للسلاح تحصل على
+    أتاك بونص بنسبة {} من الالمنتل ماستري لمدة 12 ثانية، وكما سيحصل بقية أعضاء الفريق
+    القريبين على 30% من هذا التأثير لنفس المدة. النسخ على شخصيات أخرى من هذا السلاح
+    يمكن أن تتراكم. وهذا التأثير يمكن حدوثه حتى لو لم تكن الشخصية في الساحة.'
+sapwood-blade:
+  series: Aranara
+  name: Sapwood Blade
+  passive_name: Forest Sanctuary
+  passive_text: عند التسبب في أي تفاعل ديندرو، تستقط ورقة حول الشخصية لمدة 10 ثواني.
+    إذا أخذتها، سوف تمنح الشخصية {0} إلمنتل ماستري لمدة 12 ثانية. تسقط ورقة واحدة
+    فقط كل 20 ثانية. هذا التأثير يمكن حدوثه حتى لو الشخصية لم تكن متواجدة بالساحة.
+    تأثيرات الأوراق التي تمنح المنتل ماستري لا تتراكم.
+forest-regalia:
+  series: Aranara
+  name: Forest Regalia
+  passive_name: Forest Sanctuary
+  passive_text: عند التسبب في أي تفاعل ديندرو، تستقط ورقة حول الشخصية لمدة 10 ثواني.
+    إذا أخذتها، سوف تمنح الشخصية {0} إلمنتل ماستري لمدة 12 ثانية. تسقط ورقة واحدة
+    فقط كل 20 ثانية. هذا التأثير يمكن حدوثه حتى لو الشخصية لم تكن متواجدة بالساحة.
+    تأثيرات الأوراق التي تمنح المنتل ماستري لا تتراكم.
+fruit-of-fulfillment:
+  name: Fruit of Fulfillment
+  passive_name: Full Circle
+  series: Aranara
+  passive_text: تحصل على تأثير Wax and Wane بعد عمل أي تفاعل، تحصل على {0} المنتل
+    ماستري ولكن تخسر 5% أتاك. تستطيع الحصول على ستاك كل 0.3 ثواني. الحد 5 ستاكات.
+    كل 6 ثواني تمر بدون حدوث أي تفاعل، سوف تخسر ستاك واحد. هذا التأثير يمكن حدوثه
+    لو لم تكن الشخصية متواجدة بالساحة.
+hunters-path:
+  name: Hunter's Path
+  passive_name: At the End of the Beast-Paths
+  passive_text: يحصل على {0} المنتل دمج بونص لجميع العناصر. تحصل على تأثير Tireless
+    Hunt في حالة إضابة العدو بتشارج أتاك. هذا التأثير يزيد من دمج التشارج أتاك بنسبة
+    {1} من الالمنتل ماستري. هذا التأثير يختفي بعد 12 تشارج اتاك أو 10 ثواني. تستطيع
+    تفعيل هذا التأثير فقط كل 12 ثانية.
+kagotsurube-isshin:
+  name: Kagotsurube Isshin
+  passive_name: Isshin Art Clarity
+  passive_text: عند ضرب عدو بضربة نورمل أو تشارج أو بلنج أتاك، سيحصل إنفجار AoE يعادل
+    {0} من الأتاك، كما سيزداد أتاك الشخصية حاملة السلاح بـ {1} لمدة 8 ثواني، يمكن
+    تفعيل هذه القدرة مرة واحدة كل 8 ثواني.
+kings-squire:
+  passive_name: Labyrinth Lord's Instruction
+  name: King's Squire
+  series: Aranara
+  passive_text: تحصل على تأثير Teachings of the Forest عندما تستخدم الألتمت أو السكل،
+    يزداد الالمنتل ماستري {0} نقاط لمدة 12 ثانية. هذا التأثير يختفي عندما تبدل الشخصية.
+    عندما ينتهي التأثير أو يختفي، سيسبب دمج يعادل {0} من الأتاك لعدو واحد قريب. التأثير
+    يحدث مرة كل 20 ثانية.
+makhaira-aquamarine:
+  name: Makhaira Aquamarine
+  passive_name: Desert Pavilion
+  passive_text: 'هذا التأثير يحدث فقط كل 10 ثواني: الشخصية الحاملة للسلاح تحصل على
+    أتاك بونص بنسبة {} من الالمنتل ماستري لمدة 12 ثانية، وكما سيحصل بقية أعضاء الفريق
+    القريبين على 30% من هذا التأثير لنفس المدة. النسخ على شخصيات أخرى من هذا السلاح
+    يمكن أن تتراكم. وهذا التأثير يمكن حدوثه حتى لو لم تكن الشخصية في الساحة.'
+key-of-khaj-nisut:
+  name: Key of Khaj-Nisut
+  passive_name: Sunken Song of the Sands
+  passive_text: زيادة في نقاط الصحة بنسبة {0}، عندنا تسبب السكل أي دمج على الأعداء،
+    تحصل على تأثير Grand Hymn لمدة 20 ثانية. هذا التأثير يزيد من الالمنتل ماستري بنسبة
+    {1} من مجموع نقاط الصحة. هذا التأثير يحدث فقط كل 0.3 ثواني. والحد الأقصى 3 ستاكات.
+    حين تحصل على الثلاث ستاكات جميعها، أو عندما يتجدد وقت الستاك الثالث، الالمنتل
+    الماستري الخاص بالفريق سيزيد بنسبة {2} من مجموع نقاط الصحة المستخدمة للسلاح لمدة
+    20 ثانية.
+missive-windspear:
+  passive_text: لمدة 10 ثواني بعد حدوث أي تفاعل، يزداد الأتاك بنسبة {0}، وتزيد نقاط
+    الالمنتل ماستري بمقدار {1}.
+  name: Missive Windspear
+  passive_name: The Wind Unattained
+moonpiercer:
+  name: Moonpiercer
+  passive_name: Stillwood Moonshadow
+  series: Aranara
+  passive_text: عند التسبب في أي تفاعل ديندرو، تستقط ورقة حول الشخصية لمدة 10 ثواني.
+    إذا أخذتها، سوف تمنح الشخصية {0} أتاك لمدة 12 ثانية. تسقط ورقة واحدة فقط كل 20
+    ثانية. هذا التأثير يمكن حدوثه حتى لو الشخصية لم تكن متواجدة بالساحة.
+staff-of-the-scarlet-sands:
+  name: Staff of the Scarlet Sands
+  passive_name: Heat Haze at Horizon's End
+  passive_text: 'الشخصية الحاملة للسلاح يحصل على أتاك إضافي بنسبة {0} من الالمنتل
+    ماستري. عندما تسبب السكل دمج على الأعداء، ستحصل على تأثير Dream of the Scarlet
+    Sands لمدة 10 ثواني: الشخصية الحاملة للسلاح تحصل على أتاك إضافي بنسبة {1} من الالمنتل
+    ماستري. يتراكم التأثير 3 مرات كحد أقصى.'
+xiphos-moonlight:
+  name: Xiphos' Moonlight
+  passive_name: Jinni's Whisper
+  passive_text: 'هذا التأثير يحدث فقط كل 10 ثواني: الشخصية الحاملة للسلاح تحصل على
+    إينرجي ريتشارج بنسبة {} من كل نقطة المنتل ماستري لديه لمدة 12 ثانية، وكما سيحصل
+    بقية أعضاء الفريق القريبين على 30% من هذا التأثير لنفس المدة. النسخ على شخصيات
+    أخرى من هذا السلاح يمكن أن تتراكم. وهذا التأثير يمكن حدوثه حتى لو لم تكن الشخصية
+    في الساحة.'
+end-of-the-line:
+  name: End of the Line
+  passive_name: Net Snapper
+  passive_text: يتفعل تأثير Flowrider عند إستعمال مهارة السكل، هذا التأثير يسبب دمج
+    AoE يعادل {0} من الأتاك في حال سببت دمج على الأعداء. يختفي التأثير إذا مرت 15
+    ثانية أو سببت ثلاثة ضربات AoE. تستطيع عمل AoE واحد كل ثانيتين. ويتفعل التأثير
+    كل 12 ثانية.
+a-thousand-floating-dreams:
+  name: A Thousand Floating Dreams
+  passive_name: A Thousand Nights' Dawnsong
+  passive_text: أعضاء فريق الشخصية الحاملة للسلاح (بدون الشخصية الحاملة نفسها) سيحصلوا
+    على بفات بناءََ على عناصرهم ما إن كانت تشابه حامل السلاح أم لا. إذا كانت تشابه
+    حامل السلاح، يزداد الالمنتل ماستري بمقدار {0}. إن لم يكن كذلك، يزداد الدمج بونص
+    لعناصرهم بنسبة {1}. وهذه البفات تستطيع الحصول على 3 ستاكات لها كحد أقصى، جميع
+    أعضاء الفريق (بدون الشخصية الحاملة نفسها) سيزداد الالمنتل ماستري الخاص بهم بمقدار
+    {2} أيضا. نسخ أخرى من السلاح أو نفس الباسف تستطيع عمل ستاك.
+toukabou-shigure:
+  passive_name: 'Kaidan: Rainfall Earthbinder'
+  name: Toukabou Shigure
+  passive_text: 'بعد التسبب في دمج على الأعداء، سيضع تأثير Cursed Parasol على واحد
+    من الأعداء بمدة 10 ثواني. هذا التأثير يحدث فقط كل 15 ثانية. إذا قتل هذا العدو
+    سينتهي وقت انتظار التأثير (15 ثانية). العدو الذي عليه التأثير سيكون عليه دمج الشخصية
+    الحاملة للسلاح أكثر بنسبة {0}%.'
+tulaytullahs-remembrance:
+  name: Tulaytullah’s Remembrance
+  passive_name: Bygone Azure Teardrop
+  passive_text: تزداد سرعة ضربات النورمل أتاك بنسبة 10%. بعد استخدام الشخصية الحاملة
+    للسلاح مهارة السكل، يزداد دمج النورمل أتاك بنسبة {0} كل ثانية لمدة 14 ثانية. بعد
+    التسبب بدمج على الأعداء باستخدام النورمل أتاك خلال هذه المدة، يزداد دمج النورمل
+    أتاك بنسبة {1}. هذه الزيادة تحصل فقط كل 0.3 ثواني. الحد الأقصى لنسبة الزيادة في
+    دمج النورمل أتاك خلال مدة التأثير كاملة ستكون {2}. سيختفي التأثير إذا خرج حامل
+    السلاح من الساحة، واستخدام السكل مرة اخرى سيخفي البفات السابقة.
+light-of-foliar-incision:
+  name: Light of Foliar Incision
+  passive_name: Whitemoon Bristle
+  passive_text: يزداد الكرت ريت بنسبة {0}. حينما تسبب ضربات النورمل أتاك ضرر عنصر،
+    تحصل الشخصية تأثير Foliar Incision، يزداد دمج النورمل أتاك ومهارة السكل بنسبة
+    {1} من الالمنتل ماستري. هذا التأثير يختفي بعد 28 ضربة او 12 ثانية. تستطيع الحصول
+    على التأثير كل 12 ثانية فقط.
+beacon-of-the-reed-sea:
+  name: Beacon of the Reed Sea
+  passive_name: Desert Watch
+  passive_text: بعد استخدام السكل على الأعداء، يزداد أتاك الشخصية بنسبة {0} لمدة 8
+    ثواني. وبعد تلقي الشخصية على أي دمج، يزداد الأتاك بنسبة {1} لمدة 8 ثواني. ويمكن
+    حدوث هذين التأثيرين حتى لو لم تكن الشخصية بالساحة. وعندما تكون الشخصية غير محمية
+    بدرع، تزداد نقاط صحتها الكاملة بنسبة {2}.
+finale-of-the-deep:
+  name: Finale of the Deep
+  passive_name: An End Sublime
+  passive_text: "عند استخدام السكل، يزداد الأتاك بنسبة {0} لمدة 15 ثانية. وسيتم وضع\
+    \ تأثير Bond of Life على الشخصية مقداره 25% من نقاط الصحة الكاملة. هذا التأثير\
+    \ يحدث فقط كل 10 ثواني. عندما يُزال التأثير من الشخصية، ستحصل الشخصية على زيادة\
+    \ في الأتاك بنسبة {2} من نقاط الصحة المتجمعة من التأثير لمدة 15 ثانية، ولا تتعدى\
+    \ تلك الزيادة عن {1} من الأتاك.\nتأثير Bond of Life: يسحب جميع نقاط الشفاء التي\
+    \ تحصل عليها الشخصية عندما يتواجد هذا التأثير، وتختفي بعد أن يحصل التأثير على\
+    \ النسبة المذكورة في الأعلى."
+ballad-of-the-fjords:
+  name: Ballad of the Fjords
+  passive_name: Tales of the Tundra
+  passive_text: عندما تتواجد 3 شخصيات من عناصر مختلفة في فريقك أو أكثر، يزداد الالمنتل
+    ماستري بمقدار {0}.
+fleuve-cendre-ferryman:
+  name: Fleuve Cendre Ferryman
+  passive_name: Ironbone
+  passive_text: يزداد الكرت ريت الخاص بالسكل بنسبة {0}. كما يزداد الانرجي ريتشارج
+    بنسبة {1} لمدة 5 ثواني بعد استخدام السكل.
+flowing-purity:
+  passive_name: Unfinished Masterpiece
+  passive_text: "عندما تستخدم السكل، يزداد الدمج بونص لجميع العناصر بنسبة {0} لمدة\
+    \ 15 ثانية. وسيتم وضع تأثير Bond of Life على الشخصية مقداره 24% من نقاط الصحة\
+    \ الكاملة. هذا التأثير يحدث مرة كل 10 ثواني. عندما يُزال التأثير، لكل 1000 نقطة\
+    \ صحة مزالة من التأثير تمنح زيادة في دمج لجميع العناصر بنسبة {1} لمدة 15 ثانية.\
+    \ ولا تتعدى هذه الزيادة {2} من التأثير.\nتأثير Bond of Life: يسحب جميع نقاط الشفاء\
+    \ التي تحصل عليها الشخصية عندما يتواجد هذا التأثير، وتختفي بعد أن يحصل التأثير\
+    \ على النسبة المذكورة في الأعلى."
+  name: Flowing Purity
+jadefalls-splendor:
+  name: Jadefall's Splendor
+  passive_name: Primordial Jade Regalia
+ibis-piercer:
+  passive_name: Secret Wisdom's Favor
+  name: Ibis Piercer
+  passive_text: يزداد الالمنتل ماستري بمقدار {} عندما يصاب العدو بتشارج أتاك لمدة
+    6 ثواني. وتستطيع الحصول على ستاكين من التأثير. ويحدث ذلك مرة كل 0.5 ثانية.

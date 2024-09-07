@@ -1,0 +1,33 @@
+type: Bow
+rarity: 3
+atk_start: 40.0
+substat: em
+substat_start: 20.0
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+  - values:
+    - 15%
+  - values:
+    - 18%
+  - values:
+    - 21%
+  - values:
+    - 24%
+ascension_materials:
+  weapon: decarabian
+  common:
+  - horn
+  - arrowhead

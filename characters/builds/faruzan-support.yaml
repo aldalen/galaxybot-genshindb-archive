@@ -1,0 +1,102 @@
+key: support
+main_stat:
+  sands: er_percent
+  goblet: anemo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- er_percent
+- cr_percent / cd_percent
+- atk_percent
+- em
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- elegy-for-the-end
+- favonius-warbow
+- fading-twilight
+- sacrificial-bow
+- mouuns-moon
+- alley-hunter
+- end-of-the-line
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 0.75
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Anemo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - viridescent
+  notes: boost_anemo_shred_swirled
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes: 
+    - boost_hp_shield_party_atk
+    - faruzan-support-1-appended
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  notes: boost_er_burst_by_er
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25
+

@@ -1,0 +1,22 @@
+element: hydro
+weapon: bow
+rarity: 5
+availability: limited
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: cleansing_heart
+  local_specialty: starconch
+  common_material: fatui
+  talent: freedom
+  boss_talent: shard
+talents:
+  elemental_skill:
+    duration_seconds: max 30.0
+    cooldown_seconds: 6.0-36.0/45.0
+  elemental_burst:
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: July
+  day: 20
+key: tartaglia

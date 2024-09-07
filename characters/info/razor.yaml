@@ -1,0 +1,21 @@
+element: electro
+weapon: claymore
+rarity: 4
+availability: standard
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: lightning_prism
+  local_specialty: wolfhook
+  common_material: mask
+  talent: resistance
+  boss_talent: claw
+talents:
+  elemental_skill:
+    cooldown_seconds: 6.0/10.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: September
+  day: 9

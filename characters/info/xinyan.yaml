@@ -1,0 +1,22 @@
+element: pyro
+weapon: claymore
+rarity: 4
+availability: standard
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: everflame_seed
+  local_specialty: violetgrass
+  common_material: treasure
+  talent: gold
+  boss_talent: tusk
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 18.0
+  elemental_burst:
+    duration_seconds: 2.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: October
+  day: 16

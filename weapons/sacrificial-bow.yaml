@@ -1,0 +1,38 @@
+type: Bow
+rarity: 4
+atk_start: 44.0
+substat: er_percent
+substat_start: 6.7
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 40%
+    - 30s
+  - values:
+    - 50%
+    - 26s
+  - values:
+    - 60%
+    - 22s
+  - values:
+    - 70%
+    - 19s
+  - values:
+    - 80%
+    - 16s
+ascension_materials:
+  weapon: boreal_wolf
+  common:
+  - ley_line
+  - slime

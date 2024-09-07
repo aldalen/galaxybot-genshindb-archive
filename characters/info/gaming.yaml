@@ -1,0 +1,21 @@
+element: pyro
+weapon: claymore
+rarity: 4
+availability: limited
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: emperors_resolution
+  local_specialty: starconch
+  common_material: slime
+  talent: prosperity
+  boss_talent: mass
+talents:
+  elemental_skill:
+    cooldown_seconds: 6.0
+  elemental_burst:
+    duration_seconds: 12.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: December
+  day: 22

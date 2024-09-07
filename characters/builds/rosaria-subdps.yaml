@@ -1,0 +1,115 @@
+key: subdps
+main_stat:
+  sands: atk_percent / er_percent / em
+  goblet: cryo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- em
+- atk_percent
+- er_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- staff-of-homa
+- primordial-jade-winged-spear
+- calamity-queller
+- vortex-vanquisher
+- the-catch
+- wavebreakers-fin
+- staff-of-the-scarlet-sands
+- dragons-bane
+- deathmatch
+- missive-windspear
+- kitain-cross-spear
+- favonius-lance
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Cryo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - blizzard
+  - noblesse
+  notes: max_burst
+  weight: 1.0
+- type: simple
+  sets:
+  - lavawalker
+  notes:
+    - rosaria-subdps-2-prepended
+    - boost_dmg_pyro
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  notes:
+    - boost_er_burst_by_er
+    - resin_efficient_farm
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - nobody_party_has_set
+    - rosaria-subdps-4-appended
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - exile
+    - scholar
+  notes:
+    - early_game
+    - boost_cr_er
+  weight: 0.25

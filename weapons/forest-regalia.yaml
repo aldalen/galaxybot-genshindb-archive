@@ -1,0 +1,31 @@
+type: Claymore
+rarity: 4
+atk_start: 44.0
+substat: er_percent
+substat_start: 6.7
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 60
+  - values:
+    - 75
+  - values:
+    - 90
+  - values:
+    - 105
+  - values:
+    - 120
+ascension_materials:
+  weapon: forest_dew
+  common:
+  - chaos_drake
+  - eremite
+

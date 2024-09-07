@@ -1,0 +1,767 @@
+adventurer:
+  artifact_details:
+    circlet:
+      description: "Bandana que se ata en la frente. Aunque est\xE1 impregnada de sudor y cubierta de polvo, la suciedad no puede esconder de ninguna forma el orgullo del Aventurero."
+      name: Bandana del Aventurero
+    flower:
+      description: "Una flor resistente que sobrevivi\xF3 al duro entorno de una antigua ciudad. Ahora se lleva con orgullo como una medalla."
+      name: Flor del Aventurero
+    goblet:
+      description: "Trofeo de una de las batallas de alg\xFAn aventurero. Aunque est\xE1 un poco da\xF1ado, es de todas formas un hallazgo incre\xEDble."
+      name: "C\xE1liz Dorado del Aventurero"
+    plume:
+      description: "La pluma de un ave ex\xF3tica raramente vista en este continente."
+      name: Pluma del Aventurero
+    sands:
+      description: "Es f\xE1cil perder la noci\xF3n del tiempo cuando te aventuras donde el sol no brilla, ya sea en las profundidades del abismo o en las ruinas de una ciudad perdida."
+      name: Reloj de Bolsillo del Aventurero
+  bonus:
+    2pc: "Vida M\xE1x. +1000 pts."
+    4pc: Al abrir un cofre, se regenera un 30% de Vida durante 5 s.
+  name: Aventurero
+berserker:
+  artifact_details:
+    circlet:
+      description: "Una m\xE1scara de hierro que se parti\xF3 por la mitad en feroces batallas."
+      name: "M\xE1scara de Batalla del Berserker"
+    flower:
+      description: "Una flor delicada te\xF1ida de rojo que va ligeramente acorde con la esencia del Berserker."
+      name: Rosa del Berserker
+    goblet:
+      description: "Una copa hecha de los huesos de una bestia desconocida que fueron obtenidos en una cacer\xEDa."
+      name: "C\xE1liz de Hueso del Berserker"
+    plume:
+      description: "La pluma de color a\xF1il de un ave que, seg\xFAn la leyenda, presagiaba la muerte. Una parte de ella se ha te\xF1ido de rojo."
+      name: Pluma del Berserker
+    sands:
+      description: "El l\xEDquido en su interior fluye sin piedad, recordando al Berserker el tiempo que le quedaba en el campo de batalla y los d\xEDas que le quedaban en este mundo..."
+      name: Reloj del Berserker
+  bonus:
+    2pc: Prob. CRIT +12%.
+    4pc: Cuando la Vida es inferior al 70%, aumenta la Prob. CRIT en un 24%.
+  name: Berserker
+blizzard:
+  artifact_details:
+    circlet:
+      description: "Una antigua corona heroica que simboliza el sue\xF1o de conquistar la nieve y el hielo. Es un testimonio del coraje necesario para resistir el fr\xEDo del invierno."
+      name: Eco de la Escarcha
+    flower:
+      description: "Una especie de flor, ahora extinta desde hace mucho tiempo, que se obten\xEDa de los glaciares. Incluso el guerrero m\xE1s arrogante una vez se inclin\xF3 ante ella."
+      name: Anhelo de la Ventisca
+    goblet:
+      description: "Una copa tallada en hielo, tan g\xE9lida como el invierno. En el pasado, conten\xEDa vino que no se congelaba."
+      name: Orgullo del Invierno
+    plume:
+      description: "Una pluma tan fr\xEDa como el crudo invierno. Transmite una sensaci\xF3n parecida a la del aleteo de un p\xE1jaro que, al volar sobre las llanuras y los picos nevados, levanta un viento g\xE9lido."
+      name: "Obstinaci\xF3n Perforahielos"
+    sands:
+      description: El reloj que usaba la gente de la tierra natal del Rompehielo. Lo que hay adentro no es arena, sino un polvo helado que nunca se derrite.
+      name: Retorno a las Tierras del Hielo
+  bonus:
+    2pc: "Bono de Da\xF1o Cryo +15%."
+    4pc: "Aumenta en un 20% la Prob. CRIT contra los enemigos afectados por Cryo. Si el enemigo est\xE1 Congelado, la Prob. CRIT aumentar\xE1 en un 20% adicional."
+  name: "N\xF3mada del Invierno"
+bloodstained:
+  artifact_details:
+    circlet:
+      description: "La m\xE1scara de hierro que usaba el Caballero Sanguinario para proteger su cara. Ha habido muchas teor\xEDas sobre qu\xE9 aspecto ten\xEDa el rostro que se ocultaba tras ella."
+      name: "M\xE1scara de Hierro Sanguinaria"
+    flower:
+      description: Una flor seca, oscura, con manchas de sangre y dura como el acero. Es considerada una especie de souvenir.
+      name: "Coraz\xF3n de Hierro Sanguinario"
+    goblet:
+      description: "El c\xE1liz de metal de un caballero con una obsesi\xF3n por la sangre. Su color negro oscuro se debe a la sangre requemada que se qued\xF3 agarrada por todo el recipiente durante mucho tiempo."
+      name: "C\xE1liz del Caballero Sanguinario"
+    plume:
+      description: "Pluma pegada a la capa del Caballero. Tras mancharse de sangre repetidamente, la pluma se ti\xF1\xF3 de un color oscuro."
+      name: Pluma Oscura Sanguinaria
+    sands:
+      description: "Un reloj que llevaban los caballeros antiguamente. El l\xEDquido que med\xEDa las horas ya se ha petrificado. Este reloj ha perdido su \xFAnica funcionalidad, que era la de medir el tiempo."
+      name: Reloj del Caballero Sanguinario
+  bonus:
+    2pc: "Da\xF1o F\xEDsico +25%."
+    4pc: "Derrotar a un enemigo hace que no consumas Aguante al lanzar un Ataque Cargado, y que el da\xF1o de Ataque Cargado aumente en un 50% durante 10 s."
+  name: "Caballer\xEDa Sanguinaria"
+bolide:
+  artifact_details:
+    circlet:
+      description: "Una m\xE1scara muy popular hecha a semejanza de una divinidad legendaria."
+      name: "M\xE1scara de la Noche de Verano"
+    flower:
+      description: "Una flor artificial en floraci\xF3n eterna. \xBFEstar\xE1 viva?"
+      name: Flor de la Noche de Verano
+    goblet:
+      description: Durante los festivales de verano, no es inusual ver globos llenos de agua. Sin embargo, solo hay uno tan elegante como este.
+      name: Globo de Agua de la Noche de Verano
+    plume:
+      description: Un elegante dardo de madera. Solo se detiene cuando alcanza a su objetivo.
+      name: Gran Final de la Noche de Verano
+    sands:
+      description: Un reloj de bolsillo que se detuvo en cierto momento.
+      name: Reloj de la Noche de Verano
+  bonus:
+    2pc: "Protecci\xF3n de Escudo +35%."
+    4pc: "Los Ataque Normales y Cargados obtienen un 40% de da\xF1o adicional mientras est\xE9s bajo la protecci\xF3n de un escudo."
+  name: Retroceso del Meteorito
+brave:
+  artifact_details:
+    circlet:
+      description: Una corona rudimentaria hecha con plantas. Para algunos, es tan preciada como la corona de un rey.
+      name: Corona del Guerrero
+    flower:
+      description: Broche muy sencillo hecho con una flor. Es un recuerdo de la primera gran aventura del Guerrero.
+      name: Medalla del Guerrero
+    goblet:
+      description: "Un recipiente tosco de madera. Su interior, ahora vac\xEDo, estaba repleto de recuerdos."
+      name: Gran Despedida del Guerrero
+    plume:
+      description: "La pluma brillante de la cola de un p\xE1jaro cantor. Puede inspirar un poco de valor."
+      name: Esperanza del Guerrero
+    sands:
+      description: "Un antiguo reloj de arena en miniatura sin ning\xFAn uso pr\xE1ctico. Es tan incomprensible como el tiempo en s\xED mismo."
+      name: "Determinaci\xF3n del Guerrero"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Aumenta el da\xF1o en un 30% contra enemigos con m\xE1s del 50% de Vida."
+  name: "Coraz\xF3n del Guerrero"
+clam:
+  artifact_details:
+    circlet:
+      description: "Una corona antigua e intrincada que sol\xEDan utilizar las cl\xE9rigas ahora olvidadas. En la actualidad, es una reliquia conservada con gran cuidado por las gentes de Watatsumi."
+      name: Corona de Watatsumi
+    flower:
+      description: "Una flor que se ha te\xF1ido de muchos de los colores del oc\xE9ano caprichoso y que reluce con hermosos reflejos bajo la luz de la luna."
+      name: Flor Marina
+    goblet:
+      description: Las perlas relucientes que las miko de la Isla Watatsumi utilizan como ofrendas brillan eternamente y su fulgor nunca se apaga.
+      name: Jaula de Perlas
+    plume:
+      description: Una suave pluma del color del coral. Se dice que proviene del traje ceremonial de una miko.
+      name: Pluma del Palacio de las Profundidades
+    sands:
+      description: "Una concha marina sin ninguna imperfecci\xF3n que proviene de las profundidades del oc\xE9ano."
+      name: Cauri de la Despedida
+  bonus:
+    2pc: "Bono de Curaci\xF3n +15%."
+    4pc: "Cuando el personaje que equipa este conjunto de artefactos cura a otro, crea el efecto de \u201Cburbuja marina\u201D durante 3 s, el cual registra la cantidad de Vida regenerada (incluida la regenerada por encima del 100%). Tras ello, la burbuja marina estalla e inflige contra los enemigos cercanos un da\xF1o basado en el 90% de la cantidad regenerada. Este da\xF1o se calcula de manera similar al de las reacciones de Electrocargado, Superconductor, etc., pero no var\xEDa en funci\xF3n de la Maestr\xEDa Elemental, el nivel del personaje o el bono de da\xF1o de las reacciones. Solo se puede crear una burbuja marina cada 3.5 s, la cual solo puede registrar un m\xE1ximo de 30 000 pts. de Vida regenerada, incluyendo la regenerada por encima del 100%. Adem\xE1s, solo puede existir una burbuja marina en tu equipo al mismo tiempo. Cuando el personaje que equipa este conjunto de artefactos est\xE1 en el equipo pero no en combate, tambi\xE9n podr\xE1 activar este efecto."
+  name: "Perla Oce\xE1nica"
+crimson:
+  artifact_details:
+    circlet:
+      description: "El sombrero que llevaba una bruja que quer\xEDa quemar el mundo. Las grandes alas del sombrero pod\xEDan bloquear su campo de visi\xF3n."
+      name: Sombrero Abrasador de la Bruja
+    flower:
+      description: "Una flor que fue tocada por una bruja que quer\xEDa quemar el mundo. La calidez de sus llamas acaricia las manos de aquellos que la intentan tocar."
+      name: Flor en Llamas de la Bruja
+    goblet:
+      description: "Un jarr\xF3n de arcilla ardiente legado por una bruja que quer\xEDa quemar el mundo. Las llamas de este frasco nunca se apagan, igual que el deseo infame de la Bruja."
+      name: "Llama del Coraz\xF3n de la Bruja"
+    plume:
+      description: "Una pluma de p\xE1jaro tocada por una bruja que quer\xEDa quemar el mundo. Su combusti\xF3n constante hace que aumente dr\xE1sticamente la temperatura a su alrededor."
+      name: Pluma Ardiente de la Bruja
+    sands:
+      description: "Un reloj que llevaba la bruja que quer\xEDa quemar el mundo. En \xE9l fluyen los a\xF1os de vida que le dedic\xF3 al fuego."
+      name: Fin de los Tiempos de la Bruja
+  bonus:
+    2pc: "Bono de Da\xF1o Pyro +15%."
+    4pc: "Aumenta el da\xF1o causado por Sobrecarga y Quemadura en un 40%, y el de Vaporizaci\xF3n y Derretido en un 15%. El uso de una Habilidad Elemental aumenta los efectos del conjunto de 2 piezas en un 50% durante 10 s. Puede acumularse hasta un m\xE1ximo de 3 veces."
+  name: "Bruja Carmes\xED en Llamas"
+defenders:
+  artifact_details:
+    circlet:
+      description: "Un pa\xF1o \xEDndigo te\xF1ido del color de la noche. Puede usarse como vendaje en una situaci\xF3n de emergencia."
+      name: "Bandana del Guardi\xE1n"
+    flower:
+      description: "La flor de iris atesorada por el Guardi\xE1n. Nunca tuvo la oportunidad de entreg\xE1rsela a su amor."
+      name: "Flor del Guardi\xE1n"
+    goblet:
+      description: "Un recipiente met\xE1lico. Puede usarse para contener cualquier l\xEDquido que ayude a olvidar la soledad mientras se observa detenidamente."
+      name: "Cantimplora del Guardi\xE1n"
+    plume:
+      description: "Un broche en forma de pluma, s\xEDmbolo de \u201Cla sed por proteger a otros\u201D."
+      name: "Insignia del Guardi\xE1n"
+    sands:
+      description: "Un peque\xF1o dispositivo para mostrar la hora actual. Es la \xFAnica referencia disponible para consultar la hora en las noches sin luna."
+      name: "Reloj del Guardi\xE1n"
+  bonus:
+    2pc: DEF +30%.
+    4pc: Por cada miembro de tu equipo con un tipo elemental distinto, La RES Elemental del personaje que lleve este conjunto aumenta en un 30% contra dicho elemento.
+  name: "Coraz\xF3n del Guardi\xE1n"
+destiny:
+  artifact_details:
+    circlet:
+      description: "Una corona ceremonial portada por sacerdotes de tiempos antiguos al ofrecer un sacrificio a los dioses. Haber estado sumergida bajo el agua durante tantos a\xF1os le ha dado una incre\xEDble resistencia al agua."
+      name: Diadema Torrencial
+  bonus:
+    1pc: Los efectos de Hydro causados sobre ti duran un 40% menos.
+  name: Ritual del Destino
+echoes:
+  artifact_details:
+    circlet:
+      description: Unos aretes hechos de un hermoso jade. Tienen un tacto sumamente suave.
+      name: Aretes Torrenciales
+    flower:
+      description: Una figura de jade con forma de flor. Cierta fragancia fantasmal parece rezumar de ella.
+      name: "Flor Aromaesp\xEDritu"
+    goblet:
+      description: "Una taza de t\xE9 de la que emana un constante flujo de agua cristalina. Es incierto si se trata de un regalo, una reliquia o un objeto perdido de los Adeptus."
+      name: Taza de la Fuente
+    plume:
+      description: "Un adorno de jade parecido a una hoja. En el pasado, ten\xEDa un significado muy especial para dos determinadas amigas."
+      name: Hoja de Jade
+    sands:
+      description: "Un adorno de jade redondo. Seg\xFAn una leyenda, simbolizaba en alg\xFAn sitio el inicio de un ritual."
+      name: "S\xEDmbolo Ceremonial"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "#Al golpear a un enemigo con un Ataque Normal, hay una probabilidad del 36% de activar el efecto de \u201Critual del valle\u201D, el cual aumenta el da\xF1o de Ataque Normal en una cantidad equivalente al 70% del ATQ. Este efecto se anula 0.05 s despu\xE9s de infligir da\xF1o con un Ataque Normal. Si dicho ataque no activa ritual del valle, la probabilidad de activarlo con el siguiente golpe de Ataque Normal aumenta en un 20%. Esta activaci\xF3n solo puede ocurrir una vez cada 0.2{NON_BREAK_SPACE}s."
+  name: Eco del Sacrificio
+emblem:
+  artifact_details:
+    circlet:
+      description: "Un casco firme y seguro que un honorable samur\xE1i usaba para protegerse."
+      name: Casco Ornamentado
+    flower:
+      description: "Cuenta la leyenda que este magn\xEDfico guardamano le fue otorgado a la oni que traicion\xF3 a la Shogun."
+      name: Guardamano del Honor
+    goblet:
+      description: "Un exquisito c\xE1liz para guardar vino que perteneci\xF3 a un reconocido samur\xE1i."
+      name: "C\xE1liz Escarlata"
+    plume:
+      description: "Una pluma negra perteneciente a una guerrera tengu y muy apreciada por un gran samur\xE1i del pasado."
+      name: "Pluma de la Laceraci\xF3n"
+    sands:
+      description: "Una exquisita cajita de laca de color violeta oscuro que sirve para guardar objetos. Est\xE1 decorada con brillantes incrustaciones de caracolas y oro."
+      name: Inrou de la Tempestad
+  bonus:
+    2pc: "Recarga de Energ\xEDa +20%."
+    4pc: "Aumenta el da\xF1o infligido con la Habilidad Definitiva en una cantidad equivalente al 25% de la Recarga de Energ\xEDa. Se puede obtener un aumento del 75% como m\xE1ximo."
+  name: Emblema del Destino
+exile:
+  artifact_details:
+    circlet:
+      description: "Una prestigiosa diadema. Su insignia real fue ara\xF1ada con un objeto punzante y perdi\xF3 su distinguida identidad original."
+      name: Diadema del Exiliado
+    flower:
+      description: Una flor marchita colgada en la camisa. Debe significar algo si un exiliado insiste en llevarla puesta.
+      name: Flor del Exiliado
+    goblet:
+      description: "Una taza opaca hecha con metales pesados. Tuvo piedras preciosas incrustadas en su momento, pero alguien se las arranc\xF3."
+      name: "C\xE1liz del Exiliado"
+    plume:
+      description: "No es un accesorio creado intencionadamente. Simplemente es una pluma de p\xE1jaro que qued\xF3 atrapada en un \xE1rbol mientras volaba por la selva."
+      name: Pluma del Exiliado
+    sands:
+      description: "La esfera del reloj de cristal se ha roto y sus manecillas se han perdido, pero su propietario lo sigui\xF3 conservando."
+      name: Reloj de Bolsillo del Exiliado
+  bonus:
+    2pc: "Recarga de Energ\xEDa +20%."
+    4pc: "Al usar la Habilidad Definitiva, todos los miembros del equipo (a excepci\xF3n de tu personaje en uso) recuperan 2 pts. de Energ\xEDa Elemental cada 2 s durante 6 s. Este efecto no puede acumularse."
+  name: Exiliado
+gambler:
+  artifact_details:
+    circlet:
+      description: "Un par de aretes azules que calman la mente y fomentan el pensamiento racional, muy \xFAtil para evaluar los riesgos."
+      name: Aretes de la Jugadora
+    flower:
+      description: Una gran y hermosa flor que puede esconder un dado trucado.
+      name: Broche de la Jugadora
+    goblet:
+      description: "Un cubilete que solo sirve para una cosa. No tiene compartimentos secretos incorporados en \xE9l."
+      name: Cubilete de la Jugadora
+    plume:
+      description: "La pluma de la cola de un p\xE1jaro muy grande que puede esconder una carta capaz de cambiar el destino."
+      name: Pluma de la Jugadora
+    sands:
+      description: "Un reloj de bolsillo roto que una vez bloque\xF3 un golpe letal que se dirig\xEDa hacia su due\xF1a."
+      name: Reloj de Bolsillo de la Jugadora
+  bonus:
+    2pc: "Da\xF1o de Habilidad Elemental +20%."
+    4pc: Al derrotar a un enemigo, hay una probabilidad del 100% de reiniciar el TdE de la Habilidad Elemental. Puede ocurrir una vez cada 15 s.
+  name: Jugadora
+gladiator:
+  artifact_details:
+    circlet:
+      description: "Un casco que una vez perteneci\xF3 a un gladiador. Manchado con la sangre de incontables enemigos, es apreciado por mucha gente."
+      name: Triunfo del Gladiador
+    flower:
+      description: "Nadie sabe por qu\xE9 el legendario y sanguinario Gladiador siempre llevaba esta flor en el pecho, que era su \xFAnico punto d\xE9bil."
+      name: Nostalgia del Gladiador
+    goblet:
+      description: La copa de oro usada por un antiguo gladiador para beber el vino de la victoria. En ella, se acumulan infinitos recuerdos memorables.
+      name: Embriaguez del Gladiador
+    plume:
+      description: "Una pluma que sue\xF1a con tener la libertad de un halc\xF3n. Al final de la legendaria carrera del Gladiador, el p\xE1jaro indomable puso esta pluma en su coraz\xF3n."
+      name: Destino del Gladiador
+    sands:
+      description: "Un reloj que atestigua los d\xEDas sangrientos del Gladiador en el coliseo. Para \xE9l, contaba los d\xEDas que le quedaban para ser libre."
+      name: Esperanza del Gladiador
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Aumenta el da\xF1o de Ataque Normal en un 35% si el personaje usa una espada ligera, mandoble o lanza."
+  name: Final del Gladiador
+heart:
+  artifact_details:
+    circlet:
+      description: "Un antiguo gorro de capit\xE1n con un hedor a alcohol imposible de quitar. En \xE9l, hay algunas manchas de vino."
+      name: "Gorro de Capit\xE1n Manchado de Vino"
+    flower:
+      description: "Un broche cuyo color y brillo se han atenuado. Su revestimiento dorado original se ha perdido debido a la erosi\xF3n de la brisa marina."
+      name: Broche Dorado
+    goblet:
+      description: "Un c\xE1liz deste\xF1ido que alguien sac\xF3 del agua por casualidad. Sus tenues colores murmuran historias que tuvieron lugar bajo las olas del mar."
+      name: "C\xE1liz de las Profundidades"
+    plume:
+      description: "Una pluma arrastrada por el sollozo de la brisa marina y las sangrientas olas del oc\xE9ano. Su forma y color han ido cambiando con el tiempo."
+      name: Brisa de los Recuerdos
+    sands:
+      description: "Una br\xFAjula hecha de cobre cuya manecilla siempre apunta a una costa muy lejana y a un puerto cuya existencia no se conoce."
+      name: "Br\xFAjula de Cobre Resistente"
+  bonus:
+    2pc: "Bono de Da\xF1o Hydro +15%."
+    4pc: "Tras usar la Habilidad Elemental, aumenta el da\xF1o de Ataque Normal y Ataque Cargado en un 30% durante 15 s."
+  name: "Coraz\xF3n de las Profundidades"
+husk:
+  artifact_details:
+    circlet:
+      description: "Un gorro de bamb\xFA usado por el trotamundos para protegerse del sol y la lluvia. Al final, se convirti\xF3 en un objeto con el que se cubr\xEDa la cara y ocultaba su expresi\xF3n."
+      name: Sombrero del Trotamundos
+    flower:
+      description: "Un accesorio dorado con forma de flor de seis p\xE9talos. Su belleza inmarcesible nos recuerda lo ef\xEDmera que puede ser la prosperidad del mundo."
+      name: Era del Esplendor
+    goblet:
+      description: "Una calabaza adornada con un color oscuro y polvos dorados. Aunque ya no se distingue su color original, es posible que fuera usada como atrezo para espect\xE1culos."
+      name: Calabaza del Despertar
+    plume:
+      description: "Un objeto con forma de pluma de flecha procedente de una sala aislada. Por compasi\xF3n de su creadora, este objeto fue abandonado en esa sala junto a un cuerpo dormido."
+      name: Pluma de la Opulencia
+    sands:
+      description: "En Inazuma, estos peque\xF1os objetos son de importaci\xF3n. Ya no tiene el mecanismo que lo hac\xEDa funcionar, y sus agujas ya no se mueven."
+      name: Canto de la Vida
+  bonus:
+    2pc: DEF +30%.
+    4pc: "El personaje que equipe este conjunto de artefactos obtendr\xE1 el efecto de \u201Ccuriosidad\u201D en las siguientes circunstancias: al golpear a un enemigo con un ataque Geo, obtiene una carga, lo cual solo puede ocurrir una vez cada 0.3 s; mientras est\xE1 en tu equipo pero no en combate, obtiene una carga cada 3 s. Este efecto puede acumularse hasta 4 veces, y cada carga aumenta en un 6% la DEF y otorga un 6% de Bono de Da\xF1o Geo. Si el personaje no obtiene una carga de curiosidad en 6 s, perder\xE1 una acumulaci\xF3n."
+  name: "C\xE1scara de Sue\xF1os Opulentos"
+illumination:
+  artifact_details:
+    circlet:
+      description: Una corona ceremonial portada por sacerdotes de tiempos antiguos al ofrecer un sacrificio a los dioses. Al haber estado expuesta a las llamas durante tanto tiempo, ha adquirido una resistencia asombrosa.
+      name: "Diadema P\xEDrica"
+  bonus:
+    1pc: Los efectos de Pyro causados sobre ti duran un 40% menos.
+  name: "Ritual de la Iluminaci\xF3n"
+instructor:
+  artifact_details:
+    circlet:
+      description: "El gorro que sol\xEDa llevar el Instructor. Solo aquellos que rechazaron ser promocionados de rango pod\xEDan obtener este honor."
+      name: Gorra del Instructor
+    flower:
+      description: "Cuando el Instructor llevaba puesto este broche, significaba que ese d\xEDa no hab\xEDa entrenamiento."
+      name: Broche del Instructor
+    goblet:
+      description: "Para la mayor\xEDa de personas, puede parecer una taza de t\xE9 ordinaria, pero para los estudiantes, era el s\xEDmbolo de la autoridad del Instructor."
+      name: "Taza de T\xE9 del Instructor"
+    plume:
+      description: "El Instructor, que dominaba el arte de desviar los ataques, sab\xEDa c\xF3mo mantener este accesorio a su alcance en todo momento."
+      name: Pluma del Instructor
+    sands:
+      description: Un reloj de bolsillo que no muestra la hora actual, sino que cronometra las sesiones de entrenamiento.
+      name: Reloj de Bolsillo del Instructor
+  bonus:
+    2pc: "Maestr\xEDa Elemental +80."
+    4pc: "Despu\xE9s de activar una Reacci\xF3n Elemental, aumenta la Maestr\xEDa Elemental de todos los miembros del equipo en 120 pts. durante 8 s."
+  name: Instructor
+lavawalker:
+  artifact_details:
+    circlet:
+      description: "La corona de la sabidur\xEDa ba\xF1ada en llamas. Una vez brill\xF3 vivamente a la luz del fuego."
+      name: "Sabidur\xEDa del Corredor de Lava"
+    flower:
+      description: "Una flor que se abri\xF3 mientras estaba rodeada de llamas. Seg\xFAn la leyenda, los sabios de la antig\xFCedad la llevaron consigo antes de cruzar el mar de fuego."
+      name: "Determinaci\xF3n del Corredor de Lava"
+    goblet:
+      description: "Cuenta la leyenda que el vidrio de este c\xE1liz puede soportar altas temperaturas. Actualmente, su interior est\xE1 vac\xEDo, pero sigue emitiendo calor."
+      name: Despertar del Corredor de Lava
+    plume:
+      description: "Una pluma de p\xE1jaro ba\xF1ada en lava. Escuchando de cerca, parece o\xEDrse el sonido del aleteo de un p\xE1jaro en medio de las llamas."
+      name: "Liberaci\xF3n del Corredor de Lava"
+    sands:
+      description: "Un reloj que contiene una brillante y ardiente arena. A pesar del intenso calor, dicha arena fluye sin dejar ning\xFAn rastro de deterioro."
+      name: Tormento del Corredor de Lava
+  bonus:
+    2pc: RES Pyro +40%.
+    4pc: "Aumenta en un 35% el da\xF1o contra los enemigos afectados por Pyro."
+  name: Virtuoso Corredor de Lava
+lucky:
+  artifact_details:
+    circlet:
+      description: "Su antiguo due\xF1o cay\xF3 una vez en una cueva y encontr\xF3 el tesoro escondido de la realeza exiliada. Esto es un recuerdo de ese incidente."
+      name: Tiara de Plata del Afortunado
+    flower:
+      description: "Un tr\xE9bol de cuatro hojas que crece en la naturaleza. Fue arrancado porque se dec\xEDa que tra\xEDa suerte."
+      name: "Tr\xE9bol de Cuatro Hojas del Afortunado"
+    goblet:
+      description: "Un exquisito recipiente met\xE1lico que una vez fue usado para golpear a un ladr\xF3n."
+      name: "C\xE1liz del Afortunado"
+    plume:
+      description: "Un \xE1guila que cazaba detect\xF3 a un monstruo que hab\xEDa acorralado a un aventurero... El ave dej\xF3 caer esta pluma, que ahora lleva algo de la buena suerte de aquel aventurero."
+      name: "Pluma de \xC1guila del Afortunado"
+    sands:
+      description: "Este reloj est\xE1 desprovisto de arena debido al agujero que tiene. El paso del tiempo no tiene sentido para los que viven sin preocupaciones."
+      name: Reloj de Arena del Afortunado
+  bonus:
+    2pc: DEF +100.
+    4pc: Recoger Mora restaura 300 pts. de Vida.
+  name: Afortunado
+maiden:
+  artifact_details:
+    circlet:
+      description: Un sombrero de mujer bien cuidado. Puede ocultar el rostro de la persona que lo lleva si no quiere mostrarlo.
+      name: Belleza Desvanecida de la Doncella
+    flower:
+      description: Una delicada y orgullosa flor que nunca se ha marchitado. Sigue emitiendo una fragancia irresistible.
+      name: "Coraz\xF3n Distante de la Doncella"
+    goblet:
+      description: "No se considera una bebida alcoh\xF3lica fuerte, sino una especie de t\xE9 negro. Es m\xE1s dulce que amargo."
+      name: Pasatiempo de la Doncella
+    plume:
+      description: Plumas decorativas cuya finalidad era la de recordar a alguien. Vuelan como aves migratorias siguiendo al viento.
+      name: Recuerdos de la Doncella
+    sands:
+      description: "El tiempo no espera a nadie. Ni siquiera a la belleza de la Doncella, que desapareci\xF3 tras a\xF1os de admiraci\xF3n por parte de sus pretendientes."
+      name: Juventud Pasajera de la Doncella
+  bonus:
+    2pc: "Aumenta en un 15% la curaci\xF3n realizada."
+    4pc: "El uso de una Habilidad Elemental o Definitiva aumenta en un 20% la curaci\xF3n recibida de todos los miembros del equipo durante 10 s."
+  name: Doncella Amada
+martial:
+  artifact_details:
+    circlet:
+      description: "Vigor, fuerza y voluntad. Esa es la primera lecci\xF3n como aprendiz de artes marciales. Estas tres palabras est\xE1n escritas en la bandana para que el disc\xEDpulo nunca las olvide."
+      name: Bandana del Artista Marcial
+    flower:
+      description: "Solo este tipo de flor carmes\xED pod\xEDa aliviar el dolor del Artista Marcial."
+      name: Flor Roja del Artista Marcial
+    goblet:
+      description: Una copa de vino un tanto exquisita para los rituales antes de entrar en combate.
+      name: Copa de Vino del Artista Marcial
+    plume:
+      description: "Una pluma de ave com\xFAn. Los expertos las usan para practicar el control de la fuerza, mientras que los novatos hacen abanicos con ellas."
+      name: Pluma del Artista Marcial
+    sands:
+      description: "Una herramienta para controlar el tiempo del entrenamiento de resistencia. Es m\xE1s preciso y fiable que un reloj de arena normal."
+      name: Reloj de Agua del Artista Marcial
+  bonus:
+    2pc: "Da\xF1o de Ataque Normal y Ataque Cargado +15%."
+    4pc: "Tras usar la Habilidad Elemental, aumenta el da\xF1o de Ataque Normal y Ataque Cargado en un 25% durante 8 s."
+  name: Artista Marcial
+miracle:
+  artifact_details:
+    circlet:
+      description: Un accesorio barato hecho con minerales de meteoritos antiguos.
+      name: Aretes del Milagro
+    flower:
+      description: "Una flor que creci\xF3 de una roca. Fue capaz de atravesar la piedra, estremeci\xE9ndose para alcanzar la luz."
+      name: Flor del Milagro
+    goblet:
+      description: "Un vaso com\xFAnmente usado para adivinar la suerte. Tambi\xE9n puede ser usado para contener agua, por supuesto."
+      name: "C\xE1liz del Milagro"
+    plume:
+      description: "Una pluma que pertenec\xEDa a un ave \xE1gil y feroz. Era tan r\xE1pida que nunca fue avistada en pleno vuelo."
+      name: Pluma del Milagro
+    sands:
+      description: "Parece ser un reloj de arena normal. Cuando se le da la vuelta, la arena seca que contiene se desliza tan r\xE1pido que parece agua fluyendo."
+      name: Reloj de Arena del Milagro
+  bonus:
+    2pc: +20% en todas las RES Elementales.
+    4pc: "El Da\xF1o Elemental recibido aumenta la RES Elemental correspondiente en un 30% durante 10 s. Solo puede ocurrir una vez cada 10 s."
+  name: Milagro
+noblesse:
+  artifact_details:
+    circlet:
+      description: "Una m\xE1scara que llevaban los arist\xF3cratas en las veladas de fiestas en Mondstadt. Si miras a trav\xE9s de los agujeros de los ojos, podr\xE1s ver las grandes celebraciones del pasado."
+      name: "M\xE1scara Real"
+    flower:
+      description: "Una flor de seda azul que serv\xEDa como un distinguido elemento decorativo para llevar en eventos de gala. Su apariencia todav\xEDa es igual de fresca que antes de ser abandonada por su due\xF1o."
+      name: Flora Real
+    goblet:
+      description: "Antigua urna ornamental que perteneci\xF3 a una familia noble de Mondstadt. El melanc\xF3lico viento del tiempo todav\xEDa resuena en su interior."
+      name: Urna Plateada Real
+    plume:
+      description: "Una pluma que llevaban en el sombrero los miembros de la nobleza de Mondstadt durante sus cacer\xEDas. Todav\xEDa permanece intacta despu\xE9s de tanto tiempo."
+      name: Pluma Real
+    sands:
+      description: "Un reloj de bolsillo de los arist\xF3cratas de Mondstadt. Ha pasado por las manos de innumerables generaciones."
+      name: Reloj de Bolsillo Real
+  bonus:
+    2pc: "Da\xF1o de Habilidad Definitiva +20%."
+    4pc: "Despu\xE9s de lanzar una Habilidad Definitiva, aumenta el ATQ de todos los miembros del equipo en un 20% durante 12 s. Este efecto no puede acumularse."
+  name: Ritual Antiguo de la Nobleza
+pale:
+  artifact_details:
+    circlet:
+      description: "Una m\xE1scara que cubre la cara y oculta a los dem\xE1s la expresi\xF3n facial."
+      name: "M\xE1scara de la Burla"
+    flower:
+      description: "Una flor azul, dura y artificial. Sus p\xE9talos nunca se marchitar\xE1n y su color nunca se apagar\xE1."
+      name: Flor Inmaculada
+    goblet:
+      description: "Un c\xE1liz con un dise\xF1o muy intrincado. Por su apariencia, es imposible saber de qu\xE9 \xE9poca procede."
+      name: "C\xE1liz de la Trascendencia"
+    plume:
+      description: "Una pluma de mal ag\xFCero con un borde muy afilado. Quiz\xE1s representa una naturaleza sin ning\xFAn tipo de inhibiciones."
+      name: Pluma del Doctor Sabio
+    sands:
+      description: "Un reloj de bolsillo cuya tapa no se puede abrir. No obstante, se puede o\xEDr el sonido de sus manecillas marcando el paso inexorable del tiempo."
+      name: Momento de Cese
+  bonus:
+    2pc: "Da\xF1o F\xEDsico +25%."
+    4pc: Al atacar a un enemigo con una Habilidad Elemental, el ATQ aumenta en un 9% durante 7 s. Este efecto puede acumularse hasta 2 veces y activarse cada 0.3 s. Al alcanzar 2 acumulaciones, el efecto de dos piezas del conjunto aumenta en un 100%.
+  name: Llamas Albinas
+petra:
+  artifact_details:
+    circlet:
+      description: "Una m\xE1scara majestuosa tallada en basalto. Las cavidades de sus ojos miran con frialdad hacia adelante."
+      name: "M\xE1scara de Basalto Inerte"
+    flower:
+      description: "Una flor que brota en las grietas de las rocas y los minerales. Sus p\xE9talos se mecen con la brisa, tal y como una flor real."
+      name: Flor del Acantilado Agrietado
+    goblet:
+      description: "Un recipiente de vino que es tan bello como solemne. Hace mil a\xF1os, estaba repleto de incrustaciones de jade."
+      name: "C\xE1liz del Escultor de Monta\xF1as"
+    plume:
+      description: "Una dura pluma de un gran halc\xF3n de monta\xF1a. La punta de basalto de la pluma a veces brilla con las gotas del roc\xEDo."
+      name: Pluma de la Cordillera Escarpada
+    sands:
+      description: "Un reloj de sol tallado en una sola pieza grande de jade. Est\xE1 tallado con un patr\xF3n que registra silenciosamente el paso del tiempo."
+      name: Reloj de Sol de Jade Sempiterno
+  bonus:
+    2pc: "Bono de Da\xF1o Geo +15%."
+    4pc: "Al obtener un cristal creado a trav\xE9s de la reacci\xF3n de Cristalizaci\xF3n, todos los miembros del equipo obtienen durante 10 s un 35% de Bono de Da\xF1o Elemental del elemento que caus\xF3 dicha reacci\xF3n. Solo se puede obtener un tipo de Bono de Da\xF1o Elemental a la vez."
+  name: Petra Arcaica
+scholar:
+  artifact_details:
+    circlet:
+      description: "Este objeto fue creado para mitigar el da\xF1o que la lectura intensiva causa a los ojos."
+      name: "Mon\xF3culo de la Erudita"
+    flower:
+      description: "Una flor seca que se usa como marcap\xE1ginas. Ha absorbido el aroma de los libros."
+      name: "Marcap\xE1ginas de la Erudita"
+    goblet:
+      description: "Originalmente un recipiente para agua potable. Se ha te\xF1ido de negro despu\xE9s de haber sido utilizado para limpiar pinceles."
+      name: Tintero de la Erudita
+    plume:
+      description: "La pluma de un p\xE1jaro que sirve como herramienta para escribir. La punta lleva mucho tiempo te\xF1ida de negro."
+      name: Pluma de la Erudita
+    sands:
+      description: "Un peque\xF1o reloj de escritorio. Proporciona la \xFAnica referencia sobre la hora para los eruditos que est\xE1n todo el d\xEDa estudiando."
+      name: Reloj de la Erudita
+  bonus:
+    2pc: "Recarga de Energ\xEDa +20%."
+    4pc: "Al obtener part\xEDculas u orbes elementales, los miembros del equipo que usen arco o catalizador recuperan 3 pts. adicionales de Energ\xEDa Elemental. Solo puede suceder una vez cada 3 s."
+  name: Erudita
+shimenawa:
+  artifact_details:
+    circlet:
+      description: "Una m\xE1scara ritual de zorro muy bien conservada y con una leve y misteriosa sonrisa."
+      name: "M\xE1scara de la Mutabilidad"
+    flower:
+      description: "Un talism\xE1n de papel de arroz de exquisita elaboraci\xF3n. Se dice que tiene el poder de hacer los deseos realidad."
+      name: Flor del Entrelazamiento
+    goblet:
+      description: Un recipiente para guardar palillos de la fortuna. En su fondo hay un mecanismo que hace que la gente saque con mayor probabilidad un palillo de mala fortuna.
+      name: "Coraz\xF3n de la Esperanza"
+    plume:
+      description: "Esta desgastada y vieja flecha m\xE1gica parece haber sido guardada con mucho cuidado por alguien."
+      name: Flecha de la Nostalgia
+    sands:
+      description: "Un reloj de bolsillo de bronce decorado con un lazo de papel de arroz y un cascabel. La hora que marca se par\xF3 en el alba de un d\xEDa de oto\xF1o."
+      name: Reloj de la Transitoriedad
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Si el personaje tiene 15 pts. de Energ\xEDa Elemental o m\xE1s, perder\xE1 15 pts. al realizar una Habilidad Elemental y el da\xF1o infligido con los Ataques Normales, Cargados y Descendentes aumentar\xE1 en un 50% durante 10 s. Este efecto no puede activarse m\xE1s de una vez simult\xE1neamente."
+  name: "Reminiscencia de la Purificaci\xF3n"
+sojourner:
+  artifact_details:
+    circlet:
+      description: Una corona de flores que despide un aroma primaveral.
+      name: "Corona del Adi\xF3s"
+    flower:
+      description: "Una flor azul celeste en cuyo tallo anudaron un peque\xF1o lazo."
+      name: "Coraz\xF3n de la Amistad"
+    goblet:
+      description: Una copa austera de porcelana blanca. Alguna vez estuvo llena de licores hasta desbordar.
+      name: "C\xE1liz Extranjero"
+    plume:
+      description: Una pluma de flecha azul. Lleva en ella la nostalgia del viajero.
+      name: Pluma del Retorno
+    sands:
+      description: "Un reloj de sol que es testigo del cambio de las eras. Registra eternamente y en silencio el flujo de los d\xEDas."
+      name: Piedra Atrapaluz
+  bonus:
+    2pc: ATQ +18%.
+    4pc: La Prob. CRIT de los Ataques Cargados aumenta en un 30%.
+  name: "Coraz\xF3n del Viajero"
+springtime:
+  artifact_details:
+    circlet:
+      description: "Una corona ceremonial portada por sacerdotes de tiempos antiguos al ofrecer un sacrificio a los dioses. Su exposici\xF3n constante al fr\xEDo g\xE9lido le ha dado una resistencia asombrosa."
+      name: Diadema de la Escarcha
+  bonus:
+    1pc: Los efectos de Cryo causados sobre ti duran un 40% menos.
+  name: Ritual de la Primavera
+tenacity:
+  artifact_details:
+    circlet:
+      description: "Un yelmo espl\xE9ndido procedente de una \xE9poca ya pasada. Si limpias el polvo acumulado en su superficie, se ver\xE1 como nuevo."
+      name: Yelmo Vetusto del General
+    flower:
+      description: "Una flor hecha de una fina l\xE1mina de oro. Representa la gloria y el honor obtenidos por quien la lleva."
+      name: Flor del Honor
+    goblet:
+      description: "Una copa de oro que la Geoarmada utiliza para prestar juramento. Todav\xEDa contiene trazas de aroma a vino."
+      name: Copa del Juramento
+    plume:
+      description: "Una pluma de halc\xF3n que se utiliza en ceremonias. Muestra al resto del mundo la dignidad y resoluci\xF3n de Liyue."
+      name: Pluma de Guerra Ceremonial
+    sands:
+      description: "Un dispositivo muy sencillo para saber la hora. En \xE9poca de guerra, era parte del equipamiento de la Geoarmada."
+      name: Reloj de Sol de Oricalco
+  bonus:
+    2pc: Vida +20%.
+    4pc: "Cuando una Habilidad Elemental golpea a un enemigo, el ATQ de todos los personajes del equipo cercanos aumenta en un 20% y su Protecci\xF3n de Escudo aumenta en un 30% durante 3 s. Este efecto puede tener lugar cada 0.5 s y se activa incluso cuando el personaje que lleva equipado este conjunto de artefactos est\xE1 en tu equipo pero no en combate."
+  name: Tenacidad de la Geoarmada
+thundering:
+  artifact_details:
+    circlet:
+      description: "Una corona usada en la antig\xFCedad por los chamanes que adoraban al Ave del Trueno. Por desgracia, ni siquiera la fe m\xE1s devota pod\xEDa impresionar a la violenta bestia."
+      name: Corona del Invocador de Truenos
+    flower:
+      description: "Una flor del trueno que sobrevivi\xF3 al furioso pisoteo y a las llamas abrasadoras de una cat\xE1strofe destructiva del pasado."
+      name: Misericordia del Ave del Trueno
+    goblet:
+      description: "Un c\xE1liz que contiene la sangre de gente inocente usada en rituales sagrados. El sonido del trueno que retumba en su interior expresa una furia desbordante."
+      name: Presagio de la Tormenta
+    plume:
+      description: "Una pluma el\xE9ctrica dejada por el Ave del Trueno como venganza. Aun hoy en d\xEDa sigue lanzando rayos y truenos llenos de furia."
+      name: "Superviviente de la Cat\xE1strofe"
+    sands:
+      description: "El reloj de arena utilizado por la tribu que adoraba al Ave del Trueno para predecir su llegada. Cuando la tribu dej\xF3 de existir, el reloj cay\xF3 en el olvido."
+      name: Reloj de Arena del Trueno
+  bonus:
+    2pc: "Bono de Da\xF1o Electro +15%."
+    4pc: "Aumenta el da\xF1o infligido por Sobrecarga, Electrocargado y Superconductor en un 40%. Al activar alguna de estas reacciones, disminuye en 1 s el TdE de la Habilidad Elemental. Solo puede ocurrir una vez cada 0.8 s."
+  name: Furia del Trueno
+thundersoother:
+  artifact_details:
+    circlet:
+      description: "La corona que recibi\xF3 el ancestral Domador de Truenos tras derrotar a la Bestia del Trueno que amenazaba su territorio."
+      name: Corona del Domador de Truenos
+    flower:
+      description: "Una flor que solo crece en zonas tormentosas. Da el coraje necesario para salir al exterior en d\xEDas de tormenta extrema."
+      name: "Coraz\xF3n del Domador de Truenos"
+    goblet:
+      description: "El c\xE1liz de vino del Domador de Truenos. Se dice que el h\xE9roe que amans\xF3 a la bestia del trueno bebi\xF3 rayos p\xFArpuras de este c\xE1liz."
+      name: "C\xE1liz del Domador de Truenos"
+    plume:
+      description: "Las leyendas dicen que el emblema del h\xE9roe que dom\xF3 los truenos era una pluma de p\xE1jaro que flotaba a trav\xE9s de tormentas el\xE9ctricas."
+      name: Pluma del Domador de Truenos
+    sands:
+      description: "Un reloj que manejaba el guerrero que controlaba los truenos y los rel\xE1mpagos. Los cristales rotos del reloj desaparecieron con el paso del tiempo."
+      name: Tiempo del Domador de Truenos
+  bonus:
+    2pc: RES Electro +40%
+    4pc: "Aumenta el Da\xF1o contra los enemigos afectados por Electro un 35%."
+  name: Domador de Truenos
+traveling:
+  artifact_details:
+    circlet:
+      description: "Se utiliza para atar el cabello mientras se trata a los pacientes, pero tambi\xE9n se puede utilizar como vendaje para esguinces y fracturas de brazos en casos de emergencia."
+      name: "Pa\xF1uelo de la M\xE9dica Itinerante"
+    flower:
+      description: "Un precioso ingrediente medicinal que ha perdido todas sus propiedades curativas despu\xE9s de tanto tiempo sin ser usado."
+      name: "Loto de Plata de la M\xE9dica Itinerante"
+    goblet:
+      description: "Sol\xEDa llevar brebajes extremadamente potentes y refinados. El fuerte olor es todo lo que queda."
+      name: "Frasco de Medicinas de la M\xE9dica Itinerante"
+    plume:
+      description: "La pluma dura de un b\xFAho. Se utiliza como m\xE9todo de automotivaci\xF3n cuando se sale a tratar a los pacientes a altas horas de la noche."
+      name: "Pluma del B\xFAho de la M\xE9dica Itinerante"
+    sands:
+      description: "Una herramienta para saber la hora exacta. Para cualquier m\xE9dico, cada segundo es muy importante."
+      name: "Reloj de Bolsillo de la M\xE9dica Itinerante"
+  bonus:
+    2pc: "Curaci\xF3n recibida +20%."
+    4pc: Al lanzar una Habilidad Definitiva, restaura un 20% de Vida.
+  name: "M\xE9dica Itinerante"
+vermillion:
+  artifact_details:
+    circlet:
+      description: "Una m\xE1scara que, se dice, los habitantes de las monta\xF1as crearon para un Yaksha. Pese a su sencillo aspecto, su exterior es realmente lustroso."
+      name: "M\xE1scara Atronadora"
+    flower:
+      description: "Un objeto conmemorativo tan vivo como el ser que lo resguard\xF3 cientos de a\xF1os atr\xE1s."
+      name: Flor de la Vitalidad
+    goblet:
+      description: "Una antigua copa de arena cristalizada cuyo brillo no se ha perdido con la erosi\xF3n del tiempo."
+      name: "Grabaci\xF3n del Contrato"
+    plume:
+      description: Una pluma de brillo tenue en la que se concentran muchos recuerdos.
+      name: Pluma del Resplandor
+    sands:
+      description: Un antiguo reloj de aspecto robusto y brillante como la arena cristalizada.
+      name: Reliquia Solar
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "#Al usar la Habilidad Definitiva, obtienes el efecto de \u201Cdestello emergente\u201D durante 16{NON_BREAK_SPACE}s, el cual aumenta el ATQ en un 8% y, adem\xE1s, hace que cada vez que el personaje pierda Vida, su ATQ aumente en un 10% adicional. Este efecto solo puede aumentar el ATQ un m\xE1ximo de 4 veces de esta manera y activarse una vez cada 0.8 s. Los efectos de destello emergente se disipar\xE1n si el personaje es retirado de combate. Si el personaje vuelve a usar la Habilidad Definitiva mientras dicho efecto est\xE1 activo, el destello emergente original tambi\xE9n se disipar\xE1."
+  name: Deceso del Cinabrio
+viridescent:
+  artifact_details:
+    circlet:
+      description: La corona que la Cazadora llevaba con gran orgullo. Es de un color verde como la naturaleza salvaje.
+      name: Sombrero de la Cazadora Verde Esmeralda
+    flower:
+      description: "En el pasado, esta flor brotaba por todas partes. La Cazadora la us\xF3 como broche cuando se march\xF3 de su tierra."
+      name: Recuerdo de Flores Silvestres
+    goblet:
+      description: "Una cantimplora para almacenar agua. Su interior es mucho m\xE1s grande de lo que parece."
+      name: Cantimplora de la Cazadora Verde Esmeralda
+    plume:
+      description: "La pluma de una flecha que hace tiempo atraves\xF3 a su presa. Sigue estando igual de suave y limpia."
+      name: Pluma de la Cazadora Verde Esmeralda
+    sands:
+      description: "Un incre\xEDble dispositivo que sol\xEDa llevar la Cazadora. Siempre apunta en direcci\xF3n a su presa."
+      name: Serenidad de la Cazadora Verde Esmeralda
+  bonus:
+    2pc: "Bono de Da\xF1o Anemo +15%."
+    4pc: "Aumenta el da\xF1o de Torbellino en un 60%. Dependiendo del tipo elemental que tenga, disminuye la RES Elemental correspondiente del enemigo en un 40% durante 10 s."
+  name: Sombra Verde Esmeralda
+wanderers:
+  artifact_details:
+    circlet:
+      description: "A pesar de haber vivido innumerables vicisitudes, sigue siendo un sombrero glamuroso. En su interior resuena una antigua melod\xEDa."
+      name: Sombrero del Director
+    flower:
+      description: "Peque\xF1a insignia en forma de flor. Si prestas atenci\xF3n, podr\xE1s escuchar las dulces notas de una flauta y un coro de voces."
+      name: Luz Matinal de la Orquesta
+    goblet:
+      description: "Una antigua jarra con cuerdas musicales en su interior. Al fluir el agua, emite unas melod\xEDas maravillosas."
+      name: Cantimplora del Errante
+    plume:
+      description: "Una pluma de flecha de color azul que no se ha deteriorado con el paso del tiempo. Parece llevar consigo el sonido mel\xF3dico de un arpa."
+      name: Pluma del Bardo
+    sands:
+      description: Un reloj de arena que se usaba para cronometrar los conciertos de una orquesta. Por desgracia, estos conciertos ya hace tiempo que no se celebran.
+      name: Reloj del Acto Final
+  bonus:
+    2pc: "Maestr\xEDa Elemental +80."
+    4pc: "Aumenta el da\xF1o de ATQ Cargado en un 35% si el personaje usa catalizador o arco."
+  name: Orquesta del Errante
+wisdom:
+  artifact_details:
+    circlet:
+      description: Una corona ceremonial portada por sacerdotes de tiempos antiguos al ofrecer un sacrificio a los dioses. El escuchar constantemente el trueno le ha dado una resistencia asombrosa.
+      name: Diadema del Trueno
+  bonus:
+    1pc: Los efectos de Electro causados sobre ti duran un 40% menos.
+  name: "Ritual de la Sabidur\xEDa"

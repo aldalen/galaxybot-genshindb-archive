@@ -1,0 +1,22 @@
+element: geo
+weapon: polearm
+rarity: 5
+availability: limited
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: basalt_pillar
+  local_specialty: cor_lapis
+  common_material: slime
+  talent: gold
+  boss_talent: tusk
+talents:
+  elemental_skill:
+    duration_seconds: 20 (shield)/30.0 (stele)
+    cooldown_seconds: 4.0/12.0
+  elemental_burst:
+    duration_seconds: 3.8 (petrification)
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: December
+  day: 31

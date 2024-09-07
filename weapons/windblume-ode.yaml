@@ -1,0 +1,31 @@
+type: Bow
+rarity: 4
+series: ''
+atk_start: 42.0
+substat: em
+substat_start: 36.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+  - values:
+    - 20%
+  - values:
+    - 24%
+  - values:
+    - 28%
+  - values:
+    - 32%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - ley_line
+  - nectar

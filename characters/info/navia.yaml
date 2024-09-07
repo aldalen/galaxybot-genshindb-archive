@@ -1,0 +1,21 @@
+element: geo
+weapon: claymore
+rarity: 5
+availability: limited
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: coppelius
+  local_specialty: spring_of_the_first_dewdrop
+  common_material: transoceanic
+  talent: equity
+  boss_talent: silk_string
+talents:
+  elemental_skill:
+    cooldown_seconds: 9.0
+  elemental_burst:
+    duration_seconds: 12.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: August
+  day: 16

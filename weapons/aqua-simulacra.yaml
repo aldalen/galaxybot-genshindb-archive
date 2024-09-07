@@ -1,0 +1,37 @@
+type: Bow
+rarity: 5
+series: ''
+atk_start: 44.0
+substat: cd_percent
+substat_start: 19.2b
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 20%
+  - values:
+    - 20%
+    - 25%
+  - values:
+    - 24%
+    - 30%
+  - values:
+    - 28%
+    - 35%
+  - values:
+    - 32%
+    - 40%
+ascension_materials:
+  weapon: guyun
+  common:
+  - statuette
+  - spectral

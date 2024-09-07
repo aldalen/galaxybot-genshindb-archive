@@ -1,0 +1,101 @@
+key: dps
+main_stat:
+  sands: hp_percent
+  goblet: hp_percent / hydro
+  circlet: hp_percent / cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- hp_percent
+- er_percent
+- hp
+talent_priority: skill = burst > auto
+weapons:
+- key-of-khaj-nisut
+- the-dockhands-assistant
+- favonius-sword
+- sacrificial-sword
+- primordial-jade-cutter
+- festering-desire
+- sapwood-blade
+rater:
+  flower:
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp_percent: 1.0
+  plume:
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  sands:
+    main_stat:
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - deepwood
+  notes:
+  - boost_dendro_shred_dendro
+  - nobody_party_has_set
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - emblem
+  - set_group:
+    - heart
+  - set_group:
+    - nymphs
+  - set_group:
+    - tenacity
+  - set_group:
+    - vourukashas
+  notes:
+  - pick_2_needs_best_sub
+  - nilou-dps-1-appended
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - adventurer
+  - set_group:
+    - exile
+    - scholar
+  notes:
+  - early_game
+  - boost_hp_er
+  weight: 0.25
+
+

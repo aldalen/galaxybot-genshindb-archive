@@ -1,0 +1,110 @@
+key: dps
+main_stat:
+  sands: atk_percent / em
+  goblet: pyro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- em
+- er_percent
+- atk
+talent_priority: auto = skill > burst
+weapons:
+- beacon-of-the-reed-sea
+- wolfs-gravestone
+- serpent-spine
+- the-unforged
+- redhorn-stonethresher
+- talking-stick
+- blackcliff-slasher
+- mailed-flower
+- rainslasher
+- akuoumaru
+- luxurious-sea-lord
+- tidal-shadow
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - crimson
+  notes:
+    - bis
+    - boost_pyro_reaction
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - crimson
+  - set_group:
+    - gladiator
+    - shimenawa
+  notes:
+    - boost_pyro_atk
+    - interim_set
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25

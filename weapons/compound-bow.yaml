@@ -1,0 +1,35 @@
+type: Bow
+rarity: 4
+atk_start: 41.0
+substat: phys_percent
+substat_start: 15.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 4%
+    - 1.2%
+  - values:
+    - 5%
+    - 1.5%
+  - values:
+    - 6%
+    - 1.8%
+  - values:
+    - 7%
+    - 2.1%
+  - values:
+    - 8%
+    - 2.4%
+ascension_materials:
+  weapon: aerosiderite
+  common:
+  - bone
+  - fatui

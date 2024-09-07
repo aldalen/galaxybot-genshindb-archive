@@ -1,0 +1,20 @@
+element: dendro
+weapon: sword
+rarity: 5
+availability: traveler
+materials:
+  character_ascension: brilliant_diamond
+  local_specialty: windwheel_aster
+  common_material: luminescent
+  talent: admonition
+  boss_talent: malefic_general
+talents:
+  elemental_skill:
+    cooldown_seconds: 8.0
+  elemental_burst:
+    duration_seconds: 12.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+image_key: traveler-dendro
+key: travelerdendro
+

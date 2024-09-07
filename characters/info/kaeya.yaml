@@ -1,0 +1,21 @@
+element: cryo
+weapon: sword
+rarity: 4
+availability: standard
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: hoarfrost_core
+  local_specialty: calla_lily
+  common_material: treasure
+  talent: ballad
+  boss_talent: locket
+talents:
+  elemental_skill:
+    cooldown_seconds: 6.0
+  elemental_burst:
+    duration_seconds: 8.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: November
+  day: 30

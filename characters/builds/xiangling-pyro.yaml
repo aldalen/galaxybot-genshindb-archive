@@ -1,0 +1,122 @@
+key: pyro
+main_stat:
+  sands: er_percent / atk_percent / em
+  goblet: pyro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- er_percent
+- em
+- atk_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- staff-of-the-scarlet-sands
+- staff-of-homa
+- engulfing-lightning
+- the-catch
+- dragons-bane
+- skyward-spine
+- wavebreakers-fin
+- kitain-cross-spear
+- favonius-lance
+- prototype-starglitter
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - emblem
+  notes:
+    - xiangling-pyro-1-prepended
+    - boost_er_burst_by_er
+  weight: 1.0
+- type: simple
+  sets:
+  - crimson
+  notes:
+    - boost_pyro_reaction
+    - xiangling-pyro-2-appended
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - for_reaction
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - lavawalker
+  notes:
+    - boost_dmg_pyro
+    - reverse_melt_enabler
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - crimson
+  - set_group:
+    - noblesse
+  - set_group:
+    - wanderers
+  notes:
+    - pick_2_needs_best_sub
+    - xiangling-pyro-4-appended
+  weight: 0.75
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25

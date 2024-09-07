@@ -1,0 +1,75 @@
+key: freeze
+main_stat:
+  sands: atk_percent
+  goblet: cryo
+  circlet: cd_percent / atk_percent
+sub_stat:
+- cd_percent
+- atk_percent
+- er_percent
+- cr_percent
+- atk
+talent_priority: burst > auto > skill
+weapons:
+- mistsplitter-reforged
+- uraku-misugiri
+- summit-shaper
+- skyward-blade
+- amenoma-kageuchi
+- the-black-sword
+- harbinger-of-dawn
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 0.5
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 0.5
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      cd_percent: 1.0
+      cr_percent: 0.5
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Cryo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 0.5
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      atk_percent: 1.0
+      cd_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 0.5
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - blizzard
+  notes: boost_cr_frozen
+  weight: 1.0
+- type: simple
+  sets:
+  - berserker
+  notes:
+    - early_game
+    - max_crit_below_70hp
+  weight: 0.25

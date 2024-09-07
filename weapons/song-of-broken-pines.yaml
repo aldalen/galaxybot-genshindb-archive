@@ -1,0 +1,41 @@
+type: Claymore
+rarity: 5
+atk_start: 49.0
+substat: phys_percent
+substat_start: 4.5
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 12%
+    - 20%
+  - values:
+    - 20%
+    - 15%
+    - 25%
+  - values:
+    - 24%
+    - 18%
+    - 30%
+  - values:
+    - 28%
+    - 21%
+    - 35%
+  - values:
+    - 32%
+    - 24%
+    - 40%
+ascension_materials:
+  weapon: decarabian
+  common:
+  - horn
+  - mask

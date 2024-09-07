@@ -1,0 +1,15 @@
+element: pyro
+weapon: bow
+rarity: 5
+availability: limited
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: smoldering_pearl
+  local_specialty: naku_weed
+  common_material: scroll
+  talent: transience
+  boss_talent: crown
+talents: {}
+birthday:
+  month: June
+  day: 21

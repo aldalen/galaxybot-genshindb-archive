@@ -1,0 +1,39 @@
+type: Claymore
+rarity: 5
+series: ''
+atk_start: 46.0
+substat: atk_percent
+substat_start: 10.8
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 40%
+  - values:
+    - 25%
+    - 50%
+  - values:
+    - 30%
+    - 60%
+  - values:
+    - 35%
+    - 70%
+  - values:
+    - 40%
+    - 80%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - scroll

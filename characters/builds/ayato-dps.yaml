@@ -1,0 +1,116 @@
+key: dps
+main_stat:
+  sands: atk_percent
+  goblet: hydro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- hp_percent
+- atk
+talent_priority: skill = burst > auto
+weapons:
+- haran-geppaku-futsu
+- primordial-jade-cutter
+- uraku-misugiri
+- mistsplitter-reforged
+- the-black-sword
+- harbinger-of-dawn
+- lions-roar
+- blackcliff-longsword
+- amenoma-kageuchi
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - echoes
+  notes: max_normal
+  weight: 1.0
+- type: simple
+  sets:
+  - heart
+  notes: boost_hydro_normal_charged_atk_after_skill
+  weight: 1.0
+- type: simple
+  sets:
+  - gladiator
+  notes: boost_atk_normal
+  weight: 1.0
+- type: simple
+  sets:
+  - blizzard
+  notes: ayato-dps-4
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - heart
+  - set_group:
+    - nymphs
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  notes:
+    - pick_2_needs_best_sub
+    - generalist_interim_set
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25

@@ -1,0 +1,100 @@
+lookups:
+  # 5*
+  blizzard:
+    - Invernal
+    - Herói
+  bloodstained:
+    - Manchado
+    - Cavaleiro
+  bolide:
+    - Invertido
+    - Meteoro
+  crimson:
+    - Carmesim
+    - Bruxa
+  emblem:
+    - Insulação
+    - Selo
+  gladiator:
+    - Gladiador
+  heart:
+    - Profundezas
+  lavawalker:
+    - Atravessador de Fogo
+  maiden:
+    - Donzela
+    - Amada
+  noblesse:
+    - Real
+    - Ritual
+  pale:
+    - Pálida
+    - Chama
+  petra:
+    - Arcaica
+    - Pedra
+  shimenawa:
+    - Nostálgica
+    - Reminescência
+  tenacity:
+    - Firmes
+    - Millelith
+  thundering:
+    - Trovão
+    - Furioso
+  thundersoother:
+    - Lançador de Trovões
+  viridescent:
+    - Verde
+    - Sombra
+  wanderers:
+    - Itinerante
+    - Trupe
+    - Concerto
+  adventurer:
+    - Aventureiro
+  berserker:
+    - Berserker
+  brave:
+    - Valente
+  defenders:
+    - Guardião
+  exile:
+    - Exilado
+  gambler:
+    - Apostador
+  instructor:
+    - Instrutor
+  lucky:
+    - Sortudo
+    - O
+  martial:
+    - Marcial
+    - Artista
+  miracle:
+    - Milagre
+  scholar:
+    - Estudioso
+  sojourner:
+    - Resolução
+    - Sojourner
+  traveling:
+    - O Doutor viajante
+  destiny:
+    - Destino
+  illumination:
+    - Xamã
+  springtime:
+    - Primavera
+  wisdom:
+    - Electro
+  clam:
+    - Tingida
+    - Concha
+  husk:
+    - Casca
+    - Opulentos
+
+ignore:
+  thundering:
+    - Cálice de Erátema

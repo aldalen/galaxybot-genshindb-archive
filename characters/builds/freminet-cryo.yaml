@@ -1,0 +1,119 @@
+key: cryo
+main_stat:
+  sands: atk_percent / er_percent
+  goblet: cryo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- em
+- atk
+talent_priority: skill > burst > auto
+weapons:
+- skyward-pride
+- wolfs-gravestone
+- the-unforged
+- serpent-spine
+- beacon-of-the-reed-sea
+- redhorn-stonethresher
+- ultimate-overlords-mega-magic-sword
+- prototype-archaic
+- tidal-shadow
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.25
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.25
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.25
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Cryo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.25
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.25
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - blizzard
+  notes: 
+    - bis
+    - boost_cr_frozen
+    - freminet-cryo-1-appended
+  weight: 1.0
+- type: simple
+  sets:
+  - marechaussee
+  notes: 
+    - for_furina
+    - boost_ca_cr_hp_change
+  weight: 1.0
+- type: simple
+  sets:
+  - golden
+  notes: max_skill
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - blizzard
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  - set_group:
+    - golden
+  - set_group:
+    - emblem
+  weight: 0.75
+  notes: boost_cryo_atk
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25

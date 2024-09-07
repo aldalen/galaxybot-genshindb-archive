@@ -1,0 +1,21 @@
+element: hydro
+weapon: polearm
+rarity: 4
+availability: standard
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: tetrahedron
+  local_specialty: henna_berry
+  common_material: eremite
+  talent: admonition
+  boss_talent: calamitous_god
+talents:
+  elemental_skill:
+    cooldown_seconds: 6.0/9.0
+  elemental_burst:
+    duration_seconds: 9.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: May
+  day: 3

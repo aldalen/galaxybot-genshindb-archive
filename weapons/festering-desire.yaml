@@ -1,0 +1,36 @@
+type: Sword
+rarity: 4
+series: ''
+atk_start: 42.0
+substat: er_percent
+substat_start: 10.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 6%
+  - values:
+    - 20%
+    - 7.5%
+  - values:
+    - 24%
+    - 9%
+  - values:
+    - 28%
+    - 10.5%
+  - values:
+    - 32%
+    - 12%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - horn
+  - fatui

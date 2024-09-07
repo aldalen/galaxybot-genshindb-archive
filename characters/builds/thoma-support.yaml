@@ -1,0 +1,97 @@
+key: support
+main_stat:
+  sands: hp_percent / er_percent
+  goblet: hp_percent
+  circlet: hp_percent
+sub_stat:
+- hp_percent
+- er_percent
+- cr_percent
+- hp
+- cd_percent
+- atk_percent
+talent_priority: skill => burst > auto
+weapons:
+- favonius-lance
+- rightful-reward
+- black-tassel
+- kitain-cross-spear
+- prototype-starglitter
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp: 0.5
+      hp_percent: 1.0
+  sands:
+    main_stat:
+      er_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp: 0.5
+      hp_percent: 1.0
+  goblet:
+    main_stat:
+      hp_percent: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp: 0.5
+  circlet:
+    main_stat:
+      hp_percent: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp: 0.5
+set_rating:
+- type: complex
+  sets:
+  - set_group:
+    - emblem
+  - set_group:
+    - tenacity
+  - set_group:
+    - vourukashas
+  notes: 
+    - pick_2_needs_best_sub
+    - boost_hp_er
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes: boost_burst_party_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25
+- type: simple
+  sets:
+  - exile
+  notes:
+    - early_game
+    - thoma-support-4-appended
+  weight: 0.25

@@ -1,0 +1,96 @@
+key: dendro
+main_stat:
+  sands: em / er_percent / atk_percent
+  goblet: em / dendro
+  circlet: cr_percent / cd_percent / em
+sub_stat:
+- cr_percent / cd_percent
+- em
+- atk_percent
+- er_percent
+talent_priority: burst = auto > skill
+weapons:
+- beacon-of-the-reed-sea
+- redhorn-stonethresher
+- serpent-spine
+- forest-regalia
+- favonius-greatsword
+- makhaira-aquamarine
+- mailed-flower
+- sacrificial-greatsword
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Dendro
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - deepwood
+  notes:
+  - bis
+  - boost_dendro_shred_dendro
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes: 
+  - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - gladiator
+  notes: 
+    - boost_atk_normal
+    - for_quicken
+  weight: 0.75
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

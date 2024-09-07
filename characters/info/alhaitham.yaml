@@ -1,0 +1,22 @@
+element: dendro
+weapon: sword
+rarity: 5
+availability: limited
+materials:
+  character_ascension: nagadus_emerald
+  boss_ascension: pseudo_stamens
+  local_specialty: sand_grease_pupa
+  common_material: eremite
+  talent: ingenuity
+  boss_talent: mirror_of_mushin
+talents:
+  elemental_skill:
+    cooldown_seconds: 18.0
+  elemental_burst:
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: February
+  day: 11
+
+

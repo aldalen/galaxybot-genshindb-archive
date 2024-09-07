@@ -1,0 +1,21 @@
+element: cryo
+weapon: claymore
+rarity: 4
+availability: standard
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: hoarfrost_core
+  local_specialty: cor_lapis
+  common_material: mask
+  talent: diligence
+  boss_talent: sigh
+talents:
+  elemental_skill:
+    duration_seconds: 10.0
+    cooldown_seconds: 15.0
+  elemental_burst:
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: September
+  day: 7

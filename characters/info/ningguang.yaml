@@ -1,0 +1,21 @@
+element: geo
+weapon: catalyst
+rarity: 4
+availability: standard
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: basalt_pillar
+  local_specialty: glaze_lily
+  common_material: fatui
+  talent: prosperity
+  boss_talent: locket
+talents:
+  elemental_skill:
+    duration_seconds: 30.0
+    cooldown_seconds: 12.0
+  elemental_burst:
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: August
+  day: 26

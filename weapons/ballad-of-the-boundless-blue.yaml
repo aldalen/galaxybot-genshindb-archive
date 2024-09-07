@@ -1,0 +1,35 @@
+type: Catalyst
+rarity: 4
+atk_start: 44.0
+substat: er_percent
+substat_start: 6.7
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 8%
+    - 6%
+  - values:
+    - 10%
+    - 7.5%
+  - values:
+    - 12%
+    - 9%
+  - values:
+    - 14%
+    - 10.5%
+  - values:
+    - 16%
+    - 12%
+ascension_materials:
+  weapon: boreal_wolf
+  common:
+  - bone
+  - treasure

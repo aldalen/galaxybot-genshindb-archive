@@ -1,0 +1,84 @@
+key: support
+main_stat:
+  sands: er_percent
+  goblet: hydro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- er_percent
+- cr_percent / cd_percent
+- atk_percent
+talent_priority: burst > skill > auto
+weapons:
+- thrilling-tales-of-dragon-slayers
+- prototype-amber
+- favonius-codex
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      er_percent: 1.0
+  sands:
+    main_stat:
+      er_percent: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - nobody_party_has_set
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes:
+    - boost_shield_party_atk
+    - mona_diona_synergy
+    - mona-support-2-appended
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - boost_em
+  weight: 0.25

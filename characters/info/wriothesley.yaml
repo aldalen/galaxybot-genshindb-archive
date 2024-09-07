@@ -1,0 +1,21 @@
+element: cryo
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: tourbillon_device
+  local_specialty: subdetection_unit
+  common_material: clockwork_gear
+  talent: order
+  boss_talent: primordial_greenbloom
+talents:
+  elemental_skill:
+    duration_seconds: 10.0
+    cooldown_seconds: 16.0
+  elemental_burst:
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: November
+  day: 23

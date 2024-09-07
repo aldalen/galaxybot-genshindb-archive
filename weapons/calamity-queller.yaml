@@ -1,0 +1,37 @@
+type: Polearm
+rarity: 5
+series: ''
+atk_start: 49.0
+substat: atk_percent
+substat_start: 3.6
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - 3.2%
+  - values:
+    - 15%
+    - 4%
+  - values:
+    - 18%
+    - 4.8%
+  - values:
+    - 21%
+    - 5.6%
+  - values:
+    - 24%
+    - 6.4%
+ascension_materials:
+  weapon: mist_veiled
+  common:
+  - mist
+  - nectar

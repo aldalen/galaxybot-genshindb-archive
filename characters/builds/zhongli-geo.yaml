@@ -1,0 +1,114 @@
+key: geo
+main_stat:
+  sands: atk_percent / hp_percent
+  goblet: geo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- hp_percent
+- atk_percent
+- er_percent
+- atk
+- hp
+talent_priority: burst > skill > auto
+weapons:
+- staff-of-homa
+- primordial-jade-winged-spear
+- the-catch
+- deathmatch
+- wavebreakers-fin
+- vortex-vanquisher
+- calamity-queller
+- lithic-spear
+- skyward-spine
+- favonius-lance
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Geo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+      hp: 0.25
+      hp_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - petra
+  - noblesse
+  notes: zhongli-geo-1
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  notes:
+    - boost_er_burst_by_er
+    - zhongli-geo-2-appended
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes: boost_hp_shield_party_atk
+  weight: 0.75
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - nobody_party_has_set
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - exile
+    - scholar
+  notes:
+    - early_game
+    - boost_cr_er
+  weight: 0.25

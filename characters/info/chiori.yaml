@@ -1,0 +1,21 @@
+element: geo
+weapon: sword
+rarity: 5
+availability: limited
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: coppelia
+  local_specialty: dendrobium
+  common_material: spectral
+  talent: light
+  boss_talent: silk_string
+talents:
+  elemental_skill:
+    duration_seconds: 17.0
+    cooldown_seconds: 16.0
+  elemental_burst:
+    cooldown_seconds: 13.5
+    energy_cost: 50
+birthday:
+  month: August
+  day: 17

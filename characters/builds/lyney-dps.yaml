@@ -1,0 +1,107 @@
+key: dps
+main_stat:
+  sands: atk_percent
+  goblet: pyro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- atk
+talent_priority: auto > skill = burst
+weapons:
+- the-first-great-magic
+- aqua-simulacra
+- thundering-pulse
+- amos-bow
+- polar-star
+- skyward-harp
+- prototype-crescent
+- the-viridescent-hunt
+- scion-of-the-blazing-sun
+- range-gauge
+- blackcliff-warbow
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - marechaussee
+  notes: 
+    - bis
+    - boost_ca_cr_hp_change
+  weight: 1.0
+- type: simple
+  sets:
+  - lavawalker
+  notes:
+    - boost_dmg_pyro
+  weight: 1.0
+- type: simple
+  sets:
+  - shimenawa
+  notes: boost_atk_normal_cost_burst
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - crimson
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  notes:
+    - boost_pyro_atk
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25

@@ -1,0 +1,108 @@
+key: dps
+main_stat:
+  sands: em 
+  goblet: electro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- em
+- atk_percent
+- er_percent
+- atk
+talent_priority: burst = auto > skill
+weapons:
+- hunters-path
+- aqua-simulacra
+- elegy-for-the-end
+- slingshot
+- cloudforged
+- windblume-ode
+- ibis-piercer
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+  sands:
+    main_stat:
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Electro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.25
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+set_rating:
+- type: simple
+  sets:
+  - wanderers
+  notes:
+  - boost_em_charge_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes: 
+  - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - shimenawa
+  notes: boost_atk_normal_cost_burst
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - thundering
+  - set_group:
+    - marechaussee
+  - set_group:
+    - wanderers
+    - gilded
+  notes:
+    - pick_2_best_sub
+    - generalist_set
+  weight: 1.0
+- type: simple
+  sets:
+  - berserker
+  - instructor
+  notes:
+    - early_game
+    - boost_cr_em
+  weight: 0.25
+

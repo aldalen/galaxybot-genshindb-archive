@@ -1,0 +1,22 @@
+element: geo
+weapon: claymore
+rarity: 4
+availability: standard
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: basalt_pillar
+  local_specialty: valberry
+  common_material: mask
+  talent: resistance
+  boss_talent: claw
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 24.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: March
+  day: 21

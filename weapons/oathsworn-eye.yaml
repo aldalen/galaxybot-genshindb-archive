@@ -1,0 +1,31 @@
+type: Catalyst
+rarity: 4
+series: ''
+atk_start: 44.0
+substat: atk_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 24%
+  - values:
+    - 30%
+  - values:
+    - 36%
+  - values:
+    - 42%
+  - values:
+    - 48%
+ascension_materials:
+  weapon: distant_sea
+  common:
+  - rifthound_claws
+  - spectral

@@ -1,0 +1,89 @@
+key: dendro
+main_stat:
+  sands: em
+  goblet: dendro / em
+  circlet: cr_percent / cd_percent / em
+sub_stat:
+- cr_percent / cd_percent
+- em
+- atk_percent
+- er_percent
+talent_priority: skill > burst = auto
+weapons:
+- a-thousand-floating-dreams
+- kaguras-verity
+- lost-prayer-to-the-sacred-winds
+- the-widsith
+- solar-pearl
+- sacrificial-fragments
+- mappa-mare
+- magic-guide
+- wandering-evenstar
+- favonius-codex
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.5
+  sands:
+    main_stat:
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: dendro
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - deepwood
+  notes:
+  - boost_dendro_shred_dendro
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes: 
+  - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

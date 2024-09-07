@@ -1,0 +1,768 @@
+adventurer:
+  artifact_details:
+    circlet:
+      description: "A bandana est\xE1 cheia de suor e coberta de poeira. Embora esteja suja, \xE9 dif\xEDcil esconder orgulho do aventureiro."
+      name: Bandana de Aventureiro
+    flower:
+      description: "Uma flor resiliente que sobreviveu ao ambiente hostil de uma cidade antiga. \xC9 usada agora orgulhosamente como uma medalha."
+      name: Rosa do Aventureiro
+    goblet:
+      description: "Trof\xE9u de uma das batalhas do aventureiro. Apesar de estar faltando alguns peda\xE7os, \xE9 uma conquista orgulhosa."
+      name: "C\xE1lice de Ouro do Aventureiro"
+    plume:
+      description: "Uma pena de um p\xE1ssaro ex\xF3tico raramente visto neste continente."
+      name: Pena de Cauda de Aventureiro
+    sands:
+      description: Os Aventureiros geralmente se perdem no tempo enquanto se aventuram nas profundezas dos abismos ou na cidade perdida.
+      name: "Rel\xF3gio de Bolso do Aventureiro"
+  bonus:
+    2pc: "Vida M\xE1x. +1000"
+    4pc: "Abrir um ba\xFA recupera 30% de Vida M\xE1xima durante 5 segundos."
+  name: Aventureiro
+berserker:
+  artifact_details:
+    circlet:
+      description: "Uma m\xE1scara de ferro meio quebrada durante batalhas ferozes."
+      name: "M\xE1scara de Batalha de Berserker"
+    flower:
+      description: Uma flor manchada de vermelho delicada que representa a qualidade do Berserker.
+      name: Rosa de Berserker
+    goblet:
+      description: "Um copo feito dos ossos de bestas gigantes desconhecidas obtidos depois de uma ca\xE7a."
+      name: "Ta\xE7a de Ossos de Berserker"
+    plume:
+      description: Algumas das plumas de cauda azul-marinho do corvo originalmente eram tingidas de vermelho.
+      name: Pluma de Berserker
+    sands:
+      description: "O l\xEDquido dentro flui sem piedade. Mostra quanto tempo resta no campo de batalha e neste mundo."
+      name: "Rel\xF3gio de Berserker"
+  bonus:
+    2pc: "Taxa Cr\xEDtica +12%"
+    4pc: "Quando a Vida estiver abaixo de 70%, a Taxa Cr\xEDtica aumenta 24%."
+  name: Berserker
+blizzard:
+  artifact_details:
+    circlet:
+      description: "Uma coroa heroica antiga do sonho de conquistar a neve e o gelo \xE9 uma prova da coragem de enfrentar o frio do inverno."
+      name: Eco do Inverno
+    flower:
+      description: "Uma esp\xE9cie de flor de geleiras extinta h\xE1 muito tempo atr\xE1s. At\xE9 mesmo o guerreiro mais arrogante, um dia, se curvou diante dela."
+      name: "Mem\xF3ria da Nevasca"
+    goblet:
+      description: "Um copo feito de gelo, t\xE3o duro quanto o inverno. Antigamente, era usado para beber o vinho que n\xE3o congela."
+      name: Orgulho da Geada
+    plume:
+      description: "Uma pluma que emana uma aura fria. Transmite a sensa\xE7\xE3o dos ventos turbulentos que a trouxeram at\xE9 aqui, voando sobre plan\xEDcies cobertas de neve e entre picos gelados."
+      name: "Determina\xE7\xE3o do Quebrador de Gelo"
+    sands:
+      description: "O rel\xF3gio de uma antiga na\xE7\xE3o \xE0 espera do retorno de seus guerreiros. Dentro dele n\xE3o h\xE1 areia, mas peda\xE7os de gelo que nunca derretem."
+      name: Fim da Terra Natal Gelada
+  bonus:
+    2pc: "B\xF4nus de Dano Cryo +15%"
+    4pc: Quando um personagem ataca um inimigo afetado por Cryo, a sua Taxa CRIT aumenta em 20%. Adicionalmente, se o inimigo estiver Congelado, a Taxa CRIT aumenta em mais 20%.
+  name: "Her\xF3i Invernal"
+bloodstained:
+  artifact_details:
+    circlet:
+      description: "A m\xE1scara de ferro usada pelo cavaleiro para proteger o seu rosto. O que h\xE1 por de baixo dessa m\xE1scara \xE9 alvo de muita especula\xE7\xE3o."
+      name: "M\xE1scara de Ferro Sanguin\xE1ria"
+    flower:
+      description: "Flor negra manchada pelo sangue, dura como o a\xE7o. \xC9 uma esp\xE9cie de lembran\xE7a."
+      name: "Cora\xE7\xE3o de Ferro Sanguin\xE1rio"
+    goblet:
+      description: "Um copo de metal de um cavaleiro sanguin\xE1rio. O sangue condensado fez com que a sua superf\xEDcie exterior ficasse escura como a noite."
+      name: "C\xE1lice do Cavaleiro Sanguin\xE1rio"
+    plume:
+      description: "Pena grudada na capa do cavaleiro. Ap\xF3s ser manchada diversas vezes com sangue, acabou ficando totalmente escura."
+      name: "Pena Negra Sanguin\xE1ria"
+    sands:
+      description: "Um rel\xF3gio usado pelos estudiosos. O l\xEDquido interno que havia, se condensou, perdendo a sua fun\xE7\xE3o de medir o tempo."
+      name: "Rel\xF3gio do Cavaleiro Sanguin\xE1rio"
+  bonus:
+    2pc: "Dano F\xEDsico causado +25%"
+    4pc: "Ap\xF3s derrotar um oponente, aumenta o Dano do Ataque Carregado em 50% e reduz seu custo de Stamina para 0 por 10s."
+  name: Cavaleiro Manchado de Sangue
+bolide:
+  artifact_details:
+    circlet:
+      description: "Uma m\xE1scara muito popular baseada na lend\xE1ria imagem de deus."
+      name: "M\xE1scara do Festival de Ver\xE3o"
+    flower:
+      description: Uma flor artificial floresce para sempre com vida?
+      name: "Flor do Festival de Ver\xE3o"
+    goblet:
+      description: "Durante o festival de ver\xE3o, bal\xF5es de \xE1gua n\xE3o s\xE3o incomuns. Mas apenas este \xE9 t\xE3o refinado."
+      name: "Bal\xF5es de \xC1gua do Festival de Ver\xE3o"
+    plume:
+      description: Dardos de madeira delicados. Apenas param quando atingem o seu alvo.
+      name: "Fim do Festival de Ver\xE3o"
+    sands:
+      description: Um sino requintado de um determinado momento.
+      name: "Momento do Festival de Ver\xE3o"
+  bonus:
+    2pc: Aumenta a efetividade de escudos em 35%
+    4pc: "Ganha um adicional de 40% de Dano Normal e Carregado enquanto estiver sob a prote\xE7\xE3o de um escudo."
+  name: Meteoro Invertido
+brave:
+  artifact_details:
+    circlet:
+      description: "Anel de palha esbo\xE7ado. Para algumas pessoas, \xE9 t\xE3o preciosa quanto a coroa de ouro do rei."
+      name: Coroa do Valente
+    flower:
+      description: "N\xE3o \xE9 apenas uma simples flor no peito, \xE9 uma lembran\xE7a depois de uma aventura."
+      name: Medalha do Valente
+    goblet:
+      description: "Um recipiente de madeira r\xFAstica repleta de mem\xF3rias antigas."
+      name: Despedida do Valente
+    plume:
+      description: Plumas brilhantes de aves canoras. Podem trazer um pouco de coragem.
+      name: "Esperan\xE7a do Valente"
+    sands:
+      description: "Uma mini ampulheta n\xE3o muito pr\xE1tica. T\xE3o evasiva quanto o passar do tempo."
+      name: "Persist\xEAncia do Valente"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: Aumenta o Dano em 30% contra os inimigos com mais de 50% de Vida.
+  name: "Cora\xE7\xE3o Valente"
+clam:
+  artifact_details:
+    circlet:
+      description: "Uma coroa antiga e intrincada que j\xE1 foi usada por um membro do esquecido clero. Hoje, esta rel\xEDquia foi consagrada com grande cerim\xF4nia pelo povo de Watatsumi."
+      name: Coroa de Watatsumi
+    flower:
+      description: Uma flor suave que assumiu as muitas cores do oceano caprichoso. Ela brilha com cores maravilhosas sob a luz prateada da lua.
+      name: Flor Tingida Pelo Mar
+    goblet:
+      description: "As p\xE9rolas brilhantes que as sacerdotisas da Ilha Watatsumi oferecem brilham eternamente e nunca se apagam."
+      name: "Jaula de p\xE9rola"
+    plume:
+      description: Uma pena com a mesma tonalidade do coral, que se diz ter vindo de uma roupa cerimonial de uma sacerdotisa.
+      name: "Pluma do Pal\xE1cio Profundo"
+    sands:
+      description: "Uma concha limpa e impec\xE1vel que vem do oceano infinito."
+      name: "Concha da Separa\xE7\xE3o"
+  bonus:
+    2pc: "B\xF4nus de Cura +15%"
+    4pc: "Quando o personagem que equipa este conjunto de artefatos cura outro personagem da sua equipe, ele cria o efeito de \"Bolha de Espuma do Mar\" durante 3s, que registra a quantidade de vida regenerada (incluindo a regenerada acima de 100%). No final da dura\xE7\xE3o do efeito, a Bolha de Espuma do Mar explode, causando dano aos inimigos ao redor com base em 90% da vida regenerada. (Esse Dano \xE9 calculado de forma semelhante a rea\xE7\xF5es como Eletricamente Carregado e Supercondutor, mas n\xE3o \xE9 afetado pela Profici\xEAncia Elemental, n\xEDveis de personagens ou dano b\xF4nus de rea\xE7\xF5es.) Apenas se pode criar uma Bolha de Espuma do Mar a cada 3.5s, e esta poder\xE1 registrar no m\xE1ximo 30.000 pontos de vida, incluindo aqueles regenerados acima de 100%. Al\xE9m disso, apenas uma Bolha de Espuma do Mar pode existir em sua equipe de cada vez. Quando o personagem equipando este conjunto de artefatos est\xE1 na equipe, mas n\xE3o em combate, poder\xE1 ainda assim ativar\
+      \ este efeito."
+  name: Concha Tingida Pelo Mar
+crimson:
+  artifact_details:
+    circlet:
+      description: "Um chap\xE9u que foi usado por uma bruxa que desejava queimar o mundo. Suas abas grandes podem bloquear o seu campo de vis\xE3o."
+      name: "Chap\xE9u Abrasador da Bruxa"
+    flower:
+      description: "Uma flor que foi tocada por uma bruxa que desejava queimar o mundo. Aqueles que tentam a tocar s\xE3o recebidos calorosamente pela l\xEDngua das chamas."
+      name: Flor de Labareda da Bruxa
+    goblet:
+      description: "Um jarro de barro em chamas deixado por uma bruxa que desejava queimar o mundo. As chamas deste jarro n\xE3o se apagam nunca, assim como o desejo da bruxa."
+      name: "Chamas do Cora\xE7\xE3o da Bruxa"
+    plume:
+      description: "Uma pena de p\xE1ssaro tocada por uma bruxa que desejava queimar o mundo. Com a sua constante queima, exala temperaturas ardentes."
+      name: Pena Ardente da Bruxa
+    sands:
+      description: "Um rel\xF3gio que foi usado por uma bruxa que desejava queimar o mundo, cujos momentos de dedica\xE7\xE3o \xE0s chamas ainda flui."
+      name: Fim dos Tempos da Bruxa
+  bonus:
+    2pc: "B\xF4nus de Dano Pyro +15%"
+    4pc: "Aumenta o dano causado por Sobrecarga e Queimadura em 40%, aumenta o dano causado pela Vaporiza\xE7\xE3o e Fus\xE3o em 15%. Ao usar a Habilidade Elemental aumenta os efeitos do Conjunto de 2 Pe\xE7as em 50% por 10s. Pode acumular at\xE9 3x."
+  name: A Bruxa das Chamas Carmesim
+defenders:
+  artifact_details:
+    circlet:
+      description: "Uma bandana de tecido para prender o cabelo que tamb\xE9m pode servir de curativo em caso de emerg\xEAncias."
+      name: Cinto do Guarda
+    flower:
+      description: "As \xEDris apreciadas pelos guardi\xF5es. N\xE3o h\xE1 chances de dar a quem ama."
+      name: Flor do Guarda
+    goblet:
+      description: "Recipiente de metal. Pode ser usado para reter algum tipo de l\xEDquido que pode espantar a solid\xE3o."
+      name: Sangue do Guarda
+    plume:
+      description: Um broche em forma de pena que simboliza o desejo de proteger.
+      name: Emblema do Guarda
+    sands:
+      description: Um pequeno dispositivo para mostrar a hora atual. Apenas funciona em noites sem lua.
+      name: "Rel\xF3gio do Guarda"
+  bonus:
+    2pc: DEF +30%
+    4pc: "Aumenta a pr\xF3pria RES do respectivo elemento em 30% para cada elemento diferente dos seus personagens da equipe."
+  name: "Guardi\xE3o"
+destiny:
+  artifact_details:
+    circlet:
+      description: "Uma coroa usada por sacerdotes durante cerim\xF4nias antigamente. Sua imers\xE3o na \xE1gua ao longo do ano deu-lhe uma resist\xEAncia incr\xEDvel."
+      name: Coroa do Ritual Hydro
+  bonus:
+    1pc: "Reduz a dura\xE7\xE3o dos efeitos causados por Hydro em 40%."
+  name: "Ora\xE7\xF5es para o Destino"
+echoes:
+  artifact_details:
+    circlet:
+      description: "Um belo par de brincos de jade. Possui uma sensa\xE7\xE3o de gentileza incompar\xE1vel."
+      name: Jades da Torrente
+    flower:
+      description: "Uma escultura de jade na forma de flor. O cheiro sutil da fragr\xE2ncia espiritual parece lhe arrodear."
+      name: "Flor da Fragr\xE2ncia Espiritual"
+    goblet:
+      description: "Um c\xE1lice de ch\xE1 que ininterruptamente jorra um fluxo de \xE1gua cristalina. N\xE3o se sabe se ele \xE9 um presente, uma rel\xEDquia ou um objeto perdido dos Adepti."
+      name: "C\xE1lice da Fonte"
+    plume:
+      description: Um pingente de jade similar a uma folha. No passado ele tinha um significado especial para certos amigos.
+      name: Folha de Jade
+    sands:
+      description: "Um pingente de jade circular. Ele era em alguma lenda uma prova para a abertura de um sacrif\xEDcio em algum local."
+      name: "S\xEDmbolo da Oferenda"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Quando o Ataque Normal atinge um inimigo, tem 36% de chance de ativar o Rito do Vale: o Ataque Normal aumenta o Dano e o valor de aumento \xE9 70% do ATQ. Esse efeito desaparece nos 0.05s ap\xF3s o Ataque Normal causar dano. Quando o Ataque Normal n\xE3o ativar o Rito do Vale, aumenta a probabilidade em 20% no pr\xF3ximo lan\xE7amento. Essa ativa\xE7\xE3o pode ocorrer 1 vez a cada 0.2s."
+  name: "Eco do Sacrif\xEDcio"
+emblem:
+  artifact_details:
+    circlet:
+      description: "Um capacete s\xF3lido e firme. Era um item que guerreiros respeit\xE1veis utilizavam para se protegerem."
+      name: Capacete Ornamentado
+    flower:
+      description: "Diz a lenda que esse protetor de m\xE3os ornamentado foi usado como revestimento de uma espada presenteada a oni que traiu a Shogun."
+      name: Pomo Poderoso
+    goblet:
+      description: "Uma \xE2nfora de vinho ornamentada. Antes era o recipiente que um guerreiro famoso carregava vinho."
+      name: "\xC2nfora das Flores Escarlates"
+    plume:
+      description: "Asas pretas que originalmente pertenciam a algum Tengu. No passado eram uma lembran\xE7a valorizada por espadachins."
+      name: Pluma Cortada
+    sands:
+      description: Uma gaiola selada refinada com amores-perfeitos pintados em um fundo preto, decorada com conchas  brilhantes incrustadas e pequenos detalhes de ouro.
+      name: Gaiola da Tempestade
+  bonus:
+    2pc: Recarga de Energia +20%
+    4pc: "Aumenta o Dano do Supremo em 25% da Recarga de Energia. No m\xE1ximo \xE9 poss\xEDvel obter 75% de aumento de Dano dessa maneira."
+  name: "Selo da Insula\xE7\xE3o"
+exile:
+  artifact_details:
+    circlet:
+      description: "Uma grinalda de prest\xEDgio, no entanto, a ins\xEDgnia real foi retirada, n\xE3o possuindo mais a identidade original."
+      name: Grinalda do Exilado
+    flower:
+      description: "Uma flor murcha usada na camisa. Usada mesmo at\xE9 pelos exilados, deve significar alguma coisa."
+      name: Flor do Exilado
+    goblet:
+      description: Um copo fosco feito com metais pesados. Havia pedras preciosas inseridas nela, mas elas foram retiradas.
+      name: "C\xE1lice do Exilado"
+    plume:
+      description: "N\xE3o \xE9 um acess\xF3rio intencional, uma pena de p\xE1ssaro que acabou ficando grudada durante a trajet\xF3ria na natureza."
+      name: Pena do Exilado
+    sands:
+      description: "Um mostrador do rel\xF3gio de cristal quebrado, at\xE9 mesmo seus ponteiros foram perdidos. Mas, mesmo assim, seu dono n\xE3o o jogou fora."
+      name: "Rel\xF3gio de Bolso do Exilado"
+  bonus:
+    2pc: Recarga de Energia +20%
+    4pc: "Ao usar o Supremo, regenera 2 de Energia a todos os personagens da equipe (excluindo o portador) a cada 2s por 6s. Este efeito n\xE3o pode ser acumulado."
+  name: O Exilado
+gambler:
+  artifact_details:
+    circlet:
+      description: "Um par de brincos azuis que faz as pessoas pensarem de cabe\xE7a fria, evitando poss\xEDveis crises."
+      name: Brincos de Apostador
+    flower:
+      description: Uma flor grande que pode esconder um dado preparado.
+      name: Broche de Apostador
+    goblet:
+      description: "Feito de forma \xFAnica, mas n\xE3o possui nenhum compartimento especial embutido."
+      name: Copo de Dados do Apostador
+    plume:
+      description: "Pena da cauda de um p\xE1ssaro grande que pode esconder uma carta com o poder de mudar o destino."
+      name: "Acess\xF3rio de Penas de Apostador"
+    sands:
+      description: "Um rel\xF3gio quebrado que recebeu salvou a vida de seu dono de um Golpe letal."
+      name: "Rel\xF3gio de Bolso de Apostador"
+  bonus:
+    2pc: Aumenta o dano da Habilidade Elemental em 20%.
+    4pc: Ao derrotar um inimigo, possui 100% de chance de remover a Recarga da Habilidade Elemental. Este efeito pode ser ativado uma vez a cada 15s.
+  name: Apostador
+gladiator:
+  artifact_details:
+    circlet:
+      description: "Capacete dos antigos gladiadores lend\xE1rios, manchado com o sangue de in\xFAmeros rivais e momentos de gl\xF3ria."
+      name: Triunfo do Gladiador
+    flower:
+      description: "Ningu\xE9m sabe por que o lend\xE1rio lutador sempre usou essa pequena flor no peito. Este \xE9 o \xFAnico ponto fraco do guerreiro."
+      name: Nostalgia do Gladiador
+    goblet:
+      description: "O copo de ouro usado pelos Gladiadores Antigos para beber o vinho da vit\xF3ria. O copo traz consigo todas as mem\xF3rias at\xE9 o seu \xFAltimo momento."
+      name: Embriaguez do Gladiador
+    plume:
+      description: "Uma pena que sonha em ter a liberdade de um falc\xE3o. No final de sua carreira lend\xE1ria, o p\xE1ssaro indom\xE1vel colocou esta pena em seu cora\xE7\xE3o."
+      name: Destino do Gladiador
+    sands:
+      description: "Um testemunho dos dias sangrentos de um gladiador. Representa o caminho \xE1rduo percorrido para alcan\xE7ar a liberdade."
+      name: "Esperan\xE7a do Gladiador"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Se o portador deste conjunto de artefato usar uma Espada, Espad\xE3o ou Lan\xE7a, aumenta o Dano de seus Ataques Normais em 35%."
+  name: "\xDAltimo Juramento do Gladiador"
+heart:
+  artifact_details:
+    circlet:
+      description: "Um antigo chap\xE9u manchado de vinho que ainda cheira a \xE1lcool."
+      name: "Quepe de Capit\xE3o Manchado de Vinho"
+    flower:
+      description: Um broche que perdeu o brilho. O revestimento de ouro que o adornava foi desgastado pelo vento e pelas ondas.
+      name: Broche Dourado
+    goblet:
+      description: "Uma ta\xE7a de vinho com cores desvanecidas que foi encontrada no mar por acaso. Seu exterior opaco retrata o tempo que passou sob as ondas."
+      name: "C\xE1lice das Profundezas"
+    plume:
+      description: "Uma pluma carregada pelo choro dos ventos mar\xEDtimos e pelas ondas rubras. O tempo mudou sua forma e cor."
+      name: Brisa da Nostalgia
+    sands:
+      description: "Uma b\xFAssola de bronze ancestral. Sua agulha aponta para alguma costa distante em um porto desconhecido."
+      name: "B\xFAssola de Cobre"
+  bonus:
+    2pc: "B\xF4nus de Dano Hydro +15%"
+    4pc: "Ap\xF3s usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Carregado em 30% por 15s."
+  name: "Profundezas do Cora\xE7\xE3o"
+husk:
+  artifact_details:
+    circlet:
+      description: "Chap\xE9u usado por andarilhos para se protegerem do sol e da chuva durante suas viagens. Serve tamb\xE9m para esconder seus rostos e suas express\xF5es."
+      name: "Chap\xE9u do Esqueleto"
+    flower:
+      description: "Uma pequena joia de ouro em forma de uma flor de seis p\xE9talas, que nunca murchar\xE1 e ser\xE1 capaz de testemunhar esplendor ef\xEAmero e a gl\xF3ria do mundo mortal."
+      name: "Per\xEDodo de Gl\xF3ria"
+    goblet:
+      description: "Uma caba\xE7a decorada com tinta preta e p\xF3 de ouro. A cor original n\xE3o \xE9 mais vis\xEDvel. Parece que seu prop\xF3sito era ser adere\xE7o de apresenta\xE7\xE3o."
+      name: Despertar dos Sonhos
+    plume:
+      description: "Certificado em forma de pena trazido do Sal\xE3o do Retiro. Devido \xE0 compaix\xE3o de seu criador, foi colocado junto com um certo objeto e um corpo adormecido no museu."
+      name: "Pavilh\xE3o das Plumas"
+    sands:
+      description: "Considerado nada mais do que um pequeno objeto estrangeiro para o povo Inazuma. Seu n\xFAcleo mec\xE2nico foi desmontado, raz\xE3o pela qual o ponteiro h\xE1 muito parou de girar."
+      name: "Can\xE7\xE3o da Vida"
+  bonus:
+    2pc: DEF +30%
+    4pc: "Um personagem com este conjunto de artefatos equipado obter\xE1 o efeito de Curiosidade nas seguintes condi\xE7\xF5es: Quando estiver no campo de batalha, o personagem ganha 1 carga ap\xF3s atingir um advers\xE1rio com um ataque Geo, isso pode ser desencadeado uma vez a cada 0.3s. Quando fora do campo de batalha, o personagem ganha 1 carga a cada 3s. A Curiosidade pode acumular em at\xE9 4 vezes, cada uma fornecendo 6% de DEF e um B\xF4nus de Dano Geo de tamb\xE9m 6%. Quando 6 segundos passam sem ganhar um ac\xFAmulo de Curiosidade, 1 ac\xFAmulo \xE9 perdido."
+  name: Casca de Sonhos Opulentos
+illumination:
+  artifact_details:
+    circlet:
+      description: "Uma coroa usada por sacerdotes durante cerim\xF4nias antigamente. Sua imers\xE3o no fogo ao longo do ano deu-lhe uma resist\xEAncia incr\xEDvel."
+      name: Coroa do Ritual Pyro
+  bonus:
+    1pc: "Reduz a dura\xE7\xE3o dos efeitos causados por Pyro em 40%."
+  name: "Xam\xE3 do Ritual Pyro"
+instructor:
+  artifact_details:
+    circlet:
+      description: Quepe padronizado de instrutor militar. Apenas aqueles que se recusaram a serem promovidos a um cargo maior recebem essa honra.
+      name: "Chap\xE9u de Instrutor"
+    flower:
+      description: "Quando o instrutor estiver usando este broche, significa que n\xE3o haver\xE1 treinamento hoje."
+      name: Broche de Instrutor
+    goblet:
+      description: "Pode parecer no m\xE1ximo um copo comum, mas para os estudantes, \xE9 um s\xEDmbolo de autoridade do instrutor."
+      name: "Copo de Ch\xE1 de Instrutor"
+    plume:
+      description: "Qualquer instrutor que domine as formas de desviar de ataques sabe como manter esse acess\xF3rio firmemente ao seu alcance o tempo todo."
+      name: "Acess\xF3rio de Penas de Instrutor"
+    sands:
+      description: "Um rel\xF3gio de bolso que n\xE3o marca a hora atual, mas mede o tempo de uma sess\xE3o de treinamento."
+      name: "Rel\xF3gio de Bolso de Instrutor"
+  bonus:
+    2pc: "Profici\xEAncia Elemental +80"
+    4pc: "Ap\xF3s uma Rea\xE7\xE3o Elemental aumenta a Profici\xEAncia Elemental de todos os membros da Equipe em 120 por 8s."
+  name: Instrutor
+lavawalker:
+  artifact_details:
+    circlet:
+      description: A coroa da sabedoria banhada em lava. Antigamente emitia brilhos da luz das chamas.
+      name: Sabedoria do Corredor de Lava
+    flower:
+      description: "Flor que desabrochou mesmo rodeada de chamas ardentes. Dizem que um s\xE1bio antigo a levou junto consigo para dentro do mar de fogo."
+      name: "Determina\xE7\xE3o do Corredor de Lava"
+    goblet:
+      description: "Diz a lenda que \xE9 um copo que pode suportar altas temperaturas, e hoje em dia, seu interior est\xE1 vazio."
+      name: Despertamento do Corredor de Lava
+    plume:
+      description: "Uma pena de um p\xE1ssaro banhado em lava. Aparentemente, podia-se ouvir o bater de asas no meio das chamas."
+      name: "Liberta\xE7\xE3o do Corredor de Lava"
+    sands:
+      description: Uma ampulheta com areia brilhante. Seu fluxo vai e vem, e nunca deixou marcas.
+      name: Tortura do Corredor de Lava
+  bonus:
+    2pc: RES Pyro +40%
+    4pc: Aumenta o Dano contra inimigos afetados por Pyro em 35%.
+  name: Atravessador do Fogo
+lucky:
+  artifact_details:
+    circlet:
+      description: "Seu dono antigo entrou em uma caverna e encontrou o tesouro da realeza exilada. Esta \xE9 uma lembran\xE7a desse incidente."
+      name: Grinalda de Prata do Sortudo
+    flower:
+      description: Um trevo-de-quatro-folhas que cresce na natureza. Foi colhido porque dizem dar muita sorte.
+      name: Flor Verde do Sortudo
+    goblet:
+      description: "Feito de metal requintado, uma vez foi usado para nocautear um ladr\xE3o."
+      name: "C\xE1lice do Sortudo"
+    plume:
+      description: "Um monstro no caminho foi pego por uma \xE1guia ca\xE7adora... \xC0s vezes, esta pena pode trazer muita sorte."
+      name: "Pena de \xC1guia do Sortudo"
+    sands:
+      description: "A ampulheta est\xE1 desprovida de areia devido a danos. A passagem do tempo n\xE3o tem sentido para quem vive sem preocupa\xE7\xF5es."
+      name: Ampulheta do Sortudo
+  bonus:
+    2pc: DEF +100
+    4pc: Ao coletar Mora, restaura 300 de Vida.
+  name: O Sortudo
+maiden:
+  artifact_details:
+    circlet:
+      description: "Chap\xE9us femininos bem cuidados, at\xE9 as rugas nos cantos dos olhos podem ser perfeitamente cobertas."
+      name: Beleza Desvanecida da Donzela
+    flower:
+      description: "Flores eternamente delicadas, mesmo depois de muito tempo, ainda est\xE3o perfumadas sem murchar."
+      name: Amor Distante da Donzela
+    goblet:
+      description: "N\xE3o \xE9 considerado uma beb\xEDda alco\xF3lica forte, mas sim ch\xE1 preto. \xC9 mais doce do que amargo."
+      name: Passatempo da Donzela
+    plume:
+      description: "Penas destinadas aos pensamentos de algu\xE9m, s\xE3o como aves migrat\xF3rias que se afastam com o vento."
+      name: "Lembran\xE7as da Donzela"
+    sands:
+      description: "O tempo n\xE3o espera por ningu\xE9m, at\xE9 mesmo a beleza de uma donzela ir\xE1 embora um dia."
+      name: Juventude Passageira da Donzela
+  bonus:
+    2pc: Efeito de Cura do Personagem aumenta em 15%
+    4pc: "Ao usar uma Habilidade Elemental ou Explos\xE3o, aumenta a cura recebida por todos os membros da equipe em 20% por 10s."
+  name: Donzela Amada
+martial:
+  artifact_details:
+    circlet:
+      description: "A primeira li\xE7\xE3o como um aprendiz: Vigor, For\xE7a, Vontade. Estas palavras s\xE3o escritas na bandana para voc\xEA nunca esquecer."
+      name: Bandana de Artista Marcial
+    flower:
+      description: Apenas este tipo de flor carmesim pode aliviar a dor.
+      name: Flor Vermelha de Artista Marcial
+    goblet:
+      description: "Uma ta\xE7a de vinho requintada para rituais antes de combate."
+      name: "Ta\xE7a de Vinho de Artista Marcial"
+    plume:
+      description: "Uma pena de um p\xE1ssaro comum. Os especialistas a usam para praticar o controle de for\xE7a enquanto os novatos usam como um leque."
+      name: "Acess\xF3rio de Penas de Artista Marcial"
+    sands:
+      description: "Uma ferramenta para monitorar o tempo durante um treino de resist\xEAncia. \xC9 mais precisa e confi\xE1vel em rela\xE7\xE3o a uma ampulheta comum."
+      name: Ampulheta de Artista Marcial
+  bonus:
+    2pc: Aumenta o Dano do Ataque Normal e do Ataque Carregado em 15%.
+    4pc: "Ap\xF3s usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em 25% por 8s."
+  name: Artista Marcial
+miracle:
+  artifact_details:
+    circlet:
+      description: "Um acess\xF3rio barato feito com minerais de meteoritos antigos."
+      name: Brincos do Milagre
+    flower:
+      description: "Uma flor que cresce em uma pedra. Foi capaz de atravessar a pedra, \xE0 procura da luz."
+      name: Flor do Milagre
+    goblet:
+      description: "Um c\xE1lice comumente usada em adivinha\xE7\xF5es. Claro, tamb\xE9m pode ser usada para beber."
+      name: "C\xE1lice do Milagre"
+    plume:
+      description: "Uma pena de uma ave \xE1gil e feroz que voa r\xE1pido demais para o olho humano."
+      name: Pena do Milagre
+    sands:
+      description: "Parece uma ampulheta comum. A areia seca flui como a \xE1gua quando o objeto \xE9 virado de cabe\xE7a para baixo."
+      name: Ampulheta do Milagre
+  bonus:
+    2pc: RES de todos os Elementos +20%.
+    4pc: "O Dano elemental recebido aumenta a RES Elemental correspondente em 30% por 10s. Pode ser lan\xE7ado uma vez a cada 10s."
+  name: Pequeno Milagre
+noblesse:
+  artifact_details:
+    circlet:
+      description: "Uma m\xE1scara de dan\xE7a que pertenceu a uma fam\xEDlia nobre de Mondstadt. Se voc\xEA olhar entre os orif\xEDcios dos olhos, poder\xE1 enxergar os cen\xE1rios magn\xEDficos do passado."
+      name: "M\xE1scara Real"
+    flower:
+      description: "Uma flor de seda azul, foi um elemento decorativo muito usado em grandes eventos. Atualmente, ainda possui boa apar\xEAncia, mesmo depois de ter sido abandonada pelo seu antigo dono."
+      name: Flor Real
+    goblet:
+      description: "Jarro ornamental antigo que pertencia a uma fam\xEDlia nobre de Mondstadt. O vento melanc\xF3lico da \xE9poca ainda ecoa de dentro."
+      name: Urna de Prata Real
+    plume:
+      description: "Uma pena usada na borda do chap\xE9u de uma fam\xEDlia nobre de Mondstadt durante suas ca\xE7as. Ainda se mant\xE9m intacta depois de muito tempo."
+      name: Pena Real
+    sands:
+      description: "Um rel\xF3gio de bolso que pertenceu a uma fam\xEDlia nobre de Mondstadt, que foi passada de gera\xE7\xF5es em gera\xE7\xF5es."
+      name: "Rel\xF3gio de Bolso Real"
+  bonus:
+    2pc: Dano do Supremo +20%
+    4pc: "Usar o Supremo aumenta o ATQ de todos os membros da equipe em 20% por 12s. Este efeito n\xE3o pode ser acumulado."
+  name: Antigo Ritual Real
+pale:
+  artifact_details:
+    circlet:
+      description: "Uma m\xE1scara que cobre o rosto de quem a usa, impedindo que outras pessoas possam ver suas express\xF5es."
+      name: "M\xE1scara Sorridente"
+    flower:
+      description: "Uma flor artificial azul e s\xF3lida que nunca murcha e nunca se torna opaca."
+      name: "Flor da Purifica\xE7\xE3o"
+    goblet:
+      description: "Uma fina ta\xE7a em que n\xE3o \xE9 poss\xEDvel determinar sua idade por sua apar\xEAncia exterior."
+      name: "Ta\xE7a da Supera\xE7\xE3o"
+    plume:
+      description: Uma pena ominosa com bordas incomparavelmente afiadas, talvez simbolize alguma forma diferente de indisciplina.
+      name: "Pena do M\xE9dico Virtuoso"
+    sands:
+      description: "Um rel\xF3gio de bolso com uma tampa que n\xE3o pode ser aberta. Marca firmemente a passagem do tempo com seu eco de tique-taque."
+      name: "Momento de Cessa\xE7\xE3o"
+  bonus:
+    2pc: "Dano F\xEDsico causado +25%"
+    4pc: "Quando a Habilidade Elemental atinge um inimigo, o Ataque aumenta em 9% por 7s. Esse efeito acumula at\xE9 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando se possui 2 ac\xFAmulos, o efeito do conjunto de 2 Artefatos \xE9 aumentado em 100%."
+  name: "Chama P\xE1lida"
+petra:
+  artifact_details:
+    circlet:
+      description: "A m\xE1scara esculpida em rocha bas\xE1ltica, com olhos vazios olhando para sempre friamente para a frente."
+      name: "Imagem de uma Pedra Im\xF3vel"
+    flower:
+      description: "Flor de pedra dourada em plena flora\xE7\xE3o. As p\xE9talas balan\xE7am suavemente ao vento, parecendo estar vivas."
+      name: Flor do Penhasco Rachado
+    goblet:
+      description: Lindas garrafas de vinho que foram enchidas com licor requintado.
+      name: "Ta\xE7a do Escultor de Pedra"
+    plume:
+      description: "A pluma da pipa gigante na rocha, e a ponta da pedra negra \xE0s vezes condensa com orvalho frio."
+      name: Asas do Pico da Montanha
+    sands:
+      description: "Um rel\xF3gio de sol esculpido em um \xFAnico peda\xE7o grande de jade. Est\xE1 alinhado com um padr\xE3o que registra silenciosamente a passagem do tempo."
+      name: "Rel\xF3gio de Sol de Jade Duradouro"
+  bonus:
+    2pc: "Obt\xE9m 15% de B\xF4nus de Dano Geo."
+    4pc: "Ao obter um Fragmento Elemental por meio de uma Rea\xE7\xE3o de Cristaliza\xE7\xE3o, todos os personagens na equipe ganham 35% de DMG para esse elemento em particular por 10s. Somente uma forma de Dano Elemental pode ser obtida dessa maneira a qualquer momento."
+  name: Pedra Arcaica
+scholar:
+  artifact_details:
+    circlet:
+      description: "Ler muito pode fazer mal \xE0 vista. Estas lentes foram criadas para aliviar esse desconforto."
+      name: Lentes do Estudioso
+    flower:
+      description: "Uma flor ressecada usada como marca p\xE1gina. Ela chegou a absorver o aroma das p\xE1ginas."
+      name: "Marca-p\xE1ginas de Estudioso"
+    goblet:
+      description: "Originalmente era um recipiente para beber \xE1gua. Hoje em dia est\xE1 manchado de preto ap\xF3s ter sido usado para lavar os pinc\xE9is de tinta."
+      name: "C\xE1lice de Tinta do Estudioso"
+    plume:
+      description: "A pena de um p\xE1ssaro que serve como uma caneta de pena. A ponta est\xE1 manchada de preto h\xE1 muito tempo."
+      name: Caneta de Pena de Estudioso
+    sands:
+      description: "Um pequeno rel\xF3gio de mesa. Ele fornece a \xFAnica refer\xEAncia ao tempo para estudiosos que passam o dia inteiro estudando."
+      name: "Rel\xF3gio do Estudioso"
+  bonus:
+    2pc: Recarga de Energia +20%
+    4pc: "Obter Part\xEDculas ou Orbes Elementais confere 3 de Energia a todos os membros da equipe que possuem um arco ou catalisador equipado. Pode ser ativado uma vez a cada 3s."
+  name: O Estudioso
+shimenawa:
+  artifact_details:
+    circlet:
+      description: "Uma m\xE1scara de raposa utilizada em cerim\xF4nias bem conservada. Ela possui um eterno e misterioso sorriso leve."
+      name: "M\xE1scara das Muta\xE7\xF5es"
+    flower:
+      description: Um ornamento e fino Omamori, dizem que tem o poder de tornar os desejos em realidade.
+      name: Flor Envolvente
+    goblet:
+      description: "Um tubo de adivinha\xE7\xE3o especial. O mecanismo na sua parte inferior permite que as pessoas facilmente removam todas as previs\xF5es indesejadas."
+      name: "Cora\xE7\xE3o da Esperan\xE7a"
+    plume:
+      description: "Uma flecha m\xE1gica quebrada de forma um tanto antiquada. Parece ter sido guardada cuidadosamente por alguma pessoa."
+      name: "Flecha das Mem\xF3rias Ponderativas"
+    sands:
+      description: "Um rel\xF3gio de bolso de bronze ornamentado com \xE1gua e pequenos sinos. O tempo que marca sempre para em algum alvorecer de um dia de outono."
+      name: "Rel\xF3gio da Alvorada"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Ao lan\xE7ar sua Habilidade Elemental, se a Energia Elemental do Personagem for maior ou igual a 15, ele perder\xE1 15 pontos de Energia Elemental e nos pr\xF3ximos 10s, seus Ataques Normais, Ataques Carregados, Ataques Imersivos ter\xE3o um aumento de 50% de Dano. Esse efeito s\xF3 pode ser desencadeado uma vez dentro desse intervalo de tempo."
+  name: "Reminesc\xEAncia Nost\xE1lgica"
+sojourner:
+  artifact_details:
+    circlet:
+      description: Coroa de salgueiro que emite uma brisa suave de primavera.
+      name: Coroa da Despedida
+    flower:
+      description: "Uma pequena flor azul jade, cuja fita est\xE1 amarrada no caule."
+      name: "Cora\xE7\xE3o de Camaradagem"
+    goblet:
+      description: O copo de vinho branco simples de porcelana que foi usado por muitos momentos de alegria.
+      name: "C\xE1lice de Uma Terra Desconhecida"
+    plume:
+      description: "As plumas das flechas azuis est\xE3o repletas de nostalgia dos viajantes."
+      name: Pluma do Regresso
+    sands:
+      description: "O rel\xF3gio de sol, que passou pelas vicissitudes da vida, registra silenciosamente o ciclo do sol e da lua."
+      name: "Pedra do Ca\xE7ador da Luz"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Aumenta a Taxa Cr\xEDtica do Ataque Carregado em 30%."
+  name: "Resolu\xE7\xE3o de Sojourner"
+springtime:
+  artifact_details:
+    circlet:
+      description: "Uma coroa usada por sacerdotes durante cerim\xF4nias antigamente. Sua exposi\xE7\xE3o prolongada ao gelo e ao frio deu-lhe uma resist\xEAncia incr\xEDvel."
+      name: Tiara de Gelo
+  bonus:
+    1pc: "Reduz a dura\xE7\xE3o dos efeitos causados por Cryo em 40%."
+  name: "Ora\xE7\xF5es para a Primavera"
+tenacity:
+  artifact_details:
+    circlet:
+      description: Um belo capacete antigo. Brilha como novo depois de se limpar a sujeira e areia nele.
+      name: Capacete do Comandante
+    flower:
+      description: "Uma fina flor feita de p\xE9talas douradas, simboliza as conquistas e honra de seu dono."
+      name: Flor da Conquista
+    goblet:
+      description: "Uma ta\xE7a dourada utilizada pelos Millelith para simbolizar uma alian\xE7a. Ainda possui um leve cheiro de vinho."
+      name: "Ta\xE7a Dourada do Juramento"
+    plume:
+      description: "Penas de falc\xE3o utilizadas em ocasi\xF5es festivas. Exibe uma apar\xEAncia de autoridade e determina\xE7\xE3o para as pessoas de fora de Liyue."
+      name: Pena Brilhante Marcial
+    sands:
+      description: "Um item de apar\xEAncia comum para marcar o tempo. Durante a era de guerras, era utilizado como equipamento padr\xE3o pelos Millelith."
+      name: "Rel\xF3gio de Sol Dourado"
+  bonus:
+    2pc: Aumenta a Vida em 20%
+    4pc: "Quando a Habilidade Elemental atinge um oponente, o ATQ de todos os membros da equipe pr\xF3ximos aumenta em 20% e sua For\xE7a do Escudo aumenta em 30% por 3s. Esse efeito pode ser ativado uma vez a cada 0,5s. Esse efeito ainda pode ser ativado mesmo quando o personagem que est\xE1 usando esse conjunto de artefatos n\xE3o est\xE1 em campo."
+  name: Millelith Firmes
+thundering:
+  artifact_details:
+    circlet:
+      description: "Uma coroa usada antigamente pelos xamas que adoravam a p\xE1ssaro do trov\xE3o. No entanto, nem mesmo a f\xE9 devota \xE9 capaz de impressionar a besta temperamental."
+      name: "Coroa do Invocador do Trov\xE3o"
+    flower:
+      description: "N\xE3o foi afetada pelas chamas ardentes de uma cat\xE1strofe destrutiva no passado. \xC9 uma flor remanescente de dias passados."
+      name: "Miseric\xF3rdia da P\xE1ssaro do Trov\xE3o"
+    goblet:
+      description: "C\xE1lice infundida com sangue de inocentes usadas em cerim\xF4nias sagradas. No seu interior, reverbera o som do trov\xE3o, transbordando a f\xFAria do mesmo."
+      name: "Profecia do Trov\xE3o"
+    plume:
+      description: "Uma pena carregada de trov\xE3o deixada pela p\xE1ssaro do trov\xE3o como vingan\xE7a. Mesmo agora, ainda emite luzes de trov\xE3o cheia de f\xFAria."
+      name: "Sobreviventes da Cat\xE1strofe"
+    sands:
+      description: "Uma ampulheta usada pelo tribo que acreditavam na P\xE1ssaro do Trov\xE3o para prever a chegada do Deus do Trov\xE3o. Como resultado, a exist\xEAncia desse povo terminou abruptamente."
+      name: "Rel\xF3gio do Trov\xE3o"
+  bonus:
+    2pc: "B\xF4nus de Dano Electro +15%"
+    4pc: Aumenta o Dano causado pela Sobrecarga, Eletricamente Carregado e Supercondutor em 40%. Ao ativar estes efeitos, diminui a Recarga da Habilidade Elemental em 1s. Pode ser ativado uma vez a cada 0.8s.
+  name: "Trov\xE3o Furioso"
+thundersoother:
+  artifact_details:
+    circlet:
+      description: "A coroa que o antigo Domador de Raios recebeu ap\xF3s derrotar o monstro do trov\xE3o que amea\xE7ava o territ\xF3rio."
+      name: Coroa do Domador de Raios
+    flower:
+      description: "Uma flor que cresce apenas em \xE1reas tempestuosas. D\xE1 coragem para sair em dias de tempestade extremas."
+      name: "Cora\xE7\xE3o do Domador de Raios"
+    goblet:
+      description: "C\xE1lice do Domador de Raios. Dizem que o her\xF3i que domou a besta do trov\xE3o bebeu raios roxos neste C\xE1lice."
+      name: "C\xE1lice do Domador de Raios"
+    plume:
+      description: "Diz a lenda que o emblema do her\xF3i domador de raios era uma pena de p\xE1ssaro que flutuava e atravessava as tempestades."
+      name: Pena do Domador de Raios
+    sands:
+      description: "Um rel\xF3gio que era usado por guerreiros que controlavam trov\xF5es e raios. Os fragmentos de cristais do trov\xE3o do rel\xF3gio desapareceram com o tempo."
+      name: "\xC1pice do Domador de Raios"
+  bonus:
+    2pc: RES Electro +40%
+    4pc: Aumenta o Dano contra inimigos afetados por Electro em 35%.
+  name: "Lan\xE7ador de Trov\xF5es"
+traveling:
+  artifact_details:
+    circlet:
+      description: "Usado para amarrar os cabelos enquanto atende os pacientes, mas tamb\xE9m pode ser usado como curativo para bra\xE7os quebrados ou emerg\xEAncias."
+      name: "Len\xE7o do Doutor Viajante"
+    flower:
+      description: Um ingrediente medicinal precioso que perdeu por completo seus valores medicinais depois de tanto tempo.
+      name: "L\xF3tus de Prata do Doutor Viajante"
+    goblet:
+      description: "Costumava transportar misturas extremamente potentes e refinadas. O cheiro forte \xE9 tudo o que resta."
+      name: Pote de Medicamentos do Doutor Viajante
+    plume:
+      description: "A pena dura de uma coruja. \xC9 usada como um m\xE9todo de auto-motiva\xE7\xE3o quando sai para tratar pacientes tarde da noite."
+      name: Pena de Coruja do Doutor Viajante
+    sands:
+      description: "Uma ferramenta para exibir o tempo precisamente. Para um doutor, cada segundo \xE9 valioso."
+      name: "Rel\xF3gio de Bolso do Doutor Viajante"
+  bonus:
+    2pc: Aumenta o efeito de cura em 20%.
+    4pc: "Ap\xF3s usar o Supremo, restaura 20% de Vida."
+  name: O Doutor viajante
+vermillion:
+  artifact_details:
+    circlet:
+      description: "Uma m\xE1scara que dizem ter sido criada pelo povo das montanhas para um Yaksha. Sua apar\xEAncia \xE9 simples, mas ela tem um brilho que n\xE3o desaparece."
+      name: Postura Eletrizante
+    flower:
+      description: "Um objeto comemorativo antigo que \xE9 t\xE3o vivo como o ser que o preservou s\xE9culos atr\xE1s."
+      name: Brilho da Vitalidade
+    goblet:
+      description: "Um c\xE1lice de cristal antigo. Seu brilho parece n\xE3o ter sido escurecido pelo passar do tempo."
+      name: Entalhe do Contrato
+    plume:
+      description: "Uma pena com um brilho opaco e com fortes mem\xF3rias condensadas nelas."
+      name: Pena do Esplendor
+    sands:
+      description: "Um rel\xF3gio antigo de apar\xEAncia robusta. Ele \xE9 t\xE3o brilhante como a areia cristalizada."
+      name: "Rel\xEDquia do Sol"
+  bonus:
+    2pc: ATQ +18%.
+    4pc: "Depois do Supremo ser usado, ser\xE1 desencadeado o efeito de \"Luz Nascente\" por 16s: o ATQ ser\xE1 aumentado em 8% e quando a Vida do personagem diminuir, o ATQ aumentar\xE1 mais 10%. Esse aumento pode ocorrer desta forma no m\xE1ximo 4 vezes, e pode ser desencadeado 1 vez a cada 0.8s. O efeito de \"Luz Nascente\" desaparece quando o personagem sai do campo de batalha. Quando o personagem lan\xE7a novamente o Supremo durante o efeito, o efeito original de \"Luz Nascente\" ser\xE1 removido."
+  name: "Al\xE9m-vida Cin\xE1brio"
+viridescent:
+  artifact_details:
+    circlet:
+      description: "Coroa usada com orgulho pelo ca\xE7ador dos campos, t\xE3o verde quanto os campos em que costumava vagar."
+      name: "Coroa do Ca\xE7ador Verde"
+    flower:
+      description: "Uma flor silvestre que crescia por toda a parte. Ap\xF3s sua partida, o ca\xE7ador a usava como broche."
+      name: "Lembran\xE7a de Flores Silvestres"
+    goblet:
+      description: "Frasco para armazenar \xE1gua, seu interior \xE9 muito maior do que realmente parece."
+      name: "Frasco do Ca\xE7ador Verde"
+    plume:
+      description: "A pena de cauda da flecha que uma vez perfurou a sua presa. Ainda est\xE1 limpa como antigamente."
+      name: "Pena de Flecha do Ca\xE7ador Verde"
+    sands:
+      description: "Um dispositivo incr\xEDvel que era carregado pelos ca\xE7adores, sempre apontava em dire\xE7\xE3o aos seus alvos."
+      name: "Determina\xE7\xE3o do Ca\xE7ador Verde"
+  bonus:
+    2pc: "B\xF4nus de Dano Anemo +15%"
+    4pc: Aumenta o Dano do Redemoinho em 60%. Dependendo do tipo elemento infundido, diminui a RES Elemental correspondente do oponente em 40% por 10s.
+  name: Sombra Verde
+wanderers:
+  artifact_details:
+    circlet:
+      description: "Apesar de ter sofrido muito com o tempo, ainda \xE9 um chap\xE9u glamoroso. Parece que ainda emite melodias antigas."
+      name: "Chap\xE9u do Comandante"
+    flower:
+      description: "Um pequeno emblema em forma de flor. Se voc\xEA escutar com aten\xE7\xE3o, poder\xE1 ouvir as notas de uma flauta doce junto com uma voz muito n\xEDtida."
+      name: Luz Matinal da Orquestra
+    goblet:
+      description: "Uma chaleira antiga com cordas m\xFAsicas no seu interior. O correr da \xE1gua emite melodias agrad\xE1veis."
+      name: Chaleira do Bardo
+    plume:
+      description: "Uma pena de uma flecha azul que n\xE3o se deteriorou com o passar do tempo. Parece que leva consigo o som mel\xF3dico da \xE1gua corrente."
+      name: Pena de Flecha do Bardo
+    sands:
+      description: "Uma ampulheta que foi usada para cronometrar a apresenta\xE7\xE3o de uma orquestra. Hoje em dia, entretanto, o show deles j\xE1 se encerrou."
+      name: Queda de Cortina
+  bonus:
+    2pc: "Profici\xEAncia Elemental +80"
+    4pc: Aumenta o Dano do Ataque Carregado em 35% se o personagem estiver usando Catalisador ou Arco.
+  name: Trupe Itinerante
+wisdom:
+  artifact_details:
+    circlet:
+      description: "Uma coroa usada por sacerdotes durante cerim\xF4nias antigamente. Ouvir o som do trov\xE3o ao longo do ano lhe deu uma resist\xEAncia incr\xEDvel."
+      name: Coroa do Ritual Electro
+  bonus:
+    1pc: "Reduz a dura\xE7\xE3o dos efeitos causados por Electro em 40%."
+  name: "Xam\xE3 do Ritual Electro"

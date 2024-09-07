@@ -1,0 +1,24 @@
+element: dendro
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: nagadus_emerald
+  boss_ascension: evergloom_ring
+  local_specialty: violetgrass
+  common_material: luminescent
+  talent: gold
+  boss_talent: worldspan_fern
+talents:
+  elemental_skill:
+    cooldown_seconds: 10.0
+  elemental_burst:
+    duration_seconds: 14.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: April
+  day: 25
+
+
+

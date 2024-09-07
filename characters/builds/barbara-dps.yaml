@@ -1,0 +1,105 @@
+key: dps
+main_stat:
+  sands: atk_percent / hp_percent
+  goblet: hydro / hp_percent
+  circlet: cr_percent / cd_percent / heal_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- em
+- hp_percent
+- atk
+- hp
+talent_priority: auto > skill > burst
+weapons:
+- everlasting-moonglow
+- jadefalls-splendor
+- skyward-atlas
+- lost-prayer-to-the-sacred-winds
+- prototype-amber
+- the-widsith
+- mappa-mare
+- dodoco-tales
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      hp: 0.25
+      hp_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      hp: 0.25
+      hp_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 0.75
+      cr_percent: 1.0
+      em: 0.75
+      hp: 0.25
+      hp_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+      hp_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      hp: 0.25
+      hp_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      heal_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      hp: 0.25
+      hp_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - clam
+  notes: 
+    - boost_heal_phys
+    - barbara-dps-1-appended
+  weight: 1.0
+- type: simple
+  sets:
+  - wanderers
+  notes: boost_em_charge_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - berserker
+  - instructor
+  notes:
+    - early_game
+    - boost_cr_em
+  weight: 0.25

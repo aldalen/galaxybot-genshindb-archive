@@ -1,0 +1,31 @@
+type: Claymore
+rarity: 3
+series: ''
+atk_start: 39.0
+substat: defense_percent
+substat_start: 9.6
+obtained:
+  wishes: false
+  banners: []
+  chests: true
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 8%
+  - values:
+    - 10%
+  - values:
+    - 12%
+  - values:
+    - 14%
+  - values:
+    - 16%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - slime

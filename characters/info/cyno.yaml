@@ -1,0 +1,23 @@
+element: electro
+weapon: polearm
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: thunderclap_fruitcore
+  local_specialty: scarab
+  common_material: scroll
+  talent: admonition
+  boss_talent: malefic_general
+talents:
+  elemental_skill:
+    cooldown_seconds: 7.5/3.0
+  elemental_burst:
+    duration_seconds: 10.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: June
+  day: 23
+
+

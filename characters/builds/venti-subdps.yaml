@@ -1,0 +1,90 @@
+key: subdps
+main_stat:
+  sands: atk_percent / em / er_percent
+  goblet: em / anemo
+  circlet: em / cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- em
+- er_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- polar-star
+- elegy-for-the-end
+- skyward-harp
+- aqua-simulacra
+- the-stringless
+- windblume-ode
+- cloudforged
+- mouuns-moon
+- alley-hunter
+- fading-twilight
+- end-of-the-line
+- prototype-crescent
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Anemo
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - viridescent
+  notes: boost_anemo_shred_swirled
+  weight: 1.0
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

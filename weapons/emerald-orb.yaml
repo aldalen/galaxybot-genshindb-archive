@@ -1,0 +1,34 @@
+type: Catalyst
+rarity: 3
+series: ''
+atk_start: 40.0
+substat: em
+substat_start: 20.0
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+  - values:
+    - 25%
+  - values:
+    - 30%
+  - values:
+    - 35%
+  - values:
+    - 40%
+ascension_materials:
+  weapon: guyun
+  common:
+  - knife
+  - treasure

@@ -1,0 +1,48 @@
+type: Polearm
+rarity: 5
+atk_start: 48.0
+substat: er_percent
+substat_start: 8.0
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 8%
+    - 12%
+    - 50%
+    - 40%
+  - values:
+    - 10%
+    - 12%
+    - 50%
+    - 55%
+  - values:
+    - 12%
+    - 12%
+    - 50%
+    - 70%
+  - values:
+    - 14%
+    - 12%
+    - 50%
+    - 85%
+  - values:
+    - 16%
+    - 12%
+    - 50%
+    - 100%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - scroll

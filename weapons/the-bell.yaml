@@ -1,0 +1,43 @@
+type: Claymore
+rarity: 4
+atk_start: 42.0
+substat: hp_percent
+substat_start: 9.0
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 45s
+    - 12%
+  - values:
+    - 23%
+    - 45s
+    - 15%
+  - values:
+    - 26%
+    - 45s
+    - 18%
+  - values:
+    - 29%
+    - 45s
+    - 21%
+  - values:
+    - 32%
+    - 45s
+    - 24%
+ascension_materials:
+  weapon: decarabian
+  common:
+  - horn
+  - nectar

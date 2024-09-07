@@ -1,0 +1,115 @@
+key: subdps
+main_stat:
+  sands: atk_percent / em > er_percent
+  goblet: electro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- em
+- atk
+talent_priority: skill = burst > auto
+weapons:
+- kaguras-verity
+- skyward-atlas
+- lost-prayer-to-the-sacred-winds
+- cashflow-supervision
+- tome-of-the-eternal-flow
+- the-widsith
+- solar-pearl
+- oathsworn-eye
+- mappa-mare
+- hakushin-ring
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Electro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - resin_efficient_farm
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  - set_group:
+    - gilded
+    - wanderers
+  - set_group:
+    - thundering
+  notes:
+    - pick_2_needs_best_sub
+    - max_electro
+  weight: 1.0
+- type: simple
+  sets:
+  - thundersoother
+  notes: boost_dmg_electro
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  notes: max_burst
+  weight: 0.75
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25

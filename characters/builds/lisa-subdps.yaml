@@ -1,0 +1,105 @@
+key: subdps
+main_stat:
+  sands: atk_percent / em > er_percent
+  goblet: electro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- er_percent
+- atk_percent
+- em
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- kaguras-verity
+- skyward-atlas
+- the-widsith
+- oathsworn-eye
+- solar-pearl
+- thrilling-tales-of-dragon-slayers
+- hakushin-ring
+- favonius-codex
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Electro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - emblem
+  notes: boost_er_burst_by_er
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - nobody_party_has_set
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  - set_group:
+    - noblesse
+  - set_group:
+    - thundering
+  notes: max_burst
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25

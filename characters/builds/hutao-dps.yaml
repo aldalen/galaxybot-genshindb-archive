@@ -1,0 +1,123 @@
+key: dps
+main_stat:
+  sands: hp_percent / em
+  goblet: pyro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- hp_percent
+- em
+- er_percent
+- hp
+talent_priority: auto > skill > burst
+weapons:
+- staff-of-homa
+- staff-of-the-scarlet-sands
+- dragons-bane
+- primordial-jade-winged-spear
+- ballad-of-the-fjords
+- deathmatch
+- lithic-spear
+- white-tassel
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+      hp_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+      hp: 0.25
+      hp_percent: 0.75
+  sands:
+    main_stat:
+      em: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+      hp: 0.25
+      hp_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+      hp: 0.25
+      hp_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk_percent: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+      hp: 0.25
+      hp_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - crimson
+  notes:
+    - bis
+    - for_reaction
+    - boost_pyro_reaction
+  weight: 1.0
+- type: simple
+  sets:
+  - shimenawa
+  notes:
+    - hutao-dps-2-prepended
+    - boost_atk_normal_cost_burst
+  weight: 1.0
+- type: simple
+  sets:
+  - marechaussee
+  notes:
+    - boost_ca_cr_hp_change
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - boost_em_atk_party_config
+    - resin_efficient_farm
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - crimson
+  - set_group:
+    - tenacity
+    - vourukashas
+    - wanderers
+  notes:
+    - hutao-dps-3-prepended
+    - generalist_set
+  weight: 0.75
+- type: simple
+  sets:
+  - berserker
+  notes:
+    - early_game
+    - max_crit_below_70hp
+  weight: 0.25

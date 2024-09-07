@@ -1,0 +1,117 @@
+key: dps
+main_stat:
+  sands: em / atk_percent
+  goblet: em / anemo
+  circlet: em / cr_percent / cd_percent
+sub_stat:
+- em
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+talent_priority: auto = skill = burst
+weapons:
+- skyward-atlas
+- memory-of-dust
+- kaguras-verity
+- cashflow-supervision
+- tome-of-the-eternal-flow
+- mappa-mare
+- the-widsith
+- flowing-purity
+- sacrificial-fragments
+- wandering-evenstar
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.25
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.25
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.25
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Anemo
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.25
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 1.0
+      er_percent: 0.25
+set_rating:
+- type: simple
+  sets:
+  - viridescent
+  notes:
+    - boost_anemo_shred_swirled
+  weight: 1.0
+- type: simple
+  sets:
+  - pavilion
+  notes:
+  - boost_na_speed_na_ca_dmg
+  - heizou-dps-1
+  weight: 1.0
+- type: simple
+  sets:
+  - marechaussee
+  notes: 
+    - bis
+    - for_furina
+    - boost_ca_cr_hp_change
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - echoes
+  - set_group:
+    - gladiator
+  - set_group:
+    - shimenawa
+  - set_group:
+    - vermillion
+  - set_group:
+    - pavilion
+  - set_group:
+    - viridescent
+  notes: 
+    - pick_2_best_sub
+    - heizou-dps-2
+    - interim_set
+  weight: 0.75
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

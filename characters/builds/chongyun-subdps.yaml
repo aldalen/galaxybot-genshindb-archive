@@ -1,0 +1,135 @@
+key: subdps
+main_stat:
+  sands: atk_percent / em
+  goblet: cryo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- em
+- atk_percent
+- er_percent
+talent_priority: burst > skill > auto
+weapons:
+- wolfs-gravestone
+- sacrificial-greatsword
+- serpent-spine
+- beacon-of-the-reed-sea
+- redhorn-stonethresher
+- akuoumaru
+- lithic-blade
+- luxurious-sea-lord
+- mailed-flower
+- makhaira-aquamarine
+- ultimate-overlords-mega-magic-sword
+- bloodtainted-greatsword
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Cryo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - chongyun-subdps-1-prepended
+    - nobody_party_has_set
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  notes:
+    - boost_er_burst_by_er
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes: 
+    - for_reverse_melt
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - lavawalker
+  notes: chongyun-subdps-3
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - blizzard
+    - wanderers
+  - set_group:
+    - noblesse
+  notes:
+    - max_burst
+    - wanderers_melting
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - blizzard
+  - set_group:
+    - wanderers
+  - set_group:
+    - gladiator
+    - shimenawa
+  notes:
+    - pick_2_best_sub
+    - chongyun-subdps-5-appended
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - exile
+    - instructor
+    - scholar
+  notes:
+    - early_game
+    - chongyun-subdps-6-appended
+  weight: 0.25

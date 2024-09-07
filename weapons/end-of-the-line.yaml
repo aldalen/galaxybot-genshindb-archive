@@ -1,0 +1,32 @@
+type: Bow
+rarity: 4
+series: ''
+atk_start: 42.0
+substat: er_percent
+substat_start: 10.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+  custom: Sumeru Fishing Association
+passive:
+  levels:
+  - values:
+    - 80%
+  - values:
+    - 100%
+  - values:
+    - 120%
+  - values:
+    - 140%
+  - values:
+    - 160%
+ascension_materials:
+  weapon: scorching_might
+  common:
+  - luminescent
+  - fungal_nucleus

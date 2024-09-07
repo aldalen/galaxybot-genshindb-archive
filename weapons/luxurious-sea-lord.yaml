@@ -1,0 +1,36 @@
+type: Claymore
+rarity: 4
+series: ''
+atk_start: 41.0
+substat: atk_percent
+substat_start: 12.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - 100%
+  - values:
+    - 15%
+    - 125%
+  - values:
+    - 18%
+    - 150%
+  - values:
+    - 21%
+    - 175%
+  - values:
+    - 24%
+    - 200%
+ascension_materials:
+  weapon: aerosiderite
+  common:
+  - bone
+  - slime

@@ -1,0 +1,30 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: em
+substat_start: 36.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 6%
+  - values:
+    - 7.5%
+  - values:
+    - 9%
+  - values:
+    - 10.5%
+  - values:
+    - 12%
+ascension_materials:
+  weapon: aerosiderite
+  common:
+  - bone
+  - nectar

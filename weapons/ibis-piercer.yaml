@@ -1,0 +1,31 @@
+type: Bow
+rarity: 4
+series: ''
+atk_start: 44.0
+substat: atk_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 40
+  - values:
+    - 50
+  - values:
+    - 60
+  - values:
+    - 70
+  - values:
+    - 80
+ascension_materials:
+  weapon: forest_dew
+  common:
+  - rogue_flower
+  - eremite

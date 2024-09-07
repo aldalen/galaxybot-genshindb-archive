@@ -1,0 +1,22 @@
+element: cryo
+weapon: claymore
+rarity: 4
+availability: standard
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: coppelius
+  local_specialty: romaritime_flower
+  common_material: transoceanic
+  talent: justice
+  boss_talent: worldspan_fern
+talents:
+  elemental_skill:
+    duration_seconds: 10
+    cooldown_seconds: 10
+  elemental_burst:
+    duration_seconds: 10
+    cooldown_seconds: 15
+    energy_cost: 60
+birthday:
+  month: September
+  day: 24

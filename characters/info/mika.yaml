@@ -1,0 +1,23 @@
+element: cryo
+weapon: polearm
+rarity: 4
+availability: kaveh
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: pseudo_stamens
+  local_specialty: wolfhook
+  common_material: fatui
+  talent: ballad
+  boss_talent: mirror_of_mushin
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 15.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: August
+  day: 11
+

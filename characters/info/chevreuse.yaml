@@ -1,0 +1,21 @@
+element: pyro
+weapon: polearm
+rarity: 4
+availability: standard
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: fontemer_unihorn
+  local_specialty: lumidouce_bell
+  common_material: clockwork_gear
+  talent: order
+  boss_talent: eye_of_the_maelstrom
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 15.0
+  elemental_burst:
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: January
+  day: 10

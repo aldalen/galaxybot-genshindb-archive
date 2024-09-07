@@ -1,0 +1,31 @@
+type: Polearm
+rarity: 4
+series: ''
+atk_start: 42.0
+substat: cr_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: true
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - '120'
+  - values:
+    - '150'
+  - values:
+    - '180'
+  - values:
+    - '210'
+  - values:
+    - '240'
+ascension_materials:
+  weapon: pristine_sea
+  common:
+  - rogue_flower
+  - nectar

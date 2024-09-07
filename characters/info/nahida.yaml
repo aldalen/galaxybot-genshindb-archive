@@ -1,0 +1,25 @@
+element: dendro
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: nagadus_emerald
+  boss_ascension: quelled_creeper
+  local_specialty: kalpalata_lotus
+  common_material: luminescent
+  talent: ingenuity
+  boss_talent: puppet_strings
+talents:
+  elemental_skill:
+    duration_seconds: 25.0
+    cooldown_seconds: 5.0/6.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 13.5
+    energy_cost: 50
+birthday:
+  month: October
+  day: 27
+
+
+

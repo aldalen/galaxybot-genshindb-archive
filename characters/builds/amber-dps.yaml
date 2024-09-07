@@ -1,0 +1,100 @@
+key: dps
+main_stat:
+  sands: atk_percent / em
+  goblet: pyro
+  circlet: cd_percent
+sub_stat:
+- cd_percent
+- atk_percent
+- cr_percent
+- em
+- er_percent
+- atk
+talent_priority: auto > burst > skill
+weapons:
+- amos-bow
+- thundering-pulse
+- hunters-path
+- skyward-harp
+- aqua-simulacra
+- polar-star
+- prototype-crescent
+- scion-of-the-blazing-sun
+- blackcliff-warbow
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - wanderers
+  notes: boost_em_charge_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - shimenawa
+  notes: boost_atk_normal_cost_burst
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - brave
+    - sojourner
+  - set_group:
+    - instructor
+  notes:
+    - early_game
+    - boost_atk_em
+  weight: 0.25

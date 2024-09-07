@@ -1,0 +1,30 @@
+type: Bow
+rarity: 4
+atk_start: 42.0
+substat: atk_percent
+substat_start: 9.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+  - values:
+    - 20%
+  - values:
+    - 24%
+  - values:
+    - 28%
+  - values:
+    - 32%
+ascension_materials:
+  weapon: ancient_chord
+  common:
+  - tainted_water
+  - arrowhead

@@ -1,0 +1,33 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: atk_percent
+substat_start: 9.0
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+  - values:
+    - 24%
+  - values:
+    - 28%
+  - values:
+    - 32%
+  - values:
+    - 36%
+ascension_materials:
+  weapon: guyun
+  common:
+  - knife
+  - treasure

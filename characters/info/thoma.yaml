@@ -1,0 +1,23 @@
+element: pyro
+weapon: polearm
+rarity: 4
+availability: standard
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: smoldering_pearl
+  local_specialty: fluorescent_fungus
+  common_material: treasure
+  talent: transience
+  boss_talent: butterfly
+talents:
+  elemental_skill:
+    duration_seconds: 8.0
+    cooldown_seconds: 15.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: January
+  day: 6
+key: thoma

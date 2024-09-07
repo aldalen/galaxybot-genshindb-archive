@@ -1,0 +1,780 @@
+a-thousand-floating-dreams:
+  name: A Thousand Floating Dreams
+  passive_name: A Thousand Nights' Dawnsong
+  passive_text: Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by {0}. If not, increase the equipping character's DMG Bonus from their Elemental Type by {1}. Each of the aforementioned effects can have up to 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by {2}. Multiple such effects from multiple such weapons can stack.
+absolution:
+  name: Absolution
+  passive_name: Deathly Pact
+  passive_text: CRIT DMG increased by {0}. Increasing the value of a Bond of Life increases the DMG the equipping character deals by {1} for 6s. Max 3 stacks.
+akuoumaru:
+  name: Akuoumaru
+  passive_name: Watatsumi Wavewalker
+  passive_text: For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by {0}. A maximum of {1} increased Elemental Burst DMG can be achieved this way.
+  series: Watatsumi
+alley-hunter:
+  name: Alley Hunter
+  passive_name: Oppidan Ambush
+  passive_text: While the character equipped with this weapon is in the party but not on the field, their DMG increases by {0} every second up to a max of {1}. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by {2} per second until it reaches 0%.
+  series: Alley
+amenoma-kageuchi:
+  name: Amenoma Kageuchi
+  passive_name: Iwakura Succession
+  passive_text: After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates {0} Energy for each seed consumed.
+  series: Amethyst
+amos-bow:
+  name: Amos' Bow
+  passive_name: Strong-Willed
+  passive_text: Increases Normal and Charged Attack DMG by {0}. After a Normal or Charged Attack is fired, DMG dealt increases by a further {1} every 0.1s the arrow is in the air for up to 5 times.
+aqua-simulacra:
+  name: Aqua Simulacra
+  passive_name: The Cleansing Form
+  passive_text: HP is increased by {0}. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by {1}. This will take effect whether the character is on-field or not.
+aquila-favonia:
+  name: Aquila Favonia
+  passive_name: Falcon's Defiance
+  passive_text: 'ATK is increased by {0}. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to {1} of ATK and dealing {2} of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.'
+ballad-of-the-fjords:
+  name: Ballad of the Fjords
+  passive_name: Tales of the Tundra
+  passive_text: When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by {0}.
+ballad-of-the-boundless-blue:
+  name: Ballad of the Boundless Blue
+  passive_name: Azure Skies
+  passive_text: Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by {0} and Charged Attack DMG will be increased by {1}. Max 3 stacks. Can occur once every 0.3s.
+beacon-of-the-reed-sea:
+  name: Beacon of the Reed Sea
+  passive_name: Desert Watch
+  passive_text: After the character's Elemental Skill hits an opponent, their ATK will be increased by {0} for 8s. After the character takes DMG, their ATK will be increased by {1} for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by {2}.
+black-tassel:
+  name: Black Tassel
+  passive_name: Bane of the Soft
+  passive_text: Increases DMG against slimes by {0}.
+  series: Bane
+blackcliff-agate:
+  name: Blackcliff Agate
+  passive_name: Press the Advantage
+  passive_text: After defeating an enemy, ATK is increased by {0} for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.
+  series: Blackcliff
+blackcliff-longsword:
+  name: Blackcliff Longsword
+  passive_name: Press the Advantage
+  passive_text: After defeating an opponent, ATK is increased by {0} for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.
+  series: Blackcliff
+blackcliff-pole:
+  name: Blackcliff Pole
+  passive_name: Press the Advantage
+  passive_text: After defeating an enemy, ATK is increased by {0} for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.
+  series: Blackcliff
+blackcliff-slasher:
+  name: Blackcliff Slasher
+  passive_name: Press the Advantage
+  passive_text: After defeating an enemy, ATK is increased by {0} for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.
+  series: Blackcliff
+blackcliff-warbow:
+  name: Blackcliff Warbow
+  passive_name: Press the Advantage
+  passive_text: After defeating an enemy, ATK is increased by {0} for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.
+  series: Blackcliff
+bloodtainted-greatsword:
+  name: Bloodtainted Greatsword
+  passive_name: Bane of Fire and Thunder
+  passive_text: Increases DMG against opponents affected by Pyro or Electro by {0}.
+  series: Bane
+calamity-queller:
+  name: Calamity Queller
+  passive_name: Extinguishing Precept
+  passive_text: Gain {0} All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by {1} per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled.
+cashflow-supervision:
+  name: Cashflow Supervision
+  passive_name: Golden Blood-Tide
+  passive_text: ATK is increased by {0}. When current HP increases or decreases, Normal Attack DMG will be increased by {1} and Charged Attack DMG will be increased by {2} for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by {3}.
+cinnabar-spindle:
+  name: Cinnabar Spindle
+  passive_name: Spotless Heart
+  passive_text: Elemental Skill DMG is increased by {0} of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.
+cloudforged:
+  name: Cloudforged
+  passive_name: Spotless Crag-Chiseled Forge
+  passive_text: After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by {} for 18s. Max 2 stacks.
+compound-bow:
+  name: Compound Bow
+  passive_name: Infusion Arrow
+  passive_text: Normal Attack and Charged Attack hits increase ATK by {0} and Normal ATK SPD by {1} for 6s. Max 4 stacks. Can only occur once every 0.3s.
+  series: Infusion
+cool-steel:
+  name: Cool Steel
+  passive_name: Bane of Water and Ice
+  passive_text: Increases DMG against opponents affected by Hydro or Cryo by {0}.
+  series: Bane
+cranes-echoing-call:
+  name: Crane's Echoing Call
+  passive_name: Cloudfall Axiom
+  passive_text: After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks deal {0} increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore {1} Energy to the equipping character. Energy can be restored this way every 0.7s.
+crescent-pike:
+  name: Crescent Pike
+  passive_name: Infusion Needle
+  passive_text: After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to {0} of ATK for 5s.
+  series: Infusion
+crimson-moons-semblance:
+  name: Crimson Moon's Semblance
+  passive_name: Ashen Sun's Shadow
+  passive_text: Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a {0} DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional {1} DMG Bonus.
+dark-iron-sword:
+  name: Dark Iron Sword
+  passive_name: Overloaded
+  passive_text: Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by {0} for 12s.
+deathmatch:
+  name: Deathmatch
+  passive_name: Gladiator
+  passive_text: If there are at least 2 opponents nearby, ATK is increased by {0} and DEF is increased by {1}. If there are fewer than 2 opponents nearby, ATK is increased by {2}.
+debate-club:
+  name: Debate Club
+  passive_name: Blunt Conclusion
+  passive_text: After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to {0} of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.
+dialogues-of-the-desert-sages:
+  name: Dialogues of the Desert Sages
+  passive_name: Principle of Equibilirium
+  passive_text: When the wielder performs healing, restore {} Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field.
+dodoco-tales:
+  name: Dodoco Tales
+  passive_name: Dodoventure!
+  passive_text: Normal Attack hits on opponents increase Charged Attack DMG by {0} for 6s. Charged Attack hits on opponents increase ATK by {1} for 6s.
+dragons-bane:
+  name: Dragon's Bane
+  passive_name: Bane of Flame and Water
+  passive_text: Increases DMG against opponents affected by Hydro or Pyro by {0}.
+  series: Kunwu
+dragonspine-spear:
+  name: Dragonspine Spear
+  passive_name: Frost Burial
+  passive_text: Hitting an opponent with Normal and Charged Attacks has a {0} chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to {1} of ATK. Opponents affected by Cryo are instead dealt DMG equal to {2} of ATK. Can only occur once every 10s.
+  series: Dragonspine
+elegy-for-the-end:
+  name: Elegy for the End
+  passive_name: The Parting Refrain
+  passive_text: 'A part of the "Millennial Movement" that wanders amidst the winds. Increases Elemental Mastery by {0}. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the "Millennial Movement: Farewell Song" effect for 12s. "Millennial Movement: Farewell Song" increases Elemental Mastery by {1} and increases ATK by {2}. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the "Millennial Movement," buffs of the same type will not stack.'
+  series: Millennial Movement
+emerald-orb:
+  name: Emerald Orb
+  passive_name: Rapids
+  passive_text: Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by {0} for 12s.
+end-of-the-line:
+  name: End of the Line
+  passive_name: Net Snapper
+  passive_text: Triggers the Flowrider effect after using an Elemental Skill, dealing {0} ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.
+engulfing-lightning:
+  name: Engulfing Lightning
+  passive_name: 'Timeless Dream: Eternal Stove'
+  passive_text: ATK increased by {0} of Energy Recharge over the base 100%. You can gain a maximum bonus of {1} ATK. Gain {2} Energy Recharge for 12s after using an Elemental Burst.
+  series: Inazuma
+everlasting-moonglow:
+  name: Everlasting Moonglow
+  passive_name: Byakuya Kougetsu
+  passive_text: Healing Bonus increased by {0}, Normal Attack DMG is increased by {1} of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.
+eye-of-perception:
+  name: Eye of Perception
+  passive_name: Echo
+  passive_text: Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing {0} ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every {1}.
+fading-twilight:
+  name: Fading Twilight
+  passive_name: Radiance of the Deeps
+  passive_text: Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by {0} respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.
+favonius-codex:
+  name: Favonius Codex
+  passive_name: Windfall
+  passive_text: CRIT Hits have a {0} chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {1}.
+  series: Favonius
+favonius-greatsword:
+  name: Favonius Greatsword
+  passive_name: Windfall
+  passive_text: CRIT Hits have a {0} chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {1}.
+  series: Favonius
+favonius-lance:
+  name: Favonius Lance
+  passive_name: Windfall
+  passive_text: CRIT Hits have a {0} chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {1}.
+  series: Favonius
+favonius-sword:
+  name: Favonius Sword
+  passive_name: Windfall
+  passive_text: CRIT Hits have a {0} chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {1}.
+  series: Favonius
+favonius-warbow:
+  name: Favonius Warbow
+  passive_name: Windfall
+  passive_text: CRIT Hits have a {0} chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {1}.
+  series: Favonius
+ferrous-shadow:
+  name: Ferrous Shadow
+  passive_name: Unbending
+  passive_text: When HP falls below {0}, increases Charged Attack DMG by {1} and Charged Attacks become harder to interrupt.
+festering-desire:
+  name: Festering Desire
+  passive_name: Undying Admiration
+  passive_text: Increases Elemental Skill DMG by {0} and Elemental Skill CRIT Rate by {1}.
+fillet-blade:
+  name: Fillet Blade
+  passive_name: Gash
+  passive_text: On hit, has a 50% chance to deal {0} ATK DMG to a single target. Can only occur once every {1}.
+finale-of-the-deep:
+  name: Finale of the Deep
+  passive_name: An End Sublime
+  passive_text: 'When using an Elemental Skill, ATK will be increased by {0} for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of {1} ATK will be gained based on {2} of the Bond for 15s. Bond of Life: Absorbs healing for the character based on its base value, and clears after healing equal to this value is obtained.'
+fleuve-cendre-ferryman:
+  name: Fleuve Cendre Ferryman
+  passive_name: Ironbone
+  passive_text: Increases Elemental Skill CRIT Rate by {0}. Additionally, increases Energy Recharge by {1} for 5s after using an Elemental Skill.
+flowing-purity:
+  name: Flowing Purity
+  passive_name: Unfinished Masterpiece
+  passive_text: 'When using an Elemental Skill, All Elemental DMG Bonus will be increased by {0} for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide {1} All Elemental DMG Bonus. Up to a maximum of {2} All Elemental DMG can be gained this way. This effect lasts 15s. Bond of Life: Absorbs healing for the character based on its base value, and clears after healing equal to this value is obtained.'
+forest-regalia:
+  name: Forest Regalia
+  passive_name: Forest Sanctuary
+  passive_text: After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character {0} Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness’ effect cannot stack.
+  series: Aranara
+freedom-sworn:
+  name: Freedom-Sworn
+  passive_name: Revolutionary Chorale
+  passive_text: 'A part of the "Millennial Movement" that wanders amidst the winds. Increases DMG by {0}. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain "Millennial Movement: Song of Resistance" for 12s. "Millennial Movement: Song of Resistance" increases Normal, Charged and Plunging Attack DMG by {1} and increases ATK by {2}. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the "Millennial Movement," buffs of the same type will not stack.'
+  series: Millennial Movement
+frostbearer:
+  name: Frostbearer
+  passive_name: Frost Burial
+  passive_text: Hitting an opponent with Normal and Charged Attacks has a {0} chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to {1} of ATK. Opponents affected by Cryo are instead dealt DMG equal to {2} of ATK. Can only occur once every 10s.
+  series: Dragonspine
+fruit-of-fulfillment:
+  name: Fruit of Fulfillment
+  passive_name: Full Circle
+  passive_text: Obtain the “Wax and Wane” effect after an Elemental Reaction is triggered, gaining {0} Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.
+  series: Aranara
+hakushin-ring:
+  name: Hakushin Ring
+  passive_name: Sakura Saiguu
+  passive_text: After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a {0} Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.
+  series: Amethyst
+halberd:
+  name: Halberd
+  passive_name: Heavy
+  passive_text: Normal Attacks deal an additional {0} ATK as DMG. This effect can only occur once every 10s.
+hamayumi:
+  name: Hamayumi
+  passive_name: Full Draw
+  passive_text: Increases Normal Attack DMG by {0} and Charged Attack DMG by {1}. When the equipping character's Energy reaches 100%, this effect is increased by 100%.
+  series: Amethyst
+haran-geppaku-futsu:
+  name: Haran Geppaku Futsu
+  passive_name: Honed Flow
+  passive_text: 'Obtain {0} All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by {1} for 8s.'
+harbinger-of-dawn:
+  name: Harbinger of Dawn
+  passive_name: Vigorous
+  passive_text: When HP is above 90%, increases CRIT Rate by {0}.
+hunters-path:
+  name: Hunter's Path
+  passive_name: At the End of the Beast-Paths
+  passive_text: Gain {0} All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by {1} of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.
+ibis-piercer:
+  name: Ibis Piercer
+  passive_name: "Secret Wisdom's Favor"
+  passive_text: "The character's Elemental Mastery will increase by {} within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
+iron-sting:
+  name: Iron Sting
+  passive_name: Infusion Stinger
+  passive_text: Dealing Elemental DMG increases all DMG by {0} for 6s. Max 2 stacks. Can occur once every 1s.
+  series: Infusion
+jadefalls-splendor:
+  name: Jadefall's Splendor
+  passive_name: Primordial Jade Regalia
+  passive_text: 'For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore {0} Energy every 2.5s, and gain {1} Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to {2}. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.'
+kagotsurube-isshin:
+  name: Kagotsurube Isshin
+  passive_name: Isshin Art Clarity
+  passive_text: When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to {0}% of ATK and increasing ATK by {1}% for 8s. This effect can be triggered once every 8s.
+kaguras-verity:
+  name: Kagura's Verity
+  passive_name: Kagura Dance of the Sacred Sakura
+  passive_text: Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by {0} for 16s. Max 3 stacks. This character will gain {1} All Elemental DMG Bonus when they possess 3 stacks.
+katsuragikiri-nagamasa:
+  name: Katsuragikiri Nagamasa
+  passive_name: Samurai Conduct
+  passive_text: Increases Elemental Skill DMG by {0}. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates {1} Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.
+  series: Amethyst
+key-of-khaj-nisut:
+  name: Key of Khaj-Nisut
+  passive_name: Sunken Song of the Sands
+  passive_text: "HP increased by {0}. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by {1} of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by {2} of the equipping character's max HP for 20s."
+kings-squire:
+  name: King's Squire
+  passive_name: Labyrinth Lord's Instruction
+  passive_text: Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by {0} for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal {1} of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.
+  series: Aranara
+kitain-cross-spear:
+  name: Kitain Cross Spear
+  passive_name: Samurai Conduct
+  passive_text: Increases Elemental Skill DMG by {0}. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates {1} Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.
+  series: Amethyst
+light-of-foliar-incision:
+  name: Light of Foliar Incision
+  passive_name: Whitemoon Bristle
+  passive_text: CRIT Rate is increased by {0}. When Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by {1} of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.
+lions-roar:
+  name: Lion's Roar
+  passive_name: Bane of Fire and Thunder
+  passive_text: Increases DMG against opponents affected by Pyro or Electro by {0}.
+  series: Kunwu
+lithic-blade:
+  name: Lithic Blade
+  passive_name: 'Lithic Axiom: Unity'
+  passive_text: For every character in the party who hails from Liyue, the character who equips this weapon gains a {0} ATK increase and a {1} CRIT Rate increase. This effect stacks up to 4 times.
+  series: Lithic
+lithic-spear:
+  name: Lithic Spear
+  passive_name: 'Lithic Axiom: Unity'
+  passive_text: For every character in the party who hails from Liyue, the character who equips this weapon gains a {0} ATK increase and a {1} CRIT Rate increase. This effect stacks up to 4 times.
+  series: Lithic
+lost-prayer-to-the-sacred-winds:
+  name: Lost Prayer to the Sacred Winds
+  passive_name: Boundless Blessing
+  passive_text: Increases Movement SPD by 10%. When in battle, gain a {0} Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.
+luxurious-sea-lord:
+  name: Luxurious Sea-Lord
+  passive_name: Oceanic Victory
+  passive_text: Increases Elemental Burst DMG by {0}. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals {1} ATK as AoE DMG. This effect can occur once every 15s.
+magic-guide:
+  name: Magic Guide
+  passive_name: Bane of Storm and Tide
+  passive_text: Increases DMG against opponents affected by Hydro or Electro by {0}.
+  series: Bane
+mailed-flower:
+  name: Mailed Flower
+  passive_name: Whispers of Wind and Flower
+  passive_text: "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by {0} and {1} respectively."
+makhaira-aquamarine:
+  name: Makhaira Aquamarine
+  passive_name: Desert Pavilion
+  passive_text: 'The following effect will trigger every 10s: The equipping character will gain {} of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.'
+mappa-mare:
+  name: Mappa Mare
+  passive_name: Infusion Scroll
+  passive_text: Triggering an Elemental reaction grants a {0} Elemental DMG Bonus for 10s. Max 2 stacks.
+  series: Infusion
+memory-of-dust:
+  name: Memory of Dust
+  passive_name: Golden Majesty
+  passive_text: Increases Shield Strength by {0}. Scoring hits on opponents increases ATK by {1} for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.
+  series: Liyue
+messenger:
+  name: Messenger
+  passive_name: Archer's Message
+  passive_text: Charged Attack hits on weak points deal an additional {0} ATK DMG as CRIT DMG. Can only occur once every 10s.
+missive-windspear:
+  name: Missive Windspear
+  passive_name: The Wind Unattained
+  passive_text: Within 10s after an Elemental Reaction is triggered, ATK is increased by {0} and Elemental Mastery is increased by {1}.
+mistsplitter-reforged:
+  name: Mistsplitter Reforged
+  passive_name: Mistsplitter's Edge
+  passive_text: 'Gain a {0} Elemental DMG Bonus for all elements and receive the might of the Mistsplitter''s Emblem. At stack levels 1/2/3, the Mistsplitter''s Emblem provides a {1} Elemental DMG Bonus for the character''s Elemental Type. The character will obtain 1 stack of the Mistsplitter''s Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack''s duration is calculated independently.'
+  series: Inazuma
+mitternachts-waltz:
+  name: Mitternachts Waltz
+  passive_name: Evernight Duet
+  passive_text: Normal Attack hits on opponents increase Elemental Skill DMG by {0} for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by {1} for 5s.
+moonpiercer:
+  name: Moonpiercer
+  passive_name: Stillwood Moonshadow
+  passive_text: After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character {0} ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.
+  series: Aranara
+mouuns-moon:
+  name: Mouun's Moon
+  passive_name: Watatsumi Wavewalker
+  passive_text: For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by {0}. A maximum of {1} increased Elemental Burst DMG can be achieved this way.
+  series: Watatsumi
+oathsworn-eye:
+  name: Oathsworn Eye
+  passive_name: People of the Faltering Light
+  passive_text: Increases Energy Recharge by {0} for 10s after using an Elemental Skill.
+otherworldly-story:
+  name: Otherworldly Story
+  passive_name: Energy Shower
+  passive_text: Each Elemental Orb or Particle collected restores {0} HP.
+polar-star:
+  name: Polar Star
+  passive_name: Daylight's Augury
+  passive_text: Elemental Skill and Elemental Burst DMG increased by {0}. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by {1}. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.
+portable-power-saw:
+  name: Portable Power Saw
+  passive_name: Sea Shanty
+  passive_text: "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain {0} Elemental Mastery, and 2s after the effect occurs, {1} Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+predator:
+  name: Predator
+  passive_name: Strong Strike
+  passive_text: '*Note: Effective only on the Playstation Network*  Dealing Cryo DMG to opponents increases this character''s Normal and Charged Attack DMG by {}% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by {}. '
+  series: Outlander
+primordial-jade-cutter:
+  name: Primordial Jade Cutter
+  passive_name: Protector's Virtue
+  passive_text: HP increased by {0}. Additionally, provides an ATK Bonus based on {1} of the wielder's Max HP.
+  series: Primordial Jade
+primordial-jade-winged-spear:
+  name: Primordial Jade Winged-Spear
+  passive_name: Eagle Spear of Justice
+  passive_text: On hit, increases ATK by {0} for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by {1}.
+  series: Primordial Jade
+prospectors-drill:
+  name: Prospector's Drill
+  passive_name: Masons' Ditty
+  passive_text: When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain {0} ATK and {1} All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.
+prototype-amber:
+  name: Prototype Amber
+  passive_name: Gilding
+  passive_text: Using an Elemental Burst regenerates {0} Energy every 2s for 6s. All party members will regenerate {1} HP every 2s for this duration.
+  series: Prototype
+prototype-archaic:
+  name: Prototype Archaic
+  passive_name: Crush
+  passive_text: On hit, Normal or Charged Attacks have a 50% chance to deal an additional {0} ATK DMG to opponents within a small AoE. Can only occur once every 15s.
+  series: Prototype
+prototype-crescent:
+  name: Prototype Crescent
+  passive_name: Unreturning
+  passive_text: Charged Attack hits on weak points increase Movement SPD by 10% and ATK by {0} for 10s.
+  series: Prototype
+prototype-rancour:
+  name: Prototype Rancour
+  passive_name: Smashed Stone
+  passive_text: On hit, Normal or Charged Attacks increase ATK and DEF by {0} for 6s. Max 4 stacks. This effect can only occur once every 0.3s.
+  series: Prototype
+prototype-starglitter:
+  name: Prototype Starglitter
+  passive_name: Magic Affinity
+  passive_text: After using an Elemental Skill, increases Normal and Charged Attack DMG by {0} for 12s. Max 2 stacks.
+  series: Prototype
+rainslasher:
+  name: Rainslasher
+  passive_name: Bane of Storm and Tide
+  passive_text: Increases DMG against opponents affected by Hydro or Electro by {0}.
+  series: Bane
+range-gauge:
+  name: Range Gauge
+  passive_name: Masons' Ditty 
+  passive_text: When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain {0} ATK and {1} All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.
+raven-bow:
+  name: Raven Bow
+  passive_name: Bane of Flame and Water
+  passive_text: Increases DMG against opponents affected by Hydro or Pyro by {0}.
+  series: Bane
+recurve-bow:
+  name: Recurve Bow
+  passive_name: Cull the Weak
+  passive_text: Defeating an opponent restores {0} HP.
+redhorn-stonethresher:
+  name: Redhorn Stonethresher
+  passive_name: Gokadaiou Otogibanashi
+  passive_text: DEF is increased by {0}. Normal and Charged Attack DMG is increased by {1} of DEF.
+rightful-reward:
+  name: Rightful Reward
+  passive_name: Tip of the Spear
+  passive_text: When the wielder is healed, restore {0} Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field.
+royal-bow:
+  name: Royal Bow
+  passive_name: Focus
+  passive_text: Upon damaging an opponent, increases CRIT Rate by {0}. Max 5 stacks. A CRIT Hit removes all stacks.
+  series: Royal
+royal-greatsword:
+  name: Royal Greatsword
+  passive_name: Focus
+  passive_text: Upon damaging an opponent, increases CRIT Rate by {0}. Max 5 stacks. A CRIT Hit removes all stacks.
+  series: Royal
+royal-grimoire:
+  name: Royal Grimoire
+  passive_name: Focus
+  passive_text: Upon damaging an opponent, increases CRIT Rate by {0}. Max 5 stacks. A CRIT Hit removes all stacks.
+  series: Royal
+royal-longsword:
+  name: Royal Longsword
+  passive_name: Focus
+  passive_text: Upon damaging an opponent, increases CRIT Rate by {0}. Max 5 stacks. A CRIT Hit removes all stacks.
+  series: Royal
+royal-spear:
+  name: Royal Spear
+  passive_name: Focus
+  passive_text: Upon damaging an opponent, increases CRIT Rate by {0}. Max 5 stacks. A CRIT Hit removes all stacks.
+  series: Royal
+rust:
+  name: Rust
+  passive_name: Rapid Firing
+  passive_text: Increases Normal Attack DMG by {0} but decreases Charged Attack DMG by 10%.
+sacrificial-bow:
+  name: Sacrificial Bow
+  passive_name: Composed
+  passive_text: After damaging an opponent with an Elemental Skill, the skill has a {0} chance to end its own CD. Can only occur once every {1}.
+  series: Sacrificial
+sacrificial-fragments:
+  name: Sacrificial Fragments
+  passive_name: Composed
+  passive_text: After damaging an opponent with an Elemental Skill, the skill has a {0} chance to end its own CD. Can only occur once every {1}.
+  series: Sacrificial
+sacrificial-greatsword:
+  name: Sacrificial Greatsword
+  passive_name: Composed
+  passive_text: After damaging an opponent with an Elemental Skill, the skill has a {0} chance to end its own CD. Can only occur once every {1}.
+  series: Sacrificial
+sacrificial-jade:
+  name: Sacrificial Jade
+  passive_name: Jade Circulation
+  passive_text: When not on the field for more than 5s, Max HP will be increased by {0} and Elemental Mastery will be increased by {1}. These effects will be canceled after the wielder has been on the field for 10s.
+sacrificial-sword:
+  name: Sacrificial Sword
+  passive_name: Composed
+  passive_text: After damaging an opponent with an Elemental Skill, the skill has a {0} chance to end its own CD. Can only occur once every {1}.
+  series: Sacrificial
+sapwood-blade:
+  name: Sapwood Blade
+  passive_name: Forest Sanctuary
+  passive_text: After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character {0} Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness’ effect cannot stack.
+  series: Aranara
+scion-of-the-blazing-sun:
+  name: Scion of the Blazing Sun
+  passive_name: The Way of Sunfire
+  passive_text: After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing {0} ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take {1} more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.
+serpent-spine:
+  name: Serpent Spine
+  passive_name: Wavesplitter
+  passive_text: Every 4s a character is on the field, they will deal {0} more DMG and take {1} more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.
+sharpshooters-oath:
+  name: Sharpshooter's Oath
+  passive_name: Precise
+  passive_text: Increases DMG against weak spots by {0}.
+skyrider-greatsword:
+  name: Skyrider Greatsword
+  passive_name: Courage
+  passive_text: On hit, Normal or Charged Attacks increase ATK by {0} for 6s. Max 4 stacks. Can occur once every 0.5s.
+  series: Skyrider
+skyrider-sword:
+  name: Skyrider Sword
+  passive_name: Determination
+  passive_text: Using an Elemental Burst grants a {0} increase in ATK and Movement SPD for 15s.
+  series: Skyrider
+skyward-atlas:
+  name: Skyward Atlas
+  passive_name: Wandering Clouds
+  passive_text: Increases Elemental DMG Bonus by {0}. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing {1} ATK DMG. Can only occur once every 30s.
+  series: Mondstadt
+skyward-blade:
+  name: Skyward Blade
+  passive_name: Sky-Piercing Fang
+  passive_text: 'CRIT Rate increased by {0}. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by {1}, increases ATK SPD by {2}, and Normal and Charged hits deal additional DMG equal to {3} of ATK. Skypiercing Might lasts for 12s.'
+  series: Mondstadt
+skyward-harp:
+  name: Skyward Harp
+  passive_name: Echoing Ballad
+  passive_text: Increases CRIT DMG by {0}. Hits have a {1} chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every {2}.
+  series: Mondstadt
+skyward-pride:
+  name: Skyward Pride
+  passive_name: Sky-ripping Dragon Spine
+  passive_text: Increases all DMG by {0}. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does {1} of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.
+  series: Mondstadt
+skyward-spine:
+  name: Skyward Spine
+  passive_name: Black Wing
+  passive_text: Increases CRIT Rate by {0} and increases Normal ATK SPD by {1}. Additionally, Normal and Charged Attacks hits on opponents have a {2} chance to trigger a vacuum blade that deals {3} of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.
+  series: Mondstadt
+slingshot:
+  name: Slingshot
+  passive_name: Slingshot
+  passive_text: If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by {0}. Otherwise, decreases DMG by 10%.
+snow-tombed-starsilver:
+  name: Snow-Tombed Starsilver
+  passive_name: Frost Burial
+  passive_text: Hitting an opponent with Normal and Charged Attacks has a {0} chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to {1} of ATK. Opponents affected by Cryo are instead dealt DMG equal to {2} of ATK. Can only occur once every 10s.
+  series: Dragonspine
+solar-pearl:
+  name: Solar Pearl
+  passive_name: Solar Shine
+  passive_text: Normal Attack hits increase Elemental Skill and Elemental Burst DMG by {0} for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by {1} for 6s.
+  series: Kunwu
+song-of-broken-pines:
+  name: Song of Broken Pines
+  passive_name: Rebel's Banner-Hymn
+  passive_text: 'A part of the "Millennial Movement" that wanders amidst the winds. Increases ATK by {0}, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the "Millennial Movement: Banner-Hymn" effect for 12s. "Millennial Movement: Banner-Hymn" increases Normal ATK SPD by {1} and increases ATK by {2}. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the "Millennial Movement," buffs of the same type will not stack.'
+  series: Millennial Movement
+song-of-stillness:
+  name: Song of Stillness
+  passive_name: Benthic Pulse
+  passive_text: After the wielder is healed, they will deal {0} more DMG for 8s. This can be triggered even when the character is not on the field.
+splendor-of-tranquil-waters:
+  name: Splendor of Tranquil Waters
+  passive_name: Dawn and Dusk by the Lake
+  passive_text: "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by {0} for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by {1} for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
+staff-of-homa:
+  name: Staff of Homa
+  passive_name: Reckless Cinnabar
+  passive_text: HP increased by {0}. Additionally, provides an ATK Bonus based on {1} of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional {2} of Max HP.
+staff-of-the-scarlet-sands:
+  name: Staff of the Scarlet Sands
+  passive_name: Heat Haze at Horizon's End
+  passive_text: 'The equipping character gains {0} of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain {1} of their Elemental Mastery as bonus ATK. Max 3 stacks.'
+summit-shaper:
+  name: Summit Shaper
+  passive_name: Golden Majesty
+  passive_text: Increases Shield Strength by {0}. Scoring hits on opponents increases ATK by {1} for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.
+  series: Liyue
+sword-of-descension:
+  name: Sword of Descension
+  passive_name: Descension
+  passive_text: "Effective only on the following platform: \n\"PlayStation Network\"\nHitting opponents with Normal and Charged Attacks grants a {0} chance to deal {1} ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by {2}."
+  series: Outlander
+sword-of-narzissenkreuz:
+  name: Sword of Narzissenkreuz
+  passive_name: "Hero's Blade"
+  passive_text: "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing {0} of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
+talking-stick:
+  name: Talking Stick
+  passive_name: '"The Silver Tongue"'
+  passive_text: ATK will be increased by {0} for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by {1} for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s.
+the-alley-flash:
+  name: The Alley Flash
+  passive_name: Itinerant Hero
+  passive_text: Increases DMG dealt by the character equipping this weapon by {0}. Taking DMG disables this effect for 5s.
+  series: Alley
+the-bell:
+  name: The Bell
+  passive_name: Rebellious Guardian
+  passive_text: Taking DMG generates a shield which absorbs DMG up to {0} of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every {1}. While protected by a shield, the character gains {2} increased DMG.
+  series: Wanderer's Troupe
+the-black-sword:
+  name: The Black Sword
+  passive_name: Justice
+  passive_text: Increases DMG dealt by Normal and Charged Attacks by {0}. Additionally, regenerates {1} of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.
+the-catch:
+  name: '"The Catch"'
+  passive_name: Shanty
+  passive_text: Increases Elemental Burst DMG by {0} and Elemental Burst CRIT Rate by {1}.
+the-dockhands-assistant:
+  name: "The Dockhand's Assistant"
+  passive_name: Sea Shanty
+  passive_text: "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain {0} Elemental Mastery, and 2s after the effect occurs, {1} Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
+the-first-great-magic:
+  name: The First Great Magic
+  passive_name: Parsifal the Great
+  passive_text: DMG dealt by Charged Attacks increased by {0}. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by {1}. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by {2}.
+the-flute:
+  name: The Flute
+  passive_name: Chord
+  passive_text: Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals {0} ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.
+  series: Wanderer's Troupe
+the-stringless:
+  name: The Stringless
+  passive_name: Arrowless Song
+  passive_text: Increases Elemental Skill and Elemental Burst DMG by {0}.
+  series: Wanderer's Troupe
+the-unforged:
+  name: The Unforged
+  passive_name: Golden Majesty
+  passive_text: Increases Shield Strength by {0}. Scoring hits on opponents increases ATK by {1} for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.
+  series: Liyue
+the-viridescent-hunt:
+  name: The Viridescent Hunt
+  passive_name: Verdant Wind
+  passive_text: Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing {0} of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every {1}.
+the-widsith:
+  name: The Widsith
+  passive_name: Debut
+  passive_text: 'When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by {0}. Aria: Increases all Elemental DMG by {1}. Interlude: Elemental Mastery is increased by {2}.'
+  series: Wanderer's Troupe
+thrilling-tales-of-dragon-slayers:
+  name: Thrilling Tales of Dragon Slayers
+  passive_name: Heritage
+  passive_text: When switching characters, the new character taking the field has their ATK increased by {0} for 10s. This effect can only occur once every 20s.
+thundering-pulse:
+  name: Thundering Pulse
+  passive_name: Rule by Thunder
+  passive_text: 'Increases ATK by {0} and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by {1}. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack''s duration is calculated independently.'
+  series: Inazuma
+tidal-shadow:
+  name: Tidal Shadow
+  passive_name: White Cruising Wave
+  passive_text: After the wielder is healed, ATK will be increased by {0} for 8s. This can be triggered even when the character is not on the field.
+tome-of-the-eternal-flow:
+  name: Tome of the Eternal Flow
+  passive_name: Aeon Wave
+  passive_text: "HP is increased by {0}. When current HP increases or decreases, Charged Attack DMG will be increased by {1} for 4s. Max 3 stacks, can be triggered once every 0.3s. When you have 3 stacks or refresh a third stack's duration, {2} Energy will be restored. This Energy restoration effect can be triggered once every 12s."
+toukabou-shigure:
+  name: Toukabou Shigure
+  passive_name: "Kaidan: Rainfall Earthbinder"
+  passive_text: 'After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol’s duration, Cursed Parasol’s CD will be refreshed immediately. The character wielding this weapon will deal {0}% more DMG to the opponent affected by Cursed Parasol.'
+travelers-handy-sword:
+  name: Traveler's Handy Sword
+  passive_name: Journey
+  passive_text: Each Elemental Orb or Particle collected restores {0} HP.
+tulaytullahs-remembrance:
+  name: Tulaytullah’s Remembrance
+  passive_name: Bygone Azure Teardrop
+  passive_text: Normal Attack SPD is increased by 10%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by {0} every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by {1}. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is {2}. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.
+twin-nephrite:
+  name: Twin Nephrite
+  passive_name: Guerilla Tactics
+  passive_text: Defeating an opponent increases Movement SPD and ATK by {0} for 15s.
+ultimate-overlords-mega-magic-sword:
+  name: "Ultimate Overlord's Mega Magic Sword"
+  passive_name: Melussistance!
+  passive_text: ATK increased by {0}. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional {1}.
+uraku-misugiri:
+  name: Uraku Misugiri
+  passive_name: Brocade Bloom, Shrine Sword
+  passive_text: Normal Attack DMG is increased by {0} and Elemental Skill DMG is increased by {1} After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by {2}
+verdict:
+  name: Verdict
+  passive_name: Many Oaths of Dawn and Dusk
+  passive_text: Increases ATK by {0}. When party members obtain Elemental Shards from Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by {1}. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG.
+vortex-vanquisher:
+  name: Vortex Vanquisher
+  passive_name: Golden Majesty
+  passive_text: Increases Shield Strength by {0}. Scoring hits on opponents increases ATK by {1} for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.
+  series: Liyue
+wandering-evenstar:
+  name: Wandering Evenstar
+  passive_name: Wilding Nightstar
+  passive_text: 'The following effect will trigger every 10s: The equipping character will gain {0} Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.'
+wavebreakers-fin:
+  name: Wavebreaker's Fin
+  passive_name: Watatsumi Wavewalker
+  passive_text: For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by {0}. A maximum of {1} increased Elemental Burst DMG can be achieved this way.
+  series: Watatsumi
+white-iron-greatsword:
+  name: White Iron Greatsword
+  passive_name: Cull the Weak
+  passive_text: Defeating an opponent restores {0} HP.
+white-tassel:
+  name: White Tassel
+  passive_name: Sharp
+  passive_text: Increases Normal Attack DMG by {0}.
+whiteblind:
+  name: Whiteblind
+  passive_name: Infusion Blade
+  passive_text: On hit, Normal or Charged Attacks increase ATK and DEF by {0} for 6s. Max 4 stacks. This effect can only occur once every 0.5s.
+  series: Infusion
+windblume-ode:
+  name: Windblume Ode
+  passive_name: Windblume Wish
+  passive_text: After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by {0} for 6s.
+wine-and-song:
+  name: Wine and Song
+  passive_name: Ever-Changing
+  passive_text: Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by {0} for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by {1} for 5s.
+  series: Alley
+wolf-fang:
+  name: Wolf-Fang
+  passive_name: Northwind Wolf
+  passive_text: DMG dealt by Elemental Skill and Elemental Burst is increased by {0}. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by {1}. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by {2}. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s.
+wolfs-gravestone:
+  name: Wolf's Gravestone
+  passive_name: Wolfish Tracker
+  passive_text: Increases ATK by {0}. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by {1} for 12s. Can only occur once every 30s.
+xiphos-moonlight:
+  name: Xiphos' Moonlight
+  passive_name: Jinni's Whisper
+  passive_text: 'The following effect will trigger every 10s: The equipping character will gain {0} Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.'

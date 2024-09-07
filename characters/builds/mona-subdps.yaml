@@ -1,0 +1,121 @@
+key: subdps
+main_stat:
+  sands: atk_percent / em / er_percent
+  goblet: hydro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- em
+- er_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- the-widsith
+- kaguras-verity
+- skyward-atlas
+- mappa-mare
+- wine-and-song
+- oathsworn-eye
+- favonius-codex
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - emblem
+  notes:
+    - bis
+    - boost_er_burst_by_er
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - gladiator
+    - shimenawa
+  - set_group:
+    - heart
+    - wanderers
+  - set_group:
+    - noblesse
+  notes:
+    - pick_2_needs_best_sub
+    - max_burst_vape
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - nobody_party_has_set
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes:
+    - boost_shield_party_atk
+    - mona_diona_synergy
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - boost_em
+  weight: 0.25

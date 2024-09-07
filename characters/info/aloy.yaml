@@ -1,0 +1,21 @@
+element: cryo
+weapon: bow
+rarity: 5
+availability: limited
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: crystalline_bloom
+  local_specialty: crystal_marrow
+  common_material: spectral
+  talent: freedom
+  boss_talent: molten
+talents:
+  elemental_skill:
+    duration_seconds: 10.0
+    cooldown_seconds: 20.0
+  elemental_burst:
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: April
+  day: 4

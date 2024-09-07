@@ -1,0 +1,40 @@
+type: Catalyst
+rarity: 4
+atk_start: 44.0
+substat: atk_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: flase
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 8%
+    - 2%
+    - 12%
+  - values:
+    - 10%
+    - 2.5%
+    - 15%
+  - values:
+    - 12%
+    - 3%
+    - 18%
+  - values:
+    - 14%
+    - 3.5%
+    - 21%
+  - values:
+    - 16%
+    - 4%
+    - 24%
+ascension_materials:
+  weapon: sacred_dewdrop
+  common:
+  - breacher_primus
+  - transoceanic

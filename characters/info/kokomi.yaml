@@ -1,0 +1,23 @@
+element: hydro
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: dew_of_repudiation
+  local_specialty: sango_pearl
+  common_material: spectral
+  talent: transience
+  boss_talent: butterfly
+talents:
+  elemental_skill:
+    duration_seconds: 12.0
+    cooldown_seconds: 20.0
+  elemental_burst:
+    duration_seconds: 10
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: February
+  day: 22
+key: kokomi

@@ -1,0 +1,90 @@
+key: support
+main_stat:
+  sands: hp_percent / er_percent
+  goblet: hp_percent
+  circlet: hp_percent
+sub_stat:
+- hp_percent
+- er_percent
+- cr_percent
+- cd_percent
+- hp
+talent_priority: skill > burst > auto
+weapons:
+- key-of-khaj-nisut
+- freedom-sworn
+- the-dockhands-assistant
+- favonius-sword
+- skyward-blade
+- sacrificial-sword
+- sapwood-blade
+rater:
+  flower:
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 0.75
+      hp_percent: 1.0
+  plume:
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 0.75
+      hp: 0.25
+      hp_percent: 1.0
+  sands:
+    main_stat:
+      er_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp: 0.25
+      hp_percent: 1.0
+  goblet:
+    main_stat:
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp: 0.25
+  circlet:
+    main_stat:
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.75
+      er_percent: 1.0
+      hp: 0.25
+set_rating:
+- type: simple
+  sets:
+  - tenacity
+  notes: boost_hp_shield_party_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes: boost_burst_party_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  - vourukashas
+  notes: max_hp
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - adventurer
+  - set_group:
+    - exile
+    - scholar
+  notes:
+  - early_game
+  - boost_hp_er
+  weight: 0.25
+
+

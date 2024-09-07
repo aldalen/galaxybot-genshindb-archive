@@ -1,0 +1,107 @@
+key: support
+main_stat:
+  sands: defense_percent / er_percent
+  goblet: defense_percent
+  circlet: defense_percent
+sub_stat:
+- defense_percent
+- er_percent
+- cr_percent / cd_percent
+- defense
+talent_priority: burst > skill > auto
+weapons:
+- favonius-lance
+- engulfing-lightning
+- the-catch
+- prototype-starglitter
+- skyward-spine
+- kitain-cross-spear
+rater:
+  flower:
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      defense: 0.25
+      defense_percent: 1.0
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      defense: 0.25
+      defense_percent: 1.0
+      er_percent: 1.0
+  sands:
+    main_stat:
+      defense_percent: 1.0
+      er_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      defense: 0.25
+      defense_percent: 1.0
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      defense_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      defense: 0.25
+      defense_percent: 1.0
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      defense_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 1.0
+      defense: 0.25
+      defense_percent: 1.0
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - husk
+  notes:
+    - bis
+    - max_geo_defense
+  weight: 1.0
+- type: simple
+  sets:
+  - petra
+  notes: yunjin-support-1
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - nobody_party_has_set
+  weight: 1.0
+- type: simple
+  sets:
+  - husk
+  - emblem
+  notes:
+    - interim_set
+    - boost_er_defense
+  weight: 0.75
+- type: simple
+  sets:
+  - exile
+  notes:
+  - yunjin-support-4-prepended
+  - boost_er_recharge_burst
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - exile
+    - scholar
+  - set_group:
+    - lucky
+  notes:
+    - early_game
+    - yunjin-support-5-appended
+  weight: 0.25

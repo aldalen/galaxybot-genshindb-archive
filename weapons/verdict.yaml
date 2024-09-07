@@ -1,0 +1,36 @@
+type: Claymore
+rarity: 5
+atk_start: 48.0
+substat: cr_percent
+substat_start: 4.8
+obtained:
+  wishes: true
+  banners:
+    - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 18%
+  - values:
+    - 25%
+    - 22.5%
+  - values:
+    - 30%
+    - 27%
+  - values:
+    - 35%
+    - 31.5%
+  - values:
+    - 40%
+    - 36%
+ascension_materials:
+  weapon: ancient_chord
+  common:
+  - clockwork_gear
+  - breacher_primus

@@ -1,0 +1,38 @@
+type: Catalyst
+rarity: 4
+atk_start: 41.0
+substat: em
+substat_start: 48.0
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 40%
+    - 30s
+  - values:
+    - 50%
+    - 26s
+  - values:
+    - 60%
+    - 22s
+  - values:
+    - 70%
+    - 19s
+  - values:
+    - 80%
+    - 16s
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - treasure

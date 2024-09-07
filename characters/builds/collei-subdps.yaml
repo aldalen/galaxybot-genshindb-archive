@@ -1,0 +1,93 @@
+key: subdps
+main_stat:
+  sands: em / atk_percent
+  goblet: dendro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- em
+- atk_percent
+- er_percent
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- elegy-for-the-end
+- the-stringless
+- windblume-ode
+- alley-hunter
+- kings-squire
+- favonius-warbow
+- sacrificial-bow
+- fading-twilight
+- end-of-the-line
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Dendro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - deepwood
+  notes:
+  - boost_dendro_shred_dendro
+  - for_hyperbloom
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - for_aggravate
+  weight: 1.0
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - increase_em_buff_party_reactions
+  weight: 1.0
+

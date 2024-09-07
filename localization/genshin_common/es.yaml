@@ -1,0 +1,157 @@
+# This file contains all strings used by Galaxy.Bot. This forms a hierarchical structure for easy lookup by the bot.
+# To localize in another language, simply ensure that the same "hierarchy" exists in the other language file and fill
+#    the strings. If a string does not exist for a specific language, the English one is used
+# In some strings you will see a "{}". This is used by the bot to insert generated text into the line.
+
+
+general:
+  elements:
+    anemo: Anemo
+    cryo: Cryo
+    dendro: Dendro
+    electro: Electro
+    geo: Geo
+    hydro: Hydro
+    pyro: Pyro
+  artifact_types:
+    flower: Flor
+    plume: Pluma
+    sands: Arenas
+    goblet: Cáliz
+    circlet: Tiara
+
+  overall: General
+  main_stat: Estadística principal
+  sub_stats: Estadísticas secundarias
+  level: Nivel
+  cooldown: Tiempo de reutilización
+
+  locations:
+    chests: Cofres
+
+
+artifact_rater:
+  lookup_strings:
+    atk: ATK
+    er_percent: Recarga
+    em: Maestría
+    phys_percent: Físico
+    crit: CRIT
+    defense: DEF
+    heal_percent: Curación
+    hp: Vida
+
+  full_strings:
+    er_percent: Recarga de Energía
+    em: Maestría Elemental
+    phys_percent: Bono de Daño Físico
+    heal_percent: Bono de Curación
+
+  crit_types:
+    cd_percent: Daño
+    cr_percent: Calificación
+
+  stat_names:
+    hp_percent: Vida%
+    heal_percent: Bono de Curación%
+    hp: Vida
+    atk: ATK
+    atk_percent: ATK%
+    er_percent: Recarga de Energía%
+    em: Maestría Elemental
+    phys_percent: Bono de Daño Físico
+    cd_percent: Daño CRIT
+    cr_percent: Prob. CRIT
+    defense: DEF
+    defense_percent: DEF%
+    anemo: Bono de Daño Anemo%
+    cryo: Bono de Daño Cryo%
+    dendro: Bono de Daño Dendro%
+    electro: Bono de Daño Electro%
+    geo: Bono de Daño Geo%
+    hydro: Bono de Daño Hydro%
+    pyro: Bono de Daño Pyro%
+
+database:
+
+  lookup:
+    title: Multiples resultados
+    message: 'Hemos encontrado multiples resultados para tu petición. Por favor seleccione de abajo:'
+
+  info:
+    how_to_rate: 'Como calificar artefactos para esta build:'
+    embed_fields:
+      character_overview: '{} Vista General de los Personajes'
+      character_constellations: '{} Constelaciones de los Personajes'
+      character_talents: '{} Talentos de los Personajes'
+      rarity: Rareza
+      element: Elemento
+      weapon: Arma
+      bio: Bio
+      materials_farm: Materiales para farmear
+      constellation_name: 'Constelación: *{}*'
+      table_of_contents:
+        title: Tabla de Contenidos
+        character_overview: Vista General del Personaje
+        constellations: Constelaciones
+        talents: Talentos
+        build: '{} Build del Personaje'
+
+  error:
+    too_many_items_found: Hemos encontrado muchos resultados en tu búsqueda. Por favor,
+      inténtalo de nuevo especificando más
+    no_items_found: No se pudieron encontrar ningun item en la base de datos que coincida
+      con tu búsqueda.
+
+  weapon_embed:
+    characters: Personajes que usan este arma
+    stat_table: Tabla de Stats
+    details: Detalles del Arma
+    additionally: Adicionalmente
+    wishes: Deseos
+    type: Tipo
+    series: Series
+    obtained:
+      quests: Misiones
+      playstation: Exclusivo de Playstation
+      starglitter: Ofertas de Paimon
+      forging: Forja
+      battle_pass: Pase de Batalla
+      title: Obtenido por
+      chests: Cofres
+      events: Eventos
+    banners:
+      standard: Banner Estandar
+      limited_weapon: Banner de Arma Temporal
+      weapon: Todos los Banners de Armas
+
+  talent_types:
+    fourth_ascension_passive: 4ta Ascensión. Pasiva
+    normal_attack: ATQ Normal
+    first_ascension_passive: 1a Ascensión. Pasiva
+    elemental_burst: Habilidad Definitiva
+    elemental_skill: Habilidad Elemental
+    utility_passive: Habilidad
+    alternate_sprint: Sprint Alternativo
+
+  stat_names:
+    hp: Vida
+    hp_percent: Vida%
+    atk: ATQ
+    atk_percent: ATQ%
+    er_percent: Recarga%
+    em: Maestría Elemental
+    phys_percent: Físico%
+    cd_percent: Daño CRIT
+    cr_percent: Prob. CRIT
+    defense: DEF
+    defense_percent: DEF%
+    heal_percent: Curación%
+    anemo: Daño Anemo%
+    cryo: Daño Cryo%
+    dendro: Daño Dendro%
+    electro: Daño Electro%
+    geo: Daño Geo%
+    hydro: Daño Hydro%
+    pyro: Daño Pyro%
+

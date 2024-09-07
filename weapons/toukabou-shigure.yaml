@@ -1,0 +1,30 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: em
+substat_start: 36.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: true
+passive:
+  levels:
+  - values:
+    - 16%
+  - values:
+    - 20%
+  - values:
+    - 24%
+  - values:
+    - 28%
+  - values:
+    - 32%
+ascension_materials:
+  weapon: narukami
+  common:
+  - primal_prism
+  - handguard

@@ -1,0 +1,269 @@
+# This file contains all strings used by Galaxy.Bot. This forms a hierarchical structure for easy lookup by the bot.
+# To localize in another language, simply ensure that the same "hierarchy" exists in the other language file and fill
+#    the strings. If a string does not exist for a specific language, the English one is used
+# In some strings you will see a "{}". This is used by the bot to insert generated text into the line.
+
+
+general:
+  elements:
+    anemo: Anemo
+    cryo: Cryo
+    dendro: Dendro
+    electro: Electro
+    geo: Geo
+    hydro: Hydro
+    pyro: Pyro
+  artifact_types:
+    flower: Flor
+    plume: Pena
+    sands: Areia
+    goblet: Cálice
+    circlet: Tiara
+
+  overall: Geral
+  main_stat: Status Principal
+  sub_stats: Substatus
+  level: Nível
+  cooldown: Cooldown
+
+  locations:
+    chests: Baús
+
+artifact_rater:
+  lookup_strings:
+    hp: PV
+    atk: ATQ
+    er_percent: Recarga
+    em: Proficiência
+    phys_percent: Físico
+    crit: CRIT
+    defense: DEF
+    heal_percent: Cura
+
+  full_strings:
+    phys_percent: Bônus de D. Físico
+    heal_percent: Bônus de Cura
+    er_percent: Recarga de Energia
+    em: Proficiência Elemental
+
+  crit_types:
+    cd_percent: DANO
+    cr_percent: Taxa
+
+  stat_names:
+    hp: PV
+    hp_percent: PV%
+    atk: ATQ
+    atk_percent: ATQ%
+    er_percent: Recarga Energia%
+    em: Proficiência Elemental
+    cd_percent: DANO CRIT
+    defense: DEF
+    defense_percent: DEF%
+    heal_percent: Bônus Cura%
+    cr_percent: TAXA CRIT
+    phys_percent: Bônus Dano Físico %
+    anemo: Bônus Dano Anemo%
+    cryo: Bônus Dano Cryo%
+    dendro: Bônus Dano Dendro%
+    electro: Bônus Dano Electro%
+    geo: Bônus Dano Geo%
+    hydro: Bônus Dano Hydro%
+    pyro: Bônus Dano Pyro%
+
+database:
+  general:
+    navigating: Navegando Esse Guia
+
+  lookup:
+    title: Múltiplas Correspondências
+    message: 'Encontramos várias correspondências para seu pedido. Por favor selecione
+      um item abaixo:'
+
+  info:
+    how_to_rate: 'Como avaliar artefatos para essa builds:'
+    embed_fields:
+      character_overview: '{} Visão Global de Personagem'
+      character_constellations: '{} Constelação de Personagem'
+      character_talents: '{} Talentos de Personagem'
+      rarity: Raridade
+      element: Elemento
+      weapon: Arma
+      bio: Bio
+      materials_farm: Materiais para Farmar
+      constellation_name: 'Constelação: *{}*'
+      table_of_contents:
+        title: Tabela de Conteúdos
+        character_overview: Visão Global de Personagem
+        constellations: Constelações
+        talents: Talentos
+        switch_pages: Utilize o menu suspenso no fundo de modo a verificar o conteúdo
+          disponível e mudar de página.
+        build: '{} Build de Personagem'
+      infusion_duration: Duração da Infusão
+      talent_duration: Duração do Talento
+      energy_cost: Custo de Energia
+      additional_info: Info Adicional
+
+  builds:
+    available_builds: 'Builds Disponíveis:'
+    no_builds_available: 'Sem Builds Disponíveis:'
+    how_to_view_info: 'Como ver detalhes de personagem:'
+    info_format: "Formato: `/lookup name`\n\nUtilize o comando `/lookup` seguido de\
+        \ `name`.\n"
+    how_to_rate: 'Como avaliar artefatos para uma build:'
+    example_title: 'Exemplo de Comandos:'
+    example_commands: "`/lookup diluc`\n`/lookup traveler`\n`/lookup hutao`\n`/rate\
+        \ hutao dps https://example.com/image.png`\n"
+    select:
+      title: Selecionar uma build para {}
+      message_not_found: 'A build requerida não foi encontrada. Por favor selecione
+          uma das seguintes builds para {}:'
+      message_select: 'Por favor selecione uma das seguintes builds para {}:'
+      traveler_title: Selecione o Elemento para Viajante
+      traveler_message: 'Por favor selecione um dos seguintes elementos do Viajante:'
+      error:
+        not_found: Desculpe, não consegui encontrar esse personagem.
+    embed_fields:
+      artifacts: Artefatos
+      main_stats: Status Principais do Artefato
+      sub_stats: Substatus do Artefato
+      talent_priority: Prioridade de Talentos
+      weapons: Armas
+      playstyle: Estilo de Jogo
+      teammates: Membros da Equipe com boa sinergia
+
+  error:
+    info_error: Comando requere um personagem. Execute `{prefix}builds` para uma lista
+      de builds de personagem disponíveis.
+    builds_error: Comando requere um personagem.  Execute`{prefix}builds` para uma
+      lista de builds de personagem.
+
+  materials:
+    chaos_guard: Fragmentos de Caos
+    claw: Garra de Dvalin
+    slime: Slime
+    mask: Mascara Hilichurl
+    arrowhead: Flecha Hilichurl
+    scroll: Pergaminho Samachurl
+    treasure: Insígnia de Ladrão de Tesouro
+    fatui: Insígnia Fatui
+    nectar: Nectar de Flor
+    horn: Chifre de Hilichurl
+    ley_line: Linhas Ley
+    bone: Fragmento de Osso
+    mist: Grama Nebulosa
+    knife: Facas de Sacrifício
+    chaos_sentinel: Engrenagens de Caos
+    prism: Prismas de Donzela do Espelho
+    handguard: Protetores de Mão Nobushi
+    rifthound_claws: Garras de Rifthound
+    tail: Cauda de Boreas
+    ring: Anel de Boreas
+    locket: Espirito Preso de Boreas
+    plume: Pena de Dvalin
+    sigh: Símbolo de Dvalin
+    tusk: Dente de Monoceros Caeli
+    shard: Fragmento de um Legado Sujo
+    shadow: Sombra do Guerreiro
+    crown: Coroa do Senhor Dragão
+    bloodjade: Galho de Jade de Sangue
+    scale: Escala Dourada
+    molten: Momento Fundido
+    butterfly: Borboleta de Fogo
+    heart: Coração Cinzento
+    spectral: Cascas de Espetros
+  ascension_materials:
+    adaptive: Diamante Brilhante
+    anemo: Turquesa Vayuda
+    cryo: Jade Shivada
+    dendro: NÃO_ANUNCIADO
+    electro: Ametista Vajrada
+    geo: Topaz Prithiva
+    hydro: Lazurite Varunada
+    pyro: Ágata Agnidus
+  build_types:
+    anemo: DPS Elemental Anemo
+    cryo: DPS Elemental Cryo
+    dendro: DPS Elemental Dendro
+    electro: DPS Elemental Electro
+    geo: DPS Elemental Geo
+    hydro: DPS Elemental Hydro
+    pyro: DPS Elemental Pyro
+    physical: DPS Físico
+    reversemelt: DPS Derretimento Reverso
+    freeze: DPS Congelamento
+    overload: DPS Sobrecarga
+    melt: DPS Descongelamento
+    vaporize: DPS Vaporização
+    subdps: Sub DPS
+    dps: DPS
+    support: Suporte
+
+
+  weapon_embed:
+    banners:
+      standard: Banner Principal
+      weapon: Banner de Todas as Armas
+      limited_weapon: Banner Limitado de Armas
+    obtained:
+      chests: Baús
+      events: Eventos
+      forging: Forjamento
+      starglitter: Barganha da Paimon
+      playstation: Exclusivo Playstation
+      quests: Missões
+      title: Obtido Via
+      battle_pass: Passe de Batalha
+    series: Series
+    type: Tipo
+    wishes: Orações
+    additionally: Adicionalmente
+    details: Detalhes de Arma
+    stat_table: Tabela de Status
+    characters: Personagens que usam essa arma
+
+  artifact_embed:
+    where_to_find: Onde Encontrar
+    characters_that_use:
+      guide:
+        title: Personagens que usam esse Artefato
+        text: 'Utilize o menu de dropdown abaixo para pular entre a listagem de personagens
+            que usam esse personagem. Essa lista é separada em três grupos: **Melhor**,
+            **Bom**, e **Acesso Antecipado**'
+      heading_combined: Personagens que usam {}
+      heading: Personagens que usam {} ({})
+    categories:
+      best: Melhores Builds
+      good: Boas Builds
+      early_game: Builds de Acesso Antecipado
+
+  talent_types:
+    normal_attack: ATQ Normal
+    elemental_skill: Habilidade Elemental
+    elemental_burst: Habilidade Suprema
+    first_ascension_passive: Passivo de 1ª Ascensão
+    fourth_ascension_passive: Passivo de 4ª Ascensão
+    utility_passive: Utilidade
+    alternate_sprint: Corrida Alternativa
+
+  stat_names:
+    defense_percent: DEF%
+    heal_percent: Cura%
+    anemo: Dano Anemo%
+    cryo: Dano Cryo%
+    dendro: Dano Dendro%
+    electro: Dano Electro%
+    geo: Dano Geo%
+    hydro: Dano Hydro%
+    pyro: Dano Pyro%
+    hp: PV
+    hp_percent: PV%
+    atk: ATQ
+    atk_percent: ATQ%
+    er_percent: Recarga%
+    em: Prof. Elemental
+    phys_percent: Físico%
+    cd_percent: DANO CRIT
+    cr_percent: TAXA CRIT
+    defense: DEF

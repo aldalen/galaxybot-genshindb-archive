@@ -1,0 +1,100 @@
+lookups:
+  # 5*
+  blizzard:
+    - Invierno
+    - Nómada
+  bloodstained:
+    - Sanguinaria
+    - Caballería
+  bolide:
+    - Retroceso
+    - Meteorito
+  crimson:
+    - Carmesí
+    - Bruja
+  emblem:
+    - Emblema
+    - This_can_safely_be_ignored
+  gladiator:
+    - Gladiador
+  heart:
+    - Profundidades
+  husk:
+    - Cáscara
+    - Opulentos
+  lavawalker:
+    - Corredor de Lava
+  maiden:
+    - Doncella
+    - Amada
+  noblesse:
+    - Nobleza
+    - Ritual
+  pale:
+    - Albinas
+    - Llamas
+  petra:
+    - Arcaica
+    - Petra
+  shimenawa:
+    - Purificación
+    - Reminiscencia
+  tenacity:
+    - Tenacidad
+    - Geoarmada
+  thundering:
+    - Trueno
+    - Furia
+  clam:
+    - Oceánica
+    - Perla
+  thundersoother:
+    - Domador de Truenos
+  viridescent:
+    - Verde
+    - Esmeralda
+  wanderers:
+    - Errante
+    - Orquesta
+    - Acto Final
+  adventurer:
+    - Aventurero
+  berserker:
+    - Berserker
+  brave:
+    - Guerrero
+  defenders:
+    - Guardián
+  exile:
+    - Exiliado
+  gambler:
+    - Jugadora
+  instructor:
+    - Instructor
+  lucky:
+    - Afortunado
+    - This_can_safely_be_ignored.
+  martial:
+    - Marcial
+    - Artista
+  miracle:
+    - Milagro
+  scholar:
+    - Erudita
+  sojourner:
+    - Corazón
+    - Viajero
+  traveling:
+    - Médica Itinerante
+  destiny:
+    - Destino
+  illumination:
+    - Iluminación
+  springtime:
+    - Primavera
+  wisdom:
+    - Sabiduría
+
+ignore:
+  thundering:
+    - Сáliz de las Profundidades

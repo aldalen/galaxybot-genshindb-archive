@@ -1,0 +1,36 @@
+type: Sword
+rarity: 5
+atk_start: 44.0b
+substat: cr_percent
+substat_start: 9.6b
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 1.2%
+  - values:
+    - 25%
+    - 1.5%
+  - values:
+    - 30%
+    - 1.8%
+  - values:
+    - 35%
+    - 2.1%
+  - values:
+    - 40%
+    - 2.4%
+ascension_materials:
+  weapon: mist_veiled
+  common:
+  - treasure
+  - mist

@@ -1,0 +1,575 @@
+sacrificial-bow:
+  passive_text: Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui {0} de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada {1} segundos.
+  name: "Arco do Sacrif\xEDcio"
+  passive_name: Composto
+  series: "Sacrif\xEDcio"
+sacrificial-fragments:
+  passive_name: Composto
+  passive_text: Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui {0} de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada {1} segundos.
+  name: "Mem\xF3rias de Sacrif\xEDcio"
+  series: "Sacrif\xEDcio"
+sacrificial-sword:
+  passive_text: Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui {0} de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada {1} segundos.
+  name: "Espada do Sacrif\xEDcio"
+  passive_name: Composto
+  series: "Sacrif\xEDcio"
+serpent-spine:
+  passive_text: "Quando o jogador est\xE1 em combate, a cada 4s aumenta o dano causado em {0} e {1} do Dano recebido. Este efeito pode ser acumulado at\xE9 5 vezes, n\xE3o sendo redefinido ap\xF3s o personagem sair de campo, mas reduzir\xE1 1 camada do efeito quando o personagem receber Dano."
+  name: Espinha Dorsal da Serpente
+  passive_name: Divisor de Ondas
+skyward-atlas:
+  passive_text: "Aumenta o B\xF4nus do Dano Elemental em {0}. O Ataque normal possui 50% de chance de ganhar a gra\xE7a das nuvens, que buscam ativamente por inimigos ao redor para atacar por 15s, causando {1} de Dano de ATQ. Este efeito pode ser ativado uma vez a cada 30s."
+  name: Atlas Celestial
+  passive_name: Nuvens Vagantes
+  series: Mondstadt
+skyward-blade:
+  passive_text: "A Taxa Cr\xEDtica aumenta em {0}. Obt\xE9m a Perfura\xE7\xE3o Celestial ao usar o Supremo: Aumenta a Veloc. Mov. em {1}, aumenta a Velocidade de Ataque em {2}. Quando o Ataque Normal e o Ataque Carregado atingirem, causar\xE1 um Dano Adicional de {3} por 12s."
+  name: Espada Celestial
+  passive_name: "Dente Perfurador do C\xE9u"
+  series: Mondstadt
+skyward-pride:
+  passive_text: "Aumenta o Dano em {0}. Depois de usar o Supremo, Ataque Normal ou Ataque Carregado, cria uma l\xE2mina de v\xE1cuo que causa {1} de Dano F\xEDsico aos oponentes ao longo do caminho. Dura 20s ou 8 l\xE2minas de v\xE1cuo."
+  name: Orgulho Celestial
+  passive_name: "Espinha do Drag\xE3o - Quebrador do C\xE9u"
+  series: Mondstadt
+skyward-spine:
+  passive_name: Asas Negras
+  passive_text: "A Taxa Cr\xEDtica aumenta {0}, a VEL do Ataque Normal aumenta {1}. Al\xE9m disso, o Ataque Normal e o Ataque Carregado ao atingir o inimigo possuem {2} de chance de criar uma L\xE2mina de V\xE1cuo que causa {3} de Dano de ATQ adicional em uma \xE1rea. Este efeito pode ser ativado uma vez a cada 2s."
+  name: Espinha Celestial
+  series: Mondstadt
+snow-tombed-starsilver:
+  passive_text: "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de {0} de formar e dropar um N\xFAcleo de Cristal Eterno sobre eles, causando {1} de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem {2} de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s."
+  name: Estrela de Prata Enterrada na Neve
+  passive_name: Enterro Congelante
+  series: "Espinha do Drag\xE3o"
+song-of-broken-pines:
+  passive_text: "Uma parte do Concerto Milenar que flutua no vento. Aumenta o ATQ em {0}. Quando Ataque Normal ou Ataque Carregado atingir os inimigos, o personagem obter\xE1 um S\xEDmbolo dos Suspiros, que pode ser ativado uma vez a cada 0.3s. Possuir 4 S\xEDmbolos dos Sussurros faz consumir todos eles, e faz todos os personagens da equipe obterem o efeito de \"Concerto Milenar: M\xFAsica do Levantar da Bandeira\" por 12s: A Vel. de Ataque Normal ser\xE1 aumentada em {1}, al\xE9m disso o ATQ ser\xE1 aumentado em {2}. Dentro de 20s depois da ativa\xE7\xE3o, n\xE3o \xE9 poss\xEDvel obter os S\xEDmbolos dos Sussurros de novo. Entre todos os efeitos de v\xE1rios valores, os efeitos do mesmo valor n\xE3o podem ser acumulados."
+  name: "Can\xE7\xE3o dos Pinhos"
+  passive_name: "M\xFAsica de Rebeli\xE3o da Bandeira"
+  series: Concerto Milenar
+sword-of-descension:
+  passive_text: "Efetivo apenas para jogadores da seguinte plataforma:\n\"PlayStation Network\"\nAcertar oponentes com um Ataque Normal ou Carregado concede {0} de chance de causar {1} do ATQ como Dano em uma pequena AdE. Este efeito pode ocorrer apenas uma vez a cada 10s. Adicionalmente, se {M#o}{F#a} Viajante equipar a Espada do Advento, seu ATQ \xE9 aumentado em {4}."
+  name: Espada do Advento
+  passive_name: "Descens\xE3o"
+  series: Forasteiro
+the-black-sword:
+  name: Espada Negra
+  passive_text: "Aumenta o dano causado pelos Ataques Normais e Carregados em {0}, regenera {1} do ATQ como Vida quando o Ataque Normal ou Ataque Carregado atingir Cr\xEDtico. Este efeito pode ser ativado uma vez a cada 5s."
+  passive_name: "Justi\xE7a"
+blackcliff-warbow:
+  passive_text: "Ap\xF3s derrotar um inimigo, o ATQ \xE9 aumentado em {0} por 30s. Este efeito pode ser acumulado at\xE9 3x e a dura\xE7\xE3o de cada ac\xFAmulo \xE9 independente dos outros."
+  name: Arco do Penhasco Obscuro
+  passive_name: "De vit\xF3ria em vit\xF3ria"
+  series: Penhasco Obscuro
+the-flute:
+  passive_text: "O Ataque Normal ou Ataque Carregado concede um Acorde. Obter 5 Acordes ativa o poder da m\xFAsica e causa {0} de Dano de ATQ aos inimigos ao redor. Os Acordes duram at\xE9 30s e pode-se ganhar 1 Acorde a cada 0.5s."
+  name: A Flauta
+  passive_name: Acorde
+  series: Trupe Itinerante
+favonius-greatsword:
+  passive_text: "Os Acertos Cr\xEDticos possuem {0} de chance de gerar uma pequena quantidade de Part\xEDcula Elemental, que ir\xE1 regenerar 6 de Energia para o Personagem. Pode ocorrer uma vez a cada {1}."
+  name: "Espad\xE3o de Favonius"
+  passive_name: Companhia do Vento
+  series: Favonius
+memory-of-dust:
+  passive_text: "Aumenta a for\xE7a do Escudo em {0}. Acertar ataques em inimigos aumenta o ataque em {1} por 8s. Acumula at\xE9 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque \xE9 aumentado em 100%."
+  name: "Mem\xF3ria da Poeira"
+  passive_name: Majestade Dourada
+  series: Liyue
+royal-greatsword:
+  passive_text: "Ao atingir um oponente, aumenta a Taxa Cr\xEDtica em {0}, acumulando no m\xE1ximo 5 vezes. Causar Dano Cr\xEDtico remove todos os ac\xFAmulos."
+  name: "Espad\xE3o Real"
+  passive_name: Foco
+  series: Real
+calamity-queller:
+  passive_name: Preceito Extinguidor
+  passive_text: "Obt\xE9m um B\xF4nus de Dano Elemental para todos os Elementos de {0}; ap\xF3s lan\xE7ar uma Habilidade Elemental, obt\xE9m Consuma\xE7\xE3o por 20s, fazendo com que o Ataque aumente {1} por segundo. Este efeito pode ser acumulado em at\xE9 6 vezes. Quando o personagem da equipe que estiver com esta arma equipada n\xE3o for o ativo no campo de batalha, o aumento do Ataque de Consuma\xE7\xE3o ser\xE1 duplicado."
+  name: Subjugadora de Calamidades
+the-viridescent-hunt:
+  passive_text: "Ao acertar um Ataque Normal ou Ataque com Mira, possui 50% de chance de gerar um Ciclone que atacar\xE1 continuamente os inimigos ao redor, causando {0} de Dano de ATQ a esses inimigos a cada 0.5s por 4s. Este efeito pode ser ativado uma vez a cada {1}."
+  name: "Arco Esmeralda do Ca\xE7ador"
+  passive_name: Vento Esmeralda
+favonius-codex:
+  passive_text: "Os Acertos Cr\xEDticos possuem {0} de chance de gerar uma pequena quantidade de Part\xEDcula Elemental, que ir\xE1 regenerar 6 de Energia para o Personagem. Pode ocorrer uma vez a cada {1}."
+  name: Codex de Favonius
+  passive_name: Companhia do Vento
+  series: Favonius
+mistsplitter-reforged:
+  passive_text: "Ganha um Dano adicional elemental para todos os elementos de {0} e pode tamb\xE9m ganhar o poder do Selo Quebra-nuvens. Selo Quebra-nuvens: Nos ac\xFAmulos 1/2/3 do Selo Quebra-nuvens obt\xE9m Dano adicional do pr\xF3prio Elemento em {1}. Nas situa\xE7\xF5es abaixo, cada personagem obt\xE9m 1 ac\xFAmulo de Selo Quebra-nuvens: quando o ATQ Normal causa Dano Elemental, dura 5s; quando libera Supremo, dura 10s; al\xE9m disso, quando a Energia Elemental do personagem \xE9 inferior a 100%, ir\xE1 obter 1 ac\xFAmulo do Selo Quebra-nuvens, que desaparecer\xE1 quando a Energia Elemental do personagem estiver cheia. O tempo de cada ac\xFAmulo de Selo Quebra-nuvens \xE9 contado individualmente."
+  name: Cortadora da Neblina Reforjada
+  passive_name: Bainha Quebra-nuvens
+  series: Inazuma
+royal-longsword:
+  passive_text: "Ao atingir um oponente, aumenta a Taxa Cr\xEDtica em {0}, acumulando no m\xE1ximo 5 vezes. Causar Dano Cr\xEDtico remove todos os ac\xFAmulos."
+  name: Espada Longa Real
+  passive_name: Foco
+  series: Real
+thrilling-tales-of-dragon-slayers:
+  passive_text: "Ao mudar de personagem, o ATQ do novo personagem \xE9 aumentado em {0} por 10s. Este efeito pode ser ativado uma vez a cada 20s."
+  name: "Hist\xF3rias Extraordin\xE1rias de Ca\xE7adores de Drag\xF5es"
+  passive_name: "Heran\xE7a"
+favonius-warbow:
+  passive_text: "Os Acertos Cr\xEDticos possuem {0} de chance de gerar uma pequena quantidade de Part\xEDcula Elemental, que ir\xE1 regenerar 6 de Energia para o Personagem. Pode ocorrer uma vez a cada {1}."
+  name: Arco de Guerra de Favonius
+  passive_name: Companhia do Vento
+  series: Favonius
+mouuns-moon:
+  passive_text: "O Personagem que usar esta arma ter\xE1 um aumento do Dano do Supremo de {0} por cada 1 ponto da soma do m\xE1ximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo m\xE1ximo obt\xEDvel dessa maneira \xE9 de {1}."
+  name: Lua de Mouun
+  passive_name: Dominadora de Ondas Watatsumi
+  series: Watatsumi
+akuoumaru:
+  name: Akuoumaru
+  passive_name: Dominadora de Ondas Watatsumi
+  passive_text: "O Personagem que usar esta arma ter\xE1 um aumento do Dano do Supremo de {0} por cada 1 ponto da soma do m\xE1ximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo m\xE1ximo obt\xEDvel dessa maneira \xE9 de {1}."
+  series: Watatsumi
+cool-steel:
+  passive_text: Aumenta o Dano contra inimigos afetados por Hydro ou Cryo em {0}.
+  name: "L\xE2mina Fria"
+  passive_name: "Destrui\xE7\xE3o de \xC1gua e Gelo"
+  series: "Perdi\xE7\xE3o"
+ferrous-shadow:
+  passive_text: "Quando a Vida estiver inferior a {0}, Ataques Carregados raramente s\xE3o interrompidos e aumenta {1} do Ataque Carregado."
+  name: Sombra de Ferro
+  passive_name: "Implac\xE1vel"
+polar-star:
+  passive_text: "Aumenta o Dano causado por Habilidade Elemental e Supremo em {0}; Depois que o Ataque Normal, Ataque Carregado, Habilidade Elemental ou Supremo acerta o inimigo, gera 1 efeito \"Estrela Polar da Noite Branca\" por 12s. Quando tiver 1/2/3/4 ac\xFAmulos de \"Estrela Polar da Noite Branca\", o ATQ \xE9 aumentado em {1}. Os efeitos de \"Estrela Polar da Noite Branca\" gerados por Ataque Normal, Ataque Carregado, Habilidade Elemental ou Supremo s\xE3o individuais."
+  name: Estrela Invernal
+  passive_name: Pressagiador do Dia
+thundering-pulse:
+  passive_text: "Aumenta o Ataque em {0}, e concede a grandeza do Selo da Trovoada. Nas cargas 1/2/3, o Selo de Trovoada aumenta o Dano do Ataque Normal em {1}. O personagem obter\xE1 uma carga de Selo da Trovoada nos seguintes cen\xE1rios: Ataque Normal que causa Dano (a carga dura 5s), lan\xE7ar uma Habilidade Elemental (carga dura 10s); Energia Elemental menor que 100% (carga desaparece quando a energia est\xE1 completa). A dura\xE7\xE3o de cada carga \xE9 calculada independentemente uma da outra."
+  name: "Agita\xE7\xE3o Trovejante"
+  passive_name: "Governo do Trov\xE3o"
+  series: Inazuma
+crescent-pike:
+  passive_text: "Ap\xF3s obter um Orbe Elemental/Part\xEDcula Elemental, os Ataques Normais e Ataques Carregados causam um adicional de {0} de Dano F\xEDsico por 5s."
+  name: Pique Crescente
+  passive_name: "Agulha Energ\xE9tica"
+  series: "Infus\xE3o"
+freedom-sworn:
+  passive_text: "Uma parte do \"Concerto Milenar\" que flutua no vento. Aumenta o Dano causado em {0}. Quando ativa a Rea\xE7\xE3o Elemental, o personagem obter\xE1 um S\xEDmbolo da Resist\xEAncia, que pode ser ativado uma vez a cada 0.5s, mesmo quando o personagem n\xE3o est\xE1 no campo de batalha. Possuir 2 S\xEDmbolos da Resist\xEAncia faz consumir todos eles, e faz todos os personagens da equipe obterem o efeito de \"Concerto Milenar: Can\xE7\xE3o da Resist\xEAncia\" por 12s: Aumenta o Dano de Ataque Normal, Ataque Carregado, Ataque Imersivo em {1}, al\xE9m disso o ATQ ser\xE1 aumentado em {2}. Dentro de 20s depois da ativa\xE7\xE3o, n\xE3o \xE9 poss\xEDvel obter os S\xEDmbolos da Resist\xEAncia de novo. Entre todos os efeitos de v\xE1rios valores, os efeitos do mesmo valor n\xE3o podem ser acumulados."
+  name: Juramento pela Liberdade
+  passive_name: "Hino da Rebeli\xE3o"
+  series: Concerto Milenar
+prototype-amber:
+  passive_text: "Ao usar o Supremo, regenera {0} de Energia a cada 2s por 6s. Todos os membros da Equipe regenerar\xE3o {1} de Vida a cada 2s."
+  name: "Prot\xF3tipo \xC2mbar"
+  passive_name: Chapeamento de Ouro
+  series: "Prot\xF3tipo"
+deathmatch:
+  passive_text: "Se houver 2 inimigos ao redor, o ATQ \xE9 aumentado em {0} e a DEF \xE9 aumentada em {1}. Se houver menos que 2 inimigos ao redor, o ATQ \xE9 aumentado em {2}."
+  name: "Lan\xE7a do Duelo"
+  passive_name: Gladiador
+hamayumi:
+  passive_text: "Aumenta o Dano de ATQ Normal em {0} e o Dano de ATQ Carregado em {1}. Quando a Energia Elemental do personagem equipado com essa arma \xE9 igual a 100%, esse efeito aumenta 100%."
+  name: "Arco Quebra-Dem\xF4nios"
+  passive_name: Grande Jogada
+  series: Ametista
+prototype-crescent:
+  passive_text: Os ataques de Ataques Carregados em pontos fracos aumentam a Veloc. Mov. em 10% e ATQ em {0} por 10s.
+  series: "Prot\xF3tipo"
+  name: "Prot\xF3tipo da Luz Lunar P\xE1lida"
+  passive_name: Sem Retorno
+alley-hunter:
+  passive_text: "Quando o personagem com essa arma equipada estiver na equipe mas n\xE3o no campo da batalha, o Dano causado por personagem ser\xE1 aumentado em {0} a cada 1s, a quantidade m\xE1xima do aumento do Dano desta maneira \xE9 de {1}. Depois de 4s de ficar no campo, o efeito de aumento do Dano ser\xE1 reduzido em {2} a cada 1s at\xE9 que seja reduzido para 0%."
+  name: "Ca\xE7ador do Beco"
+  passive_name: Emboscada nos Becos
+  series: Beco
+dragons-bane:
+  passive_text: Aumenta o Dano contra inimigos afetados por Hydro ou Pyro em {0}.
+  name: "Perdi\xE7\xE3o do Drag\xE3o"
+  passive_name: "Destrui\xE7\xE3o das Chamas e \xC1gua"
+  series: Kunwu
+katsuragikiri-nagamasa:
+  passive_text: "Aumenta o Dano causado pela Habilidade Elemental em {0}. Quando o personagem acerta no inimigo com sua Habilidade Elemental, ele perde 3 pontos de Energia Elemental e dentro dos 6s posteriores ele restaura {1} pontos de Energia Elemental a cada 2s. Esse efeito s\xF3 pode ser ativado uma vez a cada 10s. Quando o personagem n\xE3o est\xE1 em campo ele tamb\xE9m pode ser ativado."
+  name: Espada Grande de Katsuragi
+  passive_name: Conduta do Samurai
+  series: Ametista
+prototype-rancour:
+  passive_text: "Ao acertar um Ataque Normal ou Ataque Carregado, o ATQ e a DEF aumentam {0}, com dura\xE7\xE3o de 6s, acumulando at\xE9 4 vezes. Este efeito pode ser ativado uma vez a cada 0.3s."
+  name: "Prot\xF3tipo Rancor"
+  passive_name: "Pedra Destru\xEDda"
+  series: "Prot\xF3tipo"
+aquila-favonia:
+  passive_text: "O ATQ aumenta em {0}; Ativa ao receber Dano: A alma do Falc\xE3o do Leste desperta, segurando a bandeira da resist\xEAncia no alto, regenerando Vida equivalente a {1} do ATQ e causando {2} do ATQ como Dano aos inimigos ao redor. Esta habilidade pode ser ativada uma vez a cada 15s."
+  name: "Falc\xE3o"
+  passive_name: "Resist\xEAncia do Falc\xE3o do Oeste"
+dragonspine-spear:
+  passive_text: "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de {0} de formar e dropar um N\xFAcleo de Cristal Eterno sobre eles, causando {1} de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem {2} de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s."
+  name: "Lan\xE7a da Espinha do Drag\xE3o"
+  passive_name: Enterro Congelante
+  series: "Espinha do Drag\xE3o"
+kitain-cross-spear:
+  passive_text: "Aumenta o Dano causado pela Habilidade Elemental em {0}. Quando o personagem acerta no inimigo com sua Habilidade Elemental, ele perde 3 pontos de Energia Elemental e dentro dos 6s posteriores ele restaura {1} pontos de Energia Elemental a cada 2s. Esse efeito s\xF3 pode ser ativado uma vez a cada 10s. Quando o personagem n\xE3o est\xE1 em campo ele tamb\xE9m pode ser ativado."
+  name: "Lan\xE7a Cruzada de Kitain"
+  passive_name: Conduta do Samurai
+  series: Ametista
+prototype-starglitter:
+  passive_text: "Ap\xF3s usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Ataque Carregado em {0} por 12s, podendo acumular at\xE9 2 vezes."
+  name: "Prot\xF3tipo Estelar"
+  passive_name: Viciado em Magia
+  series: "Prot\xF3tipo"
+blackcliff-longsword:
+  passive_text: "Ap\xF3s derrotar um inimigo, o ATQ \xE9 aumentado em {0} por 30s. Este efeito pode ser acumulado at\xE9 3x e a dura\xE7\xE3o de cada ac\xFAmulo \xE9 independente dos outros."
+  name: Espada do Penhasco Obscuro
+  passive_name: "De vit\xF3ria em vit\xF3ria"
+  series: Penhasco Obscuro
+elegy-for-the-end:
+  passive_text: "Uma parte do Concerto Milenar que flutua no vento. Aumenta a Profici\xEAncia Elemental em {0} pontos. Quando a Habilidade Elemental ou o Supremo atingir os inimigos, o personagem obter\xE1 um S\xEDmbolo das Lembran\xE7as, que pode ser ativado uma vez a cada 0.2s, mesmo quando o personagem n\xE3o est\xE1 no campo de batalha. Possuir 4 S\xEDmbolos das Lembran\xE7as faz consumir todos eles, e faz todos os personagens da equipe obterem o efeito de \"Concerto Milenar: M\xFAsica da Despedida\" por 12s: A Profici\xEAncia Elemental ser\xE1 aumentada em {1} pontos, al\xE9m disso, o ATQ ser\xE1 aumentado em {2}. Dentro de 20s depois da ativa\xE7\xE3o, n\xE3o \xE9 poss\xEDvel obter os S\xEDmbolos das Lembran\xE7as de novo. Entre todos os efeitos de v\xE1rios valores, os efeitos do mesmo valor n\xE3o podem ser acumulados."
+  name: Elegia do Suspiro Final
+  passive_name: "Can\xE7\xE3o de Despedida"
+  series: Concerto Milenar
+lithic-spear:
+  passive_text: "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em {0} e aumenta sua Taxa CRIT em {1}. Esse efeito pode ser acumulado no m\xE1ximo 4 vezes."
+  name: "Lan\xE7a de Millelith"
+  passive_name: 'Axioma de Millelith: Unidade'
+  series: "L\xEDtica"
+recurve-bow:
+  passive_text: Derrotar um oponente recupera {0} da Vida.
+  name: Arco Recurvado
+  passive_name: Colheita
+amenoma-kageuchi:
+  name: "L\xE2mina Amenoma Kageuta"
+  passive_name: Herdeiro de Iwakura
+  passive_text: "Depois de lan\xE7ar a Habilidade Elemental, ganha 1 Semente de Sucess\xE3o. Este efeito pode ser ativado uma vez a cada 5s. A Semente de Sucess\xE3o dura 30s e no m\xE1ximo podem coexistir 3 sementes. Depois de lan\xE7ar o Supremo, todas as Sementes de Sucess\xE3o ser\xE3o eliminadas e, ap\xF3s 2s, o personagem restaura {0} de Energia Elemental por cada Semente de Sucess\xE3o consumida."
+  series: Ametista
+amos-bow:
+  name: Arco de Amos
+  passive_name: "Inabal\xE1vel"
+  passive_text: "Aumenta o Dano infligido pelo Ataque Normal e Ataque Carregado em {0}. A cada 0.1s depois de disparar uma flecha com o Ataque Normal e Ataque Carregado, ter\xE1 aumento de Dano de {1}, acumulando at\xE9 um m\xE1ximo de 5 vezes."
+black-tassel:
+  name: Borla Preta
+  passive_name: Atacante Pesado
+  passive_text: Aumenta o Dano contra os Slimes em {0}.
+  series: "Perdi\xE7\xE3o"
+blackcliff-agate:
+  name: "\xC1gata do Penhasco Obscuro"
+  passive_name: "De vit\xF3ria em vit\xF3ria"
+  passive_text: "Ap\xF3s derrotar um inimigo, o ATQ \xE9 aumentado em {0} por 30s. Este efeito pode ser acumulado at\xE9 3x e a dura\xE7\xE3o de cada ac\xFAmulo \xE9 independente dos outros."
+  series: Penhasco Obscuro
+blackcliff-pole:
+  name: "Lan\xE7a do Penhasco Obscuro"
+  passive_name: "De vit\xF3ria em vit\xF3ria"
+  passive_text: "Ap\xF3s derrotar um inimigo, o ATQ \xE9 aumentado em {0} por 30s. Este efeito pode ser acumulado at\xE9 3x e a dura\xE7\xE3o de cada ac\xFAmulo \xE9 independente dos outros."
+  series: Penhasco Obscuro
+blackcliff-slasher:
+  name: Foice do Penhasco Obscuro
+  passive_name: "De vit\xF3ria em vit\xF3ria"
+  series: Penhasco Obscuro
+  passive_text: "Ap\xF3s derrotar um inimigo, o ATQ \xE9 aumentado em {0} por 30s. Este efeito pode ser acumulado at\xE9 3x e a dura\xE7\xE3o de cada ac\xFAmulo \xE9 independente dos outros."
+bloodtainted-greatsword:
+  name: "Espad\xE3o Sangrento"
+  passive_name: "Destrui\xE7\xE3o de Fogo e Trov\xE3o"
+  passive_text: Aumenta o Dano contra inimigos afetados por Pyro ou Electro em {0}.
+  series: "Perdi\xE7\xE3o"
+cinnabar-spindle:
+  name: "Haste de Cin\xE1brio"
+  passive_name: "Cora\xE7\xE3o Imaculado"
+  passive_text: "Dano da Habilidade Elemental do personagem \xE9 aumentada em {0} da DEF. Este efeito s\xF3 pode ser ativado uma vez a cada 1,5s e \xE9 redefinido 0,1s ap\xF3s a habilidade elemental causar dano."
+compound-bow:
+  name: Arco Composto
+  passive_name: Flecha Infundida
+  passive_text: "Ao acertar o Ataque Normal e o Ataque Carregado, aumenta o ATQ em {0} e a VEL do Ataque Normal em {1} por 6s, podendo acumular at\xE9 4 vezes. Este efeito pode ser ativado uma vez a cada 0.3s."
+  series: "Infus\xE3o"
+dark-iron-sword:
+  name: Espada de Ferro Negro
+  passive_name: Sobrecarga
+  passive_text: "Depois de 12s ap\xF3s a ativa\xE7\xE3o da rea\xE7\xE3o de Eletricamente Carregado, Sobrecarga, Supercondutor, Redemoinho Electro, aumenta o ATQ em {0}."
+debate-club:
+  name: Pacifista
+  passive_name: Convencer
+  passive_text: "Ap\xF3s usar e acertar uma Habilidade Elemental, Normal ou Ataque Carregado, causa Dano de ATQ adicional de {0} em uma \xE1rea pequena por 15s. Pode ser ativado uma vez a cada 3s."
+dodoco-tales:
+  name: Contos de Dodoco
+  passive_name: Dodo-aventura!
+  passive_text: "Dentro de 6s ap\xF3s acertar um inimigo com o Ataque Normal, o Dano causado pelo Ataque Carregado aumenta em {0}. Dentro de 6s ap\xF3s acertar um inimigo com o Ataque Carregado, o ATQ aumenta em {1}."
+emerald-orb:
+  name: Orbe de Esmeralda
+  passive_name: Corrente Torrencial
+  passive_text: "Depois de 12s ap\xF3s a ativa\xE7\xE3o da rea\xE7\xE3o de Vaporiza\xE7\xE3o, Eletricamente Carregado, Congelamento ou Redemoinho Hydro, aumenta o ATQ em {0}."
+engulfing-lightning:
+  name: Luz do Cortador de Grama
+  passive_name: "Sonho Atemporal: Fog\xE3o Eterno"
+  passive_text: "O ATQ \xE9 aumentado em {0} da Recarga de Energia acima da base de 100%. Voc\xEA pode receber um B\xF4nus m\xE1ximo de {1} de ATQ. Ganha {2} de Recarga de Energia por 12s depois de usar um Supremo."
+  series: Inazuma
+everlasting-moonglow:
+  name: Fumetsu Gekka
+  passive_name: Byakuya Kougetsu
+  passive_text: "B\xF4nus de Cura aumentado em {0}, o Ataque Normal \xE9 aumentado em {1} da Vida M\xE1xima do personagem equipando esta arma. Nos 12s ap\xF3s usar um Supremo, os Ataques Normais que acertarem oponentes recuperar\xE3o 0.6 de Energia Elemental. A Energia pode ser recuperada desta maneira uma vez a cada 0.1s."
+eye-of-perception:
+  name: "Olho da Percep\xE7\xE3o"
+  passive_name: Echo
+  passive_text: "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percep\xE7\xE3o, causando {0} de Dano de ATQ. Esta bola pode rebater entre os inimigos por at\xE9 4x. Este efeito pode ser ativado uma vez a cada {1}."
+favonius-lance:
+  name: "Lan\xE7a de Favonius"
+  passive_name: Companhia do Vento
+  series: Favonius
+  passive_text: "Os Acertos Cr\xEDticos possuem {0} de chance de gerar uma pequena quantidade de Part\xEDcula Elemental, que ir\xE1 regenerar 6 de Energia para o Personagem. Pode ocorrer uma vez a cada {1}."
+favonius-sword:
+  name: Espada de Favonius
+  passive_name: Companhia do Vento
+  series: Favonius
+  passive_text: "Os Acertos Cr\xEDticos possuem {0} de chance de gerar uma pequena quantidade de Part\xEDcula Elemental, que ir\xE1 regenerar 6 de Energia para o Personagem. Pode ocorrer uma vez a cada {1}."
+festering-desire:
+  name: "Espada P\xFAtrida"
+  passive_name: "Admira\xE7\xE3o Inabal\xE1vel"
+  passive_text: Aumenta em {0} o Dano da Habilidade Elemental e em {1} a Taxa CRIT da Habilidade Elemental.
+fillet-blade:
+  name: "L\xE2mina de Fil\xE9s"
+  passive_name: "Determina\xE7\xE3o"
+  passive_text: "Ao acertar, possui 50% de chance de infligir {0} de Dano de ATQ a um \xFAnico alvo. Pode ocorrer uma vez a cada {1}."
+frostbearer:
+  name: Fruto do Sabugueiro
+  passive_name: Enterro Congelante
+  passive_text: "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de {0} de formar e dropar um N\xFAcleo de Cristal Eterno sobre eles, causando {1} de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem {2} de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s."
+  series: "Espinha do Drag\xE3o"
+hakushin-ring:
+  name: Anel de Hakushin
+  passive_name: "Pal\xE1cio de Sakura"
+  passive_text: "Depois de o personagem com essa arma equipada desencadear uma rea\xE7\xE3o Electro, os membros da equipe ao redor com Tipo Elemental envolvidos na rea\xE7\xE3o ter\xE3o Dano Adicional do Elemento em {0}, por 6s. O Dano adicional obtido pelo personagem dessa forma n\xE3o pode ser acumulado."
+  series: Ametista
+halberd:
+  name: Alabarda
+  passive_name: Pesado
+  passive_text: Ataques Normais causam um adicional de {0} de Dano ao oponente atingido. Este efeito pode ser ativado uma vez a cada 10s.
+harbinger-of-dawn:
+  name: "Pren\xFAncio do Alvorecer"
+  passive_name: Vigoroso
+  passive_text: "Quando a Vida estiver acima de 90%, aumenta a Taxa Cr\xEDtica em {0}."
+iron-sting:
+  name: Espinho de Ferro
+  passive_name: "Ferr\xE3o Energ\xE9tico"
+  passive_text: "6s ap\xF3s ao causar Dano Elemental, aumenta todos os Danos em {0}. Este efeito pode acumular at\xE9 2 vezes e pode ser ativado uma vez a cada 1s."
+  series: "Infus\xE3o"
+lions-roar:
+  name: "Rugido do Le\xE3o"
+  passive_name: "Destrui\xE7\xE3o de Fogo e Trov\xE3o"
+  passive_text: Aumenta o Dano contra inimigos afetados por Pyro ou Electro em {0}.
+  series: Kunwu
+lithic-blade:
+  name: Espada Antiga de Millelith
+  passive_name: 'Axioma de Millelith: Unidade'
+  passive_text: "Por cada personagem de Liyue que possua na Equipe, aumenta o ATQ do personagem que equipar essa arma em {0} e aumenta sua Taxa CRIT em {1}. Esse efeito pode ser acumulado no m\xE1ximo 4 vezes."
+  series: "L\xEDtica"
+lost-prayer-to-the-sacred-winds:
+  name: "Ora\xE7\xE3o Perdida aos Ventos Sagrados"
+  passive_name: "B\xEAn\xE7\xE3o Sem Fronteiras"
+  passive_text: "Aumenta a Veloc. Mov. em 10%. Durante a batalha, ganha um adicional de {0} de Dano Elemental a cada 4s, sendo capaz de acumular at\xE9 4 vezes. Dura at\xE9 o \xFAltimo personagem ser abatido ou trocar de personagem."
+luxurious-sea-lord:
+  name: Lorde do Mar Luxuoso
+  passive_name: "Vit\xF3ria Oce\xE2nica"
+  passive_text: "Aumenta o Dano do Supremo em {0}. Quando o Supremo acerta os oponentes, existe 100% de chance de invocar uma tuna tit\xE2nica que avan\xE7a e causa {1} do ATQ como Dano em uma AdE. Este efeito pode ocorrer uma vez a cada 15s."
+magic-guide:
+  name: Guia de Magia
+  passive_name: "Destrui\xE7\xE3o de Tempestade e Mar\xE9"
+  passive_text: Aumenta o Dano contra inimigos afetados por Hydro ou Electro em {0}.
+  series: "Perdi\xE7\xE3o"
+mappa-mare:
+  name: Mappa Mare
+  passive_name: Pergaminho Infundido
+  passive_text: "Ativar uma rea\xE7\xE3o Elemental concede um adicional de {0} de Dano Elemental por 10s, podendo acumular at\xE9 2 vezes."
+  series: "Infus\xE3o"
+messenger:
+  name: Mensageiro
+  passive_name: Messagem da Flecha Voadora
+  passive_text: "Ao acertar um ponto fraco com Ataque Carregado, causa um adicional de {0} de Dano de ATQ como Dano Cr\xEDtico. Este efeito pode ser ativado uma vez a cada 10s."
+mitternachts-waltz:
+  name: "Valsa do Crep\xFAsculo"
+  passive_name: Duelo da Noite
+  passive_text: "Dentro de 5s ap\xF3s acertar um inimigo com o Ataque Normal, o Dano causado pela Habilidade Elemental aumenta em {0}. Dentro de 5s ap\xF3s acertar um inimigo com a Habilidade Elemental, o Dano do Ataque Normal aumenta {1}."
+otherworldly-story:
+  name: "Hist\xF3rias de Outros Mundos"
+  passive_name: "Imers\xE3o de Energia"
+  passive_text: "Coletar um Orbe ou Part\xEDcula Elemental restaura {0} da Vida."
+predator:
+  name: Predador
+  passive_name: Ataque Poderoso
+  passive_text: "Efetivo apenas para jogadores da seguinte plataforma:\n\"PlayStation Network\"\nCausar Dano cryo aos oponentes aumenta o Dano do Ataque Normal e Carregado do personagem em 10% por 6s. Este efeito pode ter no m\xE1ximo 2 ac\xFAmulos. Adicionalmente, quando Aloy equipa o Predador, o ATQ \xE9 aumentado em 66."
+  series: Forasteiro
+primordial-jade-cutter:
+  name: Cortador de Jade Primordial
+  passive_name: Pureza do Protetor
+  passive_text: "Aumenta a Vida em {0}. Al\xE9m disso, o Personagem que equipar esta arma ter\xE1 um B\xF4nus de ATQ de {1} com base na Vida M\xE1xima."
+  series: Jade Primordial
+primordial-jade-winged-spear:
+  name: "Lan\xE7a de Jade Primitiva"
+  passive_name: "Lan\xE7a da Justi\xE7a da \xC1guia"
+  passive_text: "Ao acertar, aumenta o Dano em {0} por 6s. Pode acumular at\xE9 7 vezes. Pode ocorrer uma vez a cada 0.3s. O ac\xFAmulo m\xE1ximo aumenta o Dano em {1}."
+  series: Jade Primordial
+prototype-archaic:
+  name: "Prot\xF3tipo Arcaico"
+  passive_name: Esmagar
+  passive_text: "Ao acertar um Ataque Normal ou um Ataque Carregado, possui 50% de chance de causar {0} de Dano de ATQ adicional em uma \xE1rea pequena. Este efeito pode ser ativado uma vez a cada 15s."
+  series: "Prot\xF3tipo"
+rust:
+  passive_name: "Disparo R\xE1pido"
+  passive_text: Aumenta o Dano do Ataque Normal em {0} mas diminui o Dano do Ataque Carregado em 10%.
+  name: Arco Enferrujado
+rainslasher:
+  name: Segadeira da Chuva
+  passive_name: "Destrui\xE7\xE3o de Tempestade e Mar\xE9"
+  passive_text: Aumenta o Dano contra inimigos afetados por Hydro ou Electro em {0}.
+  series: "Perdi\xE7\xE3o"
+raven-bow:
+  name: Arco de Corvo
+  passive_name: "Destrui\xE7\xE3o das Chamas e \xC1gua"
+  passive_text: Aumenta o Dano contra inimigos afetados por Hydro ou Pyro em {0}.
+  series: "Perdi\xE7\xE3o"
+redhorn-stonethresher:
+  name: Chifres Vermelhos Destruidores de Pedras
+  passive_name: Gokadaiou Otogibanashi
+  passive_text: "DEF \xE9 aumentada em {0}. Dano do Ataque Normal e Carregado \xE9 aumentado em {1} da DEF."
+royal-bow:
+  name: Arco Real
+  passive_name: Foco
+  passive_text: "Ao atingir um oponente, aumenta a Taxa Cr\xEDtica em {0}, acumulando no m\xE1ximo 5 vezes. Causar Dano Cr\xEDtico remove todos os ac\xFAmulos."
+  series: Real
+royal-grimoire:
+  name: "Grim\xF3rio Real"
+  passive_name: Foco
+  passive_text: "Ao atingir um oponente, aumenta a Taxa Cr\xEDtica em {0}, acumulando no m\xE1ximo 5 vezes. Causar Dano Cr\xEDtico remove todos os ac\xFAmulos."
+  series: Real
+royal-spear:
+  name: "Lan\xE7a de Ca\xE7a Real"
+  passive_name: Foco
+  passive_text: "Ao atingir um oponente, aumenta a Taxa Cr\xEDtica em {0}, acumulando no m\xE1ximo 5 vezes. Causar Dano Cr\xEDtico remove todos os ac\xFAmulos."
+  series: Real
+sacrificial-greatsword:
+  name: "Espad\xE3o do Sacrif\xEDcio"
+  passive_name: Composto
+  passive_text: Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui {0} de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada {1} segundos.
+  series: "Sacrif\xEDcio"
+sharpshooters-oath:
+  name: "Juramento de Sagit\xE1rio"
+  passive_name: "Precis\xE3o"
+  passive_text: Aumenta o Dano contra pontos fracos em {0}.
+skyrider-greatsword:
+  name: "Espad\xE3o do Cavaleiro do C\xE9u"
+  passive_name: Coragem
+  passive_text: "Ao acertar um Ataque Normal ou Carregado, aumenta o ATQ e DEF em {0} por 6s, podendo ser acumulado at\xE9 4 vezes. Este efeito pode ser ativado uma vez a cada 0.5s."
+  series: "Cavaleiro do C\xE9u"
+skyrider-sword:
+  name: "Espada do Cavaleiro do C\xE9u"
+  passive_name: "Determina\xE7\xE3o"
+  passive_text: Ao usar o Supremo, concede um aumento de {0} no ATQ e Veloc. Mov. por 15s.
+  series: "Cavaleiro do C\xE9u"
+skyward-harp:
+  name: Harpa Celestial
+  passive_name: Balada Retumbante
+  passive_text: "Aumenta o Dano Cr\xEDtico em {0}. Ao acertar, possui {1} de chance de infligir um pequeno ataque AdE, causando 100% de Dano de ATQ F\xEDsico. Pode ser ativada uma vez a cada {2}."
+  series: Mondstadt
+slingshot:
+  name: Estilingue
+  passive_name: Estilingue
+  passive_text: "Se a flecha do Ataque Normal e do Ataque Carregado atingir um alvo dentro de 0.3s ap\xF3s o disparo, o Dano \xE9 aumentado em {0}. Caso contr\xE1rio, o Dano \xE9 diminu\xEDdo em 10%."
+solar-pearl:
+  name: "P\xE9rola Solar"
+  passive_name: Brilho Celestial
+  passive_text: "Dentro de 6s ap\xF3s acertar um Ataque Normal, o Dano da Habilidade Elemental e do Supremo aumentam em {0}. Dentro de 6s ap\xF3s acertar uma Habilidade Elemental e o Supremo, o Dano do Ataque Normal aumenta {1}."
+  series: Kunwu
+staff-of-homa:
+  name: "B\xE1culo de Homa"
+  passive_name: Liberdade da Borboleta Vermelha
+  passive_text: "Aumenta a Vida em {0}. Al\xE9m disso, o Personagem que equipar esta arma ter\xE1 um B\xF4nus de ATQ de {1} com base na Vida M\xE1xima. Quando a Vida do Personagem que equipar essa arma cair para abaixo de 50%, seu ATQ aumentar\xE1 {2} com base em sua Vida M\xE1xima."
+summit-shaper:
+  name: Cortador de Montanhas
+  passive_name: Majestade Dourada
+  passive_text: "Aumenta a for\xE7a do Escudo em {0}. Acertar ataques em inimigos aumenta o ataque em {1} por 8s. Acumula at\xE9 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque \xE9 aumentado em 100%."
+  series: Liyue
+the-alley-flash:
+  name: Brilho do Beco
+  passive_name: "Her\xF3i Itinerante"
+  passive_text: "Aumenta o Dano causado pelo Personagem em {0}. Ao sofrer Dano, esse efeito de aumento de Dano n\xE3o ocorrer\xE1 por 5s."
+  series: Beco
+the-bell:
+  name: O Sino
+  passive_name: "Guarda da Rebeli\xE3o"
+  passive_text: "Ao receber dano, cria um escudo que absorve o equivalente a {0} da Vida M\xE1xima por 10s ou at\xE9 o escudo desparecer. Pode ser ativado uma vez a cada {1}. Quando o personagem estiver com o escudo, o Dano causado aumenta {2}."
+  series: Trupe Itinerante
+the-catch:
+  name: '"A Fisgada"'
+  passive_name: "Can\xE7\xE3o Navegante"
+  passive_text: Aumenta o Dano do Supremo em {0} e a Taxa CRIT do Supremo em {1}.
+the-stringless:
+  name: "\xDAltimo Acorde"
+  passive_name: "Can\xE7\xE3o Sem Flechas"
+  passive_text: Aumenta o Dano da Habilidade Elemental e do Supremo em {0}.
+  series: Trupe Itinerante
+the-unforged:
+  name: "Espada \xC1spera"
+  passive_name: Majestade Dourada
+  passive_text: "Aumenta a for\xE7a do Escudo em {0}. Acertar ataques em inimigos aumenta o ataque em {1} por 8s. Acumula at\xE9 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque \xE9 aumentado em 100%."
+  series: Liyue
+the-widsith:
+  name: Sinfonia dos Indolentes
+  passive_name: Abertura
+  passive_text: "Ao entrar no campo de batalha, o personagem ganha uma m\xFAsica tem\xE1tica aleat\xF3ria por 10s. Pode ser ativada uma vez a cada 30s. Recitativa: O ATQ \xE9 aumentado em {0}; Aria: Aumenta todos os Danos Elementais em {1}; Interl\xFAdio: A Profici\xEAncia Elemental \xE9 aumentada em {2}."
+  series: Trupe Itinerante
+travelers-handy-sword:
+  name: Espada do Viajante
+  passive_name: Jornada
+  passive_text: "Cada Orbe ou Part\xEDcula Elemental coletada restaura {0} da Vida."
+twin-nephrite:
+  name: "Nefrita G\xEAmea"
+  passive_name: "T\xE1ticas de Invas\xE3o"
+  passive_text: Ao derrotar um inimigo, aumenta a Veloc. Mov. e o ATQ em {0} por 15s.
+vortex-vanquisher:
+  name: "Perfuradora Prism\xE1tica"
+  passive_name: Majestade Dourada
+  passive_text: "Aumenta a for\xE7a do Escudo em {0}. Acertar ataques em inimigos aumenta o ataque em {1} por 8s. Acumula at\xE9 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque \xE9 aumentado em 100%."
+  series: Liyue
+wavebreakers-fin:
+  name: Barbatana do Quebra Ondas
+  passive_name: Dominadora de Ondas Watatsumi
+  passive_text: "O Personagem que usar esta arma ter\xE1 um aumento do Dano do Supremo de {0} por cada 1 ponto da soma do m\xE1ximo da Energia Elemental de todos os membros da equipe. O aumento de Dano do Supremo m\xE1ximo obt\xEDvel dessa maneira \xE9 de {1}."
+  series: Watatsumi
+white-iron-greatsword:
+  name: "Espad\xE3o de Ferro Branco"
+  passive_name: Colheita
+  passive_text: Derrotar um oponente recupera {0} da Vida.
+white-tassel:
+  name: Borla Branca
+  passive_name: Acume
+  passive_text: O Dano causado pelo Ataque Normal aumenta {0}.
+whiteblind:
+  name: Sombra Branca
+  passive_name: "Ponta Energ\xE9tica"
+  passive_text: "Ap\xF3s acertar um Ataque Normal e um Ataque Carregado, o ATQ e a DEF aumentam {0} por 6s, podendo ser acumulado at\xE9 4 vezes. Este efeito pode ser ativado uma vez a cada 0.5s."
+  series: "Infus\xE3o"
+windblume-ode:
+  name: "Ode \xE0 Brisa Florescente"
+  passive_name: Desejo da Brisa Florescente
+  passive_text: "Ao lan\xE7ar uma Habilidade Elemental, se obt\xE9m o desejo antigo da Flor do Vento, e o Ataque aumenta {0} por 6s."
+wine-and-song:
+  name: "Vinho e M\xFAsica"
+  passive_name: "Mudan\xE7a Constante"
+  passive_text: "Quando um Ataque Normal atingir um inimigo, o consumo de Stamina ao Correr ou utilizar uma habilidade que substitua Correr reduz em {0} por 5s. Al\xE9m disso, depois de Correr ou utilizar uma habilidade que substitua Correr aumenta o Ataque em {1} durante 5s."
+  series: Beco
+wolfs-gravestone:
+  name: "T\xFAmulo do Lobo"
+  passive_name: "Ca\xE7ador Selvagem"
+  passive_text: Aumenta o ATQ em {0}. Ao acertar o ataque em oponentes com Vida inferior a 30%, aumenta o ATQ de todos os companheiros em {1} por 12s. Este efeito pode ser ativado uma vez a cada 30s.
+haran-geppaku-futsu:
+  name: Maremoto da Lua de Futsu
+  passive_name: "Fluxo Aperfei\xE7oado"
+  passive_text: "Obt\xE9m {0} de b\xF4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\xE3o um ac\xFAmulo do efeito \"Ondula\xE7\xE3o\" para o personagem que tem esta arma equipada. Esse efeito \xE9 acumul\xE1vel no m\xE1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\xE7ar sua Habilidade Elemental, se tiver ac\xFAmulos de \"Ondula\xE7\xE3o\", consumir\xE1 os ac\xFAmulos existentes e obter\xE1 \"Maremoto\", cada ac\xFAmulo consumido aumenta o Dano do Ataque Normal em {1} por 8s."
+kaguras-verity:
+  name: Prova de Kagura
+  passive_name: "Dan\xE7a Kagura da Sakura Sagrada"
+  passive_text: "Ao usar a Habilidade Elemental, obt\xE9m o efeito de \"Dan\xE7a Kagura\", o qual aumenta o Dano da Habilidade Elemental em {0} do personagem que tiver esta arma equipada. Este efeito dura 16s e pode ser acumulado em at\xE9 3 vezes. Ao obter 3 ac\xFAmulos, o personagem obt\xE9m {1} de B\xF4nus de Dano de todos os Elementos."
+oathsworn-eye:
+  name: Olho do Juramento
+  passive_name: Povo das Profundezas Brilhantes
+  passive_text: "Ap\xF3s usar a Habilidade Elemental, a Recarga de Energia aumenta em {0} por 10s."
+aqua-simulacra:
+  name: Aqua Simulacra
+  passive_name: Forma Purificadora
+  passive_text: "Aumenta a Vida em {0}. Se existirem inimigos pr\xF3ximos, o personagem que tem esta arma equipada ter\xE1 um aumento de Dano de {1}, independentemente do personagem estar ativo no campo de batalha ou n\xE3o."
+fading-twilight:
+  name: "Crep\xFAsculo Desvanecido"
+  passive_name: Brilho Abismal
+  passive_text: "Possui tr\xEAs estados: Entardecer, Amanhecer e Alvorada. Estes estados aumentam o Dano infligido em {0} respectivamente. Ao atingir um inimigo com um ataque, se trocar\xE1 para o pr\xF3ximo estado. Essa troca pode acontecer uma vez a cada 7s. Esse efeito tamb\xE9m ocorrer\xE1 se o personagem que tiver esta arma equipada n\xE3o estiver ativo no campo de batalha."
+kagotsurubeisshin:
+  name: Kagotsurube Isshin
+  passive_name: Claridade da Arte Isshin
+  passive_text: "Quando um Ataque Normal, Ataque Carregado ou Ataque Imersivo atinge um inimigo, criar\xE1 Vento Cortador, que infligir\xE1 Dano em AdE equivalente a {}% do ATQ e aumenta o ATQ em {}% por 8s. Esse efeito pode ser desencadeado uma vez a cada 8s."

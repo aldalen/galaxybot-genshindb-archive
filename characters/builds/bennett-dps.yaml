@@ -1,0 +1,99 @@
+key: dps
+main_stat:
+  sands: em > atk_percent
+  goblet: pyro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- em
+- atk_percent
+- er_percent
+- hp_percent
+talent_priority: burst > skill > auto
+weapons:
+- mistsplitter-reforged
+- uraku-misugiri
+- primordial-jade-cutter
+- haran-geppaku-futsu
+- freedom-sworn
+- blackcliff-longsword
+- iron-sting
+- the-alley-flash
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - crimson
+  notes:
+    - bis
+    - for_melt
+    - boost_pyro_reaction
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - for_melt
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: simple
+  sets:
+  - thundering
+  notes: bennett-dps-2
+  weight: 1.0
+- type: simple
+  sets:
+  - berserker
+  - instructor
+  notes:
+    - early_game
+    - boost_cr_em
+  weight: 0.25

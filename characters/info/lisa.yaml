@@ -1,0 +1,21 @@
+element: electro
+weapon: catalyst
+rarity: 4
+availability: standard
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: lightning_prism
+  local_specialty: valberry
+  common_material: slime
+  talent: ballad
+  boss_talent: claw
+talents:
+  elemental_skill:
+    cooldown_seconds: 1.0/16.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: June
+  day: 9

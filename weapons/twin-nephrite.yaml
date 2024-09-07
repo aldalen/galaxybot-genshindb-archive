@@ -1,0 +1,31 @@
+type: Catalyst
+rarity: 3
+series: ''
+atk_start: 40.0
+substat: cr_percent
+substat_start: 3.4
+obtained:
+  wishes: false
+  banners: []
+  chests: true
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+  - values:
+    - 14%
+  - values:
+    - 16%
+  - values:
+    - 18%
+  - values:
+    - 20%
+ascension_materials:
+  weapon: mist_veiled
+  common:
+  - mist
+  - fatui

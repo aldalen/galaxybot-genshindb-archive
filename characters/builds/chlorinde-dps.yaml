@@ -1,0 +1,124 @@
+key: electro
+main_stat:
+  sands: atk_percent / em
+  goblet: electro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- em
+- er_percent
+- atk
+talent_priority: skill > burst > auto
+weapons:
+- absolution
+- mistsplitter-reforged
+- uraku-misugiri
+- haran-geppaku-futsu
+- light-of-foliar-incision
+- primordial-jade-cutter
+- freedom-sworn
+- the-black-sword
+- finale-of-the-deep
+- lions-roar
+- iron-sting
+- toukabou-shigure
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Electro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.25
+set_rating:
+- type: simple
+  sets:
+  - thundering
+  notes: 
+    - boost_electro_dmg_cooldown
+  weight: 1.0
+- type: simple
+  sets:
+  - fragment
+  notes:
+    - boost_dmg_bol
+  weight: 1.0
+- type: simple
+  sets:
+  - marechaussee
+  notes: 
+    - for_furina
+    - boost_ca_cr_hp_change
+  weight: 1.0
+- type: simple
+  sets:
+  - gladiator
+  notes: 
+    - interim_set
+    - boost_atk_normal
+  weight: 0.75
+- type: simple
+  sets:
+  - gilded
+  notes: 
+    - interim_set
+    - boost_em_atk_party_config
+  weight: 0.75
+- type: simple
+  sets:
+  - thundersoother
+  notes:
+    - boost_dmg_electro
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25

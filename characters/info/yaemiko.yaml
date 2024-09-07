@@ -1,0 +1,21 @@
+element: electro
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: dragonheirs_false_fin
+  local_specialty: sea_ganoderma
+  common_material: handguard
+  talent: light
+  boss_talent: meaning_of_aeons
+talents:
+  elemental_skill:
+    duration_seconds: 14.0
+    cooldown_seconds: 4.0
+  elemental_burst:
+    cooldown_seconds: 22.0
+    energy_cost: 90
+birthday:
+  month: June
+  day: 27

@@ -1,0 +1,36 @@
+type: Polearm
+rarity: 5
+atk_start: 44.0b
+substat: cr_percent
+substat_start: 9.6b
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 52%
+    - 28%
+  - values:
+    - 65%
+    - 35%
+  - values:
+    - 78%
+    - 42%
+  - values:
+    - 91%
+    - 49%
+  - values:
+    - 102%
+    - 56%
+ascension_materials:
+  weapon: oasis
+  common:
+  - chaos_drake
+  - luminescent

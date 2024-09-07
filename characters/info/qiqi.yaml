@@ -1,0 +1,22 @@
+element: cryo
+weapon: sword
+rarity: 5
+availability: standard
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: hoarfrost_core
+  local_specialty: violetgrass
+  common_material: scroll
+  talent: prosperity
+  boss_talent: tail
+talents:
+  elemental_skill:
+    duration_seconds: 15.0
+    cooldown_seconds: 30.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: March
+  day: 3

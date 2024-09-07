@@ -1,0 +1,110 @@
+key: geo 
+main_stat:
+  sands: atk_percent
+  goblet: geo > atk_percent
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- atk
+talent_priority: auto = burst > skill
+weapons:
+- skyward-atlas
+- memory-of-dust
+- tome-of-the-eternal-flow
+- lost-prayer-to-the-sacred-winds
+- cashflow-supervision
+- tulaytullahs-remembrance
+- the-widsith
+- solar-pearl
+- dodoco-tales
+- flowing-purity
+- prototype-amber
+- thrilling-tales-of-dragon-slayers
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+    sub_stat:
+      atk: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      atk_percent: 1.0
+      elem_damage_percent: 1.0
+      element: Geo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - nighttime
+  notes: 
+    - bis
+    - boost_atk_geo_after_skill
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - petra
+  - set_group:
+    - echoes
+  - set_group:
+    - gladiator
+  - set_group:
+    - nighttime
+  - set_group:
+    - shimenawa
+  - set_group:
+    - vermillion
+  notes: 
+    - pick_2_best_sub
+    - interim_set
+    - max_geo
+  weight: 1.0
+- type: simple
+  sets:
+  - bolide
+  notes: max_dmg_with_shields
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25

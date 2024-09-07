@@ -1,0 +1,104 @@
+key: subdps
+main_stat:
+  sands: er_percent / atk_percent
+  goblet: hydro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- er_percent
+- atk_percent
+- em
+- atk
+talent_priority: burst = skill > auto
+weapons:
+- freedom-sworn
+- favonius-sword
+- sacrificial-sword
+- festering-desire
+- fleuve-cendre-ferryman
+- sapwood-blade
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  notes: boost_er_burst_by_er
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - heart
+  - set_group:
+    - noblesse
+  - set_group:
+    - nymphs
+  - set_group:
+    - emblem
+  - set_group:
+    - echoes
+  - set_group:
+    - gladiator
+  - set_group:
+    - shimenawa
+  - set_group:
+    - vermillion
+  notes:
+    - pick_2_needs_best_sub
+    - max_hydro
+  weight: 0.75
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

@@ -1,0 +1,24 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: atk_percent
+substat_start: 9.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+  quests: true
+passive:
+  levels:
+  - values:
+    - '180'
+    - '15'
+ascension_materials:
+  weapon: mask
+  common:
+  - statuette
+  - spectral

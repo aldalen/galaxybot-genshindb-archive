@@ -1,0 +1,20 @@
+element: geo
+weapon: sword
+rarity: 5
+availability: traveler
+materials:
+  character_ascension: brilliant_diamond
+  local_specialty: windwheel_aster
+  common_material: mask
+  talent: freedom
+  boss_talent: sigh
+talents:
+  elemental_skill:
+    duration_seconds: 30.0
+    cooldown_seconds: 8.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+image_key: traveler-geo
+key: travelergeo

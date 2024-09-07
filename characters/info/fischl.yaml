@@ -1,0 +1,22 @@
+element: electro
+weapon: bow
+rarity: 4
+availability: standard
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: lightning_prism
+  local_specialty: small_lamp_grass
+  common_material: arrowhead
+  talent: ballad
+  boss_talent: locket
+talents:
+  elemental_skill:
+    duration_seconds: 10.0
+    cooldown_seconds: 25.0
+  elemental_burst:
+    duration_seconds: 10.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: May
+  day: 27

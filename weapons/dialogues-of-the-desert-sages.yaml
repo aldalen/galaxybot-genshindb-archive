@@ -1,0 +1,30 @@
+type: Polearm
+rarity: 4
+atk_start: 42.0
+substat: hp_percent
+substat_start: 9.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - '8'
+  - values:
+    - '10'
+  - values:
+    - '12'
+  - values:
+    - '14'
+  - values:
+    - '16'
+ascension_materials:
+  weapon: forest_dew
+  common:
+  - spectral
+  - xuanwen_fin

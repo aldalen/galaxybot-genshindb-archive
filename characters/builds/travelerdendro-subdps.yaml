@@ -1,0 +1,90 @@
+key: subdps
+main_stat:
+  sands: er_percent / em
+  goblet: dendro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- er_percent
+- atk_percent
+- em
+- atk
+talent_priority: burst > skill > auto
+weapons:
+- freedom-sworn
+- favonius-sword
+- sacrificial-sword
+- festering-desire
+- fleuve-cendre-ferryman
+- sapwood-blade
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  sands:
+    main_stat:
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Dendro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - deepwood
+  notes:
+  - boost_dendro_shred_dendro
+  - for_hyperbloom
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - for_aggravate
+  weight: 1.0
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

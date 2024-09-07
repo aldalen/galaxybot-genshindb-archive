@@ -1,0 +1,36 @@
+type: Polearm
+rarity: 5
+atk_start: 48.0
+substat: cr_percent
+substat_start: 4.8
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - 24%
+  - values:
+    - 16%
+    - 32%
+  - values:
+    - 20%
+    - 40%
+  - values:
+    - 24%
+    - 48%
+  - values:
+    - 28%
+    - 56%
+ascension_materials:
+  weapon: pristine_sea
+  common:
+  - clockwork_gear
+  - hilt

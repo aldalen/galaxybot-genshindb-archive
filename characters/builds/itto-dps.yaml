@@ -1,0 +1,113 @@
+key: dps
+main_stat:
+  sands: defense_percent
+  goblet: geo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- defense_percent
+- er_percent
+- atk_percent
+- defense
+- atk
+talent_priority: auto > burst > skill
+weapons:
+- redhorn-stonethresher
+- serpent-spine
+- skyward-pride
+- whiteblind
+- blackcliff-slasher
+- the-unforged
+- sacrificial-greatsword
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense: 0.25
+      defense_percent: 0.75
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense: 0.25
+      defense_percent: 0.75
+      er_percent: 0.75
+  sands:
+    main_stat:
+      defense_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense: 0.25
+      defense_percent: 0.75
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Geo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense: 0.25
+      defense_percent: 0.75
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense: 0.25
+      defense_percent: 0.75
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - husk
+  notes:
+    - bis
+    - max_geo_defense
+  weight: 1.0
+- type: simple
+  sets:
+  - marechaussee
+  notes: 
+    - for_furina
+    - boost_ca_cr_hp_change
+  weight: 1.0
+- type: simple
+  sets:
+  - bolide
+  notes: max_dmg_when_shielded
+  weight: 0.75
+- type: simple
+  sets:
+  - petra
+  - husk
+  notes:
+    - boost_geo_defense
+    - interim_set
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25

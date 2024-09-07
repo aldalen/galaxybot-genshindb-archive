@@ -1,0 +1,101 @@
+key: geo
+# The following use the same keys as the rater, and the bot will replace them with the correct localization.  Only exception is elemental damage, which will just be the element.
+# Slashes or arrows (<, >) will be kept in their place.
+main_stat:
+  sands: defense_percent > atk_percent
+  goblet: geo > defense_percent
+  circlet: cr_percent / cd_percent
+sub_stat:
+  - cr_percent / cd_percent 
+  - defense_percent
+  - atk_percent
+  - er_percent
+
+# Lower case, bot will replace skill, burst, and auto with proper localization.
+talent_priority: skill > burst > auto
+
+# The following must match the weapon file names under `weapons/` in the static DB. Notes are pulled from the localization file.
+weapons:
+  - uraku-misugiri
+  - primordial-jade-cutter
+  - wolf-fang
+  - cinnabar-spindle
+  - harbinger-of-dawn
+
+rater:
+  flower:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense_percent: 0.75
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense_percent: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      defense_percent: 1.0
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense_percent: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      defense_percent: 1.0
+      elem_damage_percent: 1.0
+      element: Geo
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense_percent: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      defense_percent: 0.75
+      er_percent: 0.5
+
+
+# Notes will look in the localization file. It will check the following areas, in order, to find the matching localization key.
+#  1. The matching `set_rating` list for this character. For example, a key below with `max_skill` for albedo-subdps would match `albedo-subdps.set_rating.max_skill`.  (or, look for the key `max_skill` under `set_rating` under `albedo-subdps`)
+#  2. `common_set_rating`  For example, a key below with `max_skill` would match `common_set_rating.max_skill` (or, look for the key `max_skill` under `common_set_rating`)
+# Notes can also be a list of keys, which will combine into one.  Each list item will follow the same lookup order above.
+set_rating:
+  - type: simple
+    sets:
+      - golden
+    notes:
+      - bis
+      - max_skill
+    weight: 1.0
+  - type: simple
+    sets:
+      - husk
+    notes:
+      - max_skill
+    weight: 1.0
+  - type: complex
+    sets:
+    - set_group:
+      - berserker
+    - set_group:
+      - brave
+      - sojourner
+    notes:
+      - early_game
+      - boost_cr_atk
+    weight: 0.25

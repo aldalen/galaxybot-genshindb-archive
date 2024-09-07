@@ -1,0 +1,35 @@
+type: Bow
+rarity: 4
+atk_start: 41.0
+substat: atk_percent
+substat_start: 12.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 60
+    - 100%
+  - values:
+    - 80
+    - 120%
+  - values:
+    - 100
+    - 140%
+  - values:
+    - 120
+    - 160%
+  - values:
+    - 140
+    - 180%
+ascension_materials:
+  weapon: scorching_might
+  common:
+  - fungal_nucleus
+  - arrowhead

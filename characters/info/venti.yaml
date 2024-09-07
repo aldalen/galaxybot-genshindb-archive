@@ -1,0 +1,21 @@
+element: anemo
+weapon: bow
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vayuda_turquoise
+  boss_ascension: hurricane_seed
+  local_specialty: cecilia
+  common_material: slime
+  talent: ballad
+  boss_talent: tail
+talents:
+  elemental_skill:
+    cooldown_seconds: 6.0/15.0
+  elemental_burst:
+    duration_seconds: 8.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: June
+  day: 16

@@ -1,0 +1,20 @@
+element: electro
+weapon: sword
+rarity: 5
+availability: traveler
+materials:
+  character_ascension: brilliant_diamond
+  local_specialty: windwheel_aster
+  common_material: handguard
+  talent: elegance
+  boss_talent: crown
+talents:
+  elemental_skill:
+    duration_seconds: 15.0
+    cooldown_seconds: 13.5
+  elemental_burst:
+    duration_seconds: 12.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+image_key: traveler-electro
+key: travelerelectro

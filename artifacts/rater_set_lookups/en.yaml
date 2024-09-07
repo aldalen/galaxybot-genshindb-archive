@@ -1,0 +1,165 @@
+lookups:
+  # 5*
+  blizzard:
+    - Blizzard
+    - Strayer
+  bloodstained:
+    - Bloodstained
+    - Chivalry
+  bolide:
+    - Retracing
+    - Bolide
+  clam:
+    - Hued
+    - Clam
+  crimson:
+    - Crimson
+    - Witch
+  deepwood:
+    - Deepwood
+    - Memories
+  echoes:
+    - Echoes
+    - Offering
+  emblem:
+    - Emblem
+    - Severed
+  fragment:
+    - Fragment
+    - Harmonic
+    - Whimsy
+  gilded:
+    - Gilded
+  gladiator:
+    - Gladiator # Intentionally avoiding the 's.
+  golden:
+    - Golden
+    - Troupe
+  heart:
+    - Depth
+  husk:
+    - Husk
+    - Opulent
+  lavawalker:
+    - Lavawalker
+  maiden:
+    - Maiden
+    - Beloved
+  marechaussee:
+    - Marechaussee
+    - Hunter
+  nighttime:
+    - Nighttime
+    - Whispers
+    - Echoing
+    - Woods
+  noblesse:
+    - Noblesse
+    - Oblige
+  nymphs:
+    - Nymph # Intentionally avoiding the 's.
+  pale:
+    - Pale
+    - Flame
+  paradise:
+    - Paradise
+  pavilion:
+    - Pavilion
+  petra:
+    - Archaic
+    - Petra
+  reverie:
+    - Unfinished
+    - Reverie
+  shimenawa:
+    - Shimenawa # Intentionally avoiding the 's.
+    - Reminiscence
+  songofdayspast:
+    - Song
+    - Days
+    - Past
+  tenacity:
+    - Tenacity
+    - Millelith
+  thundering:
+    - Thundering
+    - Fury
+  thundersoother:
+    - Thundersoother
+    - ThisIsNotUsedInEnglish
+  vermillion:
+    - Vermillion
+    - Hereafter
+  viridescent:
+    - Viridescent
+    - Venerer
+  vourukashas:
+    - Vourukasha # Intentionally avoiding the 's.
+    - Glow
+  wanderers:
+    - Wanderer # Intentionally avoiding the 's.
+    - Troupe
+    - Concert
+
+  # 4* or less
+  adventurer:
+    - Adventurer
+  berserker:
+    - Berserker
+  brave:
+    - Brave
+  defenders:
+    - Defender # Intentionally avoiding the 's.  And "will" is pretty generic
+  exile:
+    - Exile
+  gambler:
+    - Gambler
+  instructor:
+    - Instructor
+  lucky:
+    - Lucky
+    - Dog
+  martial:
+    - Martial
+    - Artist
+  miracle:
+    - Miracle
+  scholar:
+    - Scholar
+  sojourner:
+    - Resolution
+    - Sojourner
+  traveling:
+    - Traveling Doctor
+
+  # Prayer Circlets
+  destiny:
+    - Destiny
+  illumination:
+    - Illumination
+  springtime:
+    - Springtime
+  wisdom:
+    - Wisdom
+
+ignore:
+  destiny:
+    - Gladiator's Destiny
+  gilded:
+    - Opulent Dreams
+    - Gilded Corsage
+    - Enchanting Dream
+  golden:
+    - Wanderer's Troupe
+  scholar:
+    - Scholar of Vines
+  thundering:
+    - Thundering Deep
+    - Thundering Poise
+  thundersoother:
+    - ThisIsNotUsedInEnglish
+  wanderers:
+    - Golden Troupe
+  defenders:
+    - Defender of the
+    - Enchanting Dream

@@ -1,0 +1,100 @@
+key: dps
+main_stat:
+  sands: atk_percent
+  goblet: anemo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- atk
+talent_priority: |
+  auto > skill > burst
+weapons:
+- tulaytullahs-remembrance
+- memory-of-dust
+- skyward-atlas
+- lost-prayer-to-the-sacred-winds
+- tome-of-the-eternal-flow
+- the-widsith
+- dodoco-tales
+- solar-pearl
+- eye-of-perception
+- flowing-purity
+- ballad-of-the-boundless-blue
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Anemo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - pavilion
+  notes:
+  - bis
+  - boost_na_speed_na_ca_dmg
+  weight: 1.0
+- type: simple
+  sets:
+  - marechaussee
+  notes: 
+    - for_furina
+    - boost_ca_cr_hp_change
+  weight: 1.0
+- type: simple
+  sets:
+  - shimenawa
+  notes: 
+  - boost_atk_normal_cost_burst
+  - resin_efficient_farm
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - brave
+    - sojourner
+  notes:
+    - early_game
+    - boost_cr_atk
+  weight: 0.25
+

@@ -1,0 +1,36 @@
+type: Catalyst
+rarity: 5
+atk_start: 46.0
+substat: cd_percent
+substat_start: 14.4
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - 12%
+  - values:
+    - 15%
+    - 15%
+  - values:
+    - 18%
+    - 18%
+  - values:
+    - 21%
+    - 21%
+  - values:
+    - 24%
+    - 24%
+ascension_materials:
+  weapon: mask
+  common:
+  - rifthound_claws
+  - spectral

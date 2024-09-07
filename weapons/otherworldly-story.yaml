@@ -1,0 +1,31 @@
+type: Catalyst
+rarity: 3
+series: ''
+atk_start: 39.0
+substat: er_percent
+substat_start: 8.5
+obtained:
+  wishes: false
+  banners: []
+  chests: true
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 1%
+  - values:
+    - 1.25%
+  - values:
+    - 1.5%
+  - values:
+    - 1.75%
+  - values:
+    - 2%
+ascension_materials:
+  weapon: dandelion
+  common:
+  - chaos_guards
+  - mask

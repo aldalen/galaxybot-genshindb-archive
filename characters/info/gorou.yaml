@@ -1,0 +1,22 @@
+element: geo
+weapon: bow
+rarity: 4
+availability: standard
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: perpetual_heart
+  local_specialty: sango_pearl
+  common_material: spectral
+  talent: light
+  boss_talent: molten
+talents:
+  elemental_skill:
+    duration_seconds: 10.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    duration_seconds: 9.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: May
+  day: 18

@@ -1,0 +1,37 @@
+type: Sword
+rarity: 5
+series: ''
+atk_start: 44.0b
+substat: cd_percent
+substat_start: 19.2b
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 8%
+    - 14%
+  - values:
+    - 10%
+    - 17.5%
+  - values:
+    - 12%
+    - 21%
+  - values:
+    - 14%
+    - 24.5%
+  - values:
+    - 16%
+    - 28%
+ascension_materials:
+  weapon: sacred_dewdrop
+  common:
+  - transoceanic
+  - tainted_water

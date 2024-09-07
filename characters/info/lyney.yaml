@@ -1,0 +1,21 @@
+element: pyro
+weapon: bow
+rarity: 5
+availability: limited
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: emperors_resolution
+  local_specialty: rainbow_rose
+  common_material: fatui
+  talent: equity
+  boss_talent: primordial_greenbloom
+talents:
+  elemental_skill:
+    cooldown_seconds: 15.0
+  elemental_burst:
+    duration_seconds: 3.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: February
+  day: 2

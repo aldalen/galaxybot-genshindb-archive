@@ -1,0 +1,237 @@
+# This file takes the format of:
+# artifact_key:
+#   location: [rarity_number, ...]
+#
+# Where rarity_number is just a number like 3, which would represent the rarity (so for 3, is 3 star).
+#  and where location is the localization string reference for genshin_common.general.locations.  (in the genshin_common.yaml, the location section under general)
+
+
+adventurer:
+  chests:
+  - 1
+  midsummer:
+  - 2
+  - 3
+berserker:
+  elite_enemies:
+  - 3
+  - 4
+blizzard:
+  vindagnyr_1to4:
+  - 4
+  vindagnyr_3to4:
+  - 5
+bloodstained:
+  clear_pool:
+  - 4
+  - 5
+bolide:
+  guyun:
+  - 4
+  - 5
+brave:
+  guyun:
+  - 3
+  - 4
+clam:
+  slumbering:
+  - 4
+  - 5
+crimson:
+  zhou:
+  - 4
+  - 5
+deepwood:
+  domain_reliquary_1:
+  - 5
+  domain_reliquary_2:
+  - 4
+  spire:
+  - 4
+  - 5
+defenders:
+  zhou:
+  - 3
+  - 4
+destiny:
+  normal_bosses:
+  - 3
+  - 4
+echoes:
+  lost_valley:
+  - 4
+  - 5
+emblem:
+  momiji:
+  - 4
+  - 5
+exile:
+  elite_enemies:
+  - 3
+  - 4
+fragment:
+  faded_theater:
+  - 4
+  - 5
+gambler:
+  clear_pool:
+  - 3
+  - 4
+gilded:
+  domain_reliquary_1:
+  - 5
+  domain_reliquary_2:
+  - 4
+  spire:
+  - 4
+  - 5
+gladiator:
+  domain_reliquary_1:
+  - 5
+  domain_reliquary_2:
+  - 4
+  weekly_drop_wl2:
+  - 4
+  weekly_drop_wl3:
+  - 5
+  world_drop_wl3:
+  - 4
+  world_drop_wl5:
+  - 5
+golden:
+  denouement:
+  - 4
+  - 5
+heart:
+  vindagnyr_1to4:
+  - 4
+  vindagnyr_3to4:
+  - 5
+husk:
+  slumbering:
+  - 4
+  - 5
+illumination:
+  normal_bosses:
+  - 3
+  - 4
+instructor:
+  chests:
+  - 3
+  elite_enemies:
+  - 4
+lavawalker:
+  zhou:
+  - 4
+  - 5
+lucky:
+  chests:
+  - 1
+  - 2
+  - 3
+maiden:
+  remembrance:
+  - 4
+  - 5
+marechaussee:
+  denouement:
+  - 4
+  - 5
+martial:
+  zhou:
+  - 3
+  - 4
+miracle:
+  remembrance:
+  - 3
+  - 4
+nighttime:
+  crumbling_assembly:
+  - 4
+  - 5
+noblesse:
+  clear_pool:
+  - 4
+  - 5
+nymphs:
+  molten_iron_fortress:
+  - 4
+  - 5
+pale:
+  ridge_watch:
+  - 4
+  - 5
+paradise:
+  desert:
+  - 4
+  - 5
+pavilion:
+  desert:
+  - 4
+  - 5
+petra:
+  guyun:
+  - 4
+  - 5
+reverie:
+  faded_theater:
+  - 4
+  - 5
+scholar:
+  clear_pool:
+  - 3
+  - 4
+shimenawa:
+  momiji:
+  - 4
+  - 5
+sojourner:
+  midsummer:
+  - 3
+  - 4
+songofdayspast:
+  crumbling_assembly:
+  - 4
+  - 5
+springtime:
+  normal_bosses:
+  - 3
+  - 4
+tenacity:
+  ridge_watch:
+  - 4
+  - 5
+thundering:
+  midsummer:
+  - 4
+  - 5
+thundersoother:
+  midsummer:
+  - 4
+  - 5
+traveling:
+  chests:
+  - 1
+  - 2
+  - 3
+vermillion:
+  lost_valley:
+  - 4
+  - 5
+viridescent:
+  remembrance:
+  - 4
+  - 5
+vourukashas:
+  molten_iron_fortress:
+  - 4
+  - 5
+wanderers:
+  weekly_drop_wl2:
+  - 4
+  weekly_drop_wl3:
+  - 5
+wisdom:
+  normal_bosses:
+  - 3
+  - 4

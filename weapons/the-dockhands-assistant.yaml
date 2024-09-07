@@ -1,0 +1,36 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: hp_percent
+substat_start: 9.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - '40'
+    - '2'
+  - values:
+    - '50'
+    - '2.5'
+  - values:
+    - '60'
+    - '3'
+  - values:
+    - '70'
+    - '3.5'
+  - values:
+    - '80'
+    - '4'
+ascension_materials:
+  weapon: dewdrop
+  common:
+  - transoceanic
+  - operative

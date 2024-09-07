@@ -1,0 +1,41 @@
+type: Bow
+rarity: 5
+atk_start: 46.0
+substat: cd_percent
+substat_start: 14.4
+obtained:
+  wishes: true
+  banners: 
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: fasle
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 16%,32%,48%
+    - 4%,7%,10%
+  - values:
+    - 20%
+    - 20%,40%,60%
+    - 6%,9%,12%
+  - values:
+    - 24%
+    - 24%,48%,72%
+    - 8%,11%,14%
+  - values:
+    - 28%
+    - 28%,56%,84%
+    - 10%,13%,16%
+  - values:
+    - 32%
+    - 32%,64%,96%
+    - 12%,15%,18%
+ascension_materials:
+  weapon: ancient_chord
+  common:
+  - tainted_water
+  - transoceanic

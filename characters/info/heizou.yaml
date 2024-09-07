@@ -1,0 +1,22 @@
+element: anemo
+weapon: catalyst
+rarity: 4
+availability: standard
+materials:
+  character_ascension: vayuda_turquoise
+  boss_ascension: runic_fang
+  local_specialty: onikabuto
+  common_material: treasure
+  talent: transience
+  boss_talent: meaning_of_aeons
+talents:
+  elemental_skill:
+    duration_seconds: 60.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: July
+  day: 24
+key: heizou

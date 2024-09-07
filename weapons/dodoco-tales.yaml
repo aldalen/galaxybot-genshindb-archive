@@ -1,0 +1,36 @@
+type: Catalyst
+rarity: 4
+series: ''
+atk_start: 41.0
+substat: atk_percent
+substat_start: 12.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 8%
+  - values:
+    - 20%
+    - 10%
+  - values:
+    - 24%
+    - 12%
+  - values:
+    - 28%
+    - 14%
+  - values:
+    - 32%
+    - 16%
+ascension_materials:
+  weapon: boreal_wolf
+  common:
+  - ley_line
+  - mask

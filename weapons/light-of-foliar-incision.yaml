@@ -1,0 +1,37 @@
+type: Sword
+rarity: 5
+atk_start: 44.0b
+substat: cd_percent
+substat_start: 19.2b
+obtained:
+  wishes: true
+  banners: 
+    - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: true
+passive:
+  levels:
+  - values:
+    - 4%
+    - 120%
+  - values:
+    - 5%
+    - 150%
+  - values:
+    - 6%
+    - 180%
+  - values:
+    - 7%
+    - 210%
+  - values:
+    - 8%
+    - 240%
+ascension_materials:
+  weapon: forest_dew
+  common:
+  - shell
+  - eremite
+

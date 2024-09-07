@@ -1,0 +1,24 @@
+element: geo
+weapon: claymore
+rarity: 5
+availability: limited
+materials:
+  character_ascension: prithiva_topaz
+  boss_ascension: riftborn_regalia
+  local_specialty: onikabuto
+  common_material: slime
+  talent: elegance
+  boss_talent: heart
+talents:
+  elemental_skill:
+    duration_seconds: 6.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    duration_seconds: 11.0
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: June
+  day: 1
+image_key: itto_fix
+key: itto

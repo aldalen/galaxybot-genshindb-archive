@@ -1,0 +1,31 @@
+type: Bow
+rarity: 4
+series: ''
+atk_start: 44.0
+substat: er_percent
+substat_start: 6.7
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: true
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 6%,10%,14%
+  - values:
+    - 7.5%,12.5%,17.5%
+  - values:
+    - 9%,15%,21%
+  - values:
+    - 10.5%,17.5%,24.5%
+  - values:
+    - 12%,20%,28%
+ascension_materials:
+  weapon: aerosiderite
+  common:
+  - knife
+  - scroll

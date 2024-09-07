@@ -1,0 +1,41 @@
+type: Bow
+rarity: 5
+atk_start: 46.0
+substat: er_percent
+substat_start: 12.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - '60'
+    - '100'
+    - 20%
+  - values:
+    - '75'
+    - '125'
+    - 25%
+  - values:
+    - '90'
+    - '150'
+    - 30%
+  - values:
+    - '105'
+    - '175'
+    - 35%
+  - values:
+    - '120'
+    - '200'
+    - 40%
+ascension_materials:
+  weapon: boreal_wolf
+  common:
+  - horn
+  - fatui

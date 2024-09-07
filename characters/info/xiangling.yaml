@@ -1,0 +1,22 @@
+element: pyro
+weapon: polearm
+rarity: 4
+availability: standard
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: everflame_seed
+  local_specialty: jueyun_chili
+  common_material: slime
+  talent: diligence
+  boss_talent: claw
+talents:
+  elemental_skill:
+    duration_seconds: 8.0
+    cooldown_seconds: 12.0
+  elemental_burst:
+    duration_seconds: 10.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: November
+  day: 2

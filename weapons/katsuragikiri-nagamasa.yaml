@@ -1,0 +1,35 @@
+type: Claymore
+rarity: 4
+atk_start: 42.0
+substat: er_percent
+substat_start: 10.0
+obtained:
+  wishes: false
+  banners: []
+  chests: true
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 6%
+    - '3'
+  - values:
+    - 7.5%
+    - '3.5'
+  - values:
+    - 9%
+    - '4'
+  - values:
+    - 10.5%
+    - '4.5'
+  - values:
+    - 12%
+    - '5'
+ascension_materials:
+  weapon: narukami
+  common:
+  - chaos_sentinel
+  - handguard

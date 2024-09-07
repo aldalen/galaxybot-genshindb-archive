@@ -1,0 +1,36 @@
+type: Polearm
+rarity: 4
+atk_start: 44.0
+substat: atk_percent
+substat_start: 6.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 7%
+    - 3%
+  - values:
+    - 8%
+    - 4%
+  - values:
+    - 9%
+    - 5%
+  - values:
+    - 10%
+    - 6%
+  - values:
+    - 11%
+    - 7%
+ascension_materials:
+  weapon: aerosiderite
+  common:
+  - bone
+  - arrowhead

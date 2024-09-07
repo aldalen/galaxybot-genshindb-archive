@@ -1,0 +1,129 @@
+key: subdps
+main_stat:
+  sands: atk_percent / em
+  goblet: electro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- atk
+talent_priority: skill > burst > auto
+weapons:
+- elegy-for-the-end
+- aqua-simulacra
+- polar-star
+- skyward-harp
+- the-stringless
+- alley-hunter
+- fading-twilight
+- ibis-piercer
+- kings-squire
+- range-gauge
+- song-of-stillness
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Electro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.75
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - golden
+  notes: boost_skill_offield
+  weight: 1.0
+- type: simple
+  sets:
+  - gilded
+  notes:
+    - resin_efficient_farm
+    - boost_em_atk_party_config
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - echoes
+    - gladiator
+    - shimenawa
+    - vermillion
+  - set_group:
+    - thundering
+  - set_group:
+    - gilded
+    - wanderers
+  notes: 
+    - pick_2_best_sub
+    - max_electro
+  weight: 1.0
+- type: simple
+  sets:
+  - thundersoother
+  notes: boost_dmg_electro
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes: boost_shield_party_atk
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - exile
+    - scholar
+  notes:
+    - early_game
+    - boost_cr_er
+  weight: 0.25
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - boost_em
+  weight: 0.25

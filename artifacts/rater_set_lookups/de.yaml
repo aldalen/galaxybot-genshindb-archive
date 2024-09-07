@@ -1,0 +1,55 @@
+lookups:
+  echoes:
+  - Echo
+  - Opferfestes
+  pale:
+  - Fahle
+  - Flamme
+  blizzard:
+  - Schnee
+  - Recke
+  bloodstained:
+  - Blutiger
+  - Ritter
+  bolide:
+  - Umgekehrter
+  - Meteor
+  clam:
+  - Meeresmuschel
+  - TranslationNotNeeded
+  crimson:
+  - Brennende
+  - Pyro-Hexe
+  emblem:
+  - Wappen
+  - Schicksals
+  gladiator:
+  - Gladiator
+  heart:
+  - Tief
+  husk:
+  - Schale
+  - Träume
+  lavawalker:
+  - Heiliger
+  maiden:
+  - geschlossenes
+  - Mädchen
+  noblesse:
+  - Altes
+  - Hofritual
+  petra:
+  - Archaischer
+  - Fels
+  shimenawa:
+  - Gedenken
+  - Shimenawa
+  tenacity:
+  - Zähigkeit
+  - Millelithen
+  thundering:
+  - Donnernder
+  - Zorn
+ignore:
+  thundersoother:
+  - Donnernder

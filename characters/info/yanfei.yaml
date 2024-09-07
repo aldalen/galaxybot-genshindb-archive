@@ -1,0 +1,21 @@
+element: pyro
+weapon: catalyst
+rarity: 4
+availability: standard
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: juvenile_jade
+  local_specialty: noctilucous_jade
+  common_material: treasure
+  talent: gold
+  boss_talent: bloodjade
+talents:
+  elemental_skill:
+    cooldown_seconds: 9.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+birthday:
+  month: July
+  day: 28

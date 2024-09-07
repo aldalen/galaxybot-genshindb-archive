@@ -1,0 +1,85 @@
+key: support
+main_stat:
+  sands: er_percent
+  goblet: defense_percent
+  circlet: cr_percent > defense_percent
+sub_stat:
+- er_percent
+- cr_percent
+- defense_percent
+- defense
+talent_priority: skill > burst > auto
+weapons:
+- favonius-warbow
+- elegy-for-the-end
+- sacrificial-bow
+- end-of-the-line
+rater:
+  flower:
+    sub_stat:
+      cr_percent: 0.75
+      defense: 0.25
+      defense_percent: 0.5
+      er_percent: 1.0
+  plume:
+    sub_stat:
+      cr_percent: 0.75
+      defense: 0.25
+      defense_percent: 0.5
+      er_percent: 1.0
+  sands:
+    main_stat:
+      defense_percent: 0.5
+      er_percent: 1.0
+    sub_stat:
+      cr_percent: 0.75
+      defense: 0.25
+      defense_percent: 0.5
+      er_percent: 1.0
+  goblet:
+    main_stat:
+      defense_percent: 1.0
+    sub_stat:
+      cr_percent: 0.75
+      defense: 0.25
+      defense_percent: 0.5
+      er_percent: 1.0
+  circlet:
+    main_stat:
+      cr_percent: 1.0
+      defense_percent: 0.5
+    sub_stat:
+      cr_percent: 0.75
+      defense: 0.25
+      defense_percent: 0.5
+      er_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - exile
+  notes:
+  - gorou-support-1-prepended
+  - boost_er_recharge_burst
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - nobody_party_has_set
+  weight: 1.0
+- type: simple
+  sets:
+  - emblem
+  - exile
+  - scholar
+  notes: boost_er
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25

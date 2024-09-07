@@ -1,0 +1,21 @@
+element: electro
+weapon: sword
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vajrada_amethyst
+  boss_ascension: fontemer_unihorn
+  local_specialty: lumitoile
+  common_material: transoceanic
+  talent: justice
+  boss_talent: everamber
+talents:
+  elemental_skill:
+    duration_seconds: 7.5
+    cooldown_seconds: 16.0
+  elemental_burst:
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: September
+  day: 20

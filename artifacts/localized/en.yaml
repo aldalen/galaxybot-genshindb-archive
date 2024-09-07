@@ -1,0 +1,1019 @@
+adventurer:
+  artifact_details:
+    circlet:
+      description: A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride.
+      name: Adventurer's Bandana
+    flower:
+      description: A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal.
+      name: Adventurer's Flower
+    goblet:
+      description: The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find.
+      name: Adventurer's Golden Goblet
+    plume:
+      description: The feather of an exotic bird rarely seen on this continent.
+      name: Adventurer's Tail Feather
+    sands:
+      description: It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city.
+      name: Adventurer's Pocket Watch
+  bonus:
+    2pc: Max HP increased by 1000.
+    4pc: Opening a chest regenerates 30% Max HP over 5s.
+  name: Adventurer
+berserker:
+  artifact_details:
+    circlet:
+      description: A hideous iron mask that has been left half-shattered from vicious battles.
+      name: Berserker's Battle Mask
+    flower:
+      description: An exquisite flower that has been dyed red. It represents the qualities of the Berserker.
+      name: Berserker's Rose
+    goblet:
+      description: A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter.
+      name: Berserker's Bone Goblet
+    plume:
+      description: An indigo feather from a legendary raven, part of which has been dyed crimson red.
+      name: Berserker's Indigo Feather
+    sands:
+      description: "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left \u2014 both on the battlefield as well as in the world."
+      name: Berserker's Timepiece
+  bonus:
+    2pc: CRIT Rate +12%
+    4pc: When HP is below 70%, CRIT Rate increases by an additional 24%.
+  name: Berserker
+blizzard:
+  artifact_details:
+    circlet:
+      description: The crown of an ancient hero who dreamt of conquering the cold. It is proof of its former master's bravery in facing the bone-chilling cold of winter.
+      name: Broken Rime's Echo
+    flower:
+      description: A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it.
+      name: Snowswept Memory
+    goblet:
+      description: A cup carved out of ice that is as chilly and biting as winter. Its former master would drink an unfreezable liquor from it.
+      name: Frost-Weaved Dignity
+    plume:
+      description: A feather that exudes a chilly aura. One can almost feel the turbulent winds that brought it here, wailing over snow-covered plains and between frosty peaks.
+      name: Icebreaker's Resolve
+    sands:
+      description: A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt.
+      name: Frozen Homeland's Demise
+  bonus:
+    2pc: Cryo DMG Bonus +15%
+    4pc: When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.
+  name: Blizzard Strayer
+bloodstained:
+  artifact_details:
+    circlet:
+      description: The iron mask the knight used to conceal their identity. Many have speculated about the face behind the mask.
+      name: Bloodstained Iron Mask
+    flower:
+      description: A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master.
+      name: Bloodstained Flower of Iron
+    goblet:
+      description: The dark metallic vessel owned by the Bloodstained Knight. Its exterior has been stained as black as the night by smoke and coagulated blood.
+      name: Bloodstained Chevalier's Goblet
+    plume:
+      description: A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black.
+      name: Bloodstained Black Plume
+    sands:
+      description: A timepiece once used by a knight. The liquid inside has dried up, rendering it useless.
+      name: Bloodstained Final Hour
+  bonus:
+    2pc: Physical DMG +25%
+    4pc: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.
+  name: Bloodstained Chivalry
+bolide:
+  artifact_details:
+    circlet:
+      description: A popular mask cast in the image of a deity, as described in the legends.
+      name: Summer Night's Mask
+    flower:
+      description: A man-made flower in eternal bloom. Who knows if there truly is life in there?
+      name: Summer Night's Bloom
+    goblet:
+      description: Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one.
+      name: Summer Night's Waterballoon
+    plume:
+      description: A well-crafted wooden dart. It will only stop once it has reached its destination.
+      name: Summer Night's Finale
+    sands:
+      description: A pocketwatch that has stopped at a certain point in time.
+      name: Summer Night's Moment
+  bonus:
+    2pc: Increases Shield Strength by 35%.
+    4pc: While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.
+  name: Retracing Bolide
+brave:
+  artifact_details:
+    circlet:
+      description: A rough-and-ready laurel wreath that seems as precious as a king's golden crown.
+      name: Crown of the Brave
+    flower:
+      description: A simple flower brooch that is a keepsake from someone's first adventure.
+      name: Medal of the Brave
+    goblet:
+      description: A crude wooden vessel filled only with memories.
+      name: Outset of the Brave
+    plume:
+      description: A shimmering feather from a songbird that brings a nudge of courage to its wearer.
+      name: Prospect of the Brave
+    sands:
+      description: A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself.
+      name: Fortitude of the Brave
+  bonus:
+    2pc: ATK +18%.
+    4pc: Increases DMG by 30% against opponents with more than 50% HP.
+  name: Brave Heart
+clam:
+  artifact_details:
+    circlet:
+      description: An ancient, intricate crown that was once used by a forgotten clergy member. Today, this relic has been enshrined with great ceremony by the people of Watatsumi.
+      name: Crown of Watatsumi
+    flower:
+      description: A soft flower that has taken on the many shades of the capricious ocean. It shines with wondrous colors under the moon's silver light.
+      name: Sea-Dyed Blossom
+    goblet:
+      description: The shining pearls that the shrine maidens of Watatsumi Island offer up shine eternally and never dim.
+      name: Pearl Cage
+    plume:
+      description: A down feather with the same hue as coral, said to come from a shrine maiden's ceremonial garment.
+      name: Deep Palace's Plume
+    sands:
+      description: A clean, flawless seashell that comes from the bottomless ocean.
+      name: Cowry of Parting
+  bonus:
+    2pc: Healing Bonus +15%.
+    4pc: When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field.
+  name: Ocean-Hued Clam
+crimson:
+  artifact_details:
+    circlet:
+      description: A hat once worn by the witch who dreamt of burning away all of the demons in the world. The large brim blocked her sight.
+      name: Witch's Scorching Hat
+    flower:
+      description: A flower touched by the witch who once dreamt of burning away all the demons in the world. The anonymous flames affectionately caress the hands of those who touch it.
+      name: Witch's Flower of Blaze
+    goblet:
+      description: A flame-spitting urn left behind by the Crimson Witch of Flames, who once dreamt of burning away all the demons in the world. The fire in the urn burns eternally, as did its former master.
+      name: Witch's Heart Flames
+    plume:
+      description: A bird feather touched by the witch who once dreamt of burning away all the demons in the world. Its eternal flame burns hot.
+      name: Witch's Ever-Burning Plume
+    sands:
+      description: A timepiece worn by the witch who dreamt of burning away all the demons in the world. The years the witch dedicated to the flames flow within.
+      name: Witch's End Time
+  bonus:
+    2pc: Pyro DMG Bonus +15%
+    4pc: Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.
+  name: Crimson Witch of Flames
+deepwood:
+  artifact_details:
+    circlet:
+      description: This crown was bestowed by the deity with dominion over plants and trees. It was an heirloom of the royal house of the labyrinth. It was, at last, made the inheritance of the king's attendant.
+      name: Laurel Coronet
+    flower:
+      description: This lovely gold-plated flower was plucked from the crown of the ruler of the forest.
+      name: Labyrinth Wayfarer
+    goblet:
+      description: This was originally an oil lamp in the style of the desert realm, but has since sprouted fluorescent green leaves.
+      name: Lamp of the Lost
+    plume:
+      description: An emerald leaf as fluffy as a feather. Plucked from the raiment of a forest scholar.
+      name: Scholar of Vines
+    sands:
+      description: Such timepieces are used by those who dedicate themselves to the way of the wise. These timepieces do not contain lifeless sand, but instead play host to tiny mustard seeds.
+      name: A Time of Insight
+  bonus:
+    2pc: Dendro DMG Bonus +15%
+    4pc: After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field
+  name: Deepwood Memories
+defenders:
+  artifact_details:
+    circlet:
+      description: A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency.
+      name: Guardian's Band
+    flower:
+      description: An iris that was cherished by the guardian. Unfortunately, the chance never came for it to be given to whom the guardian loved.
+      name: Guardian's Flower
+    goblet:
+      description: A metal vessel that can be filled with a drink to dispel the loneliness of the long watch.
+      name: Guardian's Vessel
+    plume:
+      description: "A feather-shaped brooch that symbolizes someone's yearning to defend others like a shield."
+      name: Guardian's Sigil
+    sands:
+      description: A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time.
+      name: Guardian's Clock
+  bonus:
+    2pc: DEF +30%
+    4pc: For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%.
+  name: Defender's Will
+destiny:
+  artifact_details:
+    circlet:
+      description: A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.
+      name: Tiara of Torrents
+  bonus:
+    1pc: Affected by Hydro for 40% less time.
+  name: Prayers for Destiny
+echoes:
+  artifact_details:
+    circlet:
+      description: A pair of earrings made from a single piece of jade. It has a most gentle texture.
+      name: Flowing Rings
+    flower:
+      description: A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it.
+      name: Soulscent Bloom
+    goblet:
+      description: This teacup forever overflows with fresh water. Perhaps it was a gift from an adeptus, one of their relics, or just something they left behind.
+      name: Chalice of the Font
+    plume:
+      description: A jade ornament shaped like a leaf. It seems to have once had deep meaning between specific friends.
+      name: Jade Leaf
+    sands:
+      description: A circular jade ornament. Legend has it that it was once used somewhere as a symbol for rituals to begin.
+      name: Symbol of Felicitation
+  bonus:
+    2pc: ATK +18%.
+    4pc: When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s.
+  name: Echoes of an Offering
+emblem:
+  artifact_details:
+    circlet:
+      description: A sturdy and hard helmet worn as armor by a noble samurai.
+      name: Ornate Kabuto
+    flower:
+      description: Legends hold that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun.
+      name: Magnificent Tsuba
+    goblet:
+      description: An intricately-designed wine vessel that a world-famous martial artist once drank from.
+      name: Scarlet Vessel
+    plume:
+      description: This was once the black feather of a certain tengu warrior, and was the treasured souvenir of an ancient swordsman.
+      name: Sundered Feather
+    sands:
+      description: An exquisite seal cage patterned with pansies painted upon a black backdrop, decorated with shining inlaid seashells and intricate gold-work.
+      name: Storm Cage
+  bonus:
+    2pc: Energy Recharge +20%
+    4pc: Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.
+  name: Emblem of Severed Fate
+exile:
+  artifact_details:
+    circlet:
+      description: A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was.
+      name: Exile's Circlet
+    flower:
+      description: A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something.
+      name: Exile's Flower
+    goblet:
+      description: A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off.
+      name: Exile's Goblet
+    plume:
+      description: Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile.
+      name: Exile's Feather
+    sands:
+      description: Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end.
+      name: Exile's Pocket Watch
+  bonus:
+    2pc: Energy Recharge +20%
+    4pc: Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack.
+  name: The Exile
+fragment:
+  artifact_details:
+    circlet:
+      description: A mask once covered in gold leaf. Perhaps it is a relic from some ancient officer of the legions.
+      name: Whimsical Dance of the Withered
+    flower:
+      description: An honorary medal in the shape of a blooming flower. Adorned with blue stone and gold, it was once bestowed upon immortals.
+      name: Harmonious Symphony Prelude
+    goblet:
+      description: A rhyton fired with copper as the base, that was once filled with fine wine from paradise.
+      name: Ichor Shower Rhapsody
+    plume:
+      description: A feather accessory carved in the shape of the wings of the golden bees of legend. They seem to flutter with the slightest breeze.
+      name: Ancient Sea's Nocturnal Musing
+    sands:
+      description: A timepiece made in imitation of the wheel of fate. It ceased turning long ago.
+      name: The Grand Jape of the Turning of Fate
+  bonus:
+    2pc: ATK +18%
+    4pc: When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks.
+  name: Fragment of Harmonic Whimsy
+gambler:
+  artifact_details:
+    circlet:
+      description: A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks.
+      name: Gambler's Earrings
+    flower:
+      description: A big, luxurious flower that can hide loaded dice.
+      name: Gambler's Brooch
+    goblet:
+      description: This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it.
+      name: Gambler's Dice Cup
+    plume:
+      description: The tail feather of a large bird. Perfect for discretely concealing a trump card.
+      name: Gambler's Feather Accessory
+    sands:
+      description: A shattered pocket watch that once took a lethal hit for its owner.
+      name: Gambler's Pocket Watch
+  bonus:
+    2pc: Increases Elemental Skill DMG by 20%.
+    4pc: Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s.
+  name: Gambler
+gilded:
+  artifact_details:
+    circlet:
+      description: This gold-inlaid headband was once used by desert priests in the days of old. They were made in imitation of one worn by a legendary ruler of the desert peoples.
+      name: Shadow of the Sand King
+    flower:
+      description: A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.
+      name: Dreaming Steelbloom
+    goblet:
+      description: A wine cup that was once used at a grand and ancient feast. It has now lost much of that luster.
+      name: Honeyed Final Feast
+    plume:
+      description: This special feather was once used to weigh the hearts of the guilty, but it has since lost its original function.
+      name: Feather of Judgment
+    sands:
+      description: This dark-golden sundial seems to tell the ancient tale of the desert.
+      name: The Sunken Years
+  bonus:
+    2pc: Elemental Mastery +80.
+    4pc: Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.
+  name: Gilded Dreams
+gladiator:
+  artifact_details:
+    circlet:
+      description: The helmet of a legendary gladiator from ancient times, who would proudly stretch out his bloodied arms to welcome the thunderous applause of his audience.
+      name: Gladiator's Triumphus
+    flower:
+      description: No one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness.
+      name: Gladiator's Nostalgia
+    goblet:
+      description: The golden cup a champion gladiator drank from in ancient times. It brimmed with his glory for years until the fateful day of his fall.
+      name: Gladiator's Intoxication
+    plume:
+      description: A feather of dreams that soars free like an eagle. At the end of the gladiator's legendary life, this parting gift was left upon his chest by a bird that knew true freedom.
+      name: Gladiator's Destiny
+    sands:
+      description: A timepiece that recorded the gladiator's days in the bloodstained Colosseum. To him, it counted down the days on his long road to freedom.
+      name: Gladiator's Longing
+  bonus:
+    2pc: ATK +18%.
+    4pc: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.
+  name: Gladiator's Finale
+golden:
+  artifact_details:
+    circlet:
+      description: An ancient crown that resembles a stage prop more than it does some suzerain's headgear.
+      name: Golden Troupe's Reward
+    flower:
+      description: A flower constructed out of clam, mother-of-pearl, and gold leaf. It blooms proudly.
+      name: Golden Song's Variation
+    goblet:
+      description: An ancient silver urn that was once filled with fine wine as red as rubies. Now, it contains nothing but bitter seawater.
+      name: Golden Night's Bustle
+    plume:
+      description: A gold feather made using silver and gold filigree. A crystal-clear sapphire is mounted atop it.
+      name: Golden Bird's Shedding
+    sands:
+      description: This lovely sundial is inlaid with silver and gold. It seems that time has stopped flowing atop its dial plate.
+      name: Golden Era's Prelude
+  bonus:
+    2pc: Increases Elemental Skill DMG by 20%.
+    4pc: Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field.
+  name: Golden Troupe
+heart:
+  artifact_details:
+    circlet:
+      description: An ancient, wine-stained sea hat that still reeks of alcohol even now.
+      name: Wine-Stained Tricorne
+    flower:
+      description: A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago.
+      name: Gilded Corsage
+    goblet:
+      description: A faded wine cup that was unintentionally dredged up from the sea. Its dull exterior tells of the days it has spent beneath the waves.
+      name: Goblet of Thundering Deep
+    plume:
+      description: A feather carried over by whimpering sea winds and crimson waves. The passage of time has changed its shape and color.
+      name: Gust of Nostalgia
+    sands:
+      description: An ancient bronze compass. Its needle points towards some ever-distant shore, to a non-existent harbor.
+      name: Copper Compass
+  bonus:
+    2pc: Hydro DMG Bonus +15%
+    4pc: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.
+  name: Heart of Depth
+husk:
+  artifact_details:
+    circlet:
+      description: A hat that once shielded a wanderer from sun and rain. It eventually became a convenient tool with which faces might be hidden and expressions obscured.
+      name: Skeletal Hat
+    flower:
+      description: A small golden ornament with six petals that shall never wilt. It symbolizes the transience of mortal glories.
+      name: Bloom Times
+    goblet:
+      description: A gourd that has been adorned with powdered gold and black paint. Its original color can no longer be discerned, but its main use seems to be as a performance prop.
+      name: Calabash of Awakening
+    plume:
+      description: A feather-shaped token that was brought forth from a secluded hall. The compassion of its creator led to it being left within that mansion along with a certain slumbering form.
+      name: Plume of Luxury
+    sands:
+      description: As far as Inazuma is concerned, this is some small object from overseas. The heart of this mechanism has been removed, and its hands no longer turn.
+      name: Song of Life
+  bonus:
+    2pc: DEF +30%
+    4pc: 'A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.'
+  name: Husk of Opulent Dreams
+illumination:
+  artifact_details:
+    circlet:
+      description: A tiara worn by those tasked with offering sacrifices in ancient times. After being subjected to the dancing sacrificial flames year in and year out, it possesses remarkable resistance.
+      name: Tiara of Flame
+  bonus:
+    1pc: Affected by Pyro for 40% less time.
+  name: Prayers for Illumination
+instructor:
+  artifact_details:
+    circlet:
+      description: A standard-issue honorary instructor's cap, only granted to those who turn down a promotion.
+      name: Instructor's Cap
+    flower:
+      description: Whenever the instructor wore this brooch, it meant there would be no training sessions that day.
+      name: Instructor's Brooch
+    goblet:
+      description: It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority.
+      name: Instructor's Tea Cup
+    plume:
+      description: Any instructor who has mastered the art of de-escalation knows to keep this accessory firmly in their grasp at all times.
+      name: Instructor's Feather Accessory
+    sands:
+      description: A stopwatch used not for general timekeeping but to measure the duration of a training session.
+      name: Instructor's Pocket Watch
+  bonus:
+    2pc: Increases Elemental Mastery by 80.
+    4pc: Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s.
+  name: Instructor
+lavawalker:
+  artifact_details:
+    circlet:
+      description: The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames.
+      name: Lavawalker's Wisdom
+    flower:
+      description: A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire.
+      name: Lavawalker's Resolution
+    goblet:
+      description: A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty.
+      name: Lavawalker's Epiphany
+    plume:
+      description: The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames.
+      name: Lavawalker's Salvation
+    sands:
+      description: Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it.
+      name: Lavawalker's Torment
+  bonus:
+    2pc: Pyro RES increased by 40%.
+    4pc: Increases DMG against opponents affected by Pyro by 35%.
+  name: Lavawalker
+lucky:
+  artifact_details:
+    circlet:
+      description: Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident.
+      name: Lucky Dog's Silver Circlet
+    flower:
+      description: A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck.
+      name: Lucky Dog's Clover
+    goblet:
+      description: An exquisite metallic vessel that was once used to knock out a thief.
+      name: Lucky Dog's Goblet
+    plume:
+      description: A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck.
+      name: Lucky Dog's Eagle Feather
+    sands:
+      description: A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world.
+      name: Lucky Dog's Hourglass
+  bonus:
+    2pc: DEF increased by 100.
+    4pc: Picking up Mora restores 300 HP.
+  name: Lucky Dog
+maiden:
+  artifact_details:
+    circlet:
+      description: A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight.
+      name: Maiden's Fading Beauty
+    flower:
+      description: A fragrant flower that will bloom for all eternity and never wither.
+      name: Maiden's Distant Love
+    goblet:
+      description: A vessel made with sweet black tea in mind rather than bitter liquor.
+      name: Maiden's Fleeting Leisure
+    plume:
+      description: A feathered accessory that carries the longing for a certain someone, like a migratory bird on the wind.
+      name: Maiden's Heart-stricken Infatuation
+    sands:
+      description: The hands of time will never come to an end, but the same cannot not be said for those cherished years of the young maiden's life when she was doted upon.
+      name: Maiden's Passing Youth
+  bonus:
+    2pc: Character Healing Effectiveness +15%
+    4pc: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.
+  name: Maiden Beloved
+marechaussee:
+  artifact_details:
+    circlet:
+      description: An old mask that can, to some extent, stand in for a face marred by wounds. Its design can vary based on the wounded areas and the user's gender.
+      name: Veteran's Visage
+    flower:
+      description: An ancient emblem that was once awarded to those who had made exceptional contributions in battle.
+      name: Hunter's Brooch
+    goblet:
+      description: A portable metal vessel containing strong wine. Can be stuffed into the pocket of an outer coat for ease of access and use.
+      name: Forgotten Vessel
+    plume:
+      description: A portable tool used to adjust the torque on some old-school clockwork machine. It has since lost its practical value.
+      name: Masterpiece's Overture
+    sands:
+      description: A standard pocket watch. Its accuracy is not particularly high.
+      name: Moment of Judgment
+  bonus:
+    2pc: Normal and Charged Attack DMG +15%
+    4pc: When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks.
+  name: Marechaussee Hunter
+martial:
+  artifact_details:
+    circlet:
+      description: 'The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you''ll never forget them.'
+      name: Martial Artist's Bandana
+    flower:
+      description: This particular kind of red flower was the only thing that could alleviate the Martial Artist's pain.
+      name: Martial Artist's Red Flower
+    goblet:
+      description: A rather exquisite wine cup used in pre-combat rituals.
+      name: Martial Artist's Wine Cup
+    plume:
+      description: A common bird feather. Experts use it to practice strength control, while rookies use it to make fans.
+      name: Martial Artist's Feather Accessory
+    sands:
+      description: A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass.
+      name: Martial Artist's Water Hourglass
+  bonus:
+    2pc: Increases Normal Attack and Charged Attack DMG by 15%.
+    4pc: After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.
+  name: Martial Artist
+miracle:
+  artifact_details:
+    circlet:
+      description: A cheap accessory that is actually made from ancient meteoric ore.
+      name: Tiny Miracle's Earrings
+    flower:
+      description: A flower that grew from a rock, breaking through the stone as it strove to reach the light.
+      name: Tiny Miracle's Flower
+    goblet:
+      description: A cup commonly used for fortune-telling. It can also hold water, of course.
+      name: Tiny Miracle's Goblet
+    plume:
+      description: A feather from a bird of prey that flies almost too fast for the human eye to detect.
+      name: Tiny Miracle's Feather
+    sands:
+      description: Just an ordinary, everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water.
+      name: Tiny Miracle's Hourglass
+  bonus:
+    2pc: All Elemental RES increased by 20%.
+    4pc: Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.
+  name: Tiny Miracle
+nighttime:
+  artifact_details:
+    circlet:
+      description: The lady's hat favored by the witch in the story. She loved this piece of headwear for how it weaves together solemnity and playfulness.
+      name: Compassionate Ladies' Hat
+    flower:
+      description: A brooch that the witch in the tale wore. As with the other ornaments she loved, this was characterized by butterfly-like shapes.
+      name: Selfless Floral Accessory
+    goblet:
+      description: An ink bottle utilized by the witch in the story. It possesses a strange enchantment no less powerful than the one cast upon the dip pen.
+      name: Magnanimous Ink Bottle
+    plume:
+      description: The witch in the tale used this dip pen. Among its various advantages, its silky-smooth writing is the least worthy of mention.
+      name: Honest Quill
+    sands:
+      description: A sand timepiece that the witch relied on in the story. Legend has it that if you recite the wrong incantation over it, time will suddenly flow exceptionally quickly.
+      name: Faithful Hourglass
+  bonus:
+    2pc: ATK +18%.
+    4pc: After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost.
+  name: Nighttime Whispers in the Echoing Woods
+noblesse:
+  artifact_details:
+    circlet:
+      description: A masquerade mask worn by the old aristocrats of Mondstadt. Its hollow eyes are fixated on the golden days of the past.
+      name: Royal Masque
+    flower:
+      description: A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside.
+      name: Royal Flora
+    goblet:
+      description: An ornamental urn that once belonged to the old aristocrats of Mondstadt. Mournful winds seem to echo within its empty interior.
+      name: Royal Silver Urn
+    plume:
+      description: A feathered hat accessory worn by the old aristocrats of Mondstadt on hunts. It still stands proudly as if no time has passed.
+      name: Royal Plume
+    sands:
+      description: A pocket watch that once belonged to the old aristocrats of Mondstadt. Passed down from generation to generation, it has witnessed many years of history.
+      name: Royal Pocket Watch
+  bonus:
+    2pc: Elemental Burst DMG +20%
+    4pc: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.
+  name: Noblesse Oblige
+nymphs:
+  artifact_details:
+    circlet:
+      description: An exquisitely-made monocle. Ancient anecdotes say that one might be able to see the future through it.
+      name: Fell Dragon's Monocle
+    flower:
+      description: The story must end, and even fresh flowers will wither. But the flower within one's dreams will always remain in full and fragrant bloom.
+      name: Odyssean Flower
+    goblet:
+      description: A lovely teacup. Perhaps it was once used by people enjoying a leisurely afternoon together.
+      name: Heroes' Tea Party
+    plume:
+      description: This was once a decorative feather in someone's hat. Being dark green, it is quite eye-catching indeed.
+      name: Wicked Mage's Plumule
+    sands:
+      description: A pocket watch that has long stopped working. It seems to have borne witness to many a passing year as its hands spun in vain.
+      name: Nymph's Constancy
+  bonus:
+    2pc: Hydro DMG Bonus +15%
+    4pc: After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently.
+  name: Nymph's Dream
+pale:
+  artifact_details:
+    circlet:
+      description: A mask that covers the face, hiding one's expression from others.
+      name: Mocking Mask
+    flower:
+      description: A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade.
+      name: Stainless Bloom
+    goblet:
+      description: An intricately-made cup. Its appearance betrays nothing of its age to an observer.
+      name: Surpassing Cup
+    plume:
+      description: An ominous pinion with edges of unsurpassed keenness. Perhaps it represents an unnaturally uninhibited nature.
+      name: Wise Doctor's Pinion
+    sands:
+      description: A pocket watch with a cover that cannot be opened. Yet it ticks and tocks away, following the inexorable flow of time.
+      name: Moment of Cessation
+  bonus:
+    2pc: Physical DMG is increased by 25%.
+    4pc: When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.
+  name: Pale Flame
+paradise:
+  artifact_details:
+    circlet:
+      description: A crown inlaid with amethyst and emerald. It seems to have been the headgear worn by ancient priests of the Goddess of Flowers.
+      name: Amethyst Crown
+    flower:
+      description: An amethyst bloom that has been beautifully sculpted in the image of an ancient, extinct flower.
+      name: Ay-Khanoum’s Myriad
+    goblet:
+      description: A small bottle made of purple crystal. An emerald cap keeps it tightly sealed.
+      name: Secret-Keeper’s Magic Bottle
+    plume:
+      description: A feather left behind by a long-extinct bird species. It was inlaid with gold and gems by the ancient adherents of the Goddess of Flowers.
+      name: Wilting Feast
+    sands:
+      description: These sands no longer move no matter how you tilt the hourglass, now and forever defying the drift of time itself.
+      name: A Moment Congealed
+  bonus:
+    2pc: Increases Elemental Mastery by 80.
+    4pc: The equipping character’s Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.
+  name: Flower of Paradise Lost
+pavilion:
+  artifact_details:
+    circlet:
+      description: Earrings made from amber gold that shines with a strange light.
+      name: Legacy of the Desert High-Born
+    flower:
+      description: An artificial flower that shimmers with a strange light. If you incline your ear to it, you can vaguely hear charming laughter issuing from within.
+      name: The First Days of the City of Kings
+    goblet:
+      description: An ancient golden cup that is both marvelously and luxuriously wrought. Murmurings can be heard within its empty innards.
+      name: Defender of the Enchanting Dream
+    plume:
+      description: A crystal-clear artificial feather that is one of the legacies of an ancient human realm. The cries of soaring eagles are also sealed within.
+      name: End of the Golden Realm
+    sands:
+      description: An ancient mechanical clock. The Jinni fragments continue to emit light at its center and vibrate ever so slightly, as if to say something…
+      name: Timepiece of the Lost Path
+  bonus:
+    2pc: Anemo DMG Bonus +15%.
+    4pc: When Charged Attacks hit opponents, the equipping character’s Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s.
+  name: Desert Pavilion Chronicle
+petra:
+  artifact_details:
+    circlet:
+      description: A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold.
+      name: Mask of Solitude Basalt
+    flower:
+      description: A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive.
+      name: Flower of Creviced Cliff
+    goblet:
+      description: A resplendent yet dignified wine goblet, once filled to the brim in an era long gone.
+      name: Goblet of Chiseled Crag
+    plume:
+      description: A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew.
+      name: Feather of Jagged Peaks
+    sands:
+      description: A sundial carved from a single, large piece of jade. Its lined with a pattern that silently records the passage of time.
+      name: Sundial of Enduring Jade
+  bonus:
+    2pc: Gain a 15% Geo DMG Bonus.
+    4pc: Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.
+  name: Archaic Petra
+reverie:
+  artifact_details:
+    circlet:
+      description: A golden crown decorated with turquoise and emerald feathers, it has never been used in a coronation, living alone atop a velvet cushion.
+      name: Crownless Crown
+    flower:
+      description: A flower carved from grey stone covered with gold foil. Legends say that during a war, it was used to differentiate friend from foe.
+      name: Dark Fruit of Bright Flowers
+    goblet:
+      description: A three-legged cup. Once, many heroes were gathered around the bonfire, raising their cups high in toast and drinking their fill while discussing their wishes and ambitions.
+      name:  The Wine-Flask Over Which the Plan Was Hatched
+    plume:
+      description: A tail feather ornament whose luster has long faded. The patterns on it are said to have been etched by the hand of a skilled artisan from long ago.
+      name: Faded Emerald Tail
+    sands:
+      description: A sundial used by an ancient kingdom to tell time. Tiny marks have been left at a certain scale that can only be seen through careful observation.
+      name: Moment of Attainment
+  bonus:
+    2pc: ATK +18%
+    4pc: After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field.
+  name: Unfinished Reverie
+scholar:
+  artifact_details:
+    circlet:
+      description: This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying.
+      name: Scholar's Lens
+    flower:
+      description: A dried flower used as a bookmark. It has absorbed the scent from the pages.
+      name: Scholar's Bookmark
+    goblet:
+      description: Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes.
+      name: Scholar's Ink Cup
+    plume:
+      description: A bird's feather that serves as a quill pen. The tip has long been stained black.
+      name: Scholar's Quill Pen
+    sands:
+      description: A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day.
+      name: Scholar's Clock
+  bonus:
+    2pc: Energy Recharge +20%
+    4pc: Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s.
+  name: Scholar
+shimenawa:
+  artifact_details:
+    circlet:
+      description: A well-preserved ceremonial fox mask. A small, enigmatic smile ever graces its lips.
+      name: Capricious Visage
+    flower:
+      description: A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true.
+      name: Entangling Bloom
+    goblet:
+      description: A special fortune-telling cylindrical object. The mechanism at the bottom allows one to easily remove all unwanted wish sticks.
+      name: Hopeful Heart
+    plume:
+      description: A demon-slaying arrow of a rather ancient make. It seems to have been preserved with great care by someone, even until the present day.
+      name: Shaft of Remembrance
+    sands:
+      description: A bronze pocket watch adorned with twisted paper cord and a bell. Its hands are forever frozen at the dawn of a certain autumn day.
+      name: Morning Dew's Moment
+  bonus:
+    2pc: ATK +18%.
+    4pc: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.
+  name: Shimenawa's Reminiscence
+sojourner:
+  artifact_details:
+    circlet:
+      description: A reed coronet that emanates the spring breeze.
+      name: Crown of Parting
+    flower:
+      description: A small cerulean flower with somebody's ribbon pinned to the stem.
+      name: Heart of Comradeship
+    goblet:
+      description: A plain porcelain goblet that was once brimming with joyous brews.
+      name: Goblet of the Sojourner
+    plume:
+      description: A blue arrow fletching imbued with the sentiment of travelers that had once faded into the horizon.
+      name: Feather of Homecoming
+    sands:
+      description: A sundial that has survived the ages, always silently recording the cycles of the sun and moon as they pass through the sky.
+      name: Sundial of the Sojourner
+  bonus:
+    2pc: ATK +18%.
+    4pc: Increases Charged Attack CRIT Rate by 30%.
+  name: Resolution of Sojourner
+songofdayspast:
+  artifact_details:
+    circlet:
+      description: A formal hat that was once in vogue amongst creators of opera in Fontaine. Word has it that its feathered adornment was based on the legendary helms of the Lochknights.
+      name: Poetry of Days Past
+    flower:
+      description: An ever-blooming flower shaped from larimar and shimmering silver. They say that this is still viewed as a symbol of resistance.
+      name: Forgotten Oath of Days Past
+    goblet:
+      description: An opulent vessel made based on the form of the legendary "Pure Grail." It is said to be able to fulfill the wishes of the purest of people.
+      name: Promised Dream of Days Past
+    plume:
+      description: A butterfly-shaped feather accessory made from silver and azure crystals. It is said to, in the distant past, have symbolized an oath to never be parted.
+      name: Recollection of Days Past
+    sands:
+      description: An oddly shaped hourglass made from lazurite and aqua jade. It was reportedly inspired by the bell tower in Petrichor.
+      name: Echoing Sound From Days Past
+  bonus:
+    2pc: Healing Bonus +15%.
+    4pc: "When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the 'Waves of Days Past' effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The 'Waves of Days Past' effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect."
+  name: Song of Days Past
+springtime:
+  artifact_details:
+    circlet:
+      description: A tiara worn by those tasked with offering sacrifices in ancient times. Because it once weathered years of the icy cold, it possesses remarkable resistance.
+      name: Tiara of Frost
+  bonus:
+    1pc: Affected by Cryo for 40% less time.
+  name: Prayers to Springtime
+tenacity:
+  artifact_details:
+    circlet:
+      description: A splendorous helmet from ages past. Clean the dust away and it will look brand-new once more.
+      name: General's Ancient Helm
+    flower:
+      description: A flower made from gold leaf. It represents the glories and honors attained by its wearer.
+      name: Flower of Accolades
+    goblet:
+      description: A golden cup used by the Millelith to take their oaths. Still bears the lovely scent of wine.
+      name: Noble's Pledging Vessel
+    plume:
+      description: A falcon feather worn on ceremonial occasions. It displays the dignity and resolve of Liyue Harbor to the outside world.
+      name: Ceremonial War-Plume
+    sands:
+      description: A simple device for telling time. This was once standard-issue for the Millelith during times of war.
+      name: Orichalceous Time-Dial
+  bonus:
+    2pc: HP increased by 20%.
+    4pc: When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.
+  name: Tenacity of the Millelith
+thundering:
+  artifact_details:
+    circlet:
+      description: A crown once worn by an ancient shaman who worshiped the Thunderbird. The capricious beast remained unmoved by the shaman's devotion.
+      name: Thunder Summoner's Crown
+    flower:
+      description: A lightning-infused flower, somehow spared the fate of being trodden underfoot or reduced to ash by the furious purple fire, making it the sole survivor on the day of disaster.
+      name: Thunderbird's Mercy
+    goblet:
+      description: A ceremonial cup that holds the blood of the innocent. It is brimming with the thundering fury of the prayers that echo within.
+      name: Omen of Thunderstorm
+    plume:
+      description: A lightning-charged feather that still flickers with the wrath of the Thunderbird's cruel retribution.
+      name: Survivor of Catastrophe
+    sands:
+      description: The hourglass used to foretell the coming of the Thunderbird by the tribe that worshiped it. It has fallen into eternal silence now that the tribe is no more.
+      name: Hourglass of Thunder
+  bonus:
+    2pc: Electro DMG Bonus +15%
+    4pc: Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.
+  name: Thundering Fury
+thundersoother:
+  artifact_details:
+    circlet:
+      description: The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land.
+      name: Thundersoother's Diadem
+    flower:
+      description: A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms.
+      name: Thundersoother's Heart
+    goblet:
+      description: The wine goblet from which the Thundersoother, who defeated the Beast of Thunder, once drank violet lightning.
+      name: Thundersoother's Goblet
+    plume:
+      description: The feather of a predatory bird that soars through lightning storms. It was said to have been adopted as an insignia by the legendary hero who pacified thunder and lightning.
+      name: Thundersoother's Plume
+    sands:
+      description: A timepiece kept by the hero who conquered thunder and lightning. The tiny shards of Electro crystal within flow back and forth with the passing of time.
+      name: Hour of Soothing Thunder
+  bonus:
+    2pc: Electro RES increased by 40%.
+    4pc: Increases DMG against opponents affected by Electro by 35%.
+  name: Thundersoother
+traveling:
+  artifact_details:
+    circlet:
+      description: Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies.
+      name: Traveling Doctor's Handkerchief
+    flower:
+      description: A precious medicinal ingredient that has lost all medicinal value after years in storage.
+      name: Traveling Doctor's Silver Lotus
+    goblet:
+      description: This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine.
+      name: Traveling Doctor's Medicine Pot
+    plume:
+      description: The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night.
+      name: Traveling Doctor's Owl Feather
+    sands:
+      description: A precise instrument used for keeping time. For a doctor, every second counts.
+      name: Traveling Doctor's Pocket Watch
+  bonus:
+    2pc: Increases incoming healing by 20%.
+    4pc: Using Elemental Burst restores 20% HP.
+  name: Traveling Doctor
+vermillion:
+  artifact_details:
+    circlet:
+      description: This mask is said to have been made by the mountain people for a Yaksha. It is of simple make, but its surface still shines brightly nonetheless.
+      name: Thundering Poise
+    flower:
+      description: An ancient memento. It still looks as alive as the being that preserved it several centuries ago.
+      name: Flowering Life
+    goblet:
+      description: An old cup made of sand crystal. Its luster is somehow undimmed by age.
+      name: Moment of the Pact
+    plume:
+      description: A dimly lustrous pinion steeped in strong memories.
+      name: Feather of Nascent Light
+    sands:
+      description: An ancient timepiece with a mighty solid look. Its luster is produced by sand crystal.
+      name: Solar Relic
+  bonus:
+    2pc: ATK +18%.
+    4pc: After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.
+  name: Vermillion Hereafter
+viridescent:
+  artifact_details:
+    circlet:
+      description: A proud crown that once belonged to the Viridescent Venerer. It is as lush and green as the breezes of the wild.
+      name: Viridescent Venerer's Diadem
+    flower:
+      description: A wild flower that was once a ubiquitous sight in its homeland. It was picked by a hunter who wore it on their chest.
+      name: In Remembrance of Viridescent Fields
+    goblet:
+      description: A water pouch used by the Viridescent Venerer. Its capacity is much greater than one would expect.
+      name: Viridescent Venerer's Vessel
+    plume:
+      description: The fletching of an arrow that once pierced right through its prey, but somehow still remains spotless.
+      name: Viridescent Arrow Feather
+    sands:
+      description: A wondrous instrument that a hunter once wore. It forever points towards their prey.
+      name: Viridescent Venerer's Determination
+  bonus:
+    2pc: Anemo DMG Bonus +15%
+    4pc: Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.
+  name: Viridescent Venerer
+vourukashas:
+  artifact_details:
+    circlet:
+      description: Intricate and vibrant earrings upon which the luster of a hundred flowers seems to flow.
+      name: Heart of Khvarena's Brilliance
+    flower:
+      description: An insignia in the shape of a lovely little flower that was once worn by pilgrims in times long bygone.
+      name: Stamen of Khvarena's Origin
+    goblet:
+      description: An opulent wine goblet that was once filled with nectar and honeydew, but is empty today.
+      name: Feast of Boundless Joy
+    plume:
+      description: An exquisite feather-shaped decoration on which the vivid hues of verdant leaves and fragrant flowers shimmer.
+      name: Vibrant Pinion
+    sands:
+      description: An ancient timepiece upon which the light of Khvarena gleams. It is filled with a pure liquid that appears alive.
+      name: Ancient Abscission
+  bonus:
+    2pc: HP +20%
+    4pc: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.
+  name: Vourukasha's Glow
+wanderers:
+  artifact_details:
+    circlet:
+      description: A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within.
+      name: Conductor's Top Hat
+    flower:
+      description: A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing.
+      name: Troupe's Dawnlight
+    goblet:
+      description: An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which play a wondrous tune as the water flows out.
+      name: Wanderer's String-Kettle
+    plume:
+      description: An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it.
+      name: Bard's Arrow Feather
+    sands:
+      description: An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended.
+      name: Concert's Final Hour
+  bonus:
+    2pc: Increases Elemental Mastery by 80.
+    4pc: Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow.
+  name: Wanderer's Troupe
+wisdom:
+  artifact_details:
+    circlet:
+      description: A tiara worn by those tasked with offering sacrifices in ancient times. Because it harkened to the call of thunder year in and year out, it possesses remarkable resistance.
+      name: Tiara of Thunder
+  bonus:
+    1pc: Affected by Electro for 40% less time.
+  name: Prayers for Wisdom

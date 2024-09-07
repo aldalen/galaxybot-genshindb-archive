@@ -1,0 +1,36 @@
+type: catalyst
+rarity: 5
+atk_start: 49.0
+substat: atk_percent
+substat_start: 3.6
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 28%
+    - 2.5
+  - values:
+    - 41%
+    - 2.75
+  - values:
+    - 54%
+    - 3
+  - values:
+    - 67%
+    - 3.25
+  - values:
+    - 80%
+    - 3.5
+ascension_materials:
+  weapon: mist_veiled
+  common:
+  - scroll
+  - xuanwen_fin

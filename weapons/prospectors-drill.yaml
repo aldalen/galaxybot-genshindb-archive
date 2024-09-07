@@ -1,0 +1,36 @@
+type: Polearm
+rarity: 4
+atk_start: 44.0
+substat: atk_percent
+substat_start: 6.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 3%
+    - 7%
+  - values:
+    - 4%
+    - 8.5%
+  - values:
+    - 5%
+    - 10%
+  - values:
+    - 6%
+    - 11.5%
+  - values:
+    - 7%
+    - 13%
+ascension_materials:
+  weapon: ancient_chord
+  common:
+  - clockwork_gear
+  - operative

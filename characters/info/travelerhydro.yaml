@@ -1,0 +1,21 @@
+element: hydro
+weapon: sword
+rarity: 5
+availability: traveler
+materials:
+  character_ascension: brilliant_diamond
+  local_specialty: windwheel_aster
+  common_material: transoceanic
+  talent: equity
+  boss_talent: worldspan_fern
+talents:
+  elemental_skill:
+    duration_seconds: 6.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    duration_seconds: 4.0
+    cooldown_seconds: 20.0
+    energy_cost: 80
+image_key: traveler-hydro
+key: travelerhydro
+

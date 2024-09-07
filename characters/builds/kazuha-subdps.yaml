@@ -1,0 +1,97 @@
+key: subdps
+main_stat:
+  sands: atk_percent / er_percent
+  goblet: anemo
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- er_percent
+- em
+- atk
+talent_priority: burst > skill = auto
+weapons:
+- primordial-jade-cutter
+- mistsplitter-reforged
+- skyward-blade
+- the-black-sword
+- lions-roar
+- amenoma-kageuchi
+- blackcliff-longsword
+- the-flute
+- kagotsurube-isshin
+- sacrificial-sword
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+  plume:
+    sub_stat:
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.5
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Anemo
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.75
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 0.5
+set_rating:
+- type: simple
+  sets:
+  - viridescent
+  notes:
+    - bis
+    - boost_anemo_shred_swirled
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - gladiator
+    - shimenawa
+  - set_group:
+    - viridescent
+  notes: max_anemo
+  weight: 0.75
+- type: simple
+  sets:
+  - berserker
+  - instructor
+  notes:
+    - early_game
+    - boost_cr_em
+  weight: 0.25

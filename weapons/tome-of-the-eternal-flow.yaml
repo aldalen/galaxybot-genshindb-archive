@@ -1,0 +1,42 @@
+type: Catalyst
+rarity: 5
+series: ''
+atk_start: 44.0b
+substat: cd_percent
+substat_start: 19.2b
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 16%
+    - 14%
+    - '8'
+  - values:
+    - 20%
+    - 18%
+    - '9'
+  - values:
+    - 24%
+    - 22%
+    - '10'
+  - values:
+    - 28%
+    - 26%
+    - '11'
+  - values:
+    - 32%
+    - 30%
+    - '12'
+ascension_materials:
+  weapon: sacred_dewdrop
+  common:
+  - breacher_primus
+  - clockwork_gear

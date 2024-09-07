@@ -1,0 +1,111 @@
+key: subdps
+main_stat:
+  sands: atk_percent / er_percent / em
+  goblet: anemo / em
+  circlet: cr_percent / cd_percent / em
+sub_stat:
+- cr_percent / cd_percent
+- atk_percent
+- em
+- er_percent
+- atk
+talent_priority: skill > burst > auto
+weapons:
+- primordial-jade-cutter
+- freedom-sworn
+- skyward-blade
+- festering-desire
+- favonius-sword
+- amenoma-kageuchi
+- fleuve-cendre-ferryman
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  plume:
+    sub_stat:
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+  sands:
+    main_stat:
+      atk_percent: 1.0
+      em: 1.0
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  goblet:
+    main_stat:
+      atk_percent: 1.0
+      elem_damage_percent: 1.0
+      element: Anemo
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 1.0
+      cd_percent: 1.0
+      cr_percent: 1.0
+      em: 1.0
+      er_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - viridescent
+  notes: boost_anemo_shred_swirled
+  weight: 1.0
+- type: simple
+  sets:
+  - noblesse
+  notes:
+    - boost_burst_party_atk
+    - use_for_supporting_xiao
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - gladiator
+    - shimenawa
+  - set_group:
+    - viridescent
+  - set_group:
+    - emblem
+  - set_group:
+    - noblesse
+  notes: jean-subdps-3
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - brave
+    - sojourner
+  - set_group:
+    - exile
+    - scholar
+  notes:
+  - early_game
+  - boost_heal_er
+  weight: 0.25

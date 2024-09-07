@@ -1,0 +1,83 @@
+key: subdps
+main_stat:
+  sands: er_percent / hp_percent
+  goblet: hp_percent > hydro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- cr_percent / cd_percent
+- er_percent
+- hp_percent
+- hp
+talent_priority: skill = burst > auto
+weapons:
+- splendor-of-tranquil-waters
+- key-of-khaj-nisut
+- festering-desire
+- fleuve-cendre-ferryman
+- favonius-sword
+- uraku-misugiri
+- primordial-jade-cutter
+- wolf-fang
+- the-dockhands-assistant
+rater:
+  flower:
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+      hp: 0.25
+      hp_percent: 0.75
+  plume:
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+      hp: 0.25
+      hp_percent: 0.75
+  sands:
+    main_stat:
+      er_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+      hp: 0.25
+      hp_percent: 0.75
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Hydro
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+      hp: 0.25
+      hp_percent: 0.75
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+      er_percent: 0.75
+      hp: 0.25
+      hp_percent: 0.75
+set_rating:
+- type: simple
+  sets:
+  - golden
+  notes: 
+    - bis
+    - boost_skill_offield
+  weight: 1.0
+- type: simple
+  sets:
+  - exile
+  - scholar
+  notes:
+  - early_game
+  - max_er
+  weight: 0.25

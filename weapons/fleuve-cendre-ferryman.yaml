@@ -1,0 +1,36 @@
+type: Sword
+rarity: 4
+atk_start: 42.0
+substat: er_percent
+substat_start: 10.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+  custom: Fontaine Fishing Association
+passive:
+  levels:
+  - values:
+    - 8%
+    - 16%
+  - values:
+    - 10%
+    - 20%
+  - values:
+    - 12%
+    - 24%
+  - values:
+    - 14%
+    - 28%
+  - values:
+    - 16%
+    - 32%
+ascension_materials:
+  weapon: ancient_chord
+  common:
+  - tainted_water
+  - transoceanic

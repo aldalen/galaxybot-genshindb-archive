@@ -1,0 +1,36 @@
+type: Sword
+rarity: 4
+series: ''
+atk_start: 42.0
+substat: cr_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: true
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 20%
+    - 60%
+  - values:
+    - 25%
+    - 70%
+  - values:
+    - 30%
+    - 80%
+  - values:
+    - 35%
+    - 90%
+  - values:
+    - 40%
+    - 100%
+ascension_materials:
+  weapon: boreal_wolf
+  common:
+  - ley_line
+  - slime

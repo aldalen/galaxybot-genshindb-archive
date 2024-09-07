@@ -1,0 +1,21 @@
+fields:
+- inline: Falso
+  name: Acrónimos
+  value: "**CA** - Ataque Cargado\n**CD** - Cooldown, nunca lo usamos para decir Daño\
+    \ Crítico (Critical Damage)\n**DEF** - Defensa\n**DMG** - Daño\n**Elem** - Elemental\n\
+    **EM** - Maestría Elemental\n**ER** - Recarga de Energía\n**F2P** - Free-to-play\
+    \ - Gratuito (sin necesidad de pagar)\n**HP** - Hit Points; Puntos de Vida\n**N3CJ/D**\
+    \ - Acrónimo de Combate: **3** Ataques**N**ormales , un ataque **C**argado un\
+    \ **J**(salto) o **D**(cancelar dash)\n**ICD** - Cooldown interno\n**NA** - Ataque\
+    \ Normal\n**Phys** - Físico\n**VV** - Sombra Verde Esmeralda (set de artefato)\n"
+- inline: Falso
+  name: Jerga
+  value: "**A6** - Sexta ascensión, algunos roles de personajes están basados en este\
+    \ número.\n**Batería** - Un sustantivo o verbo; un personaje que recarga otros\
+    \ personajes. Un acto de recargar la ulti de otros.\n**BiS** - *Best-in-Stat*(Mejor-en-Stat,\
+    \ del inglés) se refiere normalmente a la mejor opción de una pieza de arma/artefacto\
+    \ (set)\n**Comp** - **Comp**osición de equipo, el tipo de equipo(PermaFrost, Derretido,\
+    \ etc)\n**R5** - Refinamineto 5, algunas armas son evaluadas solo si tienen alto\
+    \ refinamiento\n"
+title: Glosario de Terminos
+description: "Aquí tienes los terminos y acrónimos usados en el bot\n"

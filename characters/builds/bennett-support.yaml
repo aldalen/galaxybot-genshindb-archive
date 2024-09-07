@@ -1,0 +1,113 @@
+key: support
+main_stat:
+  sands: er_percent
+  goblet: pyro
+  circlet: cr_percent / cd_percent
+sub_stat:
+- er_percent
+- cr_percent / cd_percent
+- atk_percent
+- em
+- atk
+- hp_percent
+talent_priority: burst > skill > auto
+weapons:
+- mistsplitter-reforged
+- freedom-sworn
+- aquila-favonia
+- the-alley-flash
+- skyward-blade
+- sapwood-blade
+- festering-desire
+- fleuve-cendre-ferryman
+- the-dockhands-assistant
+- favonius-sword
+rater:
+  flower:
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 0.5
+      er_percent: 1.0
+      hp_percent: 0.25
+  plume:
+    sub_stat:
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 0.5
+      er_percent: 1.0
+      hp_percent: 0.25
+  sands:
+    main_stat:
+      atk_percent: 0.5
+      er_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 0.5
+      er_percent: 1.0
+      hp_percent: 0.25
+  goblet:
+    main_stat:
+      elem_damage_percent: 1.0
+      element: Pyro
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 0.5
+      er_percent: 1.0
+      hp_percent: 0.25
+  circlet:
+    main_stat:
+      cd_percent: 1.0
+      cr_percent: 1.0
+    sub_stat:
+      atk: 0.25
+      atk_percent: 0.5
+      cd_percent: 0.75
+      cr_percent: 0.75
+      em: 0.5
+      er_percent: 1.0
+      hp_percent: 0.25
+set_rating:
+- type: simple
+  sets:
+  - noblesse
+  notes: boost_burst_party_atk
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - emblem
+  - set_group:
+    - crimson
+    - gladiator
+    - noblesse
+    - shimenawa
+  notes: bennett-support-2
+  weight: 0.75
+- type: complex
+  sets:
+  - set_group:
+    - berserker
+  - set_group:
+    - exile
+    - scholar
+  notes:
+    - early_game
+    - boost_cr_er
+  weight: 0.25
+- type: simple
+  sets:
+  - instructor
+  notes:
+  - early_game
+  - boost_party_em
+  weight: 0.25

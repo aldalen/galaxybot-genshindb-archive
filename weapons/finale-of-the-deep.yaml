@@ -1,0 +1,40 @@
+type: Sword
+rarity: 4
+atk_start: 44.0
+substat: atk_percent
+substat_start: 6.0
+obtained:
+  wishes: false
+  banners: []
+  chests: false
+  events: false
+  battle_pass: false
+  forging: true
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 12%
+    - '150'
+    - 2.4%
+  - values:
+    - 15%
+    - '187.5'
+    - 3%
+  - values:
+    - 18%
+    - '225'
+    - 3.6%
+  - values:
+    - 21%
+    - '262.5'
+    - 4.2%
+  - values:
+    - 24%
+    - '300'
+    - 4.8%
+ascension_materials:
+  weapon: sacred_dewdrop
+  common:
+  - tainted_water
+  - handguard

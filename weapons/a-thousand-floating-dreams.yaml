@@ -1,0 +1,42 @@
+type: Catalyst
+rarity: 5
+atk_start: 44.0
+substat: em
+substat_start: 58.0
+obtained:
+  wishes: true
+  banners:
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 32
+    - 10%
+    - 40
+  - values:
+    - 40
+    - 14%
+    - 42
+  - values:
+    - 48
+    - 18%
+    - 44
+  - values:
+    - 56
+    - 22%
+    - 46
+  - values:
+    - 64
+    - 26%
+    - 48
+ascension_materials:
+  weapon: oasis_garden
+  common:
+  - primal_prism
+  - luminescent
+

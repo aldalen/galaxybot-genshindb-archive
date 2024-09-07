@@ -1,0 +1,21 @@
+element: hydro
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: varunada_lazurite
+  boss_ascension: fontemer_unihorn
+  local_specialty: lumitoile
+  common_material: transoceanic
+  talent: equity
+  boss_talent: everamber
+talents:
+  elemental_skill:
+    duration_seconds: 15.0
+    cooldown_seconds: 12.0
+  elemental_burst:
+    cooldown_seconds: 18.0
+    energy_cost: 70
+birthday:
+  month: December
+  day: 18

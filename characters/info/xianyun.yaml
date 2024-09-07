@@ -1,0 +1,21 @@
+element: anemo
+weapon: catalyst
+rarity: 5
+availability: limited
+materials:
+  character_ascension: vayuda_turquoise
+  boss_ascension: cloudseam_scale
+  local_specialty: clearwater_jade
+  common_material: scroll
+  talent: gold
+  boss_talent: eye_of_the_maelstrom
+talents:
+  elemental_skill:
+    cooldown_seconds: 12.0
+  elemental_burst:
+    duration_seconds: 16.0
+    cooldown_seconds: 28.0
+    energy_cost: 70
+birthday:
+  month: April
+  day: 11

@@ -1,0 +1,38 @@
+type: Polearm
+rarity: 5
+atk_start: 48.0
+substat: cr_percent
+substat_start: 4.8
+obtained:
+  wishes: true
+  banners:
+  - standard
+  - weapon
+  - limited_weapon
+  chests: false
+  events: false
+  battle_pass: false
+  forging: false
+  starglitter: false
+passive:
+  levels:
+  - values:
+    - 3.2%
+    - 12%
+  - values:
+    - 3.9%
+    - 15%
+  - values:
+    - 4.6%
+    - 18%
+  - values:
+    - 5.3%
+    - 21%
+  - values:
+    - 6%
+    - 24%
+ascension_materials:
+  weapon: guyun
+  common:
+  - knife
+  - fatui

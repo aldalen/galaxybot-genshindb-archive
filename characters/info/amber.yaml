@@ -1,0 +1,22 @@
+element: pyro
+weapon: bow
+rarity: 4
+availability: standard
+materials:
+  character_ascension: agnidus_agate
+  boss_ascension: everflame_seed
+  local_specialty: small_lamp_grass
+  common_material: arrowhead
+  talent: freedom
+  boss_talent: sigh
+talents:
+  elemental_skill:
+    duration_seconds: 9.5
+    cooldown_seconds: 15.0
+  elemental_burst:
+    duration_seconds: 2.0
+    cooldown_seconds: 12.0
+    energy_cost: 40
+birthday:
+  month: August
+  day: 10

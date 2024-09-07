@@ -1,0 +1,107 @@
+key: support
+main_stat:
+  sands: hp_percent / er_percent
+  goblet: hp_percent 
+  circlet: heal_percent /  cr_percent
+sub_stat:
+- hp_percent
+- er_percent
+- cr_percent / cd_percent
+- em
+- hp
+talent_priority: skill > burst > auto
+weapons:
+- favonius-lance
+- dialogues-of-the-desert-sages
+- rightful-reward
+- kitain-cross-spear
+- moonpiercer
+- black-tassel
+rater:
+  flower:
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      em: 0.5
+      er_percent: 1.0
+      hp: 0.25
+      hp_percent: 1.0
+  plume:
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      em: 0.5
+      er_percent: 1.0
+      hp: 0.25
+      hp_percent: 1.0
+  sands:
+    main_stat:
+      er_percent: 1.0
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      em: 0.5
+      er_percent: 1.0
+      hp: 0.25
+      hp_percent: 1.0
+  goblet:
+    main_stat:
+      hp_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 0.5
+      em: 0.5
+      er_percent: 1.0
+      hp: 0.25
+      hp_percent: 1.0
+  circlet:
+    main_stat:
+      cr_percent: 1.0
+      heal_percent: 1.0
+    sub_stat:
+      cd_percent: 0.5
+      cr_percent: 1.0
+      em: 0.5
+      er_percent: 1.0
+      hp: 0.25
+      hp_percent: 1.0
+set_rating:
+- type: simple
+  sets:
+  - deepwood
+  notes:
+  - boost_dendro_shred_dendro
+  - yaoyao-support-1
+  weight: 1.0
+- type: simple
+  sets:
+  - clam
+  notes: boost_heal_phys
+  weight: 1.0
+- type: simple
+  sets:
+  - tenacity
+  notes: boost_hp_shield_party_atk
+  weight: 1.0
+- type: complex
+  sets:
+  - set_group:
+    - emblem
+    - tenacity
+    - vourukashas
+  - set_group:
+    - clam
+    - maiden
+  notes:
+    - pick_2
+    - max_heal
+    - interim_set
+  weight: 0.75
+- type: simple
+  sets:
+  - instructor
+  notes:
+    - early_game
+    - increase_em_buff_party_reactions
+  weight: 0.25

@@ -1,0 +1,22 @@
+element: cryo
+weapon: bow
+rarity: 5
+availability: limited
+materials:
+  character_ascension: shivada_jade
+  boss_ascension: hoarfrost_core
+  local_specialty: qingxin
+  common_material: nectar
+  talent: diligence
+  boss_talent: shadow
+talents:
+  elemental_skill:
+    duration_seconds: 6.0
+    cooldown_seconds: 10.0
+  elemental_burst:
+    duration_seconds: 15.0
+    cooldown_seconds: 15.0
+    energy_cost: 60
+birthday:
+  month: December
+  day: 2
